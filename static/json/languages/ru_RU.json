@@ -66,6 +66,7 @@
   "settings": {
     "title": "Настройки",
     "use_rainbow_as_default_wallet": "Использовать Rainbow в качестве основного кошелька",
+    "sounds": "Звуки",
     "default_wallet_description": "Разрешить приложениям приоритезировать Rainbow при поиске подключения к расширению.",
     "contacts": "Контакты",
     "guides_and_support": "Руководства и поддержка",
@@ -178,7 +179,6 @@
       "KRW": "Южнокорейская вона",
       "JPY": "Японская иена",
       "RUB": "Российский рубль",
-      "IDR": "Индонезийская рупия",
       "INR": "Индийская рупия",
       "TRY": "Турецкая лира",
       "CAD": "Канадский доллар",
@@ -191,7 +191,8 @@
     "feature_flags": {
       "full_watching_wallets": "Полный доступ к отслеживаемым кошелькам",
       "hw_wallets_enabled": "Включить поддержку аппаратных кошельков",
-      "command_k_internal_shortcuts_enabled": "Включить внутренние ярлыки ⌘K"
+      "command_k_internal_shortcuts_enabled": "Включить внутренние ярлыки ⌘K",
+      "new_tab_bar_enabled": "Новая панель вкладок"
     }
   },
   "transactions": {
@@ -826,7 +827,6 @@
   },
   "app_connection_switcher": {
     "banner": {
-      "connect": "Подключить",
       "connect_to": "Подключить к %{appName}?",
       "app_connected": "%{appName} подключен"
     },
@@ -982,6 +982,11 @@
     "title": "Создайте свой пароль",
     "description": "Выберите пароль для защиты и блокировки кошелька."
   },
+  "tabs": {
+    "activity": "Активность",
+    "tokens": "Токены",
+    "nfts": "NFT"
+  },
   "activity": {
     "today": "Сегодня",
     "yesterday": "Вчера",
@@ -1024,10 +1029,19 @@
   "tokens_tab": {
     "coinbase_title": "Депозит с Coinbase",
     "coinbase_description": "Купить или перевести с Coinbase",
+    "buy_title": "Купить криптовалюту для пополнения кошелька",
+    "buy_description_1": "Нажмите",
+    "buy_description_2": "чтобы увидеть поддерживаемые способы оплаты",
     "send_from_wallet": "Отправить из другого кошелька",
     "send_description_1": "Нажмите",
     "send_description_2": "чтобы скопировать ваш адрес",
+    "send_description_3": "для QR кода",
     "unknown_token": "Неизвестный токен"
+  },
+  "nfts": {
+    "coming_soon_header": "Скоро будет",
+    "coming_soon_description": "NFT скоро появятся. Следите за обновлениями!",
+    "view_on_web": "Просмотреть на Веб"
   },
   "speed_up_and_cancel": {
     "speed_up": "Ускорить",
@@ -1107,6 +1121,7 @@
     "pin_rainbow_to_your_toolbar": "Закрепите Rainbow на панель инструментов"
   },
   "wallet_header": {
+    "buy": "Купить",
     "copy": "Копировать",
     "swap": "Обменять",
     "send": "Отправить",
@@ -1267,5 +1282,21 @@
   "approvals": {
     "unlimited": "Безлимитный",
     "no_allowance": "Без Разрешения"
+  },
+  "buy": {
+    "title": "Купить",
+    "fees_title": "Сборы",
+    "instant_title": "Мгновенно",
+    "instant_yes": "Да",
+    "method_title": "Способ",
+    "methods_title": "Способы",
+    "network_title": "Сеть",
+    "networks_title": "Сети",
+    "payment_methods": {
+      "apple_pay": "Apple Pay",
+      "bank": "Банк",
+      "card": "Карта",
+      "google_pay": "Google Pay"
+    }
   }
 }
