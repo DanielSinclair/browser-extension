@@ -1,1 +1,3 @@
-files: []
+files:
+  - source: /static/_locales/en_US/messages.json
+    translation: /static/_locales/%locale_with_underscore%/messages.json
