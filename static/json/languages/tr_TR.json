@@ -66,6 +66,7 @@
   "settings": {
     "title": "Ayarlar",
     "use_rainbow_as_default_wallet": "Varsayılan cüzdan olarak Rainbow kullan",
+    "sounds": "Sounds",
     "default_wallet_description": "Uzantı ile bağlantı kurarken uygulamaların Rainbow'u önceliklendirmesine izin verin.",
     "contacts": "Kişiler",
     "guides_and_support": "Kılavuzlar ve Destek",
@@ -178,7 +179,6 @@
       "KRW": "Güney Kore Wonu",
       "JPY": "Japon Yeni",
       "RUB": "Rus Rublesi",
-      "IDR": "Endonezya Rupisi",
       "INR": "Hint Rupisi",
       "TRY": "Türk Lirası",
       "CAD": "Kanada Doları",
@@ -191,7 +191,8 @@
     "feature_flags": {
       "full_watching_wallets": "İzlenen Cüzdanlara Tam Erişim",
       "hw_wallets_enabled": "Donanım Cüzdanı Desteğini Etkinleştir",
-      "command_k_internal_shortcuts_enabled": "⌘K İç Hızlı Kısayollarını Etkinleştir"
+      "command_k_internal_shortcuts_enabled": "⌘K İç Hızlı Kısayollarını Etkinleştir",
+      "new_tab_bar_enabled": "New Tab Bar"
     }
   },
   "transactions": {
@@ -826,7 +827,6 @@
   },
   "app_connection_switcher": {
     "banner": {
-      "connect": "Bağlan",
       "connect_to": "%{appName}ile bağlan?",
       "app_connected": "%{appName} bağlandı"
     },
@@ -982,6 +982,11 @@
     "title": "Şifrenizi oluşturun",
     "description": "Cüzdanınızı güvence altına almak ve kilitlemek için bir şifre seçin."
   },
+  "tabs": {
+    "activity": "Activity",
+    "tokens": "Tokenler",
+    "nfts": "NFTs"
+  },
   "activity": {
     "today": "Bugün",
     "yesterday": "Dün",
@@ -1024,10 +1029,19 @@
   "tokens_tab": {
     "coinbase_title": "Coinbase'den Yatırma",
     "coinbase_description": "Coinbase'den Satın Al veya Transfer Yap",
+    "buy_title": "Buy crypto to fund your wallet",
+    "buy_description_1": "Kopyalamak için",
+    "buy_description_2": "to view supported payment options",
     "send_from_wallet": "Başka bir cüzdandan gönder",
     "send_description_1": "Kopyalamak için",
     "send_description_2": "adresinizi kopyalamak için",
+    "send_description_3": "for QR code",
     "unknown_token": "Bilinmeyen Token"
+  },
+  "nfts": {
+    "coming_soon_header": "Coming Soon",
+    "coming_soon_description": "NFTs are coming soon. Stay tuned!",
+    "view_on_web": "View on Web"
   },
   "speed_up_and_cancel": {
     "speed_up": "Hızlandır",
@@ -1107,6 +1121,7 @@
     "pin_rainbow_to_your_toolbar": "Rainbow'u araç çubuğunuza sabitleyin"
   },
   "wallet_header": {
+    "buy": "Buy",
     "copy": "Kopyala",
     "swap": "Değiştir",
     "send": "Gönder",
@@ -1267,5 +1282,21 @@
   "approvals": {
     "unlimited": "Sınırsız",
     "no_allowance": "İzin Yok"
+  },
+  "buy": {
+    "title": "Buy",
+    "fees_title": "Fees",
+    "instant_title": "Instant",
+    "instant_yes": "Yes",
+    "method_title": "Method",
+    "methods_title": "Methods",
+    "network_title": "Ağ",
+    "networks_title": "Ağlar",
+    "payment_methods": {
+      "apple_pay": "Apple Pay",
+      "bank": "Bank",
+      "card": "Card",
+      "google_pay": "Google Pay"
+    }
   }
 }
