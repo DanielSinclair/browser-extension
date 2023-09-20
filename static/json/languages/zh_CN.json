@@ -66,6 +66,7 @@
   "settings": {
     "title": "设置",
     "use_rainbow_as_default_wallet": "将 Rainbow 设为默认钱包",
+    "sounds": "声音",
     "default_wallet_description": "允许应用程序在寻找连接的扩展时优先考虑 Rainbow。",
     "contacts": "通讯录",
     "guides_and_support": "指南和支持",
@@ -178,7 +179,6 @@
       "KRW": "韩元",
       "JPY": "日元",
       "RUB": "卢布",
-      "IDR": "印尼盾",
       "INR": "印度卢比",
       "TRY": "土耳其里拉",
       "CAD": "加拿大元",
@@ -191,7 +191,8 @@
     "feature_flags": {
       "full_watching_wallets": "完全访问被监视的钱包",
       "hw_wallets_enabled": "启用硬件钱包支持",
-      "command_k_internal_shortcuts_enabled": "启用 ⌘K 内部快捷键"
+      "command_k_internal_shortcuts_enabled": "启用 ⌘K 内部快捷键",
+      "new_tab_bar_enabled": "新标签栏"
     }
   },
   "transactions": {
@@ -826,7 +827,6 @@
   },
   "app_connection_switcher": {
     "banner": {
-      "connect": "连接",
       "connect_to": "连接至 %{appName}?",
       "app_connected": "已连接 %{appName}"
     },
@@ -982,6 +982,11 @@
     "title": "创建您的密码",
     "description": "选择一个密码来保护和锁定您的钱包。"
   },
+  "tabs": {
+    "activity": "活动",
+    "tokens": "代币",
+    "nfts": "NFTs"
+  },
   "activity": {
     "today": "今天",
     "yesterday": "昨天",
@@ -1024,10 +1029,19 @@
   "tokens_tab": {
     "coinbase_title": "从Coinbase存入",
     "coinbase_description": "从Coinbase购买或转账",
+    "buy_title": "购买加密货币以资助你的钱包",
+    "buy_description_1": "按下",
+    "buy_description_2": "查看支持的支付选项",
     "send_from_wallet": "从另一个钱包发送",
     "send_description_1": "按下",
     "send_description_2": "复制您的地址",
+    "send_description_3": "用于二维码",
     "unknown_token": "未知代币"
+  },
+  "nfts": {
+    "coming_soon_header": "敬请期待",
+    "coming_soon_description": "NFT即将推出，敬请期待！",
+    "view_on_web": "在网页上查看"
   },
   "speed_up_and_cancel": {
     "speed_up": "加快",
@@ -1107,6 +1121,7 @@
     "pin_rainbow_to_your_toolbar": "将彩虹固定到你的工具栏"
   },
   "wallet_header": {
+    "buy": "购买",
     "copy": "复制",
     "swap": "交换",
     "send": "发送",
@@ -1267,5 +1282,21 @@
   "approvals": {
     "unlimited": "无限",
     "no_allowance": "无额度权限"
+  },
+  "buy": {
+    "title": "购买",
+    "fees_title": "费用",
+    "instant_title": "即时",
+    "instant_yes": "是",
+    "method_title": "方法",
+    "methods_title": "方法",
+    "network_title": "网络",
+    "networks_title": "网络",
+    "payment_methods": {
+      "apple_pay": "Apple Pay",
+      "bank": "银行",
+      "card": "卡",
+      "google_pay": "谷歌支付"
+    }
   }
 }
