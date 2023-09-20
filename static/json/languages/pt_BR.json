@@ -66,7 +66,7 @@
   "settings": {
     "title": "Configurações",
     "use_rainbow_as_default_wallet": "Usar Rainbow como carteira padrão",
-    "sounds": "Sounds",
+    "sounds": "Sons",
     "default_wallet_description": "Permitir que os aplicativos priorizem o Rainbow ao procurar uma extensão para se conectar.",
     "contacts": "Contatos",
     "guides_and_support": "Guias e Suporte",
@@ -192,7 +192,7 @@
       "full_watching_wallets": "Acesso completo às Carteiras Observadas",
       "hw_wallets_enabled": "Habilitar Suporte para Carteiras de Hardware",
       "command_k_internal_shortcuts_enabled": "Habilitar Atalhos Internos ⌘K",
-      "new_tab_bar_enabled": "New Tab Bar"
+      "new_tab_bar_enabled": "Nova Barra de Abas"
     }
   },
   "transactions": {
@@ -983,7 +983,7 @@
     "description": "Escolha uma senha para proteger e bloquear sua carteira."
   },
   "tabs": {
-    "activity": "Activity",
+    "activity": "Atividade",
     "tokens": "Tokens",
     "nfts": "NFTs"
   },
@@ -1029,19 +1029,19 @@
   "tokens_tab": {
     "coinbase_title": "Depósito da Coinbase",
     "coinbase_description": "Compre ou transfira da Coinbase",
-    "buy_title": "Buy crypto to fund your wallet",
+    "buy_title": "Compre criptomoedas para financiar sua carteira",
     "buy_description_1": "Pressione",
-    "buy_description_2": "to view supported payment options",
+    "buy_description_2": "para ver opções de pagamento suportadas",
     "send_from_wallet": "Enviar de outra carteira",
     "send_description_1": "Pressione",
     "send_description_2": "para copiar seu endereço",
-    "send_description_3": "for QR code",
+    "send_description_3": "para código QR",
     "unknown_token": "Token Desconhecido"
   },
   "nfts": {
-    "coming_soon_header": "Coming Soon",
-    "coming_soon_description": "NFTs are coming soon. Stay tuned!",
-    "view_on_web": "View on Web"
+    "coming_soon_header": "Em Breve",
+    "coming_soon_description": "NFTs estarão disponíveis em breve. Fique ligado!",
+    "view_on_web": "Ver na Web"
   },
   "speed_up_and_cancel": {
     "speed_up": "Acelerar",
@@ -1121,7 +1121,7 @@
     "pin_rainbow_to_your_toolbar": "Fixe o Rainbow na sua barra de ferramentas"
   },
   "wallet_header": {
-    "buy": "Buy",
+    "buy": "Comprar",
     "copy": "Copiar",
     "swap": "Trocar",
     "send": "Enviar",
@@ -1284,18 +1284,18 @@
     "no_allowance": "Sem Permissão"
   },
   "buy": {
-    "title": "Buy",
-    "fees_title": "Fees",
-    "instant_title": "Instant",
-    "instant_yes": "Yes",
-    "method_title": "Method",
-    "methods_title": "Methods",
+    "title": "Comprar",
+    "fees_title": "Taxas",
+    "instant_title": "Instantâneo",
+    "instant_yes": "Sim",
+    "method_title": "Método",
+    "methods_title": "Métodos",
     "network_title": "Rede",
     "networks_title": "Redes",
     "payment_methods": {
       "apple_pay": "Apple Pay",
-      "bank": "Bank",
-      "card": "Card",
+      "bank": "Banco",
+      "card": "Cartão",
       "google_pay": "Google Pay"
     }
   }
