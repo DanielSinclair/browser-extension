@@ -403,7 +403,10 @@
         "view_on_ens": "Lihat pada ENS",
         "switch_to_wallet": "Alihkan ke Dompet Ini",
         "copy_wallet_address": "Salin Alamat",
-        "view_wallet_on_etherscan": "Lihat di Etherscan"
+        "view_wallet_on_etherscan": "Lihat di Etherscan",
+        "export_addresses_as_csv": "Export Addresses as CSV",
+        "enable_flashbots": "Enable Flashbots",
+        "disable_flashbots": "Disable Flashbots"
       },
       "search_tags": {
         "swap": "jembatan",
@@ -479,6 +482,18 @@
     },
     "toolbar": {
       "actions_hint": "Tindakan"
+    },
+    "export_public_addresses": {
+      "keychain_type": {
+        "watching": "Pantau",
+        "recovery_phrase": "Recovery Phrase",
+        "private_key": "Kunci Pribadi",
+        "hardware_wallet": "Dompet Hardware"
+      },
+      "toast": {
+        "title": "Addresses Downloaded",
+        "description": "rainbow_addresses.csv"
+      }
     }
   },
   "connected_apps": {
@@ -525,7 +540,6 @@
       "cancel": "Batal",
       "sending_on_network": "Mengirim di jaringan %{chainName}",
       "sending_on_l2_check_1": "Saya tidak mengirim ke bursa",
-      "sending_on_l2_check_2": "Orang yang saya kirimkan memiliki dompet yang mendukung %{chainName}",
       "complete_checks": "Lengkapi pemeriksaan",
       "confirm_hw": "Konfirmasi di perangkat Anda"
     }
@@ -940,18 +954,25 @@
   "approve_request": {
     "wallet_info_title": "ingin terhubung ke dompet Anda",
     "wallet_info_description": "Izinkan %{appName} untuk melihat alamat, saldo, aktivitas dompet Anda dan minta persetujuan untuk transaksi.",
+    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
     "wallet": "Dompet",
     "network": "Jaringan",
     "switch_networks": "Ganti Jaringan",
     "switch_wallets": "Ganti Dompet",
+    "allow_to_add_network": "wants to add a network",
     "connect": "Hubungkan ke %{appName}",
     "connect_anyway": "Sambungkan Tetap",
+    "approve": "Approve",
+    "approve_anyway": "Approve Anyway",
     "malicious_warning": {
       "title": "App ini kemungkinan berbahaya",
       "message": "Mengirim pesan atau transaksi dari aplikasi ini bisa berakibat pada kehilangan aset Anda"
     },
+    "dangerous_request": "Dangerous Request",
     "message_signing_request": "Permintaan Tanda Tangan Pesan",
     "message": "Pesan",
+    "message_copied": "Message Copied",
+    "transaction_data_copied": "Transaction Data Copied",
     "sign_message": "Tandatangani Pesan",
     "sign_message_anyway": "Tanda Tangani Tetap",
     "confirm_hw": "Konfirmasi di perangkat Anda",
@@ -960,7 +981,29 @@
     "send_transaction_anyway": "Konfirmasi Tetap",
     "contract_deployment": "Penerapan Kontrak",
     "transaction_request": "Permintaan Transaksi",
-    "insufficient_native_asset_for_gas": "Kurangnya %{symbol} untuk gas"
+    "insufficient_gas_funds": "You need more %{token}",
+    "insufficient_gas_funds_description": "You need a bit more %{token} to pay for this transaction. Get more below to continue with this request.",
+    "no_gas_funds": "You need some %{token}",
+    "no_gas_funds_description": "You’ll need %{token} to pay for this transaction. Get some %{token} below to continue with this request.",
+    "no_token": "No %{token}",
+    "on_chain": "on %{chain}",
+    "copy_deposit_address": "Copy wallet address to deposit",
+    "bridge_to": "Bridge to %{chain}",
+    "signing_with": "Signing with",
+    "no_fee_to_sign": "No fee to sign",
+    "request_rejected": "Transaction Request Rejected",
+    "bridge_and_try_again": "Bridge some gas funds and try again",
+    "buy_and_try_again": "Buy some gas funds and try again",
+    "buy": "Buy %{token}"
+  },
+  "add_chain": {
+    "name": "Nama",
+    "chain_id": "Chain ID",
+    "currency_symbol": "Currency Symbol",
+    "currency_name": "Currency Name",
+    "currency_decimals": "Currency Decimals",
+    "rpc_url": "RPC url",
+    "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
     "title": "Kecepatan Transaksi",
@@ -1134,7 +1177,25 @@
     "sort_option_recent": "Terbaru",
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "Terbaru",
-    "sort_option_abc_long": "Abjad"
+    "sort_option_abc_long": "Abjad",
+    "details": {
+      "last_sales_price": "Last Sales Price",
+      "none": "Tidak ada",
+      "floor_price": "Floor Price",
+      "properties": "Properties",
+      "address_copied": "Alamat Tersalin",
+      "about": "About",
+      "token_standard": "Standar Token",
+      "token_contract": "Kontrak Token",
+      "contract_creator": "Contract Creator",
+      "chain": "Rantai",
+      "id_copied": "ID Copied",
+      "copy_token_id": "Copy Token ID",
+      "download": "Download",
+      "explorer": "Explorer",
+      "view_collection": "View Collection",
+      "collection_website": "Collection Website"
+    }
   },
   "points": {
     "coming_soon_header": "Segera Hadir",
@@ -1172,6 +1233,7 @@
     "approvals": "Persetujuan Token",
     "this_token_is_on_network": "Ini %{symbol} berada di jaringan %{chainName}",
     "view_on": "Lihat di %{explorer}",
+    "not_available": "Price not available",
     "more_options": {
       "copy_address": "Salin Alamat",
       "hide": "Sembunyikan Token",
@@ -1405,5 +1467,34 @@
     "unfavorite": "Hapus dari favorit",
     "estimated_difference": "Perkiraan selisih nilai",
     "buy_crypto": "Beli dan transfer kripto"
-  }
+  },
+  "simulation": {
+    "title": "Simulated Result",
+    "loading": "Simulating...",
+    "error": "Simulation Failed",
+    "no_changes": "No Changes Detected",
+    "received": "Diterima",
+    "sent": "Terkirim",
+    "approved": "Disetujui",
+    "reverted": "Transaction Reverted",
+    "function": "Function",
+    "contract": "Contract",
+    "contract_name": "Contract Name",
+    "contract_created_at": "Contract Created",
+    "source_code": "Source Code",
+    "signature": {
+      "message": "Pesan"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "details": "Details",
+      "data": "Data"
+    }
+  },
+  "chain": "Rantai",
+  "nonce": "Nonce",
+  "copy": "Salin",
+  "close": "Close",
+  "verified": "Terverifikasi",
+  "unverified": "Tidak Terverifikasi"
 }
