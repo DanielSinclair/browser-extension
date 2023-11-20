@@ -403,7 +403,10 @@
         "view_on_ens": "Ver en ENS",
         "switch_to_wallet": "Cambiar a esta Billetera",
         "copy_wallet_address": "Copiar Dirección",
-        "view_wallet_on_etherscan": "Ver en Etherscan"
+        "view_wallet_on_etherscan": "Ver en Etherscan",
+        "export_addresses_as_csv": "Export Addresses as CSV",
+        "enable_flashbots": "Enable Flashbots",
+        "disable_flashbots": "Disable Flashbots"
       },
       "search_tags": {
         "swap": "puente",
@@ -479,6 +482,18 @@
     },
     "toolbar": {
       "actions_hint": "Acciones"
+    },
+    "export_public_addresses": {
+      "keychain_type": {
+        "watching": "Observando",
+        "recovery_phrase": "Recovery Phrase",
+        "private_key": "Clave Privada",
+        "hardware_wallet": "Billetera de Hardware"
+      },
+      "toast": {
+        "title": "Addresses Downloaded",
+        "description": "rainbow_addresses.csv"
+      }
     }
   },
   "connected_apps": {
@@ -525,7 +540,6 @@
       "cancel": "Cancelar",
       "sending_on_network": "Enviando en la red %{chainName}",
       "sending_on_l2_check_1": "No estoy enviando a un intercambio",
-      "sending_on_l2_check_2": "La persona a la que estoy enviando tiene una billetera que admite %{chainName}",
       "complete_checks": "Completa las verificaciones",
       "confirm_hw": "Confirma en tu dispositivo"
     }
@@ -940,18 +954,25 @@
   "approve_request": {
     "wallet_info_title": "quiere conectarse a tu billetera",
     "wallet_info_description": "Permitir que %{appName} vea la dirección, el saldo, la actividad de tus billeteras y solicite aprobación para transacciones.",
+    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
     "wallet": "Billetera",
     "network": "Red",
     "switch_networks": "Cambiar redes",
     "switch_wallets": "Cambiar billeteras",
+    "allow_to_add_network": "wants to add a network",
     "connect": "Conectar a %{appName}",
     "connect_anyway": "Conectar de todos modos",
+    "approve": "Approve",
+    "approve_anyway": "Approve Anyway",
     "malicious_warning": {
       "title": "Esta aplicación probablemente es maliciosa",
       "message": "Firmar mensajes o transacciones desde esta app podría resultar en la pérdida de tus activos"
     },
+    "dangerous_request": "Dangerous Request",
     "message_signing_request": "Solicitud de firma de mensaje",
     "message": "Mensaje",
+    "message_copied": "Message Copied",
+    "transaction_data_copied": "Transaction Data Copied",
     "sign_message": "Firmar mensaje",
     "sign_message_anyway": "Firmar de todos modos",
     "confirm_hw": "Confirmar en tu dispositivo",
@@ -960,7 +981,29 @@
     "send_transaction_anyway": "Confirmar de todos modos",
     "contract_deployment": "Despliegue de contrato",
     "transaction_request": "Solicitud de transacción",
-    "insufficient_native_asset_for_gas": "Insuficiente %{symbol} para gas"
+    "insufficient_gas_funds": "You need more %{token}",
+    "insufficient_gas_funds_description": "You need a bit more %{token} to pay for this transaction. Get more below to continue with this request.",
+    "no_gas_funds": "You need some %{token}",
+    "no_gas_funds_description": "You’ll need %{token} to pay for this transaction. Get some %{token} below to continue with this request.",
+    "no_token": "No %{token}",
+    "on_chain": "on %{chain}",
+    "copy_deposit_address": "Copy wallet address to deposit",
+    "bridge_to": "Bridge to %{chain}",
+    "signing_with": "Signing with",
+    "no_fee_to_sign": "No fee to sign",
+    "request_rejected": "Transaction Request Rejected",
+    "bridge_and_try_again": "Bridge some gas funds and try again",
+    "buy_and_try_again": "Buy some gas funds and try again",
+    "buy": "Buy %{token}"
+  },
+  "add_chain": {
+    "name": "Nombre",
+    "chain_id": "Chain ID",
+    "currency_symbol": "Currency Symbol",
+    "currency_name": "Currency Name",
+    "currency_decimals": "Currency Decimals",
+    "rpc_url": "RPC url",
+    "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
     "title": "Velocidad de transacción",
@@ -1134,7 +1177,25 @@
     "sort_option_recent": "Reciente",
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "Reciente",
-    "sort_option_abc_long": "Alfabético"
+    "sort_option_abc_long": "Alfabético",
+    "details": {
+      "last_sales_price": "Last Sales Price",
+      "none": "Ninguno",
+      "floor_price": "Floor Price",
+      "properties": "Properties",
+      "address_copied": "Dirección copiada",
+      "about": "About",
+      "token_standard": "Estándar del token",
+      "token_contract": "Contrato del token",
+      "contract_creator": "Contract Creator",
+      "chain": "Cadena",
+      "id_copied": "ID Copied",
+      "copy_token_id": "Copy Token ID",
+      "download": "Download",
+      "explorer": "Explorer",
+      "view_collection": "View Collection",
+      "collection_website": "Collection Website"
+    }
   },
   "points": {
     "coming_soon_header": "Próximamente",
@@ -1172,6 +1233,7 @@
     "approvals": "Aprobaciones de tokens",
     "this_token_is_on_network": "Esta %{symbol} está en la red %{chainName}",
     "view_on": "Ver en %{explorer}",
+    "not_available": "Price not available",
     "more_options": {
       "copy_address": "Copiar dirección",
       "hide": "Ocultar token",
@@ -1405,5 +1467,34 @@
     "unfavorite": "Eliminar de favoritos",
     "estimated_difference": "Diferencia estimada en valor",
     "buy_crypto": "Comprar y transferir cripto"
-  }
+  },
+  "simulation": {
+    "title": "Simulated Result",
+    "loading": "Simulating...",
+    "error": "Simulation Failed",
+    "no_changes": "No Changes Detected",
+    "received": "Recibido",
+    "sent": "Enviado",
+    "approved": "Aprobado",
+    "reverted": "Transaction Reverted",
+    "function": "Function",
+    "contract": "Contract",
+    "contract_name": "Contract Name",
+    "contract_created_at": "Contract Created",
+    "source_code": "Source Code",
+    "signature": {
+      "message": "Mensaje"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "details": "Details",
+      "data": "Data"
+    }
+  },
+  "chain": "Cadena",
+  "nonce": "Nonce",
+  "copy": "Copiar",
+  "close": "Close",
+  "verified": "Verificado",
+  "unverified": "No verificado"
 }
