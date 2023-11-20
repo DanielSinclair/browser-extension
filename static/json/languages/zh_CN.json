@@ -403,7 +403,10 @@
         "view_on_ens": "在 ENS 上查看",
         "switch_to_wallet": "切换至此钱包",
         "copy_wallet_address": "复制地址",
-        "view_wallet_on_etherscan": "在 Etherscan 上查看"
+        "view_wallet_on_etherscan": "在 Etherscan 上查看",
+        "export_addresses_as_csv": "Export Addresses as CSV",
+        "enable_flashbots": "Enable Flashbots",
+        "disable_flashbots": "Disable Flashbots"
       },
       "search_tags": {
         "swap": "桥接",
@@ -479,6 +482,18 @@
     },
     "toolbar": {
       "actions_hint": "操作"
+    },
+    "export_public_addresses": {
+      "keychain_type": {
+        "watching": "观察中",
+        "recovery_phrase": "Recovery Phrase",
+        "private_key": "私钥",
+        "hardware_wallet": "硬件钱包"
+      },
+      "toast": {
+        "title": "Addresses Downloaded",
+        "description": "rainbow_addresses.csv"
+      }
     }
   },
   "connected_apps": {
@@ -525,7 +540,6 @@
       "cancel": "取消",
       "sending_on_network": "正在 %{chainName} 网络上发送",
       "sending_on_l2_check_1": "我不是发送到交易所",
-      "sending_on_l2_check_2": "我要发送给的人有一个支持的钱包 %{chainName}",
       "complete_checks": "完成检查",
       "confirm_hw": "在您的设备上确认"
     }
@@ -940,18 +954,25 @@
   "approve_request": {
     "wallet_info_title": "愿意连接到您的钱包",
     "wallet_info_description": "允许 %{appName} 查看您的钱包地址、余额、活动并请求交易授权。",
+    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
     "wallet": "钱包",
     "network": "网络",
     "switch_networks": "切换网络",
     "switch_wallets": "切换钱包",
+    "allow_to_add_network": "wants to add a network",
     "connect": "连接到 %{appName}",
     "connect_anyway": "继续连接",
+    "approve": "Approve",
+    "approve_anyway": "Approve Anyway",
     "malicious_warning": {
       "title": "这个应用可能有恶意",
       "message": "从这个应用签名消息或交易可能导致你损失资产"
     },
+    "dangerous_request": "Dangerous Request",
     "message_signing_request": "消息签名请求",
     "message": "消息",
+    "message_copied": "Message Copied",
+    "transaction_data_copied": "Transaction Data Copied",
     "sign_message": "签名消息",
     "sign_message_anyway": "照样签名",
     "confirm_hw": "在您的设备上确认",
@@ -960,7 +981,29 @@
     "send_transaction_anyway": "照样确认",
     "contract_deployment": "合约部署",
     "transaction_request": "交易请求",
-    "insufficient_native_asset_for_gas": "燃料不足 %{symbol} 用于支付手续费"
+    "insufficient_gas_funds": "You need more %{token}",
+    "insufficient_gas_funds_description": "You need a bit more %{token} to pay for this transaction. Get more below to continue with this request.",
+    "no_gas_funds": "You need some %{token}",
+    "no_gas_funds_description": "You’ll need %{token} to pay for this transaction. Get some %{token} below to continue with this request.",
+    "no_token": "No %{token}",
+    "on_chain": "on %{chain}",
+    "copy_deposit_address": "Copy wallet address to deposit",
+    "bridge_to": "Bridge to %{chain}",
+    "signing_with": "Signing with",
+    "no_fee_to_sign": "No fee to sign",
+    "request_rejected": "Transaction Request Rejected",
+    "bridge_and_try_again": "Bridge some gas funds and try again",
+    "buy_and_try_again": "Buy some gas funds and try again",
+    "buy": "Buy %{token}"
+  },
+  "add_chain": {
+    "name": "名称",
+    "chain_id": "Chain ID",
+    "currency_symbol": "Currency Symbol",
+    "currency_name": "Currency Name",
+    "currency_decimals": "Currency Decimals",
+    "rpc_url": "RPC url",
+    "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
     "title": "交易速度",
@@ -1134,7 +1177,25 @@
     "sort_option_recent": "最近的",
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "最近的",
-    "sort_option_abc_long": "按字母顺序"
+    "sort_option_abc_long": "按字母顺序",
+    "details": {
+      "last_sales_price": "Last Sales Price",
+      "none": "无",
+      "floor_price": "Floor Price",
+      "properties": "Properties",
+      "address_copied": "地址已复制",
+      "about": "About",
+      "token_standard": "代币标准",
+      "token_contract": "代币合约",
+      "contract_creator": "Contract Creator",
+      "chain": "链",
+      "id_copied": "ID Copied",
+      "copy_token_id": "Copy Token ID",
+      "download": "Download",
+      "explorer": "Explorer",
+      "view_collection": "View Collection",
+      "collection_website": "Collection Website"
+    }
   },
   "points": {
     "coming_soon_header": "即将上线",
@@ -1172,6 +1233,7 @@
     "approvals": "代币批准",
     "this_token_is_on_network": "该 %{symbol} 在 %{chainName} 网络上",
     "view_on": "在 %{explorer}上查看",
+    "not_available": "Price not available",
     "more_options": {
       "copy_address": "复制地址",
       "hide": "隐藏代币",
@@ -1405,5 +1467,34 @@
     "unfavorite": "从收藏夹中移除",
     "estimated_difference": "估计的价值差额",
     "buy_crypto": "购买并转移加密币"
-  }
+  },
+  "simulation": {
+    "title": "Simulated Result",
+    "loading": "Simulating...",
+    "error": "Simulation Failed",
+    "no_changes": "No Changes Detected",
+    "received": "已收到",
+    "sent": "已发送",
+    "approved": "已授权",
+    "reverted": "Transaction Reverted",
+    "function": "Function",
+    "contract": "Contract",
+    "contract_name": "Contract Name",
+    "contract_created_at": "Contract Created",
+    "source_code": "Source Code",
+    "signature": {
+      "message": "消息"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "details": "Details",
+      "data": "Data"
+    }
+  },
+  "chain": "链",
+  "nonce": "随机数",
+  "copy": "复制",
+  "close": "Close",
+  "verified": "已验证",
+  "unverified": "未验证"
 }
