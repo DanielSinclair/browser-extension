@@ -403,7 +403,10 @@
         "view_on_ens": "Просмотр в ENS",
         "switch_to_wallet": "Переключиться на этот кошелек",
         "copy_wallet_address": "Скопировать адрес",
-        "view_wallet_on_etherscan": "Просмотр в Etherscan"
+        "view_wallet_on_etherscan": "Просмотр в Etherscan",
+        "export_addresses_as_csv": "Export Addresses as CSV",
+        "enable_flashbots": "Enable Flashbots",
+        "disable_flashbots": "Disable Flashbots"
       },
       "search_tags": {
         "swap": "Мост",
@@ -479,6 +482,18 @@
     },
     "toolbar": {
       "actions_hint": "Действия"
+    },
+    "export_public_addresses": {
+      "keychain_type": {
+        "watching": "Наблюдение",
+        "recovery_phrase": "Recovery Phrase",
+        "private_key": "Приватный Ключ",
+        "hardware_wallet": "Аппаратный Кошелек"
+      },
+      "toast": {
+        "title": "Addresses Downloaded",
+        "description": "rainbow_addresses.csv"
+      }
     }
   },
   "connected_apps": {
@@ -525,7 +540,6 @@
       "cancel": "Отмена",
       "sending_on_network": "Отправка по сети %{chainName}",
       "sending_on_l2_check_1": "Я не отправляю на биржу",
-      "sending_on_l2_check_2": "У человека, которому я отправляю, есть кошелек, который поддерживает %{chainName}",
       "complete_checks": "Завершите проверки",
       "confirm_hw": "Подтвердите на вашем устройстве"
     }
@@ -940,18 +954,25 @@
   "approve_request": {
     "wallet_info_title": "хочет получить доступ к вашему кошельку",
     "wallet_info_description": "Разрешить %{appName} просматривать адреса, балансы и операции вашего кошелька, а также запрашивать подтверждение для транзакций.",
+    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
     "wallet": "Кошелек",
     "network": "Сеть",
     "switch_networks": "Сменить сеть",
     "switch_wallets": "Сменить кошелек",
+    "allow_to_add_network": "wants to add a network",
     "connect": "Подключиться к %{appName}",
     "connect_anyway": "Подключиться Все Равно",
+    "approve": "Approve",
+    "approve_anyway": "Approve Anyway",
     "malicious_warning": {
       "title": "Это приложение вероятно вредоносное",
       "message": "Подписывая сообщения или транзакции от этого приложения, вы можете потерять свои средства"
     },
+    "dangerous_request": "Dangerous Request",
     "message_signing_request": "Запрос на подпись сообщения",
     "message": "Сообщение",
+    "message_copied": "Message Copied",
+    "transaction_data_copied": "Transaction Data Copied",
     "sign_message": "Подписать сообщение",
     "sign_message_anyway": "Подписать Все Равно",
     "confirm_hw": "Подтвердите на вашем устройстве",
@@ -960,7 +981,29 @@
     "send_transaction_anyway": "Подтвердить Все Равно",
     "contract_deployment": "Развертывание контракта",
     "transaction_request": "Запрос на транзакцию",
-    "insufficient_native_asset_for_gas": "Недостаточно %{symbol} для газа"
+    "insufficient_gas_funds": "You need more %{token}",
+    "insufficient_gas_funds_description": "You need a bit more %{token} to pay for this transaction. Get more below to continue with this request.",
+    "no_gas_funds": "You need some %{token}",
+    "no_gas_funds_description": "You’ll need %{token} to pay for this transaction. Get some %{token} below to continue with this request.",
+    "no_token": "No %{token}",
+    "on_chain": "on %{chain}",
+    "copy_deposit_address": "Copy wallet address to deposit",
+    "bridge_to": "Bridge to %{chain}",
+    "signing_with": "Signing with",
+    "no_fee_to_sign": "No fee to sign",
+    "request_rejected": "Transaction Request Rejected",
+    "bridge_and_try_again": "Bridge some gas funds and try again",
+    "buy_and_try_again": "Buy some gas funds and try again",
+    "buy": "Buy %{token}"
+  },
+  "add_chain": {
+    "name": "Название",
+    "chain_id": "Chain ID",
+    "currency_symbol": "Currency Symbol",
+    "currency_name": "Currency Name",
+    "currency_decimals": "Currency Decimals",
+    "rpc_url": "RPC url",
+    "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
     "title": "Скорость транзакции",
@@ -1134,7 +1177,25 @@
     "sort_option_recent": "Недавние",
     "sort_option_abc": "Абв",
     "sort_option_recent_long": "Недавние",
-    "sort_option_abc_long": "Алфавитный"
+    "sort_option_abc_long": "Алфавитный",
+    "details": {
+      "last_sales_price": "Last Sales Price",
+      "none": "Нет",
+      "floor_price": "Floor Price",
+      "properties": "Properties",
+      "address_copied": "Адрес скопирован",
+      "about": "About",
+      "token_standard": "Стандарт токена",
+      "token_contract": "Контракт токена",
+      "contract_creator": "Contract Creator",
+      "chain": "Сеть",
+      "id_copied": "ID Copied",
+      "copy_token_id": "Copy Token ID",
+      "download": "Download",
+      "explorer": "Explorer",
+      "view_collection": "View Collection",
+      "collection_website": "Collection Website"
+    }
   },
   "points": {
     "coming_soon_header": "Скоро будет",
@@ -1172,6 +1233,7 @@
     "approvals": "Разрешения для токенов",
     "this_token_is_on_network": "Этот %{symbol} находится в сети %{chainName}",
     "view_on": "Посмотреть на %{explorer}",
+    "not_available": "Price not available",
     "more_options": {
       "copy_address": "Скопировать адрес",
       "hide": "Скрыть токен",
@@ -1405,5 +1467,34 @@
     "unfavorite": "Удалить из избранного",
     "estimated_difference": "Оценочное отличие в стоимости",
     "buy_crypto": "Купить и перевести крипто"
-  }
+  },
+  "simulation": {
+    "title": "Simulated Result",
+    "loading": "Simulating...",
+    "error": "Simulation Failed",
+    "no_changes": "No Changes Detected",
+    "received": "Получено",
+    "sent": "Отправлено",
+    "approved": "Утверждено",
+    "reverted": "Transaction Reverted",
+    "function": "Function",
+    "contract": "Contract",
+    "contract_name": "Contract Name",
+    "contract_created_at": "Contract Created",
+    "source_code": "Source Code",
+    "signature": {
+      "message": "Сообщение"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "details": "Details",
+      "data": "Data"
+    }
+  },
+  "chain": "Сеть",
+  "nonce": "Нонс",
+  "copy": "Копировать",
+  "close": "Close",
+  "verified": "Проверенные",
+  "unverified": "Непроверенные"
 }
