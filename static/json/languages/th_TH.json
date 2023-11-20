@@ -403,7 +403,10 @@
         "view_on_ens": "ดูบน ENS",
         "switch_to_wallet": "สลับไปยังกระเป๋าสตางค์นี้",
         "copy_wallet_address": "คัดลอกที่อยู่",
-        "view_wallet_on_etherscan": "ดูบน Etherscan"
+        "view_wallet_on_etherscan": "ดูบน Etherscan",
+        "export_addresses_as_csv": "Export Addresses as CSV",
+        "enable_flashbots": "Enable Flashbots",
+        "disable_flashbots": "Disable Flashbots"
       },
       "search_tags": {
         "swap": "สะพาน",
@@ -479,6 +482,18 @@
     },
     "toolbar": {
       "actions_hint": "การดำเนินการ"
+    },
+    "export_public_addresses": {
+      "keychain_type": {
+        "watching": "กำลังสังเกต",
+        "recovery_phrase": "Recovery Phrase",
+        "private_key": "คีย์ส่วนตัว",
+        "hardware_wallet": "กระเป๋าสตางค์ฮาร์ดแวร์"
+      },
+      "toast": {
+        "title": "Addresses Downloaded",
+        "description": "rainbow_addresses.csv"
+      }
     }
   },
   "connected_apps": {
@@ -525,7 +540,6 @@
       "cancel": "ยกเลิก",
       "sending_on_network": "กำลังส่งบนเครือข่าย %{chainName}",
       "sending_on_l2_check_1": "ฉันไม่ได้ส่งไปยังแลกเปลี่ยน",
-      "sending_on_l2_check_2": "คนที่ฉันส่งถึงมีกระเป๋าสตางค์ที่สนับสนุน %{chainName}",
       "complete_checks": "ตรวจสอบครบถ้วน",
       "confirm_hw": "ยืนยันบนอุปกรณ์ของคุณ"
     }
@@ -940,18 +954,25 @@
   "approve_request": {
     "wallet_info_title": "ต้องการเชื่อมต่อกับกระเป๋าสตางค์ของคุณ",
     "wallet_info_description": "อนุญาติ %{appName} เพื่อดูที่อยู่กระเป๋าสตางค์, ยอดเงิน, กิจกรรมและขออนุมัติสำหรับการทำธุรกรรม",
+    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
     "wallet": "กระเป๋าสตางค์",
     "network": "เครือข่าย",
     "switch_networks": "สลับเครือข่าย",
     "switch_wallets": "สลับกระเป๋าสตางค์",
+    "allow_to_add_network": "wants to add a network",
     "connect": "เชื่อมต่อกับ %{appName}",
     "connect_anyway": "เชื่อมต่อแบบไม่รวมเงื่อนไข",
+    "approve": "Approve",
+    "approve_anyway": "Approve Anyway",
     "malicious_warning": {
       "title": "แอปนี้มีแนวโน้มเป็นมัลแวร์",
       "message": "การทำธุรกรรมหรือเซ็นข้อความจากแอปนี้อาจทำให้คุณสูญเสียสินทรัพย์"
     },
+    "dangerous_request": "Dangerous Request",
     "message_signing_request": "คำขอลงนามข้อความ",
     "message": "ข้อความ",
+    "message_copied": "Message Copied",
+    "transaction_data_copied": "Transaction Data Copied",
     "sign_message": "ลงนามข้อความ",
     "sign_message_anyway": "เซ็นโดยไม่คำนึงเงื่อนไข",
     "confirm_hw": "ยืนยันบนอุปกรณ์ของคุณ",
@@ -960,7 +981,29 @@
     "send_transaction_anyway": "ยืนยันโดยไม่คำนึงเงื่อนไข",
     "contract_deployment": "การเปิดใช้งานสัญญา",
     "transaction_request": "คำร้องเรียกร้องการทำธุรกรรม",
-    "insufficient_native_asset_for_gas": "%{symbol} ไม่เพียงพอสำหรับแก๊ส"
+    "insufficient_gas_funds": "You need more %{token}",
+    "insufficient_gas_funds_description": "You need a bit more %{token} to pay for this transaction. Get more below to continue with this request.",
+    "no_gas_funds": "You need some %{token}",
+    "no_gas_funds_description": "You’ll need %{token} to pay for this transaction. Get some %{token} below to continue with this request.",
+    "no_token": "No %{token}",
+    "on_chain": "on %{chain}",
+    "copy_deposit_address": "Copy wallet address to deposit",
+    "bridge_to": "Bridge to %{chain}",
+    "signing_with": "Signing with",
+    "no_fee_to_sign": "No fee to sign",
+    "request_rejected": "Transaction Request Rejected",
+    "bridge_and_try_again": "Bridge some gas funds and try again",
+    "buy_and_try_again": "Buy some gas funds and try again",
+    "buy": "Buy %{token}"
+  },
+  "add_chain": {
+    "name": "ชื่อ",
+    "chain_id": "Chain ID",
+    "currency_symbol": "Currency Symbol",
+    "currency_name": "Currency Name",
+    "currency_decimals": "Currency Decimals",
+    "rpc_url": "RPC url",
+    "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
     "title": "ความเร็วของธุรกรรม",
@@ -1134,7 +1177,25 @@
     "sort_option_recent": "ล่าสุด",
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "ล่าสุด",
-    "sort_option_abc_long": "ตามตัวอักษร"
+    "sort_option_abc_long": "ตามตัวอักษร",
+    "details": {
+      "last_sales_price": "Last Sales Price",
+      "none": "ไม่มี",
+      "floor_price": "Floor Price",
+      "properties": "Properties",
+      "address_copied": "คัดลอกที่อยู่แล้ว",
+      "about": "About",
+      "token_standard": "มาตรฐานโทเค็น",
+      "token_contract": "สัญญาโทเค็น",
+      "contract_creator": "Contract Creator",
+      "chain": "เชื่อมโยง",
+      "id_copied": "ID Copied",
+      "copy_token_id": "Copy Token ID",
+      "download": "Download",
+      "explorer": "Explorer",
+      "view_collection": "View Collection",
+      "collection_website": "Collection Website"
+    }
   },
   "points": {
     "coming_soon_header": "เร็วๆนี้",
@@ -1172,6 +1233,7 @@
     "approvals": "การอนุมัติโทเคน",
     "this_token_is_on_network": "%{symbol} นี้อยู่บนเครือข่าย %{chainName}",
     "view_on": "ดูบน %{explorer}",
+    "not_available": "Price not available",
     "more_options": {
       "copy_address": "คัดลอกที่อยู่",
       "hide": "ซ่อนโทเคน",
@@ -1405,5 +1467,34 @@
     "unfavorite": "ลบออกจากรายการโปรด",
     "estimated_difference": "ความแตกต่างในมูลค่าที่ประมาณการ",
     "buy_crypto": "ซื้อและโอนคริปโต"
-  }
+  },
+  "simulation": {
+    "title": "Simulated Result",
+    "loading": "Simulating...",
+    "error": "Simulation Failed",
+    "no_changes": "No Changes Detected",
+    "received": "ได้รับแล้ว",
+    "sent": "ส่งแล้ว",
+    "approved": "อนุมัติแล้ว",
+    "reverted": "Transaction Reverted",
+    "function": "Function",
+    "contract": "Contract",
+    "contract_name": "Contract Name",
+    "contract_created_at": "Contract Created",
+    "source_code": "Source Code",
+    "signature": {
+      "message": "ข้อความ"
+    },
+    "tabs": {
+      "overview": "Overview",
+      "details": "Details",
+      "data": "Data"
+    }
+  },
+  "chain": "เชื่อมโยง",
+  "nonce": "Nonce",
+  "copy": "คัดลอก",
+  "close": "Close",
+  "verified": "ได้รับการตรวจสอบ",
+  "unverified": "ไม่ได้รับการตรวจสอบ"
 }
