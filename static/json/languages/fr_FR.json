@@ -1005,7 +1005,7 @@
     "currency_name": "Nom de la devise",
     "currency_decimals": "Décimales de la devise",
     "rpc_url": "URL RPC",
-    "block_explorer_url": "Block Explorer url"
+    "block_explorer_url": "URL de l'explorateur de blocs"
   },
   "transaction_fee": {
     "title": "Vitesse de transaction",
@@ -1174,7 +1174,7 @@
     "coming_soon_header": "Bientôt Disponible",
     "empty_state_header": "NFTs",
     "coming_soon_description": "Les NFTs arrivent bientôt. Restez à l'écoute!",
-    "empty_state_description": "Your NFTs will appear here!",
+    "empty_state_description": "Vos NFT apparaîtront ici !",
     "view_on_web": "Voir sur le Web",
     "display_mode_gallery": "Galerie",
     "display_mode_collections": "Collections",
@@ -1183,24 +1183,24 @@
     "sort_option_recent_long": "Récent",
     "sort_option_abc_long": "Alphabétique",
     "details": {
-      "last_sales_price": "Last Sales Price",
+      "last_sales_price": "Prix de vente précédent",
       "none": "Aucun",
-      "floor_price": "Floor Price",
-      "properties": "Properties",
+      "floor_price": "Prix plancher",
+      "properties": "Propriétés",
       "address_copied": "Adresse copiée",
-      "about": "About",
+      "about": "À propos",
       "token_standard": "Standard du jeton",
       "token_contract": "Contrat du jeton",
-      "contract_creator": "Contract Creator",
+      "contract_creator": "Créateur du contrat",
       "chain": "Chaîne",
-      "id_copied": "ID Copied",
-      "copy_token_id": "Copy Token ID",
-      "download": "Download",
-      "explorer": "Explorer",
-      "view_collection": "View Collection",
-      "collection_website": "Collection Website",
-      "owners": "Owners",
-      "unique_owners": "Unique Owners"
+      "id_copied": "ID Copié",
+      "copy_token_id": "Copier l'ID du jeton",
+      "download": "Télécharger",
+      "explorer": "Explorateur",
+      "view_collection": "Voir la collection",
+      "collection_website": "Site de collection",
+      "owners": "Propriétaires",
+      "unique_owners": "Propriétaires uniques"
     }
   },
   "points": {
@@ -1239,7 +1239,7 @@
     "approvals": "Approbations de jetons",
     "this_token_is_on_network": "Cette %{symbol} est sur le réseau %{chainName}",
     "view_on": "Voir sur %{explorer}",
-    "not_available": "Price not available",
+    "not_available": "Prix indisponible",
     "more_options": {
       "copy_address": "Copier l'adresse",
       "hide": "Cacher le jeton",
@@ -1483,30 +1483,30 @@
     "sent": "Envoyé",
     "approved": "Approuvé",
     "reverted": "Transaction Rejetée",
-    "function": "Function",
-    "contract": "Contract",
-    "contract_name": "Contract Name",
+    "function": "Fonction",
+    "contract": "Contrat",
+    "contract_name": "Nom du Contrat",
     "contract_created_at": "Contrat créé",
     "source_code": "Code source",
     "signature": {
       "message": "Message"
     },
     "tabs": {
-      "overview": "Overview",
-      "details": "Details",
-      "data": "Data"
+      "overview": "Aperçu",
+      "details": "Détails",
+      "data": "Données"
     }
   },
   "chain": "Chaîne",
   "nonce": "Nonce",
   "copy": "Copier",
-  "close": "Close",
+  "close": "Fermer",
   "verified": "Vérifié",
   "unverified": "Non vérifié",
   "watch_asset": {
     "chain_id": "ID de la chaîne",
-    "symbol": "Symbol",
-    "decimals": "Decimals",
+    "symbol": "Symbole",
+    "decimals": "Décimales",
     "address": "Adresse",
     "not_found": "Nous n'avons pas pu trouver cet actif sur le réseau sélectionné. Veuillez choisir le réseau approprié ci-dessous"
   }
