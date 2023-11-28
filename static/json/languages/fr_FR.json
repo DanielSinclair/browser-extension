@@ -404,9 +404,9 @@
         "switch_to_wallet": "Passer à ce portefeuille",
         "copy_wallet_address": "Copier l'adresse",
         "view_wallet_on_etherscan": "Afficher sur Etherscan",
-        "export_addresses_as_csv": "Export Addresses as CSV",
-        "enable_flashbots": "Enable Flashbots",
-        "disable_flashbots": "Disable Flashbots"
+        "export_addresses_as_csv": "Exporter les adresses au format CSV",
+        "enable_flashbots": "Activer Flashbots",
+        "disable_flashbots": "Désactiver Flashbots"
       },
       "search_tags": {
         "swap": "pont",
@@ -486,12 +486,12 @@
     "export_public_addresses": {
       "keychain_type": {
         "watching": "Observation",
-        "recovery_phrase": "Recovery Phrase",
+        "recovery_phrase": "Phrase de récupération",
         "private_key": "Clé privée",
         "hardware_wallet": "Portefeuille matériel"
       },
       "toast": {
-        "title": "Addresses Downloaded",
+        "title": "Adresses téléchargées",
         "description": "rainbow_addresses.csv"
       }
     }
@@ -952,29 +952,29 @@
     "button_label_cancel": "Rappellez-moi plus tard"
   },
   "approve_request": {
-    "allow_to_add_asset": "wants to suggest a token",
+    "allow_to_add_asset": "veut suggérer un jeton",
     "wallet_info_title": "veut se connecter à votre portefeuille",
     "wallet_info_description": "Autoriser %{appName} à afficher l'adresse de vos portefeuilles, les soldes, les activités et demander l'approbation des transactions.",
-    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
-    "watch_asset_info_description": "If you approve it, this asset could be used within the Rainbow Browser Extension.",
+    "add_chain_info_description": "Si vous l'approuvez, ce réseau pourrait être utilisé dans l'extension Rainbow du navigateur.",
+    "watch_asset_info_description": "Si vous l'approuvez, cet actif pourrait être utilisé dans l'extension Rainbow Browser.",
     "wallet": "Portefeuille",
     "network": "Réseau",
     "switch_networks": "Changer de réseau",
     "switch_wallets": "Changer de portefeuilles",
-    "allow_to_add_network": "wants to add a network",
+    "allow_to_add_network": "veut ajouter un réseau",
     "connect": "Connecter à %{appName}",
     "connect_anyway": "Connecter de toute façon",
-    "approve": "Approve",
-    "approve_anyway": "Approve Anyway",
+    "approve": "Approuver",
+    "approve_anyway": "Approuver quand même",
     "malicious_warning": {
       "title": "Cette application est probablement malveillante",
       "message": "Signer des messages ou des transactions depuis cette application pourrait entraîner la perte de vos actifs"
     },
-    "dangerous_request": "Dangerous Request",
+    "dangerous_request": "Demande dangereuse",
     "message_signing_request": "Demande de signature de message",
     "message": "Message",
-    "message_copied": "Message Copied",
-    "transaction_data_copied": "Transaction Data Copied",
+    "message_copied": "Message Copié",
+    "transaction_data_copied": "Données de la transaction copiées",
     "sign_message": "Signer le message",
     "sign_message_anyway": "Signer de toute façon",
     "confirm_hw": "Confirmer sur votre appareil",
@@ -989,22 +989,22 @@
     "no_gas_funds_description": "Vous aurez besoin de %{token} pour payer cette transaction. Obtenez un peu de %{token} ci-dessous pour continuer avec cette demande",
     "no_token": "Pas de %{token}",
     "on_chain": "sur %{chain}",
-    "copy_deposit_address": "Copy wallet address to deposit",
+    "copy_deposit_address": "Copier l'adresse du portefeuille pour déposer",
     "bridge_to": "Pont vers %{chain}",
-    "signing_with": "Signing with",
-    "no_fee_to_sign": "No fee to sign",
-    "request_rejected": "Transaction Request Rejected",
-    "bridge_and_try_again": "Bridge some gas funds and try again",
-    "buy_and_try_again": "Buy some gas funds and try again",
+    "signing_with": "Signature avec",
+    "no_fee_to_sign": "Pas de frais pour signer",
+    "request_rejected": "Demande de transaction rejetée",
+    "bridge_and_try_again": "Transférez des fonds de gaz et réessayez",
+    "buy_and_try_again": "Achetez quelques fonds de gaz et réessayez",
     "buy": "Acheter %{token}"
   },
   "add_chain": {
     "name": "Nom",
-    "chain_id": "Chain ID",
-    "currency_symbol": "Currency Symbol",
-    "currency_name": "Currency Name",
-    "currency_decimals": "Currency Decimals",
-    "rpc_url": "RPC url",
+    "chain_id": "ID de la chaîne",
+    "currency_symbol": "Symbole de devise",
+    "currency_name": "Nom de la devise",
+    "currency_decimals": "Décimales de la devise",
+    "rpc_url": "URL RPC",
     "block_explorer_url": "Block Explorer url"
   },
   "transaction_fee": {
@@ -1475,19 +1475,19 @@
     "buy_crypto": "Acheter et transférer des cryptos"
   },
   "simulation": {
-    "title": "Simulated Result",
-    "loading": "Simulating...",
-    "error": "Simulation Failed",
-    "no_changes": "No Changes Detected",
+    "title": "Résultat simulé",
+    "loading": "Simulation en cours...",
+    "error": "Simulation échouée",
+    "no_changes": "Aucun changement détecté",
     "received": "Reçu",
     "sent": "Envoyé",
     "approved": "Approuvé",
-    "reverted": "Transaction Reverted",
+    "reverted": "Transaction Rejetée",
     "function": "Function",
     "contract": "Contract",
     "contract_name": "Contract Name",
-    "contract_created_at": "Contract Created",
-    "source_code": "Source Code",
+    "contract_created_at": "Contrat créé",
+    "source_code": "Code source",
     "signature": {
       "message": "Message"
     },
@@ -1504,11 +1504,11 @@
   "verified": "Vérifié",
   "unverified": "Non vérifié",
   "watch_asset": {
-    "chain_id": "Chain ID",
+    "chain_id": "ID de la chaîne",
     "symbol": "Symbol",
     "decimals": "Decimals",
-    "address": "Address",
-    "not_found": "We couldn't find this asset on the selected network. Please choose the right network below"
+    "address": "Adresse",
+    "not_found": "Nous n'avons pas pu trouver cet actif sur le réseau sélectionné. Veuillez choisir le réseau approprié ci-dessous"
   }
 }
 
