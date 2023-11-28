@@ -952,9 +952,11 @@
     "button_label_cancel": "Ingatkan Saya Nanti"
   },
   "approve_request": {
+    "allow_to_add_asset": "wants to suggest a token",
     "wallet_info_title": "ingin terhubung ke dompet Anda",
     "wallet_info_description": "Izinkan %{appName} untuk melihat alamat, saldo, aktivitas dompet Anda dan minta persetujuan untuk transaksi.",
     "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
+    "watch_asset_info_description": "If you approve it, this asset could be used within the Rainbow Browser Extension.",
     "wallet": "Dompet",
     "network": "Jaringan",
     "switch_networks": "Ganti Jaringan",
@@ -1170,7 +1172,9 @@
   },
   "nfts": {
     "coming_soon_header": "Segera Hadir",
+    "empty_state_header": "NFTs",
     "coming_soon_description": "NFTs segera hadir. Tetap sintonik!",
+    "empty_state_description": "Your NFTs will appear here!",
     "view_on_web": "Lihat di Web",
     "display_mode_gallery": "Galeri",
     "display_mode_collections": "Koleksi",
@@ -1194,7 +1198,9 @@
       "download": "Download",
       "explorer": "Explorer",
       "view_collection": "View Collection",
-      "collection_website": "Collection Website"
+      "collection_website": "Collection Website",
+      "owners": "Owners",
+      "unique_owners": "Unique Owners"
     }
   },
   "points": {
@@ -1496,5 +1502,13 @@
   "copy": "Salin",
   "close": "Close",
   "verified": "Terverifikasi",
-  "unverified": "Tidak Terverifikasi"
+  "unverified": "Tidak Terverifikasi",
+  "watch_asset": {
+    "chain_id": "Chain ID",
+    "symbol": "Symbol",
+    "decimals": "Decimals",
+    "address": "Address",
+    "not_found": "We couldn't find this asset on the selected network. Please choose the right network below"
+  }
 }
+
