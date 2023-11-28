@@ -952,9 +952,11 @@
     "button_label_cancel": "Напомнить мне позже"
   },
   "approve_request": {
+    "allow_to_add_asset": "wants to suggest a token",
     "wallet_info_title": "хочет получить доступ к вашему кошельку",
     "wallet_info_description": "Разрешить %{appName} просматривать адреса, балансы и операции вашего кошелька, а также запрашивать подтверждение для транзакций.",
     "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
+    "watch_asset_info_description": "If you approve it, this asset could be used within the Rainbow Browser Extension.",
     "wallet": "Кошелек",
     "network": "Сеть",
     "switch_networks": "Сменить сеть",
@@ -1170,7 +1172,9 @@
   },
   "nfts": {
     "coming_soon_header": "Скоро будет",
+    "empty_state_header": "NFT",
     "coming_soon_description": "NFT скоро будут. Оставайтесь на связи!",
+    "empty_state_description": "Your NFTs will appear here!",
     "view_on_web": "Посмотреть на Веб",
     "display_mode_gallery": "Галерея",
     "display_mode_collections": "Коллекции",
@@ -1194,7 +1198,9 @@
       "download": "Download",
       "explorer": "Explorer",
       "view_collection": "View Collection",
-      "collection_website": "Collection Website"
+      "collection_website": "Collection Website",
+      "owners": "Owners",
+      "unique_owners": "Unique Owners"
     }
   },
   "points": {
@@ -1496,5 +1502,13 @@
   "copy": "Копировать",
   "close": "Close",
   "verified": "Проверенные",
-  "unverified": "Непроверенные"
+  "unverified": "Непроверенные",
+  "watch_asset": {
+    "chain_id": "Chain ID",
+    "symbol": "Symbol",
+    "decimals": "Decimals",
+    "address": "Address",
+    "not_found": "We couldn't find this asset on the selected network. Please choose the right network below"
+  }
 }
+
