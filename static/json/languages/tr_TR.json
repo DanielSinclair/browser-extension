@@ -404,9 +404,9 @@
         "switch_to_wallet": "Bu Cüzdana Geç",
         "copy_wallet_address": "Adresi Kopyala",
         "view_wallet_on_etherscan": "Etherscan'da Görüntüle",
-        "export_addresses_as_csv": "Export Addresses as CSV",
-        "enable_flashbots": "Enable Flashbots",
-        "disable_flashbots": "Disable Flashbots"
+        "export_addresses_as_csv": "CSV olarak Adresleri Dışa Aktar",
+        "enable_flashbots": "Flashbots'i etkinleştir",
+        "disable_flashbots": "Flashbots'i devre dışı bırak"
       },
       "search_tags": {
         "swap": "köprü",
@@ -486,12 +486,12 @@
     "export_public_addresses": {
       "keychain_type": {
         "watching": "İzleme",
-        "recovery_phrase": "Recovery Phrase",
+        "recovery_phrase": "Kurtarma Cümlesi",
         "private_key": "Özel Anahtar",
         "hardware_wallet": "Donanım Cüzdanı"
       },
       "toast": {
-        "title": "Addresses Downloaded",
+        "title": "Adresler İndirildi",
         "description": "rainbow_addresses.csv"
       }
     }
@@ -952,29 +952,29 @@
     "button_label_cancel": "Bana Sonra Hatırlat"
   },
   "approve_request": {
-    "allow_to_add_asset": "wants to suggest a token",
+    "allow_to_add_asset": "Bir token önermek istiyor",
     "wallet_info_title": "Cüzdanınıza bağlanmak istiyor",
     "wallet_info_description": "%{appName} izin verin, cüzdanınızın adresini, bakiyesini, etkinliğini görüntülemesine ve işlemler için onay talep etmesine izin verin.",
-    "add_chain_info_description": "If you approve it, this network could be used within the Rainbow Browser Extension.",
-    "watch_asset_info_description": "If you approve it, this asset could be used within the Rainbow Browser Extension.",
+    "add_chain_info_description": "Onaylarsanız, bu ağ Gökkuşağı Tarayıcı Eklentisi içinde kullanılabilir.",
+    "watch_asset_info_description": "Onaylarsanız, bu varlık Rainbow Tarayıcı Uzantısı içinde kullanılabilir olacak.",
     "wallet": "Cüzdan",
     "network": "Ağ",
     "switch_networks": "Ağları Değiştir",
     "switch_wallets": "Cüzdanları Değiştir",
-    "allow_to_add_network": "wants to add a network",
+    "allow_to_add_network": "bir ağ eklemek istiyor",
     "connect": "%{appName}'a Bağlan",
     "connect_anyway": "Yine de Bağlan",
-    "approve": "Approve",
-    "approve_anyway": "Approve Anyway",
+    "approve": "Onayla",
+    "approve_anyway": "Yine de Onayla",
     "malicious_warning": {
       "title": "Bu uygulama muhtemelen zararlı",
       "message": "Bu uygulamadan mesajları veya işlemleri imzalamak, varlıklarınızın kaybolmasına neden olabilir"
     },
-    "dangerous_request": "Dangerous Request",
+    "dangerous_request": "Tehlikeli İstek",
     "message_signing_request": "İmza İsteği",
     "message": "Mesaj",
-    "message_copied": "Message Copied",
-    "transaction_data_copied": "Transaction Data Copied",
+    "message_copied": "Mesaj Kopyalandı",
+    "transaction_data_copied": "İşlem Verisi Kopyalandı",
     "sign_message": "Mesajı İmzala",
     "sign_message_anyway": "Yine de İmzala",
     "confirm_hw": "Cihazınızda Onaylayın",
@@ -989,23 +989,23 @@
     "no_gas_funds_description": "Bu işlemi ödemek için %{token} ihtiyacınız olacak. Bu isteği sürdürmek için biraz %{token} alın.",
     "no_token": "Bir %{token}yok",
     "on_chain": "%{chain}üzerinde",
-    "copy_deposit_address": "Copy wallet address to deposit",
+    "copy_deposit_address": "Cüzdan adresini kopyala ve yatır",
     "bridge_to": "%{chain}için Köprü",
-    "signing_with": "Signing with",
-    "no_fee_to_sign": "No fee to sign",
-    "request_rejected": "Transaction Request Rejected",
-    "bridge_and_try_again": "Bridge some gas funds and try again",
-    "buy_and_try_again": "Buy some gas funds and try again",
+    "signing_with": "İmzalama ile",
+    "no_fee_to_sign": "İmzalamak için ücret yok",
+    "request_rejected": "İşlem İsteği Reddedildi",
+    "bridge_and_try_again": "Biraz gaz fonu köprüle ve tekrar dene",
+    "buy_and_try_again": "Biraz gaz fonu satın al ve tekrar dene",
     "buy": "Satın al %{token}"
   },
   "add_chain": {
     "name": "İsim",
-    "chain_id": "Chain ID",
-    "currency_symbol": "Currency Symbol",
-    "currency_name": "Currency Name",
-    "currency_decimals": "Currency Decimals",
+    "chain_id": "Zincir Kimliği",
+    "currency_symbol": "Para Birimi Sembolü",
+    "currency_name": "Para Birimi Adı",
+    "currency_decimals": "Para Birimi Ondalıkları",
     "rpc_url": "RPC url",
-    "block_explorer_url": "Block Explorer url"
+    "block_explorer_url": "Blok Gezgini url"
   },
   "transaction_fee": {
     "title": "İşlem Hızı",
@@ -1174,7 +1174,7 @@
     "coming_soon_header": "Yakında",
     "empty_state_header": "NFT'ler",
     "coming_soon_description": "NFT'ler yakında geliyor. Takipte kalın!",
-    "empty_state_description": "Your NFTs will appear here!",
+    "empty_state_description": "NFT'leriniz burada görünecek!",
     "view_on_web": "Web'de Görüntüle",
     "display_mode_gallery": "Galeri",
     "display_mode_collections": "Koleksiyonlar",
@@ -1183,24 +1183,24 @@
     "sort_option_recent_long": "Son",
     "sort_option_abc_long": "Alfabetik",
     "details": {
-      "last_sales_price": "Last Sales Price",
+      "last_sales_price": "Son Satış Fiyatı",
       "none": "Hiçbiri",
-      "floor_price": "Floor Price",
-      "properties": "Properties",
+      "floor_price": "Taban Fiyat",
+      "properties": "Özellikler",
       "address_copied": "Adres Kopyalandı",
-      "about": "About",
+      "about": "Hakkında",
       "token_standard": "Token Standartı",
       "token_contract": "Token Sözleşmesi",
-      "contract_creator": "Contract Creator",
+      "contract_creator": "Sözleşme Oluşturucusu",
       "chain": "Zincir",
-      "id_copied": "ID Copied",
-      "copy_token_id": "Copy Token ID",
-      "download": "Download",
-      "explorer": "Explorer",
-      "view_collection": "View Collection",
-      "collection_website": "Collection Website",
-      "owners": "Owners",
-      "unique_owners": "Unique Owners"
+      "id_copied": "Kimlik Kopyalandı",
+      "copy_token_id": "Token Kimliğini Kopyala",
+      "download": "İndir",
+      "explorer": "Gezgin",
+      "view_collection": "Koleksiyonu Görüntüle",
+      "collection_website": "Koleksiyon Websitesi",
+      "owners": "Sahipler",
+      "unique_owners": "Tekil Sahipler"
     }
   },
   "points": {
@@ -1239,7 +1239,7 @@
     "approvals": "Token Onayları",
     "this_token_is_on_network": "Bu %{symbol} %{chainName} ağında.",
     "view_on": "%{explorer}üzerinde görüntüle",
-    "not_available": "Price not available",
+    "not_available": "Fiyat mevcut değil",
     "more_options": {
       "copy_address": "Adresi Kopyala",
       "hide": "Tokeni Gizle",
@@ -1475,40 +1475,40 @@
     "buy_crypto": "Kripto satın al ve transfer et"
   },
   "simulation": {
-    "title": "Simulated Result",
-    "loading": "Simulating...",
-    "error": "Simulation Failed",
-    "no_changes": "No Changes Detected",
+    "title": "Simüle Edilmiş Sonuç",
+    "loading": "Simule Ediliyor...",
+    "error": "Simülasyon Başarısız",
+    "no_changes": "Değişiklik Algılanmadı",
     "received": "Alındı",
     "sent": "Gönderildi",
     "approved": "Onaylandı",
-    "reverted": "Transaction Reverted",
-    "function": "Function",
-    "contract": "Contract",
-    "contract_name": "Contract Name",
-    "contract_created_at": "Contract Created",
-    "source_code": "Source Code",
+    "reverted": "İşlem Geri Alındı",
+    "function": "Fonksiyon",
+    "contract": "Sözleşme",
+    "contract_name": "Sözleşme Adı",
+    "contract_created_at": "Sözleşme Oluşturuldu",
+    "source_code": "Kaynak Kodu",
     "signature": {
       "message": "Mesaj"
     },
     "tabs": {
-      "overview": "Overview",
-      "details": "Details",
-      "data": "Data"
+      "overview": "Genel Bakış",
+      "details": "Detaylar",
+      "data": "Veri"
     }
   },
   "chain": "Zincir",
   "nonce": "Nonce",
   "copy": "Kopyala",
-  "close": "Close",
+  "close": "Kapat",
   "verified": "Doğrulanmış",
   "unverified": "Doğrulanmamış",
   "watch_asset": {
-    "chain_id": "Chain ID",
-    "symbol": "Symbol",
-    "decimals": "Decimals",
-    "address": "Address",
-    "not_found": "We couldn't find this asset on the selected network. Please choose the right network below"
+    "chain_id": "Zincir Kimliği",
+    "symbol": "Sembol",
+    "decimals": "Ondalık",
+    "address": "Adres",
+    "not_found": "Bu varlık seçilen ağda bulunamadı. Lütfen aşağıdan doğru ağı seçiniz"
   }
 }
 
