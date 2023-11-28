@@ -525,7 +525,7 @@
       "no_results": "Aucun résultat"
     },
     "tokens_input": {
-      "tokens": "Tokens",
+      "tokens": "Jetons",
       "sort": "Trier",
       "available": "disponible",
       "token_balance": "Solde du token",
@@ -1117,7 +1117,7 @@
     "activity": "Activité",
     "nfts": "NFTs",
     "points": "Points",
-    "tokens": "Tokens"
+    "tokens": "Jetons"
   },
   "activity": {
     "today": "Aujourd'hui",
