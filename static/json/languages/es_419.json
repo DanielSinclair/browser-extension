@@ -404,9 +404,9 @@
         "switch_to_wallet": "Cambiar a esta Billetera",
         "copy_wallet_address": "Copiar Dirección",
         "view_wallet_on_etherscan": "Ver en Etherscan",
-        "export_addresses_as_csv": "Export Addresses as CSV",
-        "enable_flashbots": "Enable Flashbots",
-        "disable_flashbots": "Disable Flashbots"
+        "export_addresses_as_csv": "Exportar Direcciones como CSV",
+        "enable_flashbots": "Habilitar Flashbots",
+        "disable_flashbots": "Desactivar Flashbots"
       },
       "search_tags": {
         "swap": "puente",
