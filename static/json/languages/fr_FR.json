@@ -1186,6 +1186,7 @@
       "last_sales_price": "Prix de vente précédent",
       "none": "Aucun",
       "floor_price": "Prix plancher",
+      "description": "Description",
       "properties": "Propriétés",
       "address_copied": "Adresse copiée",
       "about": "À propos",
@@ -1200,7 +1201,12 @@
       "view_collection": "Voir la collection",
       "collection_website": "Site de collection",
       "owners": "Propriétaires",
-      "unique_owners": "Propriétaires uniques"
+      "unique_owners": "Propriétaires uniques",
+      "ens_profile_info": "Informations du profil",
+      "ens_bio": "Bio",
+      "ens_cover": "Image de couverture",
+      "ens_address": "Adresse ETH",
+      "ens_website": "Site Web"
     }
   },
   "points": {
