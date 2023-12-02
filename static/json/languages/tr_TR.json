@@ -1186,6 +1186,7 @@
       "last_sales_price": "Son Satış Fiyatı",
       "none": "Hiçbiri",
       "floor_price": "Taban Fiyat",
+      "description": "Description",
       "properties": "Özellikler",
       "address_copied": "Adres Kopyalandı",
       "about": "Hakkında",
@@ -1200,7 +1201,12 @@
       "view_collection": "Koleksiyonu Görüntüle",
       "collection_website": "Koleksiyon Websitesi",
       "owners": "Sahipler",
-      "unique_owners": "Tekil Sahipler"
+      "unique_owners": "Tekil Sahipler",
+      "ens_profile_info": "Profile Info",
+      "ens_bio": "Bio",
+      "ens_cover": "Cover",
+      "ens_address": "ETH Address",
+      "ens_website": "Website"
     }
   },
   "points": {
