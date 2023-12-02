@@ -1186,6 +1186,7 @@
       "last_sales_price": "سعر البيع الأخير",
       "none": "لا شيء",
       "floor_price": "سعر الأرضية",
+      "description": "الوصف",
       "properties": "الخصائص",
       "address_copied": "العنوان المنسوخ",
       "about": "حول",
@@ -1200,7 +1201,12 @@
       "view_collection": "عرض المجموعة",
       "collection_website": "موقع المجموعة",
       "owners": "المالكون",
-      "unique_owners": "أصحاب فريدين"
+      "unique_owners": "أصحاب فريدين",
+      "ens_profile_info": "معلومات الملف الشخصي",
+      "ens_bio": "السيرة الذاتية",
+      "ens_cover": "الغلاف",
+      "ens_address": "عنوان ETH",
+      "ens_website": "الموقع الإلكتروني"
     }
   },
   "points": {
