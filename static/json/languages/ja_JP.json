@@ -1186,6 +1186,7 @@
       "last_sales_price": "最終取引価格",
       "none": "なし",
       "floor_price": "底値",
+      "description": "説明",
       "properties": "プロパティ",
       "address_copied": "アドレスがコピーされました",
       "about": "詳細",
@@ -1200,7 +1201,12 @@
       "view_collection": "コレクションを表示",
       "collection_website": "コレクションのウェブサイト",
       "owners": "所有者",
-      "unique_owners": "ユニークな所有者"
+      "unique_owners": "ユニークな所有者",
+      "ens_profile_info": "プロフィール情報",
+      "ens_bio": "経歴",
+      "ens_cover": "カバー",
+      "ens_address": "ETHアドレス",
+      "ens_website": "ウェブサイト"
     }
   },
   "points": {
