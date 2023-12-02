@@ -1186,6 +1186,7 @@
       "last_sales_price": "마지막 판매 가격",
       "none": "없음",
       "floor_price": "최저 가격",
+      "description": "설명",
       "properties": "속성",
       "address_copied": "주소 복사됨",
       "about": "소개",
@@ -1200,7 +1201,12 @@
       "view_collection": "컬렉션 보기",
       "collection_website": "컬렉션 웹사이트",
       "owners": "소유자",
-      "unique_owners": "고유 소유자"
+      "unique_owners": "고유 소유자",
+      "ens_profile_info": "프로필 정보",
+      "ens_bio": "소개",
+      "ens_cover": "커버",
+      "ens_address": "이더리움 주소",
+      "ens_website": "웹사이트"
     }
   },
   "points": {
