@@ -1186,6 +1186,7 @@
       "last_sales_price": "Último preço de venda",
       "none": "Nenhum",
       "floor_price": "Preço mínimo",
+      "description": "Descrição",
       "properties": "Propriedades",
       "address_copied": "Endereço copiado",
       "about": "Sobre",
@@ -1200,7 +1201,12 @@
       "view_collection": "Ver coleção",
       "collection_website": "Website da coleção",
       "owners": "Proprietários",
-      "unique_owners": "Proprietários únicos"
+      "unique_owners": "Proprietários únicos",
+      "ens_profile_info": "Informações do Perfil",
+      "ens_bio": "Biografia",
+      "ens_cover": "Capa",
+      "ens_address": "Endereço ETH",
+      "ens_website": "Website"
     }
   },
   "points": {
