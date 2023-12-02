@@ -1186,6 +1186,7 @@
       "last_sales_price": "Последняя цена продажи",
       "none": "Нет",
       "floor_price": "Минимальная цена",
+      "description": "Description",
       "properties": "Свойства",
       "address_copied": "Адрес скопирован",
       "about": "Описание",
@@ -1200,7 +1201,12 @@
       "view_collection": "Просмотр коллекции",
       "collection_website": "Веб-сайт коллекции",
       "owners": "Владельцы",
-      "unique_owners": "Уникальные владельцы"
+      "unique_owners": "Уникальные владельцы",
+      "ens_profile_info": "Profile Info",
+      "ens_bio": "Bio",
+      "ens_cover": "Cover",
+      "ens_address": "ETH Address",
+      "ens_website": "Website"
     }
   },
   "points": {
