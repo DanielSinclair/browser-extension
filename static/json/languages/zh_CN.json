@@ -1186,6 +1186,7 @@
       "last_sales_price": "最后销售价格",
       "none": "无",
       "floor_price": "最低价格",
+      "description": "描述",
       "properties": "属性",
       "address_copied": "地址已复制",
       "about": "关于",
@@ -1200,7 +1201,12 @@
       "view_collection": "查看集合",
       "collection_website": "集合网站",
       "owners": "所有者",
-      "unique_owners": "唯一所有者"
+      "unique_owners": "唯一所有者",
+      "ens_profile_info": "个人资料信息",
+      "ens_bio": "简介",
+      "ens_cover": "封面",
+      "ens_address": "ETH地址",
+      "ens_website": "网站"
     }
   },
   "points": {
