@@ -1186,6 +1186,7 @@
       "last_sales_price": "अंतिम बिक्री कीमत",
       "none": "कोई नहीं",
       "floor_price": "फ़्लोर की कीमत",
+      "description": "विवरण",
       "properties": "गुण",
       "address_copied": "पता कॉपी किया गया",
       "about": "के बारे में",
@@ -1200,7 +1201,12 @@
       "view_collection": "कलेक्शन देखें",
       "collection_website": "कलेक्शन वेबसाइट",
       "owners": "मालिक",
-      "unique_owners": "अद्वितीय मालिकों"
+      "unique_owners": "अद्वितीय मालिकों",
+      "ens_profile_info": "प्रोफ़ाइल जानकारी",
+      "ens_bio": "बायो",
+      "ens_cover": "कवर",
+      "ens_address": "ईथ ठेका",
+      "ens_website": "वेबसाइट"
     }
   },
   "points": {
