@@ -1186,7 +1186,7 @@
       "last_sales_price": "ราคาขายล่าสุด",
       "none": "ไม่มี",
       "floor_price": "ราคาฟลอร์",
-      "description": "Description",
+      "description": "คำอธิบาย",
       "properties": "คุณสมบัติ",
       "address_copied": "คัดลอกที่อยู่แล้ว",
       "about": "เกี่ยวกับ",
@@ -1202,11 +1202,11 @@
       "collection_website": "เว็บไซต์คลัง",
       "owners": "เจ้าของ",
       "unique_owners": "เจ้าของที่ไม่ซ้ำหน้า",
-      "ens_profile_info": "Profile Info",
-      "ens_bio": "Bio",
-      "ens_cover": "Cover",
-      "ens_address": "ETH Address",
-      "ens_website": "Website"
+      "ens_profile_info": "ข้อมูลโปรไฟล์",
+      "ens_bio": "ไบโอ",
+      "ens_cover": "ปก",
+      "ens_address": "ที่อยู่ Ethereum",
+      "ens_website": "เว็บไซต์"
     }
   },
   "points": {
