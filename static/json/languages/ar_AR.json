@@ -1103,8 +1103,8 @@
     "error_encountered": "حدث خطأ. يرجى مشاركة المشكلة مع فريقنا وسنقوم بإصلاحها!",
     "no_wallet_name_set": "لم يتم تحديد اسم المحفظة",
     "report_error": "الإبلاغ عن المشكلة",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "خطأ في إرسال المعاملة",
+    "executing_swap": "خطأ في تنفيذ التبديل"
   },
   "common_titles": {
     "before_you_proceed": "قبل أن تتابع"
