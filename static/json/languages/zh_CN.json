@@ -1103,8 +1103,8 @@
     "error_encountered": "出现了问题。请将问题分享给我们的团队，我们会尽快修复！",
     "no_wallet_name_set": "未设置钱包名称",
     "report_error": "报告问题",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "发送交易错误",
+    "executing_swap": "执行兑换错误"
   },
   "common_titles": {
     "before_you_proceed": "在您继续之前"
