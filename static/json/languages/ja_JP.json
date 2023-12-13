@@ -105,7 +105,7 @@
         "chain_id": "チェーンID",
         "symbol": "記号",
         "decimals": "桁数",
-        "active": "Active",
+        "active": "有効",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "カバー",
       "ens_address": "ETHアドレス",
       "ens_website": "ウェブサイト",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "登録日",
+      "expires_in": "有効期限",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "閉じる",
   "verified": "確認済み",
   "unverified": "未確認",
-  "skip": "Skip",
+  "skip": "スキップ",
   "done": "完了",
   "watch_asset": {
     "chain_id": "チェーンID",
