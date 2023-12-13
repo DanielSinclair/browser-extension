@@ -1103,8 +1103,8 @@
     "error_encountered": "Algo deu errado. Por favor, compartilhe o problema com nossa equipe e nós iremos corrigi-lo",
     "no_wallet_name_set": "Nenhum nome de carteira definido",
     "report_error": "Reportar problema",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "Erro ao enviar transação",
+    "executing_swap": "Erro ao executar troca"
   },
   "common_titles": {
     "before_you_proceed": "Antes de prosseguir"
