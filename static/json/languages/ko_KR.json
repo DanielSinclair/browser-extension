@@ -1103,8 +1103,8 @@
     "error_encountered": "문제가 발생했습니다. 우리 팀에 문제를 알려주시면 해결하겠습니다!",
     "no_wallet_name_set": "지갑 이름이 설정되지 않았습니다",
     "report_error": "문제 신고",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "트랜잭션 전송 오류",
+    "executing_swap": "스왑 실행 오류"
   },
   "common_titles": {
     "before_you_proceed": "계속하기 전에"
