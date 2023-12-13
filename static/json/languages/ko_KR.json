@@ -105,7 +105,7 @@
         "chain_id": "체인 ID",
         "symbol": "심볼",
         "decimals": "소수점",
-        "active": "Active",
+        "active": "활성화",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "커버",
       "ens_address": "이더리움 주소",
       "ens_website": "웹사이트",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "등록 일자",
+      "expires_in": "만료 기간",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
