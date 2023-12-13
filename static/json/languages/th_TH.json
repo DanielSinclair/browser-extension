@@ -101,11 +101,11 @@
         "title": "Custom RPC",
         "networks": "เครือข่าย",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "URL ของ RPC",
         "chain_id": "รหัสเครือข่าย",
         "symbol": "สัญลักษณ์",
         "decimals": "ทศนิยม",
-        "active": "Active",
+        "active": "กำลังใช้งาน",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "ปก",
       "ens_address": "ที่อยู่ Ethereum",
       "ens_website": "เว็บไซต์",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "ลงทะเบียนเมื่อ",
+      "expires_in": "หมดอายุใน",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "ปิด",
   "verified": "ได้รับการตรวจสอบ",
   "unverified": "ไม่ได้รับการตรวจสอบ",
-  "skip": "Skip",
+  "skip": "ข้าม",
   "done": "เสร็จสิ้น",
   "watch_asset": {
     "chain_id": "รหัสเครือข่าย",
