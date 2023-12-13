@@ -101,11 +101,11 @@
         "title": "Özel RPC",
         "networks": "Ağlar",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "RPC URL'si",
         "chain_id": "Zincir Kimliği",
         "symbol": "Sembol",
         "decimals": "Ondalık",
-        "active": "Active",
+        "active": "Aktif",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "Kapak",
       "ens_address": "ETH Adresi",
       "ens_website": "Web Sitesi",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "Kayıt tarihi",
+      "expires_in": "Bitiş süresi",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "Kapat",
   "verified": "Doğrulanmış",
   "unverified": "Doğrulanmamış",
-  "skip": "Skip",
+  "skip": "Atla",
   "done": "Tamam",
   "watch_asset": {
     "chain_id": "Zincir Kimliği",
