@@ -98,7 +98,16 @@
         "toggle_explainer": "테스트넷 모드 단축키 (T)를 활성화하고 홈 화면 상단 오른쪽 메뉴에 토글을 추가합니다"
       },
       "custom_rpc": {
-        "title": "사용자 정의 RPC"
+        "title": "사용자 정의 RPC",
+        "networks": "네트워크",
+        "network_name": "Network Name",
+        "rpc_url": "RPC URL",
+        "chain_id": "체인 ID",
+        "symbol": "심볼",
+        "decimals": "소수점",
+        "active": "Active",
+        "block_explorer_url": "Block Explorer URL",
+        "add_network": "Add Network"
       }
     },
     "privacy_and_security": {
@@ -225,7 +234,8 @@
       "command_k_internal_shortcuts_enabled": "⌘K 내부 단축키 활성화",
       "custom_rpc": "사용자 정의 RPC",
       "new_tab_bar_enabled": "새 탭 바",
-      "nfts_enabled": "NFT 활성화됨"
+      "nfts_enabled": "NFT 활성화됨",
+      "points": "포인트"
     }
   },
   "transactions": {
@@ -880,7 +890,7 @@
   },
   "seed_verify": {
     "title": "비밀 복구 문구 확인",
-    "explanation": "비밀 복구 문구에서 4번째, 8번째, 12번째 단어를 순서대로 선택하세요.",
+    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
     "skip": "이건 건너뛰기"
   },
   "menu": {
@@ -969,6 +979,13 @@
     "malicious_warning": {
       "title": "이 앱은 악성일 확률이 높다",
       "message": "이 앱에서 메시지나 트랜잭션을 서명하면 자산이 손실될 수 있습니다"
+    },
+    "malicious_transaction_warning": {
+      "title": "This transaction looks suspicious",
+      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
+      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
+      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
+      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
     },
     "dangerous_request": "위험한 요청",
     "message_signing_request": "메시지 서명 요청",
@@ -1206,12 +1223,69 @@
       "ens_bio": "소개",
       "ens_cover": "커버",
       "ens_address": "이더리움 주소",
-      "ens_website": "웹사이트"
+      "ens_website": "웹사이트",
+      "registered_on": "Registered on",
+      "expires_in": "Expires in",
+      "explainer": {
+        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
+        "floor_price_title": "Collection floor price",
+        "floor_price_action_label": "확인"
+      }
     }
   },
   "points": {
     "coming_soon_header": "곧 출시 예정",
-    "coming_soon_description": "포인트는 바로 앞에 있습니다.\n오늘 바로 적립하세요."
+    "coming_soon_description": "포인트는 바로 앞에 있습니다.\n오늘 바로 적립하세요.",
+    "your_rank": "Your Rank",
+    "next_drop": "Next Drop",
+    "leaderboard": "Leaderboard",
+    "referral_code": "Referral Code",
+    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
+    "copied_referral_code": "Referral code copied!",
+    "copied_referral_link": "Referral link copied!",
+    "out_of": "Out of %{total}",
+    "out_of_current_total_points": "Out of %{total} current total points",
+    "header": "Claim your points",
+    "description": "Points are here. Find out how many you’ve been awarded.",
+    "get_started": "Get Started",
+    "use_referral_code": "Use Referral Code",
+    "referral_header": "Enter your referral code",
+    "referral_description": "Enter a referral code below to claim your bonus reward.",
+    "referral_code_invalid": "Invalid Code",
+    "onboarding": {
+      "authorization_required": "Authorization required",
+      "sign_in_with_your_wallet": "Sign in with your wallet",
+      "access_granted": "Access granted",
+      "calculating_points": "Calculating points",
+      "rainbow_swaps": "Rainbow Swaps:",
+      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
+      "wallet_balance": "Wallet Balance:",
+      "metamask_swaps": "MetaMask Swaps:",
+      "bonus_reward": "Bonus Reward:",
+      "calculation_complete": "Calculation complete",
+      "points_earned": "Points Earned:",
+      "bonus_points": "Bonus Points:",
+      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
+      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
+      "account": "Account:",
+      "sign_in": "Sign In",
+      "get_eth": "Get some ETH",
+      "try_swap": "Try a Swap",
+      "referral_link_ready": "Your referral link is ready",
+      "share_and_earn": "Tweet your referral link and get an extra 250 points",
+      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
+      "share": "Share to X",
+      "share_tweet": "I just had %{points} Rainbow Points dropped into my wallet\nEverybody has at least 100 points waiting for them, but you might have more!\n\nClaim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "share_tweet_with_metamask_bonus": "I just had %{points} Rainbow Points dropped into my wallet — and an extra %{metamaskBonus} Points as a bonus for migrating my MetaMask wallet into Rainbow 🦊 🔫\n\nEverybody has at least 100 points waiting for them, but you might have more! Claim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "registration_complete": "Registration complete",
+      "all_set": "You’re all set!",
+      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
+      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+    },
+    "error": {
+      "existing_user": "Existing user",
+      "invalid_referral_code": "Invalid referral code"
+    }
   },
   "speed_up_and_cancel": {
     "speed_up": "가속",
@@ -1506,9 +1580,12 @@
   "chain": "블록체인",
   "nonce": "논스",
   "copy": "복사",
+  "copy_link": "링크 복사",
   "close": "닫기",
   "verified": "인증됨",
   "unverified": "인증되지 않음",
+  "skip": "Skip",
+  "done": "완료",
   "watch_asset": {
     "chain_id": "체인 ID",
     "symbol": "심볼",
@@ -1517,4 +1594,3 @@
     "not_found": "선택한 네트워크에서 이 자산을 찾을 수 없습니다. 아래에서 올바른 네트워크를 선택하세요"
   }
 }
-
