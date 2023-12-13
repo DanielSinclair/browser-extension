@@ -101,11 +101,11 @@
         "title": "自定义RPC",
         "networks": "网络",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "RPC 链接",
         "chain_id": "链ID",
         "symbol": "符号",
         "decimals": "小数",
-        "active": "Active",
+        "active": "激活",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "封面",
       "ens_address": "ETH地址",
       "ens_website": "网站",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "注册时间",
+      "expires_in": "到期时间",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "关闭",
   "verified": "已验证",
   "unverified": "未验证",
-  "skip": "Skip",
+  "skip": "跳过",
   "done": "完成",
   "watch_asset": {
     "chain_id": "链ID",
