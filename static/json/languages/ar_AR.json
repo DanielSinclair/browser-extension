@@ -101,11 +101,11 @@
         "title": "Custom RPC",
         "networks": "الشبكات",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "عنوان URL للRPC",
         "chain_id": "معرّف الشبكة",
         "symbol": "رمز",
         "decimals": "الكسور",
-        "active": "Active",
+        "active": "نشط",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "الغلاف",
       "ens_address": "عنوان ETH",
       "ens_website": "الموقع الإلكتروني",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "مسجل في",
+      "expires_in": "ينتهي في",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "إغلاق",
   "verified": "تم التحقق منه",
   "unverified": "غير متحقق منه",
-  "skip": "Skip",
+  "skip": "تخطِ",
   "done": "تم",
   "watch_asset": {
     "chain_id": "معرّف الشبكة",
