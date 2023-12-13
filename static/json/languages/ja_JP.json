@@ -1103,8 +1103,8 @@
     "error_encountered": "何か問題が発生しました。私たちのチームに問題を共有してください、すぐに対応します！",
     "no_wallet_name_set": "ウォレット名が設定されていません",
     "report_error": "問題を報告する",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "取引の送信エラー",
+    "executing_swap": "スワップ実行エラー"
   },
   "common_titles": {
     "before_you_proceed": "続行する前に"
