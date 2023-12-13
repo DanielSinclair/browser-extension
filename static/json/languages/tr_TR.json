@@ -1103,8 +1103,8 @@
     "error_encountered": "Bir şeyler yanlış gitti. Lütfen sorunu ekibimizle paylaşın ve biz düzeltelim!",
     "no_wallet_name_set": "Cüzdan adı belirtilmemiş",
     "report_error": "Sorunu bildir",
-    "sending_transaction": "Error sending transaction",
-    "executing_swap": "Error executing swap"
+    "sending_transaction": "İşlem gönderilirken hata",
+    "executing_swap": "Takas gerçekleştirilirken hata"
   },
   "common_titles": {
     "before_you_proceed": "Devam etmeden önce"
