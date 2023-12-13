@@ -98,7 +98,16 @@
         "toggle_explainer": "Ativa o atalho Modo Testnet (T) e adiciona uma chave na tela inicial, menu superior direito"
       },
       "custom_rpc": {
-        "title": "RPC personalizado"
+        "title": "RPC personalizado",
+        "networks": "Redes",
+        "network_name": "Network Name",
+        "rpc_url": "RPC URL",
+        "chain_id": "ID da rede",
+        "symbol": "Símbolo",
+        "decimals": "Decimais",
+        "active": "Active",
+        "block_explorer_url": "Block Explorer URL",
+        "add_network": "Add Network"
       }
     },
     "privacy_and_security": {
@@ -225,7 +234,8 @@
       "command_k_internal_shortcuts_enabled": "Habilitar Atalhos Internos ⌘K",
       "custom_rpc": "RPC personalizado",
       "new_tab_bar_enabled": "Nova Barra de Abas",
-      "nfts_enabled": "NFTs Habilitados"
+      "nfts_enabled": "NFTs Habilitados",
+      "points": "Pontos"
     }
   },
   "transactions": {
@@ -880,7 +890,7 @@
   },
   "seed_verify": {
     "title": "Verifique sua Frase de Recuperação Secreta",
-    "explanation": "Selecione a 4ª, 8ª e 12ª palavras na ordem em que sua Frase de Recuperação Secreta as exibe.",
+    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
     "skip": "Pular isso"
   },
   "menu": {
@@ -969,6 +979,13 @@
     "malicious_warning": {
       "title": "Este aplicativo é provavelmente malicioso",
       "message": "Assinar mensagens ou transações deste aplicativo pode resultar na perda de seus ativos"
+    },
+    "malicious_transaction_warning": {
+      "title": "This transaction looks suspicious",
+      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
+      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
+      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
+      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
     },
     "dangerous_request": "Solicitação perigosa",
     "message_signing_request": "Solicitação de assinatura de mensagem",
@@ -1206,12 +1223,69 @@
       "ens_bio": "Biografia",
       "ens_cover": "Capa",
       "ens_address": "Endereço ETH",
-      "ens_website": "Website"
+      "ens_website": "Website",
+      "registered_on": "Registered on",
+      "expires_in": "Expires in",
+      "explainer": {
+        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
+        "floor_price_title": "Collection floor price",
+        "floor_price_action_label": "Entendi"
+      }
     }
   },
   "points": {
     "coming_soon_header": "Em breve",
-    "coming_soon_description": "Os pontos estão logo adiante.\nComece a ganhar hoje"
+    "coming_soon_description": "Os pontos estão logo adiante.\nComece a ganhar hoje",
+    "your_rank": "Your Rank",
+    "next_drop": "Next Drop",
+    "leaderboard": "Leaderboard",
+    "referral_code": "Referral Code",
+    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
+    "copied_referral_code": "Referral code copied!",
+    "copied_referral_link": "Referral link copied!",
+    "out_of": "Out of %{total}",
+    "out_of_current_total_points": "Out of %{total} current total points",
+    "header": "Claim your points",
+    "description": "Points are here. Find out how many you’ve been awarded.",
+    "get_started": "Get Started",
+    "use_referral_code": "Use Referral Code",
+    "referral_header": "Enter your referral code",
+    "referral_description": "Enter a referral code below to claim your bonus reward.",
+    "referral_code_invalid": "Invalid Code",
+    "onboarding": {
+      "authorization_required": "Authorization required",
+      "sign_in_with_your_wallet": "Sign in with your wallet",
+      "access_granted": "Access granted",
+      "calculating_points": "Calculating points",
+      "rainbow_swaps": "Rainbow Swaps:",
+      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
+      "wallet_balance": "Wallet Balance:",
+      "metamask_swaps": "MetaMask Swaps:",
+      "bonus_reward": "Bonus Reward:",
+      "calculation_complete": "Calculation complete",
+      "points_earned": "Points Earned:",
+      "bonus_points": "Bonus Points:",
+      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
+      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
+      "account": "Account:",
+      "sign_in": "Sign In",
+      "get_eth": "Get some ETH",
+      "try_swap": "Try a Swap",
+      "referral_link_ready": "Your referral link is ready",
+      "share_and_earn": "Tweet your referral link and get an extra 250 points",
+      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
+      "share": "Share to X",
+      "share_tweet": "I just had %{points} Rainbow Points dropped into my wallet\nEverybody has at least 100 points waiting for them, but you might have more!\n\nClaim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "share_tweet_with_metamask_bonus": "I just had %{points} Rainbow Points dropped into my wallet — and an extra %{metamaskBonus} Points as a bonus for migrating my MetaMask wallet into Rainbow 🦊 🔫\n\nEverybody has at least 100 points waiting for them, but you might have more! Claim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "registration_complete": "Registration complete",
+      "all_set": "You’re all set!",
+      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
+      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+    },
+    "error": {
+      "existing_user": "Existing user",
+      "invalid_referral_code": "Invalid referral code"
+    }
   },
   "speed_up_and_cancel": {
     "speed_up": "Acelerar",
@@ -1506,9 +1580,12 @@
   "chain": "Rede",
   "nonce": "Nonce",
   "copy": "Copiar",
+  "copy_link": "Copiar Link",
   "close": "Fechar",
   "verified": "Verificado",
   "unverified": "Não verificado",
+  "skip": "Skip",
+  "done": "Concluído",
   "watch_asset": {
     "chain_id": "ID da rede",
     "symbol": "Símbolo",
@@ -1517,4 +1594,3 @@
     "not_found": "Não conseguimos encontrar este ativo na rede selecionada. Por favor, escolha a rede certa abaixo"
   }
 }
-
