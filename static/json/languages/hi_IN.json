@@ -98,7 +98,16 @@
         "toggle_explainer": "टेस्टनेट मोड शॉर्टकट (T) सक्षम करता है और होम स्क्रीन के शीर्ष-दाईं मेनू में एक टॉगल जोड़ता है"
       },
       "custom_rpc": {
-        "title": "कस्टम RPC"
+        "title": "कस्टम RPC",
+        "networks": "नेटवर्क",
+        "network_name": "Network Name",
+        "rpc_url": "RPC URL",
+        "chain_id": "चेन आईडी",
+        "symbol": "प्रतीक",
+        "decimals": "दशमलव",
+        "active": "Active",
+        "block_explorer_url": "Block Explorer URL",
+        "add_network": "Add Network"
       }
     },
     "privacy_and_security": {
@@ -225,7 +234,8 @@
       "command_k_internal_shortcuts_enabled": "⌘K आंतरिक शॉर्टकट्स सक्षम करें",
       "custom_rpc": "कस्टम RPC",
       "new_tab_bar_enabled": "नया टैब बार",
-      "nfts_enabled": "NFTs सक्षम"
+      "nfts_enabled": "NFTs सक्षम",
+      "points": "अंक"
     }
   },
   "transactions": {
@@ -880,7 +890,7 @@
   },
   "seed_verify": {
     "title": "अपना गुप्त फ्रेज कड़वाएँ",
-    "explanation": "अपने गुप्त फ्रेज में क्रमबद्ध ढंग से 4वें, 8वें, और 12वें शब्द का चयन करें।",
+    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
     "skip": "इसे छोड़ें"
   },
   "menu": {
@@ -969,6 +979,13 @@
     "malicious_warning": {
       "title": "यह ऐप शायद हानिकरक है",
       "message": "इस ऐप से संदेश या लेन-देन हस्ताक्षरण करने के परिणामस्वरूप आपकी संपत्ति खो सकती है"
+    },
+    "malicious_transaction_warning": {
+      "title": "This transaction looks suspicious",
+      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
+      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
+      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
+      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
     },
     "dangerous_request": "आपत्तिजनक अनुरोध",
     "message_signing_request": "संदेश हस्ताक्षर अनुरोध",
@@ -1206,12 +1223,69 @@
       "ens_bio": "बायो",
       "ens_cover": "कवर",
       "ens_address": "ईथ ठेका",
-      "ens_website": "वेबसाइट"
+      "ens_website": "वेबसाइट",
+      "registered_on": "Registered on",
+      "expires_in": "Expires in",
+      "explainer": {
+        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
+        "floor_price_title": "Collection floor price",
+        "floor_price_action_label": "समझ गया"
+      }
     }
   },
   "points": {
     "coming_soon_header": "जल्द आ रहा है",
-    "coming_soon_description": "अंक बस कोने के पास हैं।\nआज ही कमाना शुरू करें।"
+    "coming_soon_description": "अंक बस कोने के पास हैं।\nआज ही कमाना शुरू करें।",
+    "your_rank": "Your Rank",
+    "next_drop": "Next Drop",
+    "leaderboard": "Leaderboard",
+    "referral_code": "Referral Code",
+    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
+    "copied_referral_code": "Referral code copied!",
+    "copied_referral_link": "Referral link copied!",
+    "out_of": "Out of %{total}",
+    "out_of_current_total_points": "Out of %{total} current total points",
+    "header": "Claim your points",
+    "description": "Points are here. Find out how many you’ve been awarded.",
+    "get_started": "Get Started",
+    "use_referral_code": "Use Referral Code",
+    "referral_header": "Enter your referral code",
+    "referral_description": "Enter a referral code below to claim your bonus reward.",
+    "referral_code_invalid": "Invalid Code",
+    "onboarding": {
+      "authorization_required": "Authorization required",
+      "sign_in_with_your_wallet": "Sign in with your wallet",
+      "access_granted": "Access granted",
+      "calculating_points": "Calculating points",
+      "rainbow_swaps": "Rainbow Swaps:",
+      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
+      "wallet_balance": "Wallet Balance:",
+      "metamask_swaps": "MetaMask Swaps:",
+      "bonus_reward": "Bonus Reward:",
+      "calculation_complete": "Calculation complete",
+      "points_earned": "Points Earned:",
+      "bonus_points": "Bonus Points:",
+      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
+      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
+      "account": "Account:",
+      "sign_in": "Sign In",
+      "get_eth": "Get some ETH",
+      "try_swap": "Try a Swap",
+      "referral_link_ready": "Your referral link is ready",
+      "share_and_earn": "Tweet your referral link and get an extra 250 points",
+      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
+      "share": "Share to X",
+      "share_tweet": "I just had %{points} Rainbow Points dropped into my wallet\nEverybody has at least 100 points waiting for them, but you might have more!\n\nClaim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "share_tweet_with_metamask_bonus": "I just had %{points} Rainbow Points dropped into my wallet — and an extra %{metamaskBonus} Points as a bonus for migrating my MetaMask wallet into Rainbow 🦊 🔫\n\nEverybody has at least 100 points waiting for them, but you might have more! Claim your drop: https://rainbow.me/points?ref=%{referralCode}",
+      "registration_complete": "Registration complete",
+      "all_set": "You’re all set!",
+      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
+      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+    },
+    "error": {
+      "existing_user": "Existing user",
+      "invalid_referral_code": "Invalid referral code"
+    }
   },
   "speed_up_and_cancel": {
     "speed_up": "गति बढ़ाएं",
@@ -1506,9 +1580,12 @@
   "chain": "श्रृंखला",
   "nonce": "नॉन्स",
   "copy": "कॉपी करें",
+  "copy_link": "लिंक कॉपी करें",
   "close": "बंद करें",
   "verified": "सत्यापित",
   "unverified": "अप्रमाणित",
+  "skip": "Skip",
+  "done": "हो गया",
   "watch_asset": {
     "chain_id": "चेन आईडी",
     "symbol": "प्रतीक",
@@ -1517,4 +1594,3 @@
     "not_found": "हमें इस एसेट को चुने गए नेटवर्क पर नहीं मिला। कृपया नीचे सही नेटवर्क चुनें।"
   }
 }
-
