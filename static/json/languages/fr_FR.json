@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "Quelque chose a mal tourné. Veuillez partager le problème avec notre équipe et nous le corrigerons",
     "no_wallet_name_set": "Aucun nom de portefeuille défini",
-    "report_error": "Signaler un problème"
+    "report_error": "Signaler un problème",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "Avant de continuer"
