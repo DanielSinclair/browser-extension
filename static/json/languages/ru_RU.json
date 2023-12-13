@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "Что-то пошло не так. Пожалуйста, сообщите о проблеме нашей команде и мы это исправим!",
     "no_wallet_name_set": "Не указано имя кошелька",
-    "report_error": "Сообщить о проблеме"
+    "report_error": "Сообщить о проблеме",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "Перед тем, как продолжить"
