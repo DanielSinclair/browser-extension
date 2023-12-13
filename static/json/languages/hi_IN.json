@@ -101,11 +101,11 @@
         "title": "कस्टम RPC",
         "networks": "नेटवर्क",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "RPC यूआरएल",
         "chain_id": "चेन आईडी",
         "symbol": "प्रतीक",
         "decimals": "दशमलव",
-        "active": "Active",
+        "active": "सक्रिय",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "कवर",
       "ens_address": "ईथ ठेका",
       "ens_website": "वेबसाइट",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "पंजीकृत",
+      "expires_in": "समाप्त होता है",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "बंद करें",
   "verified": "सत्यापित",
   "unverified": "अप्रमाणित",
-  "skip": "Skip",
+  "skip": "छोड़ें",
   "done": "हो गया",
   "watch_asset": {
     "chain_id": "चेन आईडी",
