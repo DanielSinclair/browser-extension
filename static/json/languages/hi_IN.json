@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "कुछ गलत हो गया। कृपया हमारी टीम के साथ समस्या साझा करें और हम इसे ठीक करेंगे!",
     "no_wallet_name_set": "कोई वॉलेट नाम निर्धारित नहीं है",
-    "report_error": "समस्या रिपोर्ट करें"
+    "report_error": "समस्या रिपोर्ट करें",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "जारी रखने से पहले"
