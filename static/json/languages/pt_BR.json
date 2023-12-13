@@ -101,11 +101,11 @@
         "title": "RPC personalizado",
         "networks": "Redes",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "URL RPC",
         "chain_id": "ID da rede",
         "symbol": "Símbolo",
         "decimals": "Decimais",
-        "active": "Active",
+        "active": "Ativo",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "Capa",
       "ens_address": "Endereço ETH",
       "ens_website": "Website",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "Registrado em",
+      "expires_in": "Expira em",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
