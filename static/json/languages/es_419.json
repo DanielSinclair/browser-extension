@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "Algo salió mal. Por favor comparte el problema con nuestro equipo y lo solucionaremos",
     "no_wallet_name_set": "No se ha establecido un nombre de monedero",
-    "report_error": "Reportar problema"
+    "report_error": "Reportar problema",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "Antes de continuar"
