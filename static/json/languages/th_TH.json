@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "มีบางอย่างผิดพลาด กรุณาแชร์ปัญหานี้กับทีมของเราและเราจะแก้ไข!",
     "no_wallet_name_set": "ไม่ได้ตั้งชื่อวอลเล็ต",
-    "report_error": "รายงานปัญหา"
+    "report_error": "รายงานปัญหา",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "ก่อนที่คุณจะดำเนินการต่อ"
