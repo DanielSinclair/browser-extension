@@ -101,11 +101,11 @@
         "title": "Пользовательский RPC",
         "networks": "Сети",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "URL RPC",
         "chain_id": "Идентификатор сети",
         "symbol": "Символ",
         "decimals": "Десятичные знаки",
-        "active": "Active",
+        "active": "Активен",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "Обложка",
       "ens_address": "ETH адрес",
       "ens_website": "Веб-сайт",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "Зарегистрирован",
+      "expires_in": "Истекает через",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "Закрыть",
   "verified": "Проверенные",
   "unverified": "Непроверенные",
-  "skip": "Skip",
+  "skip": "Пропустить",
   "done": "Готово",
   "watch_asset": {
     "chain_id": "Идентификатор сети",
