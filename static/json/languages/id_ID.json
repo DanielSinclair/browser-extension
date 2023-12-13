@@ -1102,7 +1102,9 @@
   "errors": {
     "error_encountered": "Ada yang salah. Harap bagikan isu ini dengan tim kami dan kami akan memperbaikinya",
     "no_wallet_name_set": "Nama wallet belum diatur",
-    "report_error": "Laporkan isu"
+    "report_error": "Laporkan isu",
+    "sending_transaction": "Error sending transaction",
+    "executing_swap": "Error executing swap"
   },
   "common_titles": {
     "before_you_proceed": "Sebelum Anda melanjutkan"
