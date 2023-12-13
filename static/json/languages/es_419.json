@@ -101,11 +101,11 @@
         "title": "RPC Personalizado",
         "networks": "Redes",
         "network_name": "Network Name",
-        "rpc_url": "RPC URL",
+        "rpc_url": "URL RPC",
         "chain_id": "ID de cadena",
         "symbol": "Símbolo",
         "decimals": "Decimales",
-        "active": "Active",
+        "active": "Activo",
         "block_explorer_url": "Block Explorer URL",
         "add_network": "Add Network"
       }
@@ -1224,8 +1224,8 @@
       "ens_cover": "Portada",
       "ens_address": "Dirección ETH",
       "ens_website": "Sitio web",
-      "registered_on": "Registered on",
-      "expires_in": "Expires in",
+      "registered_on": "Registrado en",
+      "expires_in": "Expira en",
       "explainer": {
         "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
         "floor_price_title": "Collection floor price",
@@ -1584,7 +1584,7 @@
   "close": "Cerrar",
   "verified": "Verificado",
   "unverified": "No verificado",
-  "skip": "Skip",
+  "skip": "Omitir",
   "done": "Hecho",
   "watch_asset": {
     "chain_id": "ID de cadena",
