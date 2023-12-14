@@ -100,14 +100,14 @@
       "custom_rpc": {
         "title": "カスタムRPC",
         "networks": "ネットワーク",
-        "network_name": "Network Name",
+        "network_name": "ネットワーク名",
         "rpc_url": "RPC URL",
         "chain_id": "チェーンID",
         "symbol": "記号",
         "decimals": "桁数",
         "active": "有効",
-        "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "block_explorer_url": "ブロックエクスプローラーURL",
+        "add_network": "ネットワーク追加"
       }
     },
     "privacy_and_security": {
@@ -890,7 +890,7 @@
   },
   "seed_verify": {
     "title": "秘密の復旧フレーズを確認してください",
-    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
+    "explanation": "バックアップフレーズの4, 8, 12番目の単語を選択してください",
     "skip": "スキップする"
   },
   "menu": {
@@ -981,11 +981,11 @@
       "message": "このアプリからメッセージまたはトランザクションに署名すると、資産を失う可能性があります"
     },
     "malicious_transaction_warning": {
-      "title": "This transaction looks suspicious",
-      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
-      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
-      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
-      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
+      "title": "この取引は怪しい可能性があります",
+      "malicious_address": "悪意のあるアドレスがこの取引に関与しています。署名すると損失が生じる可能性があります",
+      "malicious_entity": "悪意のあるエンティティがこの取引に関与しています。署名すると損失が生じる可能性があります",
+      "minting_is_a_losing_trade": "詐欺契約がこの取引に関与しています。ミンティングは損失を意味します",
+      "you_can_lose_everything": "この取引を署名すると、ウォレット内の全てを失う可能性があります"
     },
     "dangerous_request": "危険なリクエスト",
     "message_signing_request": "メッセージ署名リクエスト",
@@ -1229,8 +1229,8 @@
       "registered_on": "登録日",
       "expires_in": "有効期限",
       "explainer": {
-        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
-        "floor_price_title": "Collection floor price",
+        "floor_price_description": "コレクションの床価格は、現在販売中のアイテムの中で最も低い希望価格を指します。",
+        "floor_price_title": "コレクションの床価格",
         "floor_price_action_label": "了解"
       }
     }
@@ -1238,55 +1238,55 @@
   "points": {
     "coming_soon_header": "近日公開",
     "coming_soon_description": "ポイントはすぐ近くにあります。\n今日から獲得を始めましょう。",
-    "your_rank": "Your Rank",
-    "next_drop": "Next Drop",
-    "leaderboard": "Leaderboard",
-    "referral_code": "Referral Code",
-    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
-    "copied_referral_code": "Referral code copied!",
-    "copied_referral_link": "Referral link copied!",
+    "your_rank": "ランク",
+    "next_drop": "次のドロップ",
+    "leaderboard": "リーダーボード",
+    "referral_code": "紹介コード",
+    "referral_code_description": "友達を紹介してRainbowで$100をスワップするとポイントが獲得できます",
+    "copied_referral_code": "紹介コードをコピーしました！",
+    "copied_referral_link": "紹介リンクをコピーしました！",
     "out_of": "%{total}点満点中",
     "out_of_current_total_points": "現在の合計点中 %{total} 点満点",
-    "header": "Claim your points",
-    "description": "Points are here. Find out how many you’ve been awarded.",
-    "get_started": "Get Started",
-    "use_referral_code": "Use Referral Code",
-    "referral_header": "Enter your referral code",
-    "referral_description": "Enter a referral code below to claim your bonus reward.",
-    "referral_code_invalid": "Invalid Code",
+    "header": "ポイントを請求する",
+    "description": "ポイントがここにあります。何ポイント獲得したか確認してください。",
+    "get_started": "始める",
+    "use_referral_code": "紹介コードを使用する",
+    "referral_header": "紹介コードを入力してください",
+    "referral_description": "以下に紹介コードを入力してボーナス報酬を請求してください。",
+    "referral_code_invalid": "無効なコード",
     "onboarding": {
-      "authorization_required": "Authorization required",
-      "sign_in_with_your_wallet": "Sign in with your wallet",
-      "access_granted": "Access granted",
-      "calculating_points": "Calculating points",
-      "rainbow_swaps": "Rainbow Swaps:",
-      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
-      "wallet_balance": "Wallet Balance:",
-      "metamask_swaps": "MetaMask Swaps:",
-      "bonus_reward": "Bonus Reward:",
-      "calculation_complete": "Calculation complete",
-      "points_earned": "Points Earned:",
-      "bonus_points": "Bonus Points:",
-      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
-      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
-      "account": "Account:",
-      "sign_in": "Sign In",
-      "get_eth": "Get some ETH",
-      "try_swap": "Try a Swap",
-      "referral_link_ready": "Your referral link is ready",
-      "share_and_earn": "Tweet your referral link and get an extra 250 points",
-      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
-      "share": "Share to X",
+      "authorization_required": "認証が必要です",
+      "sign_in_with_your_wallet": "ウォレットでサインイン",
+      "access_granted": "アクセス許可",
+      "calculating_points": "ポイント計算中",
+      "rainbow_swaps": "Rainbowスワップ：",
+      "rainbow_nfts_owned": "所持しているRainbow NFT：",
+      "wallet_balance": "ウォレット残高：",
+      "metamask_swaps": "MetaMaskスワップ：",
+      "bonus_reward": "ボーナス報酬：",
+      "calculation_complete": "計算完了",
+      "points_earned": "獲得ポイント：",
+      "bonus_points": "ボーナスポイント：",
+      "claim_description_buy": "残りのボーナスポイントを請求するには、Rainbowを通じてETHを獲得してください。",
+      "claim_description_swap": "残りのボーナスポイントを請求するには、Rainbowで最低$100をスワップしてください。",
+      "account": "アカウント：",
+      "sign_in": "サインイン",
+      "get_eth": "ETHを獲得",
+      "try_swap": "スワップを試す",
+      "referral_link_ready": "紹介リンクの準備ができました",
+      "share_and_earn": "紹介リンクをツイートしてさらに250ポイントを獲得",
+      "plus_percent_of_refers": "さらに、紹介した人が獲得したポイントの10％を獲得します",
+      "share": "Xに共有",
       "share_tweet": "ウォレットにレインボーポイントが %{points} 点追加されました\n皆には最低でも100点が待っていますが、あなたはそれ以上かもしれません！\n\nドロップを請求: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "ウォレットにレインボーポイントが %{points} 点追加されました — そして MetaMaskウォレットをレインボーに移行したボーナスで追加 %{metamaskBonus} 点 🦊 🔫\n\n皆には最低でも100点が待っていますが、あなたはそれ以上かもしれません！ドロップを請求: https://rainbow.me/points?ref=%{referralCode}",
-      "registration_complete": "Registration complete",
-      "all_set": "You’re all set!",
-      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
-      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+      "registration_complete": "登録完了",
+      "all_set": "準備ができました！",
+      "keep_earning_by": "スワップ、ブリッジング、ミンティング、友達紹介などをすることでポイントを獲得し続けることができます",
+      "the_more_you_use": "Rainbowを使えば使うほど報酬が増えます"
     },
     "error": {
-      "existing_user": "Existing user",
-      "invalid_referral_code": "Invalid referral code"
+      "existing_user": "既存のユーザー",
+      "invalid_referral_code": "紹介コードが無効です"
     }
   },
   "speed_up_and_cancel": {
