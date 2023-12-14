@@ -100,14 +100,14 @@
       "custom_rpc": {
         "title": "Özel RPC",
         "networks": "Ağlar",
-        "network_name": "Network Name",
+        "network_name": "Ağ Adı",
         "rpc_url": "RPC URL'si",
         "chain_id": "Zincir Kimliği",
         "symbol": "Sembol",
         "decimals": "Ondalık",
         "active": "Aktif",
-        "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "block_explorer_url": "Blok Gezgini URL",
+        "add_network": "Ağ Ekle"
       }
     },
     "privacy_and_security": {
@@ -890,7 +890,7 @@
   },
   "seed_verify": {
     "title": "Gizli Kurtarma İfade'nizi Doğrulayın",
-    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
+    "explanation": "Gizli Kurtarma Cümlenizin sırasına göre 4., 8. ve 12. kelimeleri seçin",
     "skip": "Bu adımı atla"
   },
   "menu": {
@@ -981,11 +981,11 @@
       "message": "Bu uygulamadan mesajları veya işlemleri imzalamak, varlıklarınızın kaybolmasına neden olabilir"
     },
     "malicious_transaction_warning": {
-      "title": "This transaction looks suspicious",
-      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
-      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
-      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
-      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
+      "title": "Bu işlem şüpheli görünüyor",
+      "malicious_address": "Bu işlemde zararlı bir adres yer almakta. İmzalama kayıplara yol açabilir",
+      "malicious_entity": "Bu işlemde zararlı bir varlık yer almakta. İmzalama kayıplara yol açabilir",
+      "minting_is_a_losing_trade": "Bu işlemde bir dolandırıcı kontrat yer almakta. Darp etmek kayıplara yol açar",
+      "you_can_lose_everything": "Bu işlemi imzalamak, cüzdanınızdaki her şeye erişimi kaybetmenize neden olabilir"
     },
     "dangerous_request": "Tehlikeli İstek",
     "message_signing_request": "İmza İsteği",
@@ -1229,8 +1229,8 @@
       "registered_on": "Kayıt tarihi",
       "expires_in": "Bitiş süresi",
       "explainer": {
-        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
-        "floor_price_title": "Collection floor price",
+        "floor_price_description": "Bir koleksiyonun taban fiyatı, koleksiyondaki şu an satışta olan tüm ürünler arasındaki en düşük fiyattır",
+        "floor_price_title": "Koleksiyon taban fiyatı",
         "floor_price_action_label": "Anladım"
       }
     }
@@ -1238,55 +1238,55 @@
   "points": {
     "coming_soon_header": "Yakında",
     "coming_soon_description": "Puanlar tam köşede.\nBugün kazanmaya başlayın.",
-    "your_rank": "Your Rank",
-    "next_drop": "Next Drop",
-    "leaderboard": "Leaderboard",
-    "referral_code": "Referral Code",
-    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
-    "copied_referral_code": "Referral code copied!",
-    "copied_referral_link": "Referral link copied!",
+    "your_rank": "Sıralamanız",
+    "next_drop": "Sonraki Düşüş",
+    "leaderboard": "Lider Tablosu",
+    "referral_code": "Referans Kodu",
+    "referral_code_description": "Arkadaşlarınızı Rainbow üzerinden 100 dolarlık takas yapıldığında puanlar kazanın",
+    "copied_referral_code": "Referans kodu kopyalandı!",
+    "copied_referral_link": "Referans linki kopyalandı!",
     "out_of": "%{total}üzerinden",
     "out_of_current_total_points": "Şu anki toplam puan %{total} üzerinden",
-    "header": "Claim your points",
-    "description": "Points are here. Find out how many you’ve been awarded.",
-    "get_started": "Get Started",
-    "use_referral_code": "Use Referral Code",
-    "referral_header": "Enter your referral code",
-    "referral_description": "Enter a referral code below to claim your bonus reward.",
-    "referral_code_invalid": "Invalid Code",
+    "header": "Puanlarınızı talep edin",
+    "description": "Puanlar burada. Ne kadar ödül aldığınızı öğrenin",
+    "get_started": "Başlamak",
+    "use_referral_code": "Referans Kodu Kullan",
+    "referral_header": "Referans kodunuzu girin",
+    "referral_description": "Ekstra ödül kazanmak için aşağıya bir referans kodu girin",
+    "referral_code_invalid": "Geçersiz Kod",
     "onboarding": {
-      "authorization_required": "Authorization required",
-      "sign_in_with_your_wallet": "Sign in with your wallet",
-      "access_granted": "Access granted",
-      "calculating_points": "Calculating points",
-      "rainbow_swaps": "Rainbow Swaps:",
-      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
-      "wallet_balance": "Wallet Balance:",
-      "metamask_swaps": "MetaMask Swaps:",
-      "bonus_reward": "Bonus Reward:",
-      "calculation_complete": "Calculation complete",
-      "points_earned": "Points Earned:",
-      "bonus_points": "Bonus Points:",
-      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
-      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
-      "account": "Account:",
-      "sign_in": "Sign In",
-      "get_eth": "Get some ETH",
-      "try_swap": "Try a Swap",
-      "referral_link_ready": "Your referral link is ready",
-      "share_and_earn": "Tweet your referral link and get an extra 250 points",
-      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
-      "share": "Share to X",
+      "authorization_required": "Yetkilendirme gerekiyor",
+      "sign_in_with_your_wallet": "Cüzdanınızla giriş yapın",
+      "access_granted": "Erişim verildi",
+      "calculating_points": "Puanlar hesaplanıyor",
+      "rainbow_swaps": "Rainbow Takasları:",
+      "rainbow_nfts_owned": "Sahip Olunan Rainbow NFT'ler:",
+      "wallet_balance": "Cüzdan Bakiyesi:",
+      "metamask_swaps": "MetaMask Takasları:",
+      "bonus_reward": "Bonus Ödül:",
+      "calculation_complete": "Hesaplama tamamlandı",
+      "points_earned": "Kazanılan Puanlar:",
+      "bonus_points": "Bonus Puanlar:",
+      "claim_description_buy": "Gerisini talep etmek için, Rainbow üzerinden biraz ETH edinin",
+      "claim_description_swap": "Gerisini talep etmek için, Rainbow üzerinden en az 100 dolarlık takas yapın",
+      "account": "Hesap:",
+      "sign_in": "Giriş Yap",
+      "get_eth": "Biraz ETH Al",
+      "try_swap": "Bir Takas Dene",
+      "referral_link_ready": "Referans linkiniz hazır",
+      "share_and_earn": "Referans linkinizi tweetleyerek ekstra 250 puan kazanın",
+      "plus_percent_of_refers": "Üstelik, referans olarak gönderdiğiniz kişilerin kazandığı puanların %10'unu kazanacaksınız",
+      "share": "X ile paylaş",
       "share_tweet": "Cüzdanıma %{points} Rainbow Puan düştü\nHerkesin en az 100 puanı var, seninki daha da fazla olabilir!\n\nHemen talep et: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Cüzdanıma %{points} Rainbow Puan düştü — ve MetaMask cüzdanımı Rainbow'a taşıdığım için ekstra %{metamaskBonus} Puan bonusu kazandım 🦊 🔫\n\nHerkesin en az 100 puanı var, seninki daha da fazla olabilir! Hemen talep et: https://rainbow.me/points?ref=%{referralCode}",
-      "registration_complete": "Registration complete",
-      "all_set": "You’re all set!",
-      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
-      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+      "registration_complete": "Kayıt tamamlandı",
+      "all_set": "Hepsi tamam!",
+      "keep_earning_by": "Arkadaşları yönlendirerek, köprü kurarak, basarak ve daha birçok şekilde puan kazanmaya devam edin",
+      "the_more_you_use": "Rainbow’u ne kadar çok kullanırsanız, o kadar çok ödül kazanırsınız"
     },
     "error": {
-      "existing_user": "Existing user",
-      "invalid_referral_code": "Invalid referral code"
+      "existing_user": "Mevcut kullanıcı",
+      "invalid_referral_code": "Geçersiz referans kodu"
     }
   },
   "speed_up_and_cancel": {
