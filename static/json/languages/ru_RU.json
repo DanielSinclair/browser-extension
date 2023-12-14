@@ -100,14 +100,14 @@
       "custom_rpc": {
         "title": "Пользовательский RPC",
         "networks": "Сети",
-        "network_name": "Network Name",
+        "network_name": "Имя сети",
         "rpc_url": "URL RPC",
         "chain_id": "Идентификатор сети",
         "symbol": "Символ",
         "decimals": "Десятичные знаки",
         "active": "Активен",
-        "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "block_explorer_url": "URL блок-эксплорера",
+        "add_network": "Добавить сеть"
       }
     },
     "privacy_and_security": {
@@ -890,7 +890,7 @@
   },
   "seed_verify": {
     "title": "Подтвердите свою секретную фразу восстановления",
-    "explanation": "Select the 4th, 8th, and 12th words in the order your Secret Recovery Phrase displays them.",
+    "explanation": "Выберите 4-е, 8-е и 12-е слова в порядке, в котором они отображаются в вашей секретной фразе восстановления",
     "skip": "Пропустить"
   },
   "menu": {
@@ -981,11 +981,11 @@
       "message": "Подписывая сообщения или транзакции от этого приложения, вы можете потерять свои средства"
     },
     "malicious_transaction_warning": {
-      "title": "This transaction looks suspicious",
-      "malicious_address": "A malicious address is involved in this transaction. Signing may result in losses",
-      "malicious_entity": "A malicious entity is involved in this transaction. Signing may result in losses",
-      "minting_is_a_losing_trade": "A scam contract is involved in this transaction. Minting is a losing trade",
-      "you_can_lose_everything": "Signing this transaction could result in losing access to everything in your wallet"
+      "title": "Эта транзакция выглядит подозрительно",
+      "malicious_address": "В эту транзакцию вовлечен вредоносный адрес. Подпись может привести к потерям",
+      "malicious_entity": "В эту транзакцию вовлечено вредоносное существо. Подпись может привести к потерям",
+      "minting_is_a_losing_trade": "В эту транзакцию вовлечен мошеннический контракт. Чеканка является убыточной сделкой",
+      "you_can_lose_everything": "Подписание этой транзакции может привести к потере доступа ко всему содержимому вашего кошелька"
     },
     "dangerous_request": "Опасный запрос",
     "message_signing_request": "Запрос на подпись сообщения",
@@ -1229,8 +1229,8 @@
       "registered_on": "Зарегистрирован",
       "expires_in": "Истекает через",
       "explainer": {
-        "floor_price_description": "A collection's floor price is the lowest asking price across all the items currently for sale in a collection.",
-        "floor_price_title": "Collection floor price",
+        "floor_price_description": "Наименьшая цена коллекции - это самая низкая цена предложения по всем предметам, которые в настоящее время продаются в коллекции",
+        "floor_price_title": "Наименьшая цена коллекции",
         "floor_price_action_label": "Понятно"
       }
     }
@@ -1238,55 +1238,55 @@
   "points": {
     "coming_soon_header": "Скоро будет",
     "coming_soon_description": "Поинты уже почти у вас.\nНачните зарабатывать сегодня.",
-    "your_rank": "Your Rank",
-    "next_drop": "Next Drop",
-    "leaderboard": "Leaderboard",
-    "referral_code": "Referral Code",
-    "referral_code_description": "Earn points for referring friends once they swap $100 through Rainbow",
-    "copied_referral_code": "Referral code copied!",
-    "copied_referral_link": "Referral link copied!",
+    "your_rank": "Ваш ранг",
+    "next_drop": "Следующий дроп",
+    "leaderboard": "Лидеры",
+    "referral_code": "Реферальный код",
+    "referral_code_description": "Зарабатывайте баллы за реферальство друзей после того, как они обменяют $100 через Rainbow",
+    "copied_referral_code": "Реферальный код скопирован!",
+    "copied_referral_link": "Реферальная ссылка скопирована!",
     "out_of": "Из %{total}",
     "out_of_current_total_points": "Из %{total} текущего общего количества очков",
-    "header": "Claim your points",
-    "description": "Points are here. Find out how many you’ve been awarded.",
-    "get_started": "Get Started",
-    "use_referral_code": "Use Referral Code",
-    "referral_header": "Enter your referral code",
-    "referral_description": "Enter a referral code below to claim your bonus reward.",
-    "referral_code_invalid": "Invalid Code",
+    "header": "Получить ваши баллы",
+    "description": "Баллы здесь. Узнайте, сколько вам начислено",
+    "get_started": "Начать",
+    "use_referral_code": "Использовать реферальный код",
+    "referral_header": "Введите ваш реферальный код",
+    "referral_description": "Введите реферальный код ниже, чтобы получить бонусное вознаграждение",
+    "referral_code_invalid": "Недействительный код",
     "onboarding": {
-      "authorization_required": "Authorization required",
-      "sign_in_with_your_wallet": "Sign in with your wallet",
-      "access_granted": "Access granted",
-      "calculating_points": "Calculating points",
-      "rainbow_swaps": "Rainbow Swaps:",
-      "rainbow_nfts_owned": "Rainbow NFTs Owned:",
-      "wallet_balance": "Wallet Balance:",
-      "metamask_swaps": "MetaMask Swaps:",
-      "bonus_reward": "Bonus Reward:",
-      "calculation_complete": "Calculation complete",
-      "points_earned": "Points Earned:",
-      "bonus_points": "Bonus Points:",
-      "claim_description_buy": "To claim the rest of your bonus points, get some ETH through Rainbow.",
-      "claim_description_swap": "To claim the rest of your bonus points, swap at least $100 through Rainbow.",
-      "account": "Account:",
-      "sign_in": "Sign In",
-      "get_eth": "Get some ETH",
-      "try_swap": "Try a Swap",
-      "referral_link_ready": "Your referral link is ready",
-      "share_and_earn": "Tweet your referral link and get an extra 250 points",
-      "plus_percent_of_refers": "Plus you’ll earn 10% of the points earned by anyone you refer",
-      "share": "Share to X",
+      "authorization_required": "Требуется авторизация",
+      "sign_in_with_your_wallet": "Войдите, используя ваш кошелек",
+      "access_granted": "Доступ открыт",
+      "calculating_points": "Идет расчет баллов",
+      "rainbow_swaps": "Обмен через Rainbow:",
+      "rainbow_nfts_owned": "NFT владения Rainbow:",
+      "wallet_balance": "Баланс кошелька:",
+      "metamask_swaps": "Обмен через MetaMask:",
+      "bonus_reward": "Бонусное вознаграждение:",
+      "calculation_complete": "Расчет завершен",
+      "points_earned": "Баллы заработаны:",
+      "bonus_points": "Бонусные баллы:",
+      "claim_description_buy": "Чтобы получить остальные бонусные баллы, купите ETH через Rainbow",
+      "claim_description_swap": "Чтобы получить остальные бонусные баллы, совершите обмен хотя бы на $100 через Rainbow",
+      "account": "Аккаунт:",
+      "sign_in": "Войти",
+      "get_eth": "Купить ETH",
+      "try_swap": "Попробовать обмен",
+      "referral_link_ready": "Ваша реферальная ссылка готова",
+      "share_and_earn": "Отправьте свою реферальную ссылку в Твиттер и получите дополнительно 250 баллов",
+      "plus_percent_of_refers": "Плюс вы будете получать 10% от баллов, заработанных любым человеком, который пришел по вашей рекомендации",
+      "share": "Поделиться X",
       "share_tweet": "Только что на мой кошелек зачислили %{points} Rainbow Points\nУ всех есть минимум 100 очков в ожидании, но у вас может быть больше!\n\nЗаберите свои очки: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Только что на мой кошелек зачислили %{points} Rainbow Points и дополнительно %{metamaskBonus} очков в качестве бонуса за переход с MetaMask в Rainbow 🦊 🔫\n\nУ всех есть минимум 100 очков в ожидании, но у вас может быть больше! Заберите свои очки: https://rainbow.me/points?ref=%{referralCode}",
-      "registration_complete": "Registration complete",
-      "all_set": "You’re all set!",
-      "keep_earning_by": "Keep earning points by swapping, bridging, minting, referring friends, and more",
-      "the_more_you_use": "The more you use Rainbow, the more you’ll be rewarded"
+      "registration_complete": "Регистрация завершена",
+      "all_set": "Все готово!",
+      "keep_earning_by": "Продолжайте зарабатывать баллы, обменивая, переводя, создавая, рекомендуя друзей и другое",
+      "the_more_you_use": "Чем больше вы используете Rainbow, тем больше будет награда"
     },
     "error": {
-      "existing_user": "Existing user",
-      "invalid_referral_code": "Invalid referral code"
+      "existing_user": "Существующий пользователь",
+      "invalid_referral_code": "Недействительный реферальный код"
     }
   },
   "speed_up_and_cancel": {
