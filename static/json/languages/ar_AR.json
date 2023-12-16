@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "الشبكة الرئيسية",
-      "testnet": "Testnet",
+      "testnet": "شبكة الاختبار",
       "title": "الشبكات",
-      "testnets": "Testnets",
+      "testnets": "شبكات الاختبار",
       "quick_promo": {
         "text": "اسحب الشبكات لإعادة ترتيبها",
         "text_bold": "نصيحة:"
       },
-      "disabled": "Disabled",
+      "disabled": "معطل",
       "description": "اختر الشبكات والرموز التي ترغب في عرضها. يمكنك الاتصال بأي شبكات تدعمها Rainbow ، حتى لو لم يتم التحقق منها",
       "developer_tools": {
         "title": "تفعيل أدوات المطور",
@@ -109,23 +109,23 @@
         "symbol": "رمز",
         "decimals": "الكسور",
         "active": "نشط",
-        "testnet": "Testnet",
+        "testnet": "شبكة الاختبار",
         "block_explorer_url": "رابط مستكشف الكتل",
         "add_network": "إضافة شبكة",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "إضافة RPC %{rpcName}",
+        "add_asset": "إضافة رمز مخصص",
+        "network_added": "تمت إضافة الشبكة!",
+        "network_added_correctly": "تمت إضافة %{networkName} بنجاح!",
+        "remove_token": "إزالة الرمز",
+        "remove_rpc": "إزالة RPC",
         "tokens": "رموز",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "لا يمكن الاتصال بهذه النقطة النهائية RPC!",
+        "rpc_not_responding": "الرابط المُقدم لا يستجيب"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "نقاط نهاية RPC",
+      "enabled": "مُفعّل",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "مراقبة الأصل"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "عشريات العملة",
     "rpc_url": "عنوان RPC",
     "block_explorer_url": "عنوان مستكشف الكتل",
-    "testnet": "Testnet"
+    "testnet": "شبكة الاختبار"
   },
   "transaction_fee": {
     "title": "سرعة العملية",
