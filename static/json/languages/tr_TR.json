@@ -87,18 +87,21 @@
     },
     "networks": {
       "mainnet": "Ana Ağ",
+      "testnet": "Testnet",
       "title": "Ağlar",
+      "testnets": "Testnets",
       "quick_promo": {
         "text": "Ağları yeniden sıralamak için sürükleyin",
         "text_bold": "İpucu:"
       },
+      "disabled": "Disabled",
       "description": "Hangi ağları ve jetonları göstereceğinizi seçin. Rainbow tarafından desteklenen herhangi bir ağa bağlanabilirsiniz, işaretli olmasalar bile.",
       "developer_tools": {
         "title": "Geliştirici Araçları'nı Etkinleştir",
         "toggle_explainer": "Testnet Mode kısayolunu (T) etkinleştirir ve ana ekranın sağ üst menüsüne bir düğme ekler"
       },
       "custom_rpc": {
-        "title": "Özel RPC",
+        "title": "Ağ Ekle",
         "networks": "Ağlar",
         "network_name": "Ağ Adı",
         "rpc_url": "RPC URL'si",
@@ -106,8 +109,23 @@
         "symbol": "Sembol",
         "decimals": "Ondalık",
         "active": "Aktif",
+        "testnet": "Testnet",
         "block_explorer_url": "Blok Gezgini URL",
-        "add_network": "Ağ Ekle"
+        "add_network": "Ağ Ekle",
+        "add_rpc": "Add %{rpcName} RPC",
+        "add_asset": "Add Custom Token",
+        "network_added": "Network Added!",
+        "network_added_correctly": "%{networkName} has been added correctly!",
+        "remove_token": "Remove Token",
+        "remove_rpc": "Remove RPC",
+        "tokens": "Tokenler",
+        "cant_connect": "Can't connect to this RPC endpoint!",
+        "rpc_not_responding": "The provided url is not responding"
+      },
+      "rpc_endpoints": "RPC Endpoints",
+      "enabled": "Enabled",
+      "watch_asset": {
+        "title": "Watch Asset"
       }
     },
     "privacy_and_security": {
@@ -1022,7 +1040,8 @@
     "currency_name": "Para Birimi Adı",
     "currency_decimals": "Para Birimi Ondalıkları",
     "rpc_url": "RPC url",
-    "block_explorer_url": "Blok Gezgini url"
+    "block_explorer_url": "Blok Gezgini url",
+    "testnet": "Testnet"
   },
   "transaction_fee": {
     "title": "İşlem Hızı",
