@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "Ana Ağ",
-      "testnet": "Testnet",
+      "testnet": "Test ağı",
       "title": "Ağlar",
-      "testnets": "Testnets",
+      "testnets": "Test ağları",
       "quick_promo": {
         "text": "Ağları yeniden sıralamak için sürükleyin",
         "text_bold": "İpucu:"
       },
-      "disabled": "Disabled",
+      "disabled": "Devre Dışı",
       "description": "Hangi ağları ve jetonları göstereceğinizi seçin. Rainbow tarafından desteklenen herhangi bir ağa bağlanabilirsiniz, işaretli olmasalar bile.",
       "developer_tools": {
         "title": "Geliştirici Araçları'nı Etkinleştir",
@@ -109,23 +109,23 @@
         "symbol": "Sembol",
         "decimals": "Ondalık",
         "active": "Aktif",
-        "testnet": "Testnet",
+        "testnet": "Test ağı",
         "block_explorer_url": "Blok Gezgini URL",
         "add_network": "Ağ Ekle",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "%{rpcName} RPC Ekle",
+        "add_asset": "Özel Token Ekle",
+        "network_added": "Ağ Eklendi!",
+        "network_added_correctly": "%{networkName} başarıyla eklendi!",
+        "remove_token": "Token’ı Kaldır",
+        "remove_rpc": "RPC'yi Kaldır",
         "tokens": "Tokenler",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "Bu RPC uç noktasına bağlanılamıyor!",
+        "rpc_not_responding": "Sağlanan URL yanıt vermiyor"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "RPC Uç Noktaları",
+      "enabled": "Etkin",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "Varlığı İzle"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "Para Birimi Ondalıkları",
     "rpc_url": "RPC url",
     "block_explorer_url": "Blok Gezgini url",
-    "testnet": "Testnet"
+    "testnet": "Test ağı"
   },
   "transaction_fee": {
     "title": "İşlem Hızı",
