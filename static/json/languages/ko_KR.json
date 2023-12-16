@@ -87,18 +87,21 @@
     },
     "networks": {
       "mainnet": "메인넷",
+      "testnet": "Testnet",
       "title": "네트워크",
+      "testnets": "Testnets",
       "quick_promo": {
         "text": "네트워크를 드래그하여 순서를 변경하십시오",
         "text_bold": "팁:"
       },
+      "disabled": "Disabled",
       "description": "표시할 네트워크와 토큰을 선택합니다. Rainbow에서 지원하는 모든 네트워크에 연결할 수 있습니다, 확인하지 않은 경우에도.",
       "developer_tools": {
         "title": "개발자 도구 활성화",
         "toggle_explainer": "테스트넷 모드 단축키 (T)를 활성화하고 홈 화면 상단 오른쪽 메뉴에 토글을 추가합니다"
       },
       "custom_rpc": {
-        "title": "사용자 정의 RPC",
+        "title": "네트워크 추가",
         "networks": "네트워크",
         "network_name": "네트워크 이름",
         "rpc_url": "RPC URL",
@@ -106,8 +109,23 @@
         "symbol": "심볼",
         "decimals": "소수점",
         "active": "활성화",
+        "testnet": "Testnet",
         "block_explorer_url": "블록 탐색기 URL",
-        "add_network": "네트워크 추가"
+        "add_network": "네트워크 추가",
+        "add_rpc": "Add %{rpcName} RPC",
+        "add_asset": "Add Custom Token",
+        "network_added": "Network Added!",
+        "network_added_correctly": "%{networkName} has been added correctly!",
+        "remove_token": "Remove Token",
+        "remove_rpc": "Remove RPC",
+        "tokens": "토큰",
+        "cant_connect": "Can't connect to this RPC endpoint!",
+        "rpc_not_responding": "The provided url is not responding"
+      },
+      "rpc_endpoints": "RPC Endpoints",
+      "enabled": "Enabled",
+      "watch_asset": {
+        "title": "Watch Asset"
       }
     },
     "privacy_and_security": {
@@ -1022,7 +1040,8 @@
     "currency_name": "통화 이름",
     "currency_decimals": "통화 소수점",
     "rpc_url": "RPC url",
-    "block_explorer_url": "블록 익스플로러 URL"
+    "block_explorer_url": "블록 익스플로러 URL",
+    "testnet": "Testnet"
   },
   "transaction_fee": {
     "title": "트랜잭션 속도",
