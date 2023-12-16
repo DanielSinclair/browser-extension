@@ -87,18 +87,21 @@
     },
     "networks": {
       "mainnet": "मुख्य नेटवर्क",
+      "testnet": "Testnet",
       "title": "नेटवर्क",
+      "testnets": "Testnets",
       "quick_promo": {
         "text": "नेटवर्क को पुनर्क्रमित करने के लिए खींचें",
         "text_bold": "युक्ति:"
       },
+      "disabled": "Disabled",
       "description": "चुनें कि कौन से नेटवर्क और टोकन प्रदर्शित करें। आप Rainbow द्वारा समर्थित किसी भी नेटवर्क से कनेक्ट कर सकते हैं, भले ही वे अनचेक्ड हों।",
       "developer_tools": {
         "title": "डेवलपर टूल सक्षम करें",
         "toggle_explainer": "टेस्टनेट मोड शॉर्टकट (T) सक्षम करता है और होम स्क्रीन के शीर्ष-दाईं मेनू में एक टॉगल जोड़ता है"
       },
       "custom_rpc": {
-        "title": "कस्टम RPC",
+        "title": "Add Network",
         "networks": "नेटवर्क",
         "network_name": "Network Name",
         "rpc_url": "RPC यूआरएल",
@@ -106,8 +109,23 @@
         "symbol": "प्रतीक",
         "decimals": "दशमलव",
         "active": "सक्रिय",
+        "testnet": "Testnet",
         "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "add_network": "Add Network",
+        "add_rpc": "Add %{rpcName} RPC",
+        "add_asset": "Add Custom Token",
+        "network_added": "Network Added!",
+        "network_added_correctly": "%{networkName} has been added correctly!",
+        "remove_token": "Remove Token",
+        "remove_rpc": "Remove RPC",
+        "tokens": "टोकन्स",
+        "cant_connect": "Can't connect to this RPC endpoint!",
+        "rpc_not_responding": "The provided url is not responding"
+      },
+      "rpc_endpoints": "RPC Endpoints",
+      "enabled": "Enabled",
+      "watch_asset": {
+        "title": "Watch Asset"
       }
     },
     "privacy_and_security": {
@@ -1022,7 +1040,8 @@
     "currency_name": "मुद्रा नाम",
     "currency_decimals": "मुद्रा दशमलव",
     "rpc_url": "RPC URL",
-    "block_explorer_url": "ब्लॉक एक्सप्लोरर URL"
+    "block_explorer_url": "ब्लॉक एक्सप्लोरर URL",
+    "testnet": "Testnet"
   },
   "transaction_fee": {
     "title": "लेनदेन की गति",
