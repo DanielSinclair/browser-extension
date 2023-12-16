@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "메인넷",
-      "testnet": "Testnet",
+      "testnet": "테스트넷",
       "title": "네트워크",
-      "testnets": "Testnets",
+      "testnets": "테스트넷들",
       "quick_promo": {
         "text": "네트워크를 드래그하여 순서를 변경하십시오",
         "text_bold": "팁:"
       },
-      "disabled": "Disabled",
+      "disabled": "비활성화됨",
       "description": "표시할 네트워크와 토큰을 선택합니다. Rainbow에서 지원하는 모든 네트워크에 연결할 수 있습니다, 확인하지 않은 경우에도.",
       "developer_tools": {
         "title": "개발자 도구 활성화",
@@ -109,23 +109,23 @@
         "symbol": "심볼",
         "decimals": "소수점",
         "active": "활성화",
-        "testnet": "Testnet",
+        "testnet": "테스트넷",
         "block_explorer_url": "블록 탐색기 URL",
         "add_network": "네트워크 추가",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "%{rpcName} RPC 추가",
+        "add_asset": "커스텀 토큰 추가",
+        "network_added": "네트워크 추가됨!",
+        "network_added_correctly": "%{networkName} 이(가) 정상적으로 추가되었습니다!",
+        "remove_token": "토큰 제거",
+        "remove_rpc": "RPC 제거",
         "tokens": "토큰",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "이 RPC 엔드포인트에 연결할 수 없습니다!",
+        "rpc_not_responding": "제공된 URL이 응답하지 않습니다"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "RPC 엔드포인트",
+      "enabled": "활성화됨",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "자산 관찰"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "통화 소수점",
     "rpc_url": "RPC url",
     "block_explorer_url": "블록 익스플로러 URL",
-    "testnet": "Testnet"
+    "testnet": "테스트넷"
   },
   "transaction_fee": {
     "title": "트랜잭션 속도",
