@@ -87,18 +87,21 @@
     },
     "networks": {
       "mainnet": "主网",
+      "testnet": "Testnet",
       "title": "网络",
+      "testnets": "Testnets",
       "quick_promo": {
         "text": "拖动网络进行排序",
         "text_bold": "提示："
       },
+      "disabled": "Disabled",
       "description": "选择要显示的网络和代币。即使没有选中，您也可以连接到Rainbow支持的任何网络。",
       "developer_tools": {
         "title": "启用开发者工具",
         "toggle_explainer": "启用测试网络模式快捷键(T)，并在主屏幕右上角菜单添加一个切换按钮"
       },
       "custom_rpc": {
-        "title": "自定义RPC",
+        "title": "Add Network",
         "networks": "网络",
         "network_name": "Network Name",
         "rpc_url": "RPC 链接",
@@ -106,8 +109,23 @@
         "symbol": "符号",
         "decimals": "小数",
         "active": "激活",
+        "testnet": "Testnet",
         "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "add_network": "Add Network",
+        "add_rpc": "Add %{rpcName} RPC",
+        "add_asset": "Add Custom Token",
+        "network_added": "Network Added!",
+        "network_added_correctly": "%{networkName} has been added correctly!",
+        "remove_token": "Remove Token",
+        "remove_rpc": "Remove RPC",
+        "tokens": "代币",
+        "cant_connect": "Can't connect to this RPC endpoint!",
+        "rpc_not_responding": "The provided url is not responding"
+      },
+      "rpc_endpoints": "RPC Endpoints",
+      "enabled": "Enabled",
+      "watch_asset": {
+        "title": "Watch Asset"
       }
     },
     "privacy_and_security": {
@@ -1022,7 +1040,8 @@
     "currency_name": "货币名称",
     "currency_decimals": "货币小数",
     "rpc_url": "RPC url",
-    "block_explorer_url": "区块浏览器url"
+    "block_explorer_url": "区块浏览器url",
+    "testnet": "Testnet"
   },
   "transaction_fee": {
     "title": "交易速度",
