@@ -87,18 +87,21 @@
     },
     "networks": {
       "mainnet": "เครือข่ายหลัก",
+      "testnet": "Testnet",
       "title": "เครือข่าย",
+      "testnets": "Testnets",
       "quick_promo": {
         "text": "ลากเครือข่ายเพื่อจัดเรียง",
         "text_bold": "เคล็ดลับ:"
       },
+      "disabled": "Disabled",
       "description": "เลือกเครือข่ายและโทเคนที่จะแสดง คุณสามารถเชื่อมต่อกับเครือข่ายที่ Rainbow รองรับได้ แม้จะไม่ได้เลือก",
       "developer_tools": {
         "title": "เปิดใช้งานเครื่องมือนักพัฒนา",
         "toggle_explainer": "เปิดใช้งานทางลัดโหมด Testnet (T) และเพิ่มสลับที่หน้าจอหลักสุดขวาบน"
       },
       "custom_rpc": {
-        "title": "Custom RPC",
+        "title": "Add Network",
         "networks": "เครือข่าย",
         "network_name": "Network Name",
         "rpc_url": "URL ของ RPC",
@@ -106,8 +109,23 @@
         "symbol": "สัญลักษณ์",
         "decimals": "ทศนิยม",
         "active": "กำลังใช้งาน",
+        "testnet": "Testnet",
         "block_explorer_url": "Block Explorer URL",
-        "add_network": "Add Network"
+        "add_network": "Add Network",
+        "add_rpc": "Add %{rpcName} RPC",
+        "add_asset": "Add Custom Token",
+        "network_added": "Network Added!",
+        "network_added_correctly": "%{networkName} has been added correctly!",
+        "remove_token": "Remove Token",
+        "remove_rpc": "Remove RPC",
+        "tokens": "โทเคน",
+        "cant_connect": "Can't connect to this RPC endpoint!",
+        "rpc_not_responding": "The provided url is not responding"
+      },
+      "rpc_endpoints": "RPC Endpoints",
+      "enabled": "Enabled",
+      "watch_asset": {
+        "title": "Watch Asset"
       }
     },
     "privacy_and_security": {
@@ -1022,7 +1040,8 @@
     "currency_name": "ชื่อสกุลเงิน",
     "currency_decimals": "จำนวนทศนิยมของสกุลเงิน",
     "rpc_url": "URL RPC",
-    "block_explorer_url": "URL Block Explorer"
+    "block_explorer_url": "URL Block Explorer",
+    "testnet": "Testnet"
   },
   "transaction_fee": {
     "title": "ความเร็วของธุรกรรม",
