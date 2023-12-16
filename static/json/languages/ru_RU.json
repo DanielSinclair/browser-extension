@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "Основная сеть",
-      "testnet": "Testnet",
+      "testnet": "Тестнет",
       "title": "Сети",
-      "testnets": "Testnets",
+      "testnets": "Тестнеты",
       "quick_promo": {
         "text": "Перетаскивайте сети для изменения их порядка",
         "text_bold": "Совет:"
       },
-      "disabled": "Disabled",
+      "disabled": "Отключено",
       "description": "Выберите, какие сети и токены отображать. Вы можете подключиться к любым сетям, поддерживаемым Rainbow, даже если они не отмечены.",
       "developer_tools": {
         "title": "Включить инструменты разработчика",
@@ -109,23 +109,23 @@
         "symbol": "Символ",
         "decimals": "Десятичные знаки",
         "active": "Активен",
-        "testnet": "Testnet",
+        "testnet": "Тестнет",
         "block_explorer_url": "URL блок-эксплорера",
         "add_network": "Добавить сеть",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "Добавить %{rpcName} RPC",
+        "add_asset": "Добавить пользовательский токен",
+        "network_added": "Сеть добавлена!",
+        "network_added_correctly": "%{networkName} корректно добавлен!",
+        "remove_token": "Удалить токен",
+        "remove_rpc": "Удалить RPC",
         "tokens": "Токены",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "Не удается подключиться к этому RPC-эндпойнту!",
+        "rpc_not_responding": "Предоставленный URL не отвечает"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "RPC-конечные точки",
+      "enabled": "Включено",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "Отслеживать актив"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "Количество знаков после запятой",
     "rpc_url": "URL RPC",
     "block_explorer_url": "URL исследователя блока",
-    "testnet": "Testnet"
+    "testnet": "Тестнет"
   },
   "transaction_fee": {
     "title": "Скорость транзакции",
