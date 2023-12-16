@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "メインネット",
-      "testnet": "Testnet",
+      "testnet": "テストネット",
       "title": "ネットワーク",
-      "testnets": "Testnets",
+      "testnets": "複数テストネット",
       "quick_promo": {
         "text": "ネットワークをドラッグして並べ替え",
         "text_bold": "ヒント："
       },
-      "disabled": "Disabled",
+      "disabled": "無効",
       "description": "表示するネットワークとトークンを選択します。チェックがない場合でも、Rainbowがサポートする任意のネットワークに接続できます",
       "developer_tools": {
         "title": "デベロッパーツールを有効にする",
@@ -109,23 +109,23 @@
         "symbol": "記号",
         "decimals": "桁数",
         "active": "有効",
-        "testnet": "Testnet",
+        "testnet": "テストネット",
         "block_explorer_url": "ブロックエクスプローラーURL",
         "add_network": "ネットワーク追加",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "RPCを追加 %{rpcName}",
+        "add_asset": "カスタムトークンを追加",
+        "network_added": "ネットワークを追加しました！",
+        "network_added_correctly": "%{networkName} は正しく追加されました！",
+        "remove_token": "トークンを削除",
+        "remove_rpc": "RPCを削除",
         "tokens": "トークン",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "このRPCエンドポイントに接続できません！",
+        "rpc_not_responding": "指定されたURLが応答しません"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "RPCエンドポイント",
+      "enabled": "有効",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "アセットを監視"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "通貨の桁数",
     "rpc_url": "RPC URL",
     "block_explorer_url": "ブロックエクスプローラURL",
-    "testnet": "Testnet"
+    "testnet": "テストネット"
   },
   "transaction_fee": {
     "title": "トランザクションスピード",
