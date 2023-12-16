@@ -87,14 +87,14 @@
     },
     "networks": {
       "mainnet": "Mainnet",
-      "testnet": "Testnet",
+      "testnet": "Rede de Teste",
       "title": "Redes",
-      "testnets": "Testnets",
+      "testnets": "Redes de Teste",
       "quick_promo": {
         "text": "Arraste redes para reordená-las",
         "text_bold": "Dica:"
       },
-      "disabled": "Disabled",
+      "disabled": "Desativado",
       "description": "Escolha quais redes e tokens exibir. Você pode se conectar a qualquer rede suportada pelo Rainbow, mesmo que não estejam selecionadas.",
       "developer_tools": {
         "title": "Ativar Ferramentas de Desenvolvedor",
@@ -109,23 +109,23 @@
         "symbol": "Símbolo",
         "decimals": "Decimais",
         "active": "Ativo",
-        "testnet": "Testnet",
+        "testnet": "Rede de Teste",
         "block_explorer_url": "URL do Explorador de Blocos",
         "add_network": "Adicionar Rede",
-        "add_rpc": "Add %{rpcName} RPC",
-        "add_asset": "Add Custom Token",
-        "network_added": "Network Added!",
-        "network_added_correctly": "%{networkName} has been added correctly!",
-        "remove_token": "Remove Token",
-        "remove_rpc": "Remove RPC",
+        "add_rpc": "Adicionar %{rpcName} RPC",
+        "add_asset": "Adicionar Token Personalizado",
+        "network_added": "Rede Adicionada!",
+        "network_added_correctly": "%{networkName} foi adicionado corretamente!",
+        "remove_token": "Remover Token",
+        "remove_rpc": "Remover RPC",
         "tokens": "Tokens",
-        "cant_connect": "Can't connect to this RPC endpoint!",
-        "rpc_not_responding": "The provided url is not responding"
+        "cant_connect": "Não foi possível conectar a este ponto de extremidade RPC!",
+        "rpc_not_responding": "A URL fornecida não está respondendo"
       },
-      "rpc_endpoints": "RPC Endpoints",
-      "enabled": "Enabled",
+      "rpc_endpoints": "Pontos finais RPC",
+      "enabled": "Habilitado",
       "watch_asset": {
-        "title": "Watch Asset"
+        "title": "Observar Ativo"
       }
     },
     "privacy_and_security": {
@@ -1041,7 +1041,7 @@
     "currency_decimals": "Casas decimais da moeda",
     "rpc_url": "URL do RPC",
     "block_explorer_url": "URL do explorador de blocos",
-    "testnet": "Testnet"
+    "testnet": "Rede de Teste"
   },
   "transaction_fee": {
     "title": "Velocidade de Transação",
