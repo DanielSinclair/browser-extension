@@ -101,7 +101,7 @@
         "toggle_explainer": "テストネットモードのショートカット(T)を有効にし、ホーム画面の右上のメニューに切り替えを追加します"
       },
       "custom_rpc": {
-        "title": "Add Custom RPC",
+        "title": "カスタムRPCを追加",
         "networks": "ネットワーク",
         "network_name": "ネットワーク名",
         "rpc_url": "RPC URL",
