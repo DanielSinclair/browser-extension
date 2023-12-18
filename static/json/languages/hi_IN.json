@@ -101,7 +101,7 @@
         "toggle_explainer": "टेस्टनेट मोड शॉर्टकट (T) सक्षम करता है और होम स्क्रीन के शीर्ष-दाईं मेनू में एक टॉगल जोड़ता है"
       },
       "custom_rpc": {
-        "title": "Add Custom RPC",
+        "title": "कस्टम RPC जोड़ें",
         "networks": "नेटवर्क",
         "network_name": "नेटवर्क का नाम",
         "rpc_url": "RPC यूआरएल",
