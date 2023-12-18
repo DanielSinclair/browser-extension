@@ -101,7 +101,7 @@
         "toggle_explainer": "Mengaktifkan shortcut Mode Testnet (T) dan menambahkan toggle ke menu atas-kanan layar utama."
       },
       "custom_rpc": {
-        "title": "Tambah Jaringan",
+        "title": "Add Custom RPC",
         "networks": "Jaringan",
         "network_name": "Nama Jaringan",
         "rpc_url": "URL RPC",
