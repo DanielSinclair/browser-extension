@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "ผู้ใช้เดิม",
-      "invalid_referral_code": "รหัสแนะนำไม่ถูกต้อง"
+      "invalid_referral_code": "รหัสแนะนำไม่ถูกต้อง",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
