@@ -1301,7 +1301,11 @@
       "registration_complete": "การลงทะเบียนเสร็จสมบูรณ์",
       "all_set": "คุณได้พร้อมทั้งหมดแล้ว!",
       "keep_earning_by": "คงไว้คะแนนโดยการแลกเปลี่ยน สะพาน สร้างสกุลเงิน แนะนำเพื่อน และอื่นๆ",
-      "the_more_you_use": "ยิ่งใช้ Rainbow มากเท่าไหร่ ก็ยิ่งได้รับรางวัลมากขึ้น"
+      "the_more_you_use": "ยิ่งใช้ Rainbow มากเท่าไหร่ ก็ยิ่งได้รับรางวัลมากขึ้น",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "ผู้ใช้เดิม",
