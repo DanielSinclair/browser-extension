@@ -101,7 +101,7 @@
         "toggle_explainer": "테스트넷 모드 단축키 (T)를 활성화하고 홈 화면 상단 오른쪽 메뉴에 토글을 추가합니다"
       },
       "custom_rpc": {
-        "title": "Add Custom RPC",
+        "title": "사용자 정의 RPC 추가",
         "networks": "네트워크",
         "network_name": "네트워크 이름",
         "rpc_url": "RPC URL",
