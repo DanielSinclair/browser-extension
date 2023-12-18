@@ -1301,7 +1301,11 @@
       "registration_complete": "पंजीकरण पूरा हुआ",
       "all_set": "आप तैयार हैं!",
       "keep_earning_by": "स्वैपिंग, ब्रिजिंग, मिंटिंग, दोस्तों को रेफर करके, और अधिक करके अंक कमाते रहें",
-      "the_more_you_use": "Rainbow का अधिक प्रयोग करें, अधिक इनाम पाएं"
+      "the_more_you_use": "Rainbow का अधिक प्रयोग करें, अधिक इनाम पाएं",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "मौजूदा उपयोगकर्ता",
