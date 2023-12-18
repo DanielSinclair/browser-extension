@@ -101,7 +101,7 @@
         "toggle_explainer": "Testnet Mode kısayolunu (T) etkinleştirir ve ana ekranın sağ üst menüsüne bir düğme ekler"
       },
       "custom_rpc": {
-        "title": "Ağ Ekle",
+        "title": "Add Custom RPC",
         "networks": "Ağlar",
         "network_name": "Ağ Adı",
         "rpc_url": "RPC URL'si",
