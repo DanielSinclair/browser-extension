@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "既存のユーザー",
       "invalid_referral_code": "紹介コードが無効です",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "予期せぬエラーが発生しました。数分後に再試行してください"
     }
   },
   "speed_up_and_cancel": {
