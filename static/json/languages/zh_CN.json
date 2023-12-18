@@ -101,7 +101,7 @@
         "toggle_explainer": "启用测试网络模式快捷键(T)，并在主屏幕右上角菜单添加一个切换按钮"
       },
       "custom_rpc": {
-        "title": "添加网络",
+        "title": "Add Custom RPC",
         "networks": "网络",
         "network_name": "网络名称",
         "rpc_url": "RPC 链接",
