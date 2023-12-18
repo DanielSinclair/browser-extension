@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "Usuario existente",
-      "invalid_referral_code": "Código de referido inválido"
+      "invalid_referral_code": "Código de referido inválido",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
