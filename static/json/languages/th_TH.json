@@ -101,7 +101,7 @@
         "toggle_explainer": "เปิดใช้งานทางลัดโหมด Testnet (T) และเพิ่มสลับที่หน้าจอหลักสุดขวาบน"
       },
       "custom_rpc": {
-        "title": "Add Custom RPC",
+        "title": "เพิ่ม RPC กำหนดเอง",
         "networks": "เครือข่าย",
         "network_name": "ชื่อเครือข่าย",
         "rpc_url": "URL ของ RPC",
