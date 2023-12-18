@@ -1301,7 +1301,11 @@
       "registration_complete": "注册完成",
       "all_set": "一切就绪！",
       "keep_earning_by": "继续通过兑换、桥接、铸造、推荐朋友等方式赚取积分",
-      "the_more_you_use": "越多使用Rainbow，越多奖励"
+      "the_more_you_use": "越多使用Rainbow，越多奖励",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "现有用户",
