@@ -101,7 +101,7 @@
         "toggle_explainer": "Habilita el atajo de Modo Testnet (T) y añade un interruptor en el menú superior derecho de la pantalla de inicio."
       },
       "custom_rpc": {
-        "title": "Agregar Red",
+        "title": "Add Custom RPC",
         "networks": "Redes",
         "network_name": "Nombre de la Red",
         "rpc_url": "URL RPC",
