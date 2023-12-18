@@ -101,7 +101,7 @@
         "toggle_explainer": "Active le raccourci du mode Testnet (T) et ajoute un interrupteur au menu du haut à droite de l'écran d'accueil."
       },
       "custom_rpc": {
-        "title": "Ajouter un réseau",
+        "title": "Add Custom RPC",
         "networks": "Réseaux",
         "network_name": "Nom du réseau",
         "rpc_url": "URL RPC",
