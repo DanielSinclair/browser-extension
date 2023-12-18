@@ -101,7 +101,7 @@
         "toggle_explainer": "Ativa o atalho Modo Testnet (T) e adiciona uma chave na tela inicial, menu superior direito"
       },
       "custom_rpc": {
-        "title": "Adicionar Rede",
+        "title": "Add Custom RPC",
         "networks": "Redes",
         "network_name": "Nome da Rede",
         "rpc_url": "URL RPC",
