@@ -1301,7 +1301,11 @@
       "registration_complete": "Inscription terminée",
       "all_set": "Tout est prêt !",
       "keep_earning_by": "Continuez à gagner des points en échangeant, en utilisant des ponts, en frappant des pièces, en parrainant des amis, et plus encore",
-      "the_more_you_use": "Plus vous utilisez Rainbow, plus vous serez récompensé"
+      "the_more_you_use": "Plus vous utilisez Rainbow, plus vous serez récompensé",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "Utilisateur existant",
