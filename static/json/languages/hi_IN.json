@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "मौजूदा उपयोगकर्ता",
       "invalid_referral_code": "अवैध रेफ़रल कोड",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "कुछ अनपेक्षित हुआ, कुछ मिनटों में पुनः प्रयास करें"
     }
   },
   "speed_up_and_cancel": {
