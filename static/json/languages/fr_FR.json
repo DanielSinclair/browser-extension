@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "Utilisateur existant",
-      "invalid_referral_code": "Code de parrainage invalide"
+      "invalid_referral_code": "Code de parrainage invalide",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
