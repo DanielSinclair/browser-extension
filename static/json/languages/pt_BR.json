@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "Usuário existente",
       "invalid_referral_code": "Código de referência inválido",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "Ocorreu um erro inesperado, tente novamente em alguns minutos"
     }
   },
   "speed_up_and_cancel": {
