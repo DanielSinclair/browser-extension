@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "Существующий пользователь",
-      "invalid_referral_code": "Недействительный реферальный код"
+      "invalid_referral_code": "Недействительный реферальный код",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
