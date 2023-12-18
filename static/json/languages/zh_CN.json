@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "现有用户",
       "invalid_referral_code": "无效的推荐码",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "发生了意外，请稍后再试"
     }
   },
   "speed_up_and_cancel": {
