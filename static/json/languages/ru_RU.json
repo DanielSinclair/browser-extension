@@ -101,7 +101,7 @@
         "toggle_explainer": "Включает ярлык режима Testnet (T) и добавляет переключатель в верхнее правое меню главного экрана"
       },
       "custom_rpc": {
-        "title": "Добавить сеть",
+        "title": "Add Custom RPC",
         "networks": "Сети",
         "network_name": "Имя сети",
         "rpc_url": "URL RPC",
