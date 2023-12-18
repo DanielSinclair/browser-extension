@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "مستخدم حالي",
       "invalid_referral_code": "رمز إحالة غير صحيح",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "حدث خطأ غير متوقع، حاول مجددًا بعد دقائق"
     }
   },
   "speed_up_and_cancel": {
