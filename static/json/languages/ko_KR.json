@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "기존 사용자",
-      "invalid_referral_code": "잘못된 추천 코드"
+      "invalid_referral_code": "잘못된 추천 코드",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
