@@ -1306,7 +1306,7 @@
     "error": {
       "existing_user": "Pengguna lama",
       "invalid_referral_code": "Kode referal tidak valid",
-      "unexpected": "Something unexpected happened, try again in a few minutes"
+      "unexpected": "Terjadi kesalahan tak terduga, coba lagi dalam beberapa menit"
     }
   },
   "speed_up_and_cancel": {
