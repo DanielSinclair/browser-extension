@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "Mevcut kullanıcı",
-      "invalid_referral_code": "Geçersiz referans kodu"
+      "invalid_referral_code": "Geçersiz referans kodu",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
