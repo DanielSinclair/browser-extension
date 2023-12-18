@@ -1305,7 +1305,8 @@
     },
     "error": {
       "existing_user": "मौजूदा उपयोगकर्ता",
-      "invalid_referral_code": "अवैध रेफ़रल कोड"
+      "invalid_referral_code": "अवैध रेफ़रल कोड",
+      "unexpected": "Something unexpected happened, try again in a few minutes"
     }
   },
   "speed_up_and_cancel": {
