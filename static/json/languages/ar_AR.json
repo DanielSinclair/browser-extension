@@ -101,7 +101,7 @@
         "toggle_explainer": "تفعيل اختصار وضع الاختبار (T) وإضافة مفتاح لقائمة الشاشة الرئيسية في أعلى اليمين."
       },
       "custom_rpc": {
-        "title": "Add Custom RPC",
+        "title": "إضافة RPC مخصص",
         "networks": "الشبكات",
         "network_name": "اسم الشبكة",
         "rpc_url": "عنوان URL للRPC",
