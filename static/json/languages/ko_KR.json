@@ -1301,7 +1301,11 @@
       "registration_complete": "등록 완료",
       "all_set": "모든 설정이 완료되었습니다!",
       "keep_earning_by": "스왑, 브리징, 민팅, 친구 추천 등으로 계속해서 포인트를 얻으세요",
-      "the_more_you_use": "Rainbow를 더 많이 사용할수록 더 많은 보상을 받게 됩니다"
+      "the_more_you_use": "Rainbow를 더 많이 사용할수록 더 많은 보상을 받게 됩니다",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "기존 사용자",
