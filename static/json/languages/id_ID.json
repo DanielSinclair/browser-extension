@@ -1301,7 +1301,11 @@
       "registration_complete": "Pendaftaran selesai",
       "all_set": "Anda telah siap!",
       "keep_earning_by": "Terus mendapatkan poin dengan swapping, bridging, minting, merujuk teman, dan lainnya",
-      "the_more_you_use": "Semakin sering Anda menggunakan Rainbow, semakin banyak hadiah yang akan Anda dapatkan"
+      "the_more_you_use": "Semakin sering Anda menggunakan Rainbow, semakin banyak hadiah yang akan Anda dapatkan",
+      "balance_required": "Wallet balance required",
+      "ensure_you_have_a_balance_on": "To continue, ensure you have an ETH balance on one of the following networks:",
+      "or_alternatively_balance_on": "Or alternatively, a MATIC balance on Polygon or a BNB balance on BSC",
+      "fund_my_wallet": "Fund My Wallet"
     },
     "error": {
       "existing_user": "Pengguna lama",
