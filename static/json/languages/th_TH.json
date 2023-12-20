@@ -101,7 +101,7 @@
         "toggle_explainer": "เปิดใช้งานทางลัดโหมด Testnet (T) และเพิ่มสลับที่หน้าจอหลักสุดขวาบน"
       },
       "custom_rpc": {
-        "title": "เพิ่ม RPC กำหนดเอง",
+        "title": "เพิ่มเครือข่าย",
         "networks": "เครือข่าย",
         "network_name": "ชื่อเครือข่าย",
         "rpc_url": "URL ของ RPC",
@@ -118,9 +118,12 @@
         "network_added_correctly": "%{networkName} ได้ถูกเพิ่มอย่างถูกต้องแล้ว!",
         "remove_token": "ลบโทเค็น",
         "remove_rpc": "ลบ RPC",
+        "remove_network": "Remove Network",
         "tokens": "โทเคน",
         "cant_connect": "ไม่สามารถเชื่อมต่อกับจุดปลายทาง RPC นี้ได้",
-        "rpc_not_responding": "url ที่ให้มาไม่สามารถตอบสนองได้"
+        "rpc_not_responding": "url ที่ให้มาไม่สามารถตอบสนองได้",
+        "rainbow_default_rpc": "Rainbow's default RPC",
+        "rainbow_default": "Rainbow's default"
       },
       "rpc_endpoints": "จุดปลายทาง RPC",
       "enabled": "เปิดใช้งาน",
@@ -250,10 +253,7 @@
       "full_watching_wallets": "สิทธิ์เข้าถึงเต็มรูปแบบของ Wallet ที่ถูกติดตาม",
       "hw_wallets_enabled": "เปิดการสนับสนุน Hardware Wallet",
       "command_k_internal_shortcuts_enabled": "เปิดใช้งาน ⌘K Shortcut ภายใน",
-      "custom_rpc": "Custom RPC",
-      "new_tab_bar_enabled": "แถบแท็บใหม่",
-      "nfts_enabled": "เปิดใช้งาน NFTs",
-      "points": "คะแนน"
+      "custom_rpc": "Custom RPC"
     }
   },
   "transactions": {
@@ -395,8 +395,10 @@
         "my_wallets": "Wallet ของฉัน",
         "my_tokens": "โทเคนของฉัน",
         "my_tokens_watched": "โทเคน",
+        "my_nfts": "My NFTs",
+        "my_nfts_watched": "NFTs",
         "copy_address": "คัดลอกที่อยู่",
-        "view_nfts": "ดู NFTs",
+        "view_profile": "View Rainbow Profile",
         "add_wallet": "เพิ่ม Wallet",
         "lock": "ล็อค Rainbow",
         "connected_apps": "แอปที่เชื่อมต่อ",
@@ -440,7 +442,8 @@
         "swap": "สะพาน",
         "my_wallets": "สลับ",
         "my_tokens_watched": "ของฉัน",
-        "view_nfts": "แกลเลอรี, โปรไฟล์",
+        "my_nfts_watched": "ของฉัน",
+        "view_profile": "profile, gallery, ens, nfts",
         "testnet_mode": "สลับ, เครือข่าย, เทสเน็ต",
         "developer_tools": "สลับ, เครือข่าย, นักพัฒนา, เทสเน็ต",
         "settings": "การตั้งค่า",
@@ -491,12 +494,21 @@
         "search_placeholder": "ค้นหาโทเค็น…",
         "section_title": "โทเคนของฉัน"
       },
+      "my_nfts": {
+        "empty_label": "No NFTs found",
+        "search_placeholder": "Search NFTs…",
+        "section_title": "My NFTs"
+      },
       "my_wallets": {
         "search_placeholder": "เลือกกระเป๋าเงินเพื่อสลับไปยัง…",
         "section_title": "Wallet ของฉัน"
       },
       "token_detail": {
         "search_placeholder": "ค้นหาการดำเนินการของโทเค็น…",
+        "section_title": "การดำเนินการ"
+      },
+      "nft_token_detail": {
+        "search_placeholder": "Search NFT actions…",
         "section_title": "การดำเนินการ"
       },
       "wallet_detail": {
@@ -1209,9 +1221,7 @@
     "unknown_token": "Token ไม่ทราบ"
   },
   "nfts": {
-    "coming_soon_header": "เร็วๆนี้",
     "empty_state_header": "NFTs",
-    "coming_soon_description": "NFTs เร็ว ๆ นี้ คอยติดตาม!",
     "empty_state_description": "NFTs ของคุณจะปรากฎที่นี่!",
     "view_on_web": "ดูในเว็บ",
     "display_mode_gallery": "แกลเลอรี",
@@ -1255,9 +1265,11 @@
     }
   },
   "points": {
-    "coming_soon_header": "เร็วๆนี้",
-    "coming_soon_description": "คะแนนอยู่ใกล้แค่เอื้อม\nเริ่มสะสมวันนี้",
+    "check_back_soon_header": "Check Back Soon",
+    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
     "your_rank": "อันดับของคุณ",
+    "unranked": "Unranked",
+    "points_to_rank": "%{rank_cutoff} points to rank",
     "next_drop": "ดรอปถัดไป",
     "leaderboard": "ลีดเดอร์บอร์ด",
     "referral_code": "รหัสอ้างอิง",
