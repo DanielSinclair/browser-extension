@@ -101,7 +101,7 @@
         "toggle_explainer": "Testnet Mode kısayolunu (T) etkinleştirir ve ana ekranın sağ üst menüsüne bir düğme ekler"
       },
       "custom_rpc": {
-        "title": "Özel RPC Ekle",
+        "title": "Ağ Ekle",
         "networks": "Ağlar",
         "network_name": "Ağ Adı",
         "rpc_url": "RPC URL'si",
@@ -118,9 +118,12 @@
         "network_added_correctly": "%{networkName} başarıyla eklendi!",
         "remove_token": "Token’ı Kaldır",
         "remove_rpc": "RPC'yi Kaldır",
+        "remove_network": "Remove Network",
         "tokens": "Tokenler",
         "cant_connect": "Bu RPC uç noktasına bağlanılamıyor!",
-        "rpc_not_responding": "Sağlanan URL yanıt vermiyor"
+        "rpc_not_responding": "Sağlanan URL yanıt vermiyor",
+        "rainbow_default_rpc": "Rainbow's default RPC",
+        "rainbow_default": "Rainbow's default"
       },
       "rpc_endpoints": "RPC Uç Noktaları",
       "enabled": "Etkin",
@@ -250,10 +253,7 @@
       "full_watching_wallets": "İzlenen Cüzdanlara Tam Erişim",
       "hw_wallets_enabled": "Donanım Cüzdanı Desteğini Etkinleştir",
       "command_k_internal_shortcuts_enabled": "⌘K İç Hızlı Kısayollarını Etkinleştir",
-      "custom_rpc": "Özel RPC",
-      "new_tab_bar_enabled": "Yeni Sekme Çubuğu",
-      "nfts_enabled": "NFT'ler Etkin",
-      "points": "Puanlar"
+      "custom_rpc": "Özel RPC"
     }
   },
   "transactions": {
@@ -395,8 +395,10 @@
         "my_wallets": "Cüzdanlarım",
         "my_tokens": "Tokenlerim",
         "my_tokens_watched": "Tokenler",
+        "my_nfts": "My NFTs",
+        "my_nfts_watched": "NFT'ler",
         "copy_address": "Adresi Kopyala",
-        "view_nfts": "NFT'leri Görüntüle",
+        "view_profile": "View Rainbow Profile",
         "add_wallet": "Bir Cüzdan Ekle",
         "lock": "Rainbow'u Kilitle",
         "connected_apps": "Bağlı Uygulamalar",
@@ -440,7 +442,8 @@
         "swap": "köprü",
         "my_wallets": "değiştir",
         "my_tokens_watched": "benim",
-        "view_nfts": "galeri, profil",
+        "my_nfts_watched": "benim",
+        "view_profile": "profile, gallery, ens, nfts",
         "testnet_mode": "değiştir, ağlar, testnets",
         "developer_tools": "değiştir, ağlar, geliştirici, testnets",
         "settings": "tercihler",
@@ -491,12 +494,21 @@
         "search_placeholder": "Tokenları arayın…",
         "section_title": "Tokenlarım"
       },
+      "my_nfts": {
+        "empty_label": "No NFTs found",
+        "search_placeholder": "Search NFTs…",
+        "section_title": "My NFTs"
+      },
       "my_wallets": {
         "search_placeholder": "Geçiş yapmak için bir cüzdan seçin…",
         "section_title": "Cüzdanlarım"
       },
       "token_detail": {
         "search_placeholder": "Token işlemlerini ara…",
+        "section_title": "İşlemler"
+      },
+      "nft_token_detail": {
+        "search_placeholder": "Search NFT actions…",
         "section_title": "İşlemler"
       },
       "wallet_detail": {
@@ -1209,9 +1221,7 @@
     "unknown_token": "Bilinmeyen Token"
   },
   "nfts": {
-    "coming_soon_header": "Yakında",
     "empty_state_header": "NFT'ler",
-    "coming_soon_description": "NFT'ler yakında geliyor. Takipte kalın!",
     "empty_state_description": "NFT'leriniz burada görünecek!",
     "view_on_web": "Web'de Görüntüle",
     "display_mode_gallery": "Galeri",
@@ -1255,9 +1265,11 @@
     }
   },
   "points": {
-    "coming_soon_header": "Yakında",
-    "coming_soon_description": "Puanlar tam köşede.\nBugün kazanmaya başlayın.",
+    "check_back_soon_header": "Check Back Soon",
+    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
     "your_rank": "Sıralamanız",
+    "unranked": "Unranked",
+    "points_to_rank": "%{rank_cutoff} points to rank",
     "next_drop": "Sonraki Düşüş",
     "leaderboard": "Lider Tablosu",
     "referral_code": "Referans Kodu",
