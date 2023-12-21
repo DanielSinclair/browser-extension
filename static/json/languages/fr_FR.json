@@ -1266,10 +1266,10 @@
   },
   "points": {
     "check_back_soon_header": "Revenez bientôt",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_description": "Les points sont actuellement indisponibles.\nRevenez bientôt pour continuer à utiliser les Points Rainbow.",
     "your_rank": "Votre classement",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "Non classé",
+    "points_to_rank": "%{rank_cutoff} points pour être classé",
     "next_drop": "Prochaine distribution",
     "leaderboard": "Classement",
     "referral_code": "Code de parrainage",
