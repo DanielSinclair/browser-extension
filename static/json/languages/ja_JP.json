@@ -118,12 +118,12 @@
         "network_added_correctly": "%{networkName} は正しく追加されました！",
         "remove_token": "トークンを削除",
         "remove_rpc": "RPCを削除",
-        "remove_network": "Remove Network",
+        "remove_network": "ネットワークを削除",
         "tokens": "トークン",
         "cant_connect": "このRPCエンドポイントに接続できません！",
         "rpc_not_responding": "指定されたURLが応答しません",
-        "rainbow_default_rpc": "Rainbow's default RPC",
-        "rainbow_default": "Rainbow's default"
+        "rainbow_default_rpc": "RainbowのデフォルトRPC",
+        "rainbow_default": "Rainbowのデフォルト"
       },
       "rpc_endpoints": "RPCエンドポイント",
       "enabled": "有効",
@@ -395,10 +395,10 @@
         "my_wallets": "マイウォレット",
         "my_tokens": "マイトークン",
         "my_tokens_watched": "トークン",
-        "my_nfts": "My NFTs",
+        "my_nfts": "私のNFT",
         "my_nfts_watched": "NFTs",
         "copy_address": "アドレスをコピー",
-        "view_profile": "View Rainbow Profile",
+        "view_profile": "Rainbowプロフィールを見る",
         "add_wallet": "ウォレットを追加",
         "lock": "Rainbowをロックする",
         "connected_apps": "接続されたアプリ",
@@ -443,7 +443,7 @@
         "my_wallets": "切り替え",
         "my_tokens_watched": "マイ",
         "my_nfts_watched": "マイ",
-        "view_profile": "profile, gallery, ens, nfts",
+        "view_profile": "プロフィール, ギャラリー, ENS, NFT",
         "testnet_mode": "切り替え、ネットワーク、テストネット",
         "developer_tools": "切り替え、ネットワーク、開発者、テストネット",
         "settings": "設定",
@@ -495,9 +495,9 @@
         "section_title": "マイトークン"
       },
       "my_nfts": {
-        "empty_label": "No NFTs found",
-        "search_placeholder": "Search NFTs…",
-        "section_title": "My NFTs"
+        "empty_label": "NFTが見つかりません",
+        "search_placeholder": "NFTを検索…",
+        "section_title": "私のNFT"
       },
       "my_wallets": {
         "search_placeholder": "切り替えるウォレットを選択…",
@@ -508,7 +508,7 @@
         "section_title": "アクション"
       },
       "nft_token_detail": {
-        "search_placeholder": "Search NFT actions…",
+        "search_placeholder": "NFTアクションを検索…",
         "section_title": "アクション"
       },
       "wallet_detail": {
@@ -1265,11 +1265,11 @@
     }
   },
   "points": {
-    "check_back_soon_header": "Check Back Soon",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_header": "もうすぐチェック",
+    "check_back_soon_description": "現在ポイントは利用できません。\n後ほど確認して、Rainbowポイントを再利用してください。",
     "your_rank": "ランク",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "未ランク",
+    "points_to_rank": "%{rank_cutoff} ポイントでランク入り",
     "next_drop": "次のドロップ",
     "leaderboard": "リーダーボード",
     "referral_code": "紹介コード",
