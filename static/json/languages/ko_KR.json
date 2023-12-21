@@ -118,12 +118,12 @@
         "network_added_correctly": "%{networkName} 이(가) 정상적으로 추가되었습니다!",
         "remove_token": "토큰 제거",
         "remove_rpc": "RPC 제거",
-        "remove_network": "Remove Network",
+        "remove_network": "네트워크 제거",
         "tokens": "토큰",
         "cant_connect": "이 RPC 엔드포인트에 연결할 수 없습니다!",
         "rpc_not_responding": "제공된 URL이 응답하지 않습니다",
-        "rainbow_default_rpc": "Rainbow's default RPC",
-        "rainbow_default": "Rainbow's default"
+        "rainbow_default_rpc": "레인보우 기본 RPC",
+        "rainbow_default": "레인보우 기본 설정"
       },
       "rpc_endpoints": "RPC 엔드포인트",
       "enabled": "활성화됨",
@@ -395,10 +395,10 @@
         "my_wallets": "내 지갑들",
         "my_tokens": "내 토큰들",
         "my_tokens_watched": "토큰",
-        "my_nfts": "My NFTs",
+        "my_nfts": "내 NFTs",
         "my_nfts_watched": "NFTs",
         "copy_address": "주소 복사",
-        "view_profile": "View Rainbow Profile",
+        "view_profile": "레인보우 프로필 보기",
         "add_wallet": "지갑 추가",
         "lock": "Rainbow 잠금",
         "connected_apps": "연결된 앱",
@@ -443,7 +443,7 @@
         "my_wallets": "스위치",
         "my_tokens_watched": "나의",
         "my_nfts_watched": "나의",
-        "view_profile": "profile, gallery, ens, nfts",
+        "view_profile": "프로필, 갤러리, ENS, NFTs",
         "testnet_mode": "토글, 네트워크, 테스트넷",
         "developer_tools": "토글, 네트워크, 개발자, 테스트넷",
         "settings": "환경설정",
@@ -495,9 +495,9 @@
         "section_title": "내 토큰들"
       },
       "my_nfts": {
-        "empty_label": "No NFTs found",
-        "search_placeholder": "Search NFTs…",
-        "section_title": "My NFTs"
+        "empty_label": "NFTs를 찾을 수 없음",
+        "search_placeholder": "NFTs 검색…",
+        "section_title": "내 NFTs"
       },
       "my_wallets": {
         "search_placeholder": "전환할 지갑 선택…",
@@ -508,7 +508,7 @@
         "section_title": "액션"
       },
       "nft_token_detail": {
-        "search_placeholder": "Search NFT actions…",
+        "search_placeholder": "NFT 작업 검색…",
         "section_title": "액션"
       },
       "wallet_detail": {
@@ -1265,11 +1265,11 @@
     }
   },
   "points": {
-    "check_back_soon_header": "Check Back Soon",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_header": "곧 다시 확인하세요",
+    "check_back_soon_description": "포인트를 현재 사용할 수 없습니다.\n곧 다시 확인하여 레인보우 포인트를 사용하세요.",
     "your_rank": "당신의 순위",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "순위 없음",
+    "points_to_rank": "%{rank_cutoff} 포인트가 순위에 필요합니다",
     "next_drop": "다음 드랍",
     "leaderboard": "리더보드",
     "referral_code": "추천 코드",
