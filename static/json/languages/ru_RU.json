@@ -118,12 +118,12 @@
         "network_added_correctly": "%{networkName} корректно добавлен!",
         "remove_token": "Удалить токен",
         "remove_rpc": "Удалить RPC",
-        "remove_network": "Remove Network",
+        "remove_network": "Удалить сеть",
         "tokens": "Токены",
         "cant_connect": "Не удается подключиться к этому RPC-эндпойнту!",
         "rpc_not_responding": "Предоставленный URL не отвечает",
-        "rainbow_default_rpc": "Rainbow's default RPC",
-        "rainbow_default": "Rainbow's default"
+        "rainbow_default_rpc": "Стандартный RPC Rainbow",
+        "rainbow_default": "Стандартный Rainbow"
       },
       "rpc_endpoints": "RPC-конечные точки",
       "enabled": "Включено",
@@ -395,10 +395,10 @@
         "my_wallets": "Мои кошельки",
         "my_tokens": "Мои токены",
         "my_tokens_watched": "Токены",
-        "my_nfts": "My NFTs",
+        "my_nfts": "Мои NFT",
         "my_nfts_watched": "NFT",
         "copy_address": "Копировать адрес",
-        "view_profile": "View Rainbow Profile",
+        "view_profile": "Посмотреть профиль Rainbow",
         "add_wallet": "Добавить кошелек",
         "lock": "Заблокировать Rainbow",
         "connected_apps": "Подключенные приложения",
@@ -443,7 +443,7 @@
         "my_wallets": "Переключение",
         "my_tokens_watched": "мои",
         "my_nfts_watched": "мои",
-        "view_profile": "profile, gallery, ens, nfts",
+        "view_profile": "профиль, галерея, ens, nft",
         "testnet_mode": "переключатель, сети, тестовые сети",
         "developer_tools": "переключатель, сети, разработчик, тестовые сети",
         "settings": "настройки",
@@ -495,9 +495,9 @@
         "section_title": "Мои токены"
       },
       "my_nfts": {
-        "empty_label": "No NFTs found",
-        "search_placeholder": "Search NFTs…",
-        "section_title": "My NFTs"
+        "empty_label": "NFT не найдены",
+        "search_placeholder": "Искать NFT…",
+        "section_title": "Мои NFT"
       },
       "my_wallets": {
         "search_placeholder": "Выберите кошелек для переключения…",
@@ -508,7 +508,7 @@
         "section_title": "Действия"
       },
       "nft_token_detail": {
-        "search_placeholder": "Search NFT actions…",
+        "search_placeholder": "Искать действия с NFT…",
         "section_title": "Действия"
       },
       "wallet_detail": {
@@ -1265,11 +1265,11 @@
     }
   },
   "points": {
-    "check_back_soon_header": "Check Back Soon",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_header": "Загляните позже",
+    "check_back_soon_description": "Баллы временно недоступны.\nЗайдите позже, чтобы продолжить использовать Баллы Rainbow.",
     "your_rank": "Ваш ранг",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "Без ранга",
+    "points_to_rank": "%{rank_cutoff} баллов до получения ранга",
     "next_drop": "Следующий дроп",
     "leaderboard": "Лидеры",
     "referral_code": "Реферальный код",
