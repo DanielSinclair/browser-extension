@@ -118,12 +118,12 @@
         "network_added_correctly": "%{networkName} başarıyla eklendi!",
         "remove_token": "Token’ı Kaldır",
         "remove_rpc": "RPC'yi Kaldır",
-        "remove_network": "Remove Network",
+        "remove_network": "Ağı Kaldır",
         "tokens": "Tokenler",
         "cant_connect": "Bu RPC uç noktasına bağlanılamıyor!",
         "rpc_not_responding": "Sağlanan URL yanıt vermiyor",
-        "rainbow_default_rpc": "Rainbow's default RPC",
-        "rainbow_default": "Rainbow's default"
+        "rainbow_default_rpc": "Rainbow'un varsayılan RPC'si",
+        "rainbow_default": "Rainbow'un varsayılanı"
       },
       "rpc_endpoints": "RPC Uç Noktaları",
       "enabled": "Etkin",
@@ -395,10 +395,10 @@
         "my_wallets": "Cüzdanlarım",
         "my_tokens": "Tokenlerim",
         "my_tokens_watched": "Tokenler",
-        "my_nfts": "My NFTs",
+        "my_nfts": "Benim NFT'lerim",
         "my_nfts_watched": "NFT'ler",
         "copy_address": "Adresi Kopyala",
-        "view_profile": "View Rainbow Profile",
+        "view_profile": "Rainbow Profilini Görüntüle",
         "add_wallet": "Bir Cüzdan Ekle",
         "lock": "Rainbow'u Kilitle",
         "connected_apps": "Bağlı Uygulamalar",
@@ -443,7 +443,7 @@
         "my_wallets": "değiştir",
         "my_tokens_watched": "benim",
         "my_nfts_watched": "benim",
-        "view_profile": "profile, gallery, ens, nfts",
+        "view_profile": "profil, galeri, ens, nft'ler",
         "testnet_mode": "değiştir, ağlar, testnets",
         "developer_tools": "değiştir, ağlar, geliştirici, testnets",
         "settings": "tercihler",
@@ -495,9 +495,9 @@
         "section_title": "Tokenlarım"
       },
       "my_nfts": {
-        "empty_label": "No NFTs found",
-        "search_placeholder": "Search NFTs…",
-        "section_title": "My NFTs"
+        "empty_label": "NFT bulunamadı",
+        "search_placeholder": "NFT Ara…",
+        "section_title": "Benim NFT'lerim"
       },
       "my_wallets": {
         "search_placeholder": "Geçiş yapmak için bir cüzdan seçin…",
@@ -508,7 +508,7 @@
         "section_title": "İşlemler"
       },
       "nft_token_detail": {
-        "search_placeholder": "Search NFT actions…",
+        "search_placeholder": "NFT işlemlerini Ara…",
         "section_title": "İşlemler"
       },
       "wallet_detail": {
@@ -1265,11 +1265,11 @@
     }
   },
   "points": {
-    "check_back_soon_header": "Check Back Soon",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_header": "Yakında Kontrol Et",
+    "check_back_soon_description": "Puanlar şu anda kullanılamıyor.\nYakında kontrol edin ve Rainbow Puanları kullanmaya devam edin.",
     "your_rank": "Sıralamanız",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "Sıralamasız",
+    "points_to_rank": "%{rank_cutoff} puan ile sıralamaya girin",
     "next_drop": "Sonraki Düşüş",
     "leaderboard": "Lider Tablosu",
     "referral_code": "Referans Kodu",
