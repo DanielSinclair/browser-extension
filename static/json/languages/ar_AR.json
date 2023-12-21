@@ -1266,10 +1266,10 @@
   },
   "points": {
     "check_back_soon_header": "تحقق مرة أخرى قريباً",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_description": "النقاط غير متوفرة حالياً\nتحقق مجدداً لاستخدام نقاط الرينبو",
     "your_rank": "تصنيفك",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "غير مصنف",
+    "points_to_rank": "%{rank_cutoff} نقاط للتصنيف",
     "next_drop": "الإصدار القادم",
     "leaderboard": "سلم المتصدرين",
     "referral_code": "رمز الإحالة",
