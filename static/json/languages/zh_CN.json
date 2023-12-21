@@ -118,12 +118,12 @@
         "network_added_correctly": "%{networkName} 已正确添加！",
         "remove_token": "移除代币",
         "remove_rpc": "移除RPC",
-        "remove_network": "Remove Network",
+        "remove_network": "移除网络",
         "tokens": "代币",
         "cant_connect": "无法连接到此RPC端点！",
         "rpc_not_responding": "提供的URL无响应",
-        "rainbow_default_rpc": "Rainbow's default RPC",
-        "rainbow_default": "Rainbow's default"
+        "rainbow_default_rpc": "Rainbow默认RPC",
+        "rainbow_default": "Rainbow默认"
       },
       "rpc_endpoints": "RPC端点",
       "enabled": "已启用",
@@ -395,10 +395,10 @@
         "my_wallets": "我的钱包",
         "my_tokens": "我的代币",
         "my_tokens_watched": "代币",
-        "my_nfts": "My NFTs",
+        "my_nfts": "我的NFTs",
         "my_nfts_watched": "NFTs",
         "copy_address": "复制地址",
-        "view_profile": "View Rainbow Profile",
+        "view_profile": "查看Rainbow档案",
         "add_wallet": "添加钱包",
         "lock": "锁定彩虹",
         "connected_apps": "连接的应用",
@@ -443,7 +443,7 @@
         "my_wallets": "切换",
         "my_tokens_watched": "我的",
         "my_nfts_watched": "我的",
-        "view_profile": "profile, gallery, ens, nfts",
+        "view_profile": "档案, 画廊, ENS, NFTs",
         "testnet_mode": "切换，网络，测试网",
         "developer_tools": "切换，网络，开发者，测试网",
         "settings": "偏好设置",
@@ -495,9 +495,9 @@
         "section_title": "我的代币"
       },
       "my_nfts": {
-        "empty_label": "No NFTs found",
-        "search_placeholder": "Search NFTs…",
-        "section_title": "My NFTs"
+        "empty_label": "未发现NFTs",
+        "search_placeholder": "搜索NFTs…",
+        "section_title": "我的NFTs"
       },
       "my_wallets": {
         "search_placeholder": "选择要切换的钱包…",
@@ -508,7 +508,7 @@
         "section_title": "操作"
       },
       "nft_token_detail": {
-        "search_placeholder": "Search NFT actions…",
+        "search_placeholder": "搜索NFT操作…",
         "section_title": "操作"
       },
       "wallet_detail": {
@@ -1265,11 +1265,11 @@
     }
   },
   "points": {
-    "check_back_soon_header": "Check Back Soon",
-    "check_back_soon_description": "Points are currently unavailable.\nCheck back soon to continue using Rainbow Points.",
+    "check_back_soon_header": "敬请期待",
+    "check_back_soon_description": "积分暂时不可用。\n请稍后查看，继续使用彩虹积分。",
     "your_rank": "您的排名",
-    "unranked": "Unranked",
-    "points_to_rank": "%{rank_cutoff} points to rank",
+    "unranked": "未排名",
+    "points_to_rank": "%{rank_cutoff} 积分即可晋级",
     "next_drop": "下一轮空投",
     "leaderboard": "排行榜",
     "referral_code": "推荐码",
