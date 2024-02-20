@@ -125,8 +125,8 @@
         "remove_rpc": "Supprimer RPC",
         "remove_network": "Retirer le réseau",
         "tokens": "Jetons",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "Impossible de se connecter à ce point de terminaison RPC",
+        "rpc_not_responding": "Le point de terminaison RPC fourni ne répond pas",
         "rainbow_default_rpc": "Rainbow",
         "rainbow_default": "Rainbow"
       },
@@ -224,17 +224,17 @@
           "copied": "Phrase de récupération copiée"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "Réinitialiser Rainbow",
+          "acknowlegement": "J'ai lu et j'accepte les informations ci-dessus",
+          "warning_one": "Réinitialiser Rainbow réinitialisera votre mot de passe, & supprimera tous les portefeuilles",
+          "warning_two": "Cela effacera également toutes les données & réglages dans Rainbow",
+          "warning_three": "Assurez-vous que votre phrase de récupération secrète est sécurisée avant de continuer ",
+          "warning_four": "Vos actifs & fonds sont accessibles avec les bonnes informations de récupération",
+          "button_wipe": "Réinitialiser Rainbow",
+          "button_complete": "Vérification complète ci-dessus",
+          "wipe_confirmation": "Réinitialiser Rainbow",
+          "wipe_confirmation_desc": "Êtes-vous sûr de vouloir réinitialiser l'extension de navigateur Rainbow ?",
+          "wipe_confirmation_button": "Réinitialiser",
           "wipe_confirmation_cancel": "Annuler"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "Utiliser Flashbots",
       "clear_transactions_and_nonces": "Effacer les transactions en attente",
       "clear_transactions_and_nonces_success": "Transactions en attente effacées",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "Flashbots protège vos transactions et réduit le risque d'échecs de transaction."
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "Autorisations"
     },
     "currency": {
       "title": "Devise",
@@ -565,28 +565,28 @@
     "no_connections_copy": "Les sites web auxquels vous vous connectez apparaîtront ici"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "Autorisations",
     "unlimited": "Illimité",
     "no_allowance": "Pas d'Allocation",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "Révoquer l'autorisation",
+    "copy_spender": "Copier le dépensier",
+    "spender_address_copied": "Adresse du dépensier copiée",
+    "revoked_approvals": "Autorisations révoquées",
     "nothing_found": "Rien trouvé",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "Révoquer l'autorisation",
+      "action": "Révoquer",
       "cancel": "Annuler",
       "allowance": "Allocation",
-      "spender": "Spender",
+      "spender": "Dépensier",
       "chain": "Chaîne"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "Qu'est-ce qu'une autorisation ?",
+          "description_1": "Les approbations permettent à une dApp de dépenser et de transférer des jetons ou des NFTs en votre nom.",
+          "description_2": "Il est important de surveiller vos approbations et de révoquer celles qui sont inutiles, trop larges ou dangereuses pour vos actifs.",
           "action_label": "Compris"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "Demande de transaction rejetée",
     "bridge_and_try_again": "Transférez des fonds de gaz et réessayez",
     "buy_and_try_again": "Achetez quelques fonds de gaz et réessayez",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "Acheter %{token}",
+    "get_testnet_gas": "Obtenir gratuitement du testnet %{token}"
   },
   "add_chain": {
     "name": "Nom",
@@ -1260,7 +1260,7 @@
     "collection": "Collection",
     "token_contract": "Contrat du jeton",
     "token_standard": "Standard du jeton",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Révoquer l'autorisation"
   },
   "tokens_tab": {
     "coinbase_title": "Dépôt depuis Coinbase",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "Alphabétique",
     "hidden_section_title": "Masqué",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "Dernier prix de vente",
       "none": "Aucun",
       "floor_price": "Prix plancher",
       "description": "Description",
@@ -1298,7 +1298,7 @@
       "contract_creator": "Créateur du contrat",
       "chain": "Chaîne",
       "hide": "Masquer",
-      "unhide": "Unhide",
+      "unhide": "Afficher",
       "id_copied": "ID Copié",
       "copy_token_id": "Copier l'ID du jeton",
       "download": "Télécharger",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "Compris"
       },
       "send": "Envoyer",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "Voir sur OpenSea",
+      "view_on_explorer": "Voir sur %{explorerTitle}"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "Un événement inattendu s'est produit, réessayez dans quelques minutes"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
-      "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "week_of": "> Semaine du %{from} - %{to}",
+      "counting": "> Calcul des points gagnés...",
+      "your_activity": "Votre activité :",
+      "referral_activity": "Activité de parrainage :",
+      "new_referrals": "Nouveaux parrainages :",
+      "retroactive": "Points rétroactifs :",
+      "total": "Total :",
+      "weekly_counted": "> Gains hebdomadaires comptabilisés",
+      "you_have": "Vous avez :",
       "none": "Aucun",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "Vos gains de la semaine dernière",
+      "view_breakdown": "Voir le détail de vos gains hebdomadaires",
+      "view_now": "Voir maintenant"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "Accélérer la transaction",
     "close_cta": "Annuler",
     "handle_copy_title": "Hachage de la transaction copié",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Révoquer l'autorisation"
   },
   "token_details": {
     "swap": "Échanger",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "Changement de réseau échoué",
     "unsupported_network": "Réseau non pris en charge",
     "no_active_session": "Aucune session active",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "RPC activé",
+    "set_as_active": "Nouveau RPC activé",
+    "already_active": "Réseau déjà ajouté"
   },
   "alert": {
     "ok": "Ok",
@@ -1694,7 +1694,7 @@
   "nonce": "Nonce",
   "copy": "Copier",
   "copy_link": "Copier le Lien",
-  "link_text": "Learn More.",
+  "link_text": "En savoir plus",
   "close": "Fermer",
   "verified": "Vérifié",
   "unverified": "Non vérifié",
