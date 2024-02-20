@@ -73,7 +73,7 @@
     "title": "Pengaturan",
     "use_rainbow_as_default_wallet": "Gunakan Rainbow sebagai dompet default",
     "sounds": "Suara",
-    "default_wallet_description": "Izinkan Aplikasi untuk mengutamakan Rainbow saat mencari extension untuk terhubung",
+    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
     "contacts": "Kontak",
     "guides_and_support": "Panduan & Dukungan",
     "learn_about_ethereum": "Pelajari tentang Ethereum",
@@ -94,7 +94,10 @@
         "text": "Seret jaringan untuk mengaturnya",
         "text_bold": "Tip:"
       },
+      "disable": "Disable",
       "disabled": "Nonaktif",
+      "enable": "Enable",
+      "enabled": "Network Enabled",
       "description": "Pilih jaringan dan token yang akan ditampilkan. Anda dapat terhubung ke jaringan apa pun yang didukung Rainbow, meskipun mereka tidak dicentang",
       "developer_tools": {
         "title": "Aktifkan Alat Pengembang",
@@ -102,6 +105,7 @@
       },
       "custom_rpc": {
         "title": "Tambah Jaringan",
+        "add_custom_network": "Add Custom Network",
         "networks": "Jaringan",
         "network_name": "Nama Jaringan",
         "rpc_url": "URL RPC",
@@ -112,23 +116,23 @@
         "testnet": "Testnet",
         "block_explorer_url": "URL Eksplorer Blok",
         "add_network": "Tambah Jaringan",
-        "add_rpc": "Tambah RPC %{rpcName}",
+        "add_rpc": "Add RPC Endpoint",
+        "add_network_rpc": "Add %{rpcName} RPC",
         "add_asset": "Tambah Token Khusus",
-        "network_added": "Jaringan Ditambahkan!",
-        "network_added_correctly": "%{networkName} berhasil ditambahkan!",
+        "network_added": "Network Added",
+        "network_added_correctly": "%{networkName}",
         "remove_token": "Hapus Token",
         "remove_rpc": "Hapus RPC",
         "remove_network": "Hapus Jaringan",
         "tokens": "Tokens",
-        "cant_connect": "Tidak dapat terhubung ke endpoint RPC ini!",
-        "rpc_not_responding": "URL yang diberikan tidak merespons",
-        "rainbow_default_rpc": "RPC default Rainbow",
-        "rainbow_default": "Default Rainbow"
+        "cant_connect": "Can't connect to this RPC endpoint",
+        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "rainbow_default_rpc": "Rainbow",
+        "rainbow_default": "Rainbow"
       },
       "rpc_endpoints": "Endpoint RPC",
-      "enabled": "Diaktifkan",
       "watch_asset": {
-        "title": "Pantau Aset"
+        "title": "Tambah Token Khusus"
       }
     },
     "privacy_and_security": {
@@ -218,6 +222,20 @@
           "warning_4": "Dukungan Rainbow tidak akan pernah meminta Frasa Pemulihan Anda.",
           "show": "Tampilkan Frasa Pemulihan",
           "copied": "Frasa Pemulihan Disalin"
+        },
+        "wipe_wallets": {
+          "delete": "Reset Rainbow",
+          "acknowlegement": "I have read and acknowledge the above info.",
+          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
+          "warning_two": "This will also erase all data & settings in Rainbow.",
+          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
+          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
+          "button_wipe": "Reset Rainbow",
+          "button_complete": "Complete Check Above",
+          "wipe_confirmation": "Reset Rainbow",
+          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
+          "wipe_confirmation_button": "Reset",
+          "wipe_confirmation_cancel": "Batal"
         }
       }
     },
@@ -227,7 +245,10 @@
       "use_flashbots": "Gunakan Flashbots",
       "clear_transactions_and_nonces": "Hapus Transaksi Tertunda",
       "clear_transactions_and_nonces_success": "Transaksi tertunda dihapus",
-      "flashbots_description": "Flashbots melindungi transaksi Anda dan mengurangi kemungkinan kegagalan transaksi. Pelajari lebih lanjut."
+      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+    },
+    "approvals": {
+      "title": "Approvals"
     },
     "currency": {
       "title": "Mata Uang",
@@ -543,6 +564,34 @@
     "no_connections_title": "Tidak ada aplikasi terhubung",
     "no_connections_copy": "Situs web yang Anda sambungkan akan muncul di sini"
   },
+  "approvals": {
+    "title": "Approvals",
+    "unlimited": "Tak Terbatas",
+    "no_allowance": "Tanpa Kuota",
+    "revoke_approval": "Revoke Approval",
+    "copy_spender": "Copy Spender",
+    "spender_address_copied": "Spender Address Copied",
+    "revoked_approvals": "Revoked Approvals",
+    "nothing_found": "Tidak ada yang ditemukan",
+    "revoke": {
+      "title": "Revoke Approval",
+      "action": "Revoke",
+      "cancel": "Batal",
+      "allowance": "Alokasi",
+      "spender": "Spender",
+      "chain": "Rantai"
+    },
+    "token_details": {
+      "explainer": {
+        "token_approval": {
+          "title": "What’s an Approval?",
+          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
+          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "action_label": "Mengerti"
+        }
+      }
+    }
+  },
   "send": {
     "title": "Kirim",
     "input_to_address_placeholder": "Nama, ENS atau alamat",
@@ -570,7 +619,10 @@
       "available": "tersedia",
       "token_balance": "Saldo Token",
       "networks": "Jaringan",
-      "nothing_found": "Tidak ada yang ditemukan"
+      "nothing_found": "Tidak ada yang ditemukan",
+      "nfts": "NFTs",
+      "alphabetical": "Abjad",
+      "recent": "Terbaru"
     },
     "review": {
       "title": "Ulasan & Kirim",
@@ -817,7 +869,7 @@
     "title": "Frasa Pemulihan Rahasia Anda",
     "write_down_seed_importance": "Simpan kata-kata ini dapat mengakses seluruh dompet Anda! Simpan di tempat yang aman jangan pernah membaginya",
     "saved_these_words": "Saya telah menyimpan kata-kata ini",
-    "phrase_copied": "Frasa Pemulihan Disalin"
+    "copied": "Frasa Pemulihan Disalin"
   },
   "import_wallet_via_secret": {
     "title": "Impor Dompet",
@@ -1043,7 +1095,8 @@
     "request_rejected": "Permintaan Transaksi Ditolak",
     "bridge_and_try_again": "Jembatani beberapa dana gas dan coba lagi",
     "buy_and_try_again": "Beli beberapa dana gas dan coba lagi",
-    "buy": "Beli %{token}"
+    "buy_gas": "Buy %{token}",
+    "get_testnet_gas": "Get free testnet %{token}"
   },
   "add_chain": {
     "name": "Nama",
@@ -1206,7 +1259,8 @@
     "exchange_rate": "Pertukaran",
     "collection": "Koleksi",
     "token_contract": "Kontrak Token",
-    "token_standard": "Standar Token"
+    "token_standard": "Standar Token",
+    "revoke_approval": "Revoke Approval"
   },
   "tokens_tab": {
     "coinbase_title": "Deposit dari Coinbase",
@@ -1230,8 +1284,9 @@
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "Terbaru",
     "sort_option_abc_long": "Abjad",
+    "hidden_section_title": "Tersembunyi",
     "details": {
-      "last_sales_price": "Harga Terakhir Terjual",
+      "last_sales_price": "Last Sale Price",
       "none": "Tidak ada",
       "floor_price": "Harga Terendah",
       "description": "Deskripsi",
@@ -1242,6 +1297,8 @@
       "token_contract": "Kontrak Token",
       "contract_creator": "Pencipta Kontrak",
       "chain": "Rantai",
+      "hide": "Sembunyikan",
+      "unhide": "Unhide",
       "id_copied": "ID Disalin",
       "copy_token_id": "Salin ID Token",
       "download": "Unduh",
@@ -1261,7 +1318,10 @@
         "floor_price_description": "Harga lantai koleksi adalah harga penawaran terendah dari semua item yang sedang dijual dalam sebuah koleksi.",
         "floor_price_title": "Harga Dasar Koleksi",
         "floor_price_action_label": "Mengerti"
-      }
+      },
+      "send": "Kirim",
+      "view_on_opensea": "View on OpenSea",
+      "view_on_explorer": "View on %{explorerTitle}"
     }
   },
   "points": {
@@ -1276,7 +1336,6 @@
     "referral_code_description": "Dapatkan poin dengan merujuk teman setelah mereka menukar $100 melalui Rainbow",
     "copied_referral_code": "Kode referal disalin!",
     "copied_referral_link": "Link referal disalin!",
-    "out_of": "Dari %{total}",
     "out_of_current_total_points": "Dari total %{total} poin saat ini",
     "header": "Klaim poin Anda",
     "description": "Poin ada di sini. Cari tahu berapa yang Anda dapat.",
@@ -1323,6 +1382,21 @@
       "existing_user": "Pengguna lama",
       "invalid_referral_code": "Kode referal tidak valid",
       "unexpected": "Terjadi kesalahan tak terduga, coba lagi dalam beberapa menit"
+    },
+    "weekly_overview": {
+      "week_of": "> Week of %{from} - %{to}",
+      "counting": "> Counting earned points...",
+      "your_activity": "Your Activity:",
+      "referral_activity": "Referral Activity:",
+      "new_referrals": "New Referrals:",
+      "retroactive": "Retroactive Points:",
+      "total": "Total:",
+      "weekly_counted": "> Weekly earnings counted",
+      "you_have": "You have:",
+      "none": "Tidak ada",
+      "your_earnings": "Your Earnings Last Week",
+      "view_breakdown": "View your weekly earnings breakdown",
+      "view_now": "View Now"
     }
   },
   "speed_up_and_cancel": {
@@ -1341,7 +1415,8 @@
     "speed_up_cta": "Percepat transaksi",
     "speed_up_transaction": "Percepat transaksi",
     "close_cta": "Batal",
-    "handle_copy_title": "Tx Hash Tersalin"
+    "handle_copy_title": "Tx Hash Tersalin",
+    "revoke_approval": "Revoke Approval"
   },
   "token_details": {
     "swap": "Tukar",
@@ -1360,6 +1435,7 @@
     "not_available": "Harga tidak tersedia",
     "more_options": {
       "copy_address": "Salin Alamat",
+      "view_on_explorer": "Lihat di %{explorer}",
       "hide": "Sembunyikan Token",
       "report": "Laporkan Token"
     },
@@ -1484,7 +1560,10 @@
     "network_changed": "Jaringan berubah",
     "network_changed_failed": "Gagal mengubah jaringan",
     "unsupported_network": "Jaringan tidak didukung",
-    "no_active_session": "Tidak ada sesi aktif"
+    "no_active_session": "Tidak ada sesi aktif",
+    "already_added": "RPC activated",
+    "set_as_active": "New RPC activated",
+    "already_active": "Network already added"
   },
   "alert": {
     "ok": "Ok",
@@ -1552,10 +1631,6 @@
       "after": " untuk meminta lebih banyak."
     }
   },
-  "approvals": {
-    "unlimited": "Tak Terbatas",
-    "no_allowance": "Tanpa Kuota"
-  },
   "buy": {
     "title": "Beli",
     "fees_title": "Biaya",
@@ -1619,6 +1694,7 @@
   "nonce": "Nonce",
   "copy": "Salin",
   "copy_link": "Salin Tautan",
+  "link_text": "Learn More.",
   "close": "Tutup",
   "verified": "Terverifikasi",
   "unverified": "Tidak Terverifikasi",
