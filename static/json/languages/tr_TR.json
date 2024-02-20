@@ -73,7 +73,7 @@
     "title": "Ayarlar",
     "use_rainbow_as_default_wallet": "Varsayılan cüzdan olarak Rainbow kullan",
     "sounds": "Sesler",
-    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
+    "default_wallet_description": "Uygulamaların bağlanmak için Rainbow'u önceliklendirmesine izin ver.",
     "contacts": "Kişiler",
     "guides_and_support": "Kılavuzlar ve Destek",
     "learn_about_ethereum": "Ethereum'i öğrenin",
@@ -94,10 +94,10 @@
         "text": "Ağları yeniden sıralamak için sürükleyin",
         "text_bold": "İpucu:"
       },
-      "disable": "Disable",
+      "disable": "Devre Dışı Bırak",
       "disabled": "Devre Dışı",
-      "enable": "Enable",
-      "enabled": "Network Enabled",
+      "enable": "Etkinleştir",
+      "enabled": "Ağ Etkin",
       "description": "Hangi ağları ve jetonları göstereceğinizi seçin. Rainbow tarafından desteklenen herhangi bir ağa bağlanabilirsiniz, işaretli olmasalar bile.",
       "developer_tools": {
         "title": "Geliştirici Araçları'nı Etkinleştir",
@@ -105,7 +105,7 @@
       },
       "custom_rpc": {
         "title": "Ağ Ekle",
-        "add_custom_network": "Add Custom Network",
+        "add_custom_network": "Özel Ağ Ekle",
         "networks": "Ağlar",
         "network_name": "Ağ Adı",
         "rpc_url": "RPC URL'si",
@@ -116,17 +116,17 @@
         "testnet": "Test ağı",
         "block_explorer_url": "Blok Gezgini URL",
         "add_network": "Ağ Ekle",
-        "add_rpc": "Add RPC Endpoint",
-        "add_network_rpc": "Add %{rpcName} RPC",
+        "add_rpc": "RPC Uç Noktası Ekle",
+        "add_network_rpc": "%{rpcName} RPC Ekle",
         "add_asset": "Özel Token Ekle",
-        "network_added": "Network Added",
+        "network_added": "Ağ Eklendi",
         "network_added_correctly": "%{networkName}",
         "remove_token": "Token’ı Kaldır",
         "remove_rpc": "RPC'yi Kaldır",
         "remove_network": "Ağı Kaldır",
         "tokens": "Tokenler",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "Bu RPC uç noktasına bağlanılamıyor",
+        "rpc_not_responding": "Belirtilen RPC uç noktası yanıt vermiyor",
         "rainbow_default_rpc": "Rainbow",
         "rainbow_default": "Rainbow"
       },
@@ -224,17 +224,17 @@
           "copied": "Kurtarma Cümlesi Kopyalandı"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "Rainbow'u Sıfırla",
+          "acknowlegement": "Yukarıdaki bilgileri okudum ve kabul ediyorum",
+          "warning_one": "Rainbow'u sıfırlamak şifrenizi de sıfırlayacak ve tüm cüzdanları kaldıracak",
+          "warning_two": "Bu, Rainbow'daki tüm veri ve ayarları da silecek",
+          "warning_three": "Devam etmeden önce Gizli Kurtarma Cümlenizin güvende olduğundan emin olun ",
+          "warning_four": "Varlıklarınız ve fonlarınız, doğru kurtarma bilgileriyle erişilebilir durumdadır",
+          "button_wipe": "Rainbow'u Sıfırla",
+          "button_complete": "Yukarıdaki Kontrolü Tamamla",
+          "wipe_confirmation": "Rainbow'u Sıfırla",
+          "wipe_confirmation_desc": "Rainbow tarayıcı eklentisini sıfırlamak istediğinizden emin misiniz?",
+          "wipe_confirmation_button": "Sıfırla",
           "wipe_confirmation_cancel": "İptal"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "Flashbots Kullan",
       "clear_transactions_and_nonces": "Bekleyen İşlemleri Temizle",
       "clear_transactions_and_nonces_success": "Bekleyen işlemler temizlendi",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "Flashbots işlemlerinizi korur ve işlem başarısızlıklarının olasılığını azaltır."
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "Onaylar"
     },
     "currency": {
       "title": "Para Birimi",
@@ -565,28 +565,28 @@
     "no_connections_copy": "Bağlandığınız web siteleri burada gösterilecek"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "Onaylar",
     "unlimited": "Sınırsız",
     "no_allowance": "İzin Yok",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "Onayı İptal Et",
+    "copy_spender": "Harcananı Kopyala",
+    "spender_address_copied": "Harcanan Adres Kopyalandı",
+    "revoked_approvals": "İptal Edilen Onaylar",
     "nothing_found": "Hiçbir sonuç bulunamadı",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "Onayı İptal Et",
+      "action": "İptal Et",
       "cancel": "İptal",
       "allowance": "Ödenek",
-      "spender": "Spender",
+      "spender": "Harcanan",
       "chain": "Zincir"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "Onay Nedir?",
+          "description_1": "Onaylar, bir dApp'in sizin adınıza token veya NFT harcayıp transfer etmesine izin verir.",
+          "description_2": "Onaylarınızı izlemek ve varlıklarınızı riske atabilecek gereksiz, geniş veya güvensiz onayları iptal etmek önemlidir.",
           "action_label": "Anladım"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "İşlem İsteği Reddedildi",
     "bridge_and_try_again": "Biraz gaz fonu köprüle ve tekrar dene",
     "buy_and_try_again": "Biraz gaz fonu satın al ve tekrar dene",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "%{token}Satın Al",
+    "get_testnet_gas": "Ücretsiz testnet %{token}al"
   },
   "add_chain": {
     "name": "İsim",
@@ -1260,7 +1260,7 @@
     "collection": "Koleksiyon",
     "token_contract": "Token Sözleşmesi",
     "token_standard": "Token Standartı",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Onayı İptal Et"
   },
   "tokens_tab": {
     "coinbase_title": "Coinbase'den Yatırma",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "Alfabetik",
     "hidden_section_title": "Gizli",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "Son Satış Fiyatı",
       "none": "Hiçbiri",
       "floor_price": "Taban Fiyat",
       "description": "Açıklama",
@@ -1298,7 +1298,7 @@
       "contract_creator": "Sözleşme Oluşturucusu",
       "chain": "Zincir",
       "hide": "Gizle",
-      "unhide": "Unhide",
+      "unhide": "Gizleme",
       "id_copied": "Kimlik Kopyalandı",
       "copy_token_id": "Token Kimliğini Kopyala",
       "download": "İndir",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "Anladım"
       },
       "send": "Gönder",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "OpenSea'de Görüntüle",
+      "view_on_explorer": "%{explorerTitle}Üzerinde Görüntüle"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "Beklenmedik bir şey oldu, birkaç dakika içinde tekrar deneyin"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
-      "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "week_of": "> %{from} Haftası - %{to}",
+      "counting": "> Kazanılan puanlar hesaplanıyor...",
+      "your_activity": "Aktiviteniz:",
+      "referral_activity": "Referans Aktivitesi:",
+      "new_referrals": "Yeni Referanslar:",
+      "retroactive": "Geçmişe Yönelik Puanlar:",
+      "total": "Toplam:",
+      "weekly_counted": "> Haftalık kazançlar hesaplandı",
+      "you_have": "Sahip olduğunuz:",
       "none": "Hiçbiri",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "Geçen Haftaki Kazancınız",
+      "view_breakdown": "Haftalık kazanç detaylarınızı görüntüleyin",
+      "view_now": "Şimdi Görüntüle"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "İşlemi Hızlandır",
     "close_cta": "İptal Et",
     "handle_copy_title": "Tx Hash Kopyalandı",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Onayı İptal Et"
   },
   "token_details": {
     "swap": "Değiştir",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "Ağ değişimi başarısız oldu",
     "unsupported_network": "Desteklenmeyen ağ",
     "no_active_session": "Aktif oturum yok",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "RPC aktif edildi",
+    "set_as_active": "Yeni RPC aktif edildi",
+    "already_active": "Ağ zaten eklendi"
   },
   "alert": {
     "ok": "Tamam",
@@ -1694,7 +1694,7 @@
   "nonce": "Nonce",
   "copy": "Kopyala",
   "copy_link": "Linki Kopyala",
-  "link_text": "Learn More.",
+  "link_text": "Daha fazla bilgi",
   "close": "Kapat",
   "verified": "Doğrulanmış",
   "unverified": "Doğrulanmamış",
