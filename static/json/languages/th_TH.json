@@ -73,7 +73,7 @@
     "title": "การตั้งค่า",
     "use_rainbow_as_default_wallet": "ใช้ Rainbow เป็นวอลเล็ตเริ่มต้น",
     "sounds": "เสียง",
-    "default_wallet_description": "อนุญาตให้แอปส่งเสริม Rainbow เมื่อค้นหาส่วนขยายที่จะเชื่อมต่อ",
+    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
     "contacts": "รายชื่อติดต่อ",
     "guides_and_support": "คู่มือและการสนับสนุน",
     "learn_about_ethereum": "เรียนรู้เกี่ยวกับ Ethereum",
@@ -94,7 +94,10 @@
         "text": "ลากเครือข่ายเพื่อจัดเรียง",
         "text_bold": "เคล็ดลับ:"
       },
+      "disable": "Disable",
       "disabled": "ปิดการใช้งาน",
+      "enable": "Enable",
+      "enabled": "Network Enabled",
       "description": "เลือกเครือข่ายและโทเคนที่จะแสดง คุณสามารถเชื่อมต่อกับเครือข่ายที่ Rainbow รองรับได้ แม้จะไม่ได้เลือก",
       "developer_tools": {
         "title": "เปิดใช้งานเครื่องมือนักพัฒนา",
@@ -102,6 +105,7 @@
       },
       "custom_rpc": {
         "title": "เพิ่มเครือข่าย",
+        "add_custom_network": "Add Custom Network",
         "networks": "เครือข่าย",
         "network_name": "ชื่อเครือข่าย",
         "rpc_url": "URL ของ RPC",
@@ -112,23 +116,23 @@
         "testnet": "เทสต์เน็ต",
         "block_explorer_url": "URL เบราว์เซอร์บล็อก",
         "add_network": "เพิ่มเครือข่าย",
-        "add_rpc": "เพิ่ม RPC %{rpcName}",
+        "add_rpc": "Add RPC Endpoint",
+        "add_network_rpc": "Add %{rpcName} RPC",
         "add_asset": "เพิ่มโทเค็นที่กำหนดเอง",
-        "network_added": "เครือข่ายถูกเพิ่มแล้ว!",
-        "network_added_correctly": "%{networkName} ได้ถูกเพิ่มอย่างถูกต้องแล้ว!",
+        "network_added": "Network Added",
+        "network_added_correctly": "%{networkName}",
         "remove_token": "ลบโทเค็น",
         "remove_rpc": "ลบ RPC",
         "remove_network": "ลบเครือข่าย",
         "tokens": "โทเคน",
-        "cant_connect": "ไม่สามารถเชื่อมต่อกับจุดปลายทาง RPC นี้ได้",
-        "rpc_not_responding": "url ที่ให้มาไม่สามารถตอบสนองได้",
-        "rainbow_default_rpc": "RPC มาตรฐานของ Rainbow",
-        "rainbow_default": "มาตรฐานของ Rainbow"
+        "cant_connect": "Can't connect to this RPC endpoint",
+        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "rainbow_default_rpc": "Rainbow",
+        "rainbow_default": "Rainbow"
       },
       "rpc_endpoints": "จุดปลายทาง RPC",
-      "enabled": "เปิดใช้งาน",
       "watch_asset": {
-        "title": "ดูสินทรัพย์"
+        "title": "เพิ่มโทเค็นที่กำหนดเอง"
       }
     },
     "privacy_and_security": {
@@ -218,6 +222,20 @@
           "warning_4": "ทีมงาน Rainbow จะไม่ขอขอ Recovery Phrase ของคุณ",
           "show": "แสดง Recovery Phrase",
           "copied": "คัดลอก Recovery Phrase แล้ว"
+        },
+        "wipe_wallets": {
+          "delete": "Reset Rainbow",
+          "acknowlegement": "I have read and acknowledge the above info.",
+          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
+          "warning_two": "This will also erase all data & settings in Rainbow.",
+          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
+          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
+          "button_wipe": "Reset Rainbow",
+          "button_complete": "Complete Check Above",
+          "wipe_confirmation": "Reset Rainbow",
+          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
+          "wipe_confirmation_button": "Reset",
+          "wipe_confirmation_cancel": "ยกเลิก"
         }
       }
     },
@@ -227,7 +245,10 @@
       "use_flashbots": "ใช้ Flashbots",
       "clear_transactions_and_nonces": "ล้างธุรกรรมที่รอดำเนินการ",
       "clear_transactions_and_nonces_success": "ธุรกรรมที่รอดำเนินการถูกล้างแล้ว",
-      "flashbots_description": "Flashbots ช่วยปกป้องการทำธุรกรรมของคุณและลดความเป็นไปได้ของการทำธุรกรรมล้มเหลว อ่านเพิ่มเติม"
+      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+    },
+    "approvals": {
+      "title": "Approvals"
     },
     "currency": {
       "title": "สกุลเงิน",
@@ -543,6 +564,34 @@
     "no_connections_title": "ไม่มีแอปที่เชื่อมต่อ",
     "no_connections_copy": "เว็บไซต์ที่คุณเชื่อมต่อจะปรากฏที่นี่"
   },
+  "approvals": {
+    "title": "Approvals",
+    "unlimited": "ไม่จำกัด",
+    "no_allowance": "ไม่มีวงเงิน",
+    "revoke_approval": "Revoke Approval",
+    "copy_spender": "Copy Spender",
+    "spender_address_copied": "Spender Address Copied",
+    "revoked_approvals": "Revoked Approvals",
+    "nothing_found": "ไม่พบอะไร",
+    "revoke": {
+      "title": "Revoke Approval",
+      "action": "Revoke",
+      "cancel": "ยกเลิก",
+      "allowance": "ทวนสอบ",
+      "spender": "Spender",
+      "chain": "เชื่อมโยง"
+    },
+    "token_details": {
+      "explainer": {
+        "token_approval": {
+          "title": "What’s an Approval?",
+          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
+          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "action_label": "เข้าใจแล้ว"
+        }
+      }
+    }
+  },
   "send": {
     "title": "ส่ง",
     "input_to_address_placeholder": "ชื่อ, ENS หรือที่อยู่",
@@ -570,7 +619,10 @@
       "available": "ที่มีอยู่",
       "token_balance": "ยอดโทเคน",
       "networks": "เครือข่าย",
-      "nothing_found": "ไม่พบอะไร"
+      "nothing_found": "ไม่พบอะไร",
+      "nfts": "NFTs",
+      "alphabetical": "ตามตัวอักษร",
+      "recent": "ล่าสุด"
     },
     "review": {
       "title": "ตรวจสอบและส่ง",
@@ -817,7 +869,7 @@
     "title": "วลีการกู้คืนลับๆ ของคุณ",
     "write_down_seed_importance": "เก็บคำเหล่านี้สามารถเข้าถึงกระเป๋าสตางค์ทั้งหมดของคุณ! เก็บไว้ที่ปลอดภัยและไม่เคยแชร์พวกนั้น",
     "saved_these_words": "ฉันได้บันทึกคำเหล่านี้",
-    "phrase_copied": "คัดลอก Recovery Phrase แล้ว"
+    "copied": "คัดลอก Recovery Phrase แล้ว"
   },
   "import_wallet_via_secret": {
     "title": "นำเข้ากระเป๋าสตางค์",
@@ -1043,7 +1095,8 @@
     "request_rejected": "คำขอธุรกรรมถูกปฏิเสธ",
     "bridge_and_try_again": "ส่งเงินม้วนธรรมเนียมไปสักหน่วยและลองอีกครั้ง",
     "buy_and_try_again": "ซื้อม้วนธรรมเนียมไปสักหน่วยและลองอีกครั้ง",
-    "buy": "ซื้อ %{token}"
+    "buy_gas": "Buy %{token}",
+    "get_testnet_gas": "Get free testnet %{token}"
   },
   "add_chain": {
     "name": "ชื่อ",
@@ -1206,7 +1259,8 @@
     "exchange_rate": "แลกเปลี่ยน",
     "collection": "คอลเล็กชั่น",
     "token_contract": "สัญญาโทเค็น",
-    "token_standard": "มาตรฐานโทเค็น"
+    "token_standard": "มาตรฐานโทเค็น",
+    "revoke_approval": "Revoke Approval"
   },
   "tokens_tab": {
     "coinbase_title": "ฝากจาก Coinbase",
@@ -1230,8 +1284,9 @@
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "ล่าสุด",
     "sort_option_abc_long": "ตามตัวอักษร",
+    "hidden_section_title": "ซ่อน",
     "details": {
-      "last_sales_price": "ราคาขายล่าสุด",
+      "last_sales_price": "Last Sale Price",
       "none": "ไม่มี",
       "floor_price": "ราคาฟลอร์",
       "description": "คำอธิบาย",
@@ -1242,6 +1297,8 @@
       "token_contract": "สัญญาโทเค็น",
       "contract_creator": "ผู้สร้างสัญญา",
       "chain": "เชื่อมโยง",
+      "hide": "ซ่อน",
+      "unhide": "Unhide",
       "id_copied": "คัดลอก ID แล้ว",
       "copy_token_id": "คัดลอกรหัสโทเค็น",
       "download": "ดาวน์โหลด",
@@ -1261,7 +1318,10 @@
         "floor_price_description": "ราคาต่ำสุดของคอลเลกชันคือราคาที่ถามต่ำสุดในรายการที่วางขายอยู่ในคอลเลกชัน",
         "floor_price_title": "ราคาพื้นคอลเลกชั่น",
         "floor_price_action_label": "เข้าใจแล้ว"
-      }
+      },
+      "send": "ส่ง",
+      "view_on_opensea": "View on OpenSea",
+      "view_on_explorer": "View on %{explorerTitle}"
     }
   },
   "points": {
@@ -1276,7 +1336,6 @@
     "referral_code_description": "ได้คะแนนจากการแนะนำเพื่อน เมื่อพวกเขาทำการแลกเปลี่ยน $100 ผ่าน Rainbow",
     "copied_referral_code": "คัดลอกรหัสอ้างอิงแล้ว!",
     "copied_referral_link": "คัดลอกลิงก์อ้างอิงแล้ว!",
-    "out_of": "จากทั้งหมด %{total}",
     "out_of_current_total_points": "จากทั้งหมด %{total} คะแนนปัจจุบัน",
     "header": "เรียกร้องคะแนนของคุณ",
     "description": "คะแนนมาแล้ว ดูว่าคุณได้รับไปเท่าไร",
@@ -1323,6 +1382,21 @@
       "existing_user": "ผู้ใช้เดิม",
       "invalid_referral_code": "รหัสแนะนำไม่ถูกต้อง",
       "unexpected": "เกิดข้อผิดพลาดที่ไม่คาดคิด ลองอีกครั้งในอีกสักครู่"
+    },
+    "weekly_overview": {
+      "week_of": "> Week of %{from} - %{to}",
+      "counting": "> Counting earned points...",
+      "your_activity": "Your Activity:",
+      "referral_activity": "Referral Activity:",
+      "new_referrals": "New Referrals:",
+      "retroactive": "Retroactive Points:",
+      "total": "Total:",
+      "weekly_counted": "> Weekly earnings counted",
+      "you_have": "You have:",
+      "none": "ไม่มี",
+      "your_earnings": "Your Earnings Last Week",
+      "view_breakdown": "View your weekly earnings breakdown",
+      "view_now": "View Now"
     }
   },
   "speed_up_and_cancel": {
@@ -1341,7 +1415,8 @@
     "speed_up_cta": "เร่งธุรกรรม",
     "speed_up_transaction": "เร่งธุรกรรม",
     "close_cta": "ยกเลิก",
-    "handle_copy_title": "คัดลอก Tx Hash"
+    "handle_copy_title": "คัดลอก Tx Hash",
+    "revoke_approval": "Revoke Approval"
   },
   "token_details": {
     "swap": "แลกเปลี่ยน",
@@ -1360,6 +1435,7 @@
     "not_available": "ราคาไม่สามารถใช้ได้",
     "more_options": {
       "copy_address": "คัดลอกที่อยู่",
+      "view_on_explorer": "ดูบน %{explorer}",
       "hide": "ซ่อนโทเคน",
       "report": "แจ้งโทเคน"
     },
@@ -1484,7 +1560,10 @@
     "network_changed": "เปลี่ยนเครือข่ายแล้ว",
     "network_changed_failed": "เปลี่ยนเครือข่ายล้มเหลว",
     "unsupported_network": "ไม่รองรับเครือข่าย",
-    "no_active_session": "ไม่มีเซสชั่นที่กำลังทำงาน"
+    "no_active_session": "ไม่มีเซสชั่นที่กำลังทำงาน",
+    "already_added": "RPC activated",
+    "set_as_active": "New RPC activated",
+    "already_active": "Network already added"
   },
   "alert": {
     "ok": "ตกลง",
@@ -1552,10 +1631,6 @@
       "after": " สำหรับขอเพิ่มเติม"
     }
   },
-  "approvals": {
-    "unlimited": "ไม่จำกัด",
-    "no_allowance": "ไม่มีวงเงิน"
-  },
   "buy": {
     "title": "ซื้อ",
     "fees_title": "ค่าธรรมเนียม",
@@ -1619,6 +1694,7 @@
   "nonce": "Nonce",
   "copy": "คัดลอก",
   "copy_link": "คัดลอกลิงก์",
+  "link_text": "Learn More.",
   "close": "ปิด",
   "verified": "ได้รับการตรวจสอบ",
   "unverified": "ไม่ได้รับการตรวจสอบ",
