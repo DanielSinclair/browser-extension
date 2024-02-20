@@ -73,7 +73,7 @@
     "title": "設定",
     "use_rainbow_as_default_wallet": "Rainbowをデフォルトウォレットとして使用する",
     "sounds": "サウンド",
-    "default_wallet_description": "アプリが接続する拡張機能を探す際にRainbowを優先させることを許可する。",
+    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
     "contacts": "連絡先",
     "guides_and_support": "ガイドとサポート",
     "learn_about_ethereum": "Ethereumについて学ぶ",
@@ -94,7 +94,10 @@
         "text": "ネットワークをドラッグして並べ替え",
         "text_bold": "ヒント："
       },
+      "disable": "Disable",
       "disabled": "無効",
+      "enable": "Enable",
+      "enabled": "Network Enabled",
       "description": "表示するネットワークとトークンを選択します。チェックがない場合でも、Rainbowがサポートする任意のネットワークに接続できます",
       "developer_tools": {
         "title": "デベロッパーツールを有効にする",
@@ -102,6 +105,7 @@
       },
       "custom_rpc": {
         "title": "ネットワーク追加",
+        "add_custom_network": "Add Custom Network",
         "networks": "ネットワーク",
         "network_name": "ネットワーク名",
         "rpc_url": "RPC URL",
@@ -112,23 +116,23 @@
         "testnet": "テストネット",
         "block_explorer_url": "ブロックエクスプローラーURL",
         "add_network": "ネットワーク追加",
-        "add_rpc": "RPCを追加 %{rpcName}",
+        "add_rpc": "Add RPC Endpoint",
+        "add_network_rpc": "Add %{rpcName} RPC",
         "add_asset": "カスタムトークンを追加",
-        "network_added": "ネットワークを追加しました！",
-        "network_added_correctly": "%{networkName} は正しく追加されました！",
+        "network_added": "Network Added",
+        "network_added_correctly": "%{networkName}",
         "remove_token": "トークンを削除",
         "remove_rpc": "RPCを削除",
         "remove_network": "ネットワークを削除",
         "tokens": "トークン",
-        "cant_connect": "このRPCエンドポイントに接続できません！",
-        "rpc_not_responding": "指定されたURLが応答しません",
-        "rainbow_default_rpc": "RainbowのデフォルトRPC",
-        "rainbow_default": "Rainbowのデフォルト"
+        "cant_connect": "Can't connect to this RPC endpoint",
+        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "rainbow_default_rpc": "Rainbow",
+        "rainbow_default": "Rainbow"
       },
       "rpc_endpoints": "RPCエンドポイント",
-      "enabled": "有効",
       "watch_asset": {
-        "title": "アセットを監視"
+        "title": "カスタムトークンを追加"
       }
     },
     "privacy_and_security": {
@@ -218,6 +222,20 @@
           "warning_4": "Rainbowサポートは、あなたのリカバリーフレーズを求めることはありません。",
           "show": "リカバリーフレーズを表示する",
           "copied": "リカバリーフレーズがコピーされました"
+        },
+        "wipe_wallets": {
+          "delete": "Reset Rainbow",
+          "acknowlegement": "I have read and acknowledge the above info.",
+          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
+          "warning_two": "This will also erase all data & settings in Rainbow.",
+          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
+          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
+          "button_wipe": "Reset Rainbow",
+          "button_complete": "Complete Check Above",
+          "wipe_confirmation": "Reset Rainbow",
+          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
+          "wipe_confirmation_button": "Reset",
+          "wipe_confirmation_cancel": "キャンセル"
         }
       }
     },
@@ -227,7 +245,10 @@
       "use_flashbots": "Flashbots の使用",
       "clear_transactions_and_nonces": "保留中のトランザクションをクリア",
       "clear_transactions_and_nonces_success": "保留中のトランザクションがクリアされました",
-      "flashbots_description": "Flashbots はトランザクションの保護およびトランザクションの失敗の可能性を減らします。詳細をご覧ください。"
+      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+    },
+    "approvals": {
+      "title": "Approvals"
     },
     "currency": {
       "title": "通貨",
@@ -543,6 +564,34 @@
     "no_connections_title": "接続されたアプリはありません",
     "no_connections_copy": "ここに接続したウェブサイトが表示されます"
   },
+  "approvals": {
+    "title": "Approvals",
+    "unlimited": "無制限",
+    "no_allowance": "許可がありません",
+    "revoke_approval": "Revoke Approval",
+    "copy_spender": "Copy Spender",
+    "spender_address_copied": "Spender Address Copied",
+    "revoked_approvals": "Revoked Approvals",
+    "nothing_found": "見つかりませんでした",
+    "revoke": {
+      "title": "Revoke Approval",
+      "action": "Revoke",
+      "cancel": "キャンセル",
+      "allowance": "許可",
+      "spender": "Spender",
+      "chain": "チェーン"
+    },
+    "token_details": {
+      "explainer": {
+        "token_approval": {
+          "title": "What’s an Approval?",
+          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
+          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "action_label": "了解"
+        }
+      }
+    }
+  },
   "send": {
     "title": "送信",
     "input_to_address_placeholder": "名前、ENSまたはアドレス",
@@ -570,7 +619,10 @@
       "available": "利用可能",
       "token_balance": "トークン残高",
       "networks": "ネットワーク",
-      "nothing_found": "見つかりませんでした"
+      "nothing_found": "見つかりませんでした",
+      "nfts": "NFTs",
+      "alphabetical": "アルファベット順",
+      "recent": "最近"
     },
     "review": {
       "title": "確認して送信",
@@ -817,7 +869,7 @@
     "title": "あなたの秘密の回復フレーズ",
     "write_down_seed_importance": "これらの単語を保管すると、あなたのウォレット全体にアクセスできます！安全な場所に保管し、他の人と共有しないようにしてください。",
     "saved_these_words": "これらの単語を保存しました",
-    "phrase_copied": "回復フレーズがコピーされました"
+    "copied": "リカバリーフレーズがコピーされました"
   },
   "import_wallet_via_secret": {
     "title": "ウォレットをインポートする",
@@ -1043,7 +1095,8 @@
     "request_rejected": "トランザクションリクエストが拒否されました",
     "bridge_and_try_again": "ガス資金をブリッジして再試行",
     "buy_and_try_again": "ガス資金を購入して再試行",
-    "buy": "購入 %{token}"
+    "buy_gas": "Buy %{token}",
+    "get_testnet_gas": "Get free testnet %{token}"
   },
   "add_chain": {
     "name": "名前",
@@ -1206,7 +1259,8 @@
     "exchange_rate": "交換",
     "collection": "コレクション",
     "token_contract": "トークン契約",
-    "token_standard": "トークン標準"
+    "token_standard": "トークン標準",
+    "revoke_approval": "Revoke Approval"
   },
   "tokens_tab": {
     "coinbase_title": "Coinbaseから入金",
@@ -1230,8 +1284,9 @@
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "最近",
     "sort_option_abc_long": "アルファベット順",
+    "hidden_section_title": "非表示",
     "details": {
-      "last_sales_price": "最終取引価格",
+      "last_sales_price": "Last Sale Price",
       "none": "なし",
       "floor_price": "底値",
       "description": "説明",
@@ -1242,6 +1297,8 @@
       "token_contract": "トークン契約",
       "contract_creator": "契約作成者",
       "chain": "チェーン",
+      "hide": "非表示",
+      "unhide": "Unhide",
       "id_copied": "IDをコピーしました",
       "copy_token_id": "トークンIDをコピー",
       "download": "ダウンロード",
@@ -1261,7 +1318,10 @@
         "floor_price_description": "コレクションの床価格は、現在販売中のアイテムの中で最も低い希望価格を指します。",
         "floor_price_title": "コレクションの床価格",
         "floor_price_action_label": "了解"
-      }
+      },
+      "send": "送信する",
+      "view_on_opensea": "View on OpenSea",
+      "view_on_explorer": "View on %{explorerTitle}"
     }
   },
   "points": {
@@ -1276,7 +1336,6 @@
     "referral_code_description": "友達を紹介してRainbowで$100をスワップするとポイントが獲得できます",
     "copied_referral_code": "紹介コードをコピーしました！",
     "copied_referral_link": "紹介リンクをコピーしました！",
-    "out_of": "%{total}点満点中",
     "out_of_current_total_points": "現在の合計点中 %{total} 点満点",
     "header": "ポイントを請求する",
     "description": "ポイントがここにあります。何ポイント獲得したか確認してください。",
@@ -1323,6 +1382,21 @@
       "existing_user": "既存のユーザー",
       "invalid_referral_code": "紹介コードが無効です",
       "unexpected": "予期せぬエラーが発生しました。数分後に再試行してください"
+    },
+    "weekly_overview": {
+      "week_of": "> Week of %{from} - %{to}",
+      "counting": "> Counting earned points...",
+      "your_activity": "Your Activity:",
+      "referral_activity": "Referral Activity:",
+      "new_referrals": "New Referrals:",
+      "retroactive": "Retroactive Points:",
+      "total": "Total:",
+      "weekly_counted": "> Weekly earnings counted",
+      "you_have": "You have:",
+      "none": "なし",
+      "your_earnings": "Your Earnings Last Week",
+      "view_breakdown": "View your weekly earnings breakdown",
+      "view_now": "View Now"
     }
   },
   "speed_up_and_cancel": {
@@ -1341,7 +1415,8 @@
     "speed_up_cta": "トランザクションの処理速度を上げる",
     "speed_up_transaction": "トランザクションの処理速度を上げる",
     "close_cta": "キャンセル",
-    "handle_copy_title": "Txハッシュがコピーされました"
+    "handle_copy_title": "Txハッシュがコピーされました",
+    "revoke_approval": "Revoke Approval"
   },
   "token_details": {
     "swap": "スワップ",
@@ -1360,6 +1435,7 @@
     "not_available": "価格は利用できません",
     "more_options": {
       "copy_address": "アドレスをコピー",
+      "view_on_explorer": "表示 %{explorer}で",
       "hide": "トークンを非表示にする",
       "report": "トークンを報告する"
     },
@@ -1484,7 +1560,10 @@
     "network_changed": "ネットワークが変更されました",
     "network_changed_failed": "ネットワークの変更に失敗しました",
     "unsupported_network": "サポートされていないネットワークです",
-    "no_active_session": "アクティブなセッションがありません"
+    "no_active_session": "アクティブなセッションがありません",
+    "already_added": "RPC activated",
+    "set_as_active": "New RPC activated",
+    "already_active": "Network already added"
   },
   "alert": {
     "ok": "OK",
@@ -1552,10 +1631,6 @@
       "after": " を要求するために。"
     }
   },
-  "approvals": {
-    "unlimited": "無制限",
-    "no_allowance": "許可がありません"
-  },
   "buy": {
     "title": "購入",
     "fees_title": "手数料",
@@ -1619,6 +1694,7 @@
   "nonce": "ノンス",
   "copy": "コピー",
   "copy_link": "リンクをコピー",
+  "link_text": "Learn More.",
   "close": "閉じる",
   "verified": "確認済み",
   "unverified": "未確認",
