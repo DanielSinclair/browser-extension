@@ -125,8 +125,8 @@
         "remove_rpc": "إزالة RPC",
         "remove_network": "إزالة الشبكة",
         "tokens": "رموز",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "لا يمكن الاتصال بهذه النقطة النهائية لـ RPC",
+        "rpc_not_responding": "نقطة النهاية لـ RPC المُقدمة لا تستجيب",
         "rainbow_default_rpc": "رينبو",
         "rainbow_default": "رينبو"
       },
@@ -224,17 +224,17 @@
           "copied": "تم نسخ عبارة الاستعادة"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "إعادة تعيين رينبو",
+          "acknowlegement": "لقد قرأت وأقر بالمعلومات أعلاه",
+          "warning_one": "إعادة تعيين رينبو ستقوم بإعادة تعيين كلمة المرور وإزالة جميع المحافظ",
+          "warning_two": "هذا سيمحو أيضاً جميع البيانات والإعدادات في رينبو",
+          "warning_three": "تأكد من تأمين عبارة الاسترداد السرية قبل المتابعة ",
+          "warning_four": "أصولك وأموالك يمكن الوصول إليها بالمعلومات الصحيحة للاسترداد",
+          "button_wipe": "إعادة تعيين رينبو",
+          "button_complete": "اكتمال التحقق أعلاه",
+          "wipe_confirmation": "إعادة تعيين رينبو",
+          "wipe_confirmation_desc": "هل أنت متأكد أنك تريد إعادة تعيين امتداد متصفح رينبو؟",
+          "wipe_confirmation_button": "إعادة تعيين",
           "wipe_confirmation_cancel": "إلغاء"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "استخدم Flashbots",
       "clear_transactions_and_nonces": "معالجة المعاملات المعلقة",
       "clear_transactions_and_nonces_success": "تم معالجة المعاملات المعلقة",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "فلاشبوتس تحمي معاملاتك وتقلل احتمالية فشل المعاملات"
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "الموافقات"
     },
     "currency": {
       "title": "العملة",
@@ -565,28 +565,28 @@
     "no_connections_copy": "المواقع التي تتصل بها ستظهر هنا"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "الموافقات",
     "unlimited": "غير محدود",
     "no_allowance": "لا يوجد بدل",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "إلغاء الموافقة",
+    "copy_spender": "نسخ الجهة المصرفة",
+    "spender_address_copied": "تم نسخ عنوان الجهة المصرفة",
+    "revoked_approvals": "الموافقات الملغاة",
     "nothing_found": "لم يتم العثور على شيء",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "إلغاء الموافقة",
+      "action": "إلغاء",
       "cancel": "إلغاء",
       "allowance": "البدل",
-      "spender": "Spender",
+      "spender": "الجهة المصرفة",
       "chain": "السلسلة"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "ما هي الموافقة؟",
+          "description_1": "الموافقات تسمح للتطبيق اللامركزي بإنفاق الرموز المميزة أو الـ NFTs نيابة عنك",
+          "description_2": "من المهم مراقبة الموافقات وإلغاء الموافقات غير الضرورية أو الواسعة أو غير الآمنة التي قد تعرض أصولك للخطر",
           "action_label": "فهمت"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "تم رفض طلب المعاملة",
     "bridge_and_try_again": "تم ربط بعض أموال الغاز وحاول مرة أخرى",
     "buy_and_try_again": "اشتري بعض أموال الغاز وحاول مرة أخرى",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "شراء %{token}",
+    "get_testnet_gas": "احصل على تيستنت مجاني %{token}"
   },
   "add_chain": {
     "name": "الاسم",
@@ -1260,7 +1260,7 @@
     "collection": "التجميع",
     "token_contract": "عقد الرمز",
     "token_standard": "معايير الرمز",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "إلغاء الموافقة"
   },
   "tokens_tab": {
     "coinbase_title": "الإيداع من Coinbase",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "أبجدي",
     "hidden_section_title": "مخفي",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "سعر البيع الأخير",
       "none": "لا شيء",
       "floor_price": "سعر الأرضية",
       "description": "الوصف",
@@ -1298,7 +1298,7 @@
       "contract_creator": "منشئ العقد",
       "chain": "السلسلة",
       "hide": "إخفاء",
-      "unhide": "Unhide",
+      "unhide": "إظهار",
       "id_copied": "تم نسخ الهوية",
       "copy_token_id": "نسخ معرف الرمز",
       "download": "تنزيل",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "فهمت"
       },
       "send": "أرسل",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "عرض على OpenSea",
+      "view_on_explorer": "عرض على %{explorerTitle}"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "حدث خطأ غير متوقع، حاول مجددًا بعد دقائق"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
-      "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "week_of": "> أسبوع %{from} - %{to}",
+      "counting": "> جارٍ احتساب النقاط المكتسبة...",
+      "your_activity": "نشاطك:",
+      "referral_activity": "نشاط الإحالة:",
+      "new_referrals": "إحالات جديدة:",
+      "retroactive": "النقاط الرجعية:",
+      "total": "المجموع:",
+      "weekly_counted": "> تم احتساب الأرباح الأسبوعية",
+      "you_have": "لديك:",
       "none": "لا شيء",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "أرباحك الأسبوع الماضي",
+      "view_breakdown": "اعرض تفاصيل أرباحك الأسبوعية",
+      "view_now": "اعرض الآن"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "تسريع العملية",
     "close_cta": "الغاء",
     "handle_copy_title": "تم نسخ الهاش الخاص بالمعاملة",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "إلغاء الموافقة"
   },
   "token_details": {
     "swap": "تبديل",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "فشل تغيير الشبكة",
     "unsupported_network": "شبكة غير مدعومة",
     "no_active_session": "لا يوجد جلسة نشطة",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "تم تفعيل RPC",
+    "set_as_active": "RPC الجديد مفعل",
+    "already_active": "الشبكة مُضافة مسبقًا"
   },
   "alert": {
     "ok": "حسنا",
@@ -1694,7 +1694,7 @@
   "nonce": "التردد",
   "copy": "نسخ",
   "copy_link": "نسخ الرابط",
-  "link_text": "Learn More.",
+  "link_text": "اعرف أكثر",
   "close": "إغلاق",
   "verified": "تم التحقق منه",
   "unverified": "غير متحقق منه",
