@@ -73,7 +73,7 @@
     "title": "الاعدادات",
     "use_rainbow_as_default_wallet": "استخدم Rainbow كمحفظة افتراضية",
     "sounds": "الأصوات",
-    "default_wallet_description": "اسمح للتطبيقات بتحديد Rainbow عند البحث عن ملحق للاتصال به.",
+    "default_wallet_description": "السماح للتطبيقات بتفضيل Rainbow عند البحث عن امتداد للاتصال",
     "contacts": "الاتصالات",
     "guides_and_support": "الدلائل والدعم",
     "learn_about_ethereum": "تعرف على Ethereum",
@@ -94,7 +94,10 @@
         "text": "اسحب الشبكات لإعادة ترتيبها",
         "text_bold": "نصيحة:"
       },
+      "disable": "تعطيل",
       "disabled": "معطل",
+      "enable": "تفعيل",
+      "enabled": "الشبكة مفعلة",
       "description": "اختر الشبكات والرموز التي ترغب في عرضها. يمكنك الاتصال بأي شبكات تدعمها Rainbow ، حتى لو لم يتم التحقق منها",
       "developer_tools": {
         "title": "تفعيل أدوات المطور",
@@ -102,6 +105,7 @@
       },
       "custom_rpc": {
         "title": "إضافة شبكة",
+        "add_custom_network": "إضافة شبكة مخصصة",
         "networks": "الشبكات",
         "network_name": "اسم الشبكة",
         "rpc_url": "عنوان URL للRPC",
@@ -112,23 +116,23 @@
         "testnet": "شبكة الاختبار",
         "block_explorer_url": "رابط مستكشف الكتل",
         "add_network": "إضافة شبكة",
-        "add_rpc": "إضافة RPC %{rpcName}",
+        "add_rpc": "إضافة نقطة نهاية RPC",
+        "add_network_rpc": "إضافة RPC %{rpcName}",
         "add_asset": "إضافة رمز مخصص",
-        "network_added": "تمت إضافة الشبكة!",
-        "network_added_correctly": "تمت إضافة %{networkName} بنجاح!",
+        "network_added": "تمت إضافة الشبكة",
+        "network_added_correctly": "%{networkName}",
         "remove_token": "إزالة الرمز",
         "remove_rpc": "إزالة RPC",
         "remove_network": "إزالة الشبكة",
         "tokens": "رموز",
-        "cant_connect": "لا يمكن الاتصال بهذه النقطة النهائية RPC!",
-        "rpc_not_responding": "الرابط المُقدم لا يستجيب",
-        "rainbow_default_rpc": "RPC الافتراضي لرينبو",
-        "rainbow_default": "الافتراضي لرينبو"
+        "cant_connect": "Can't connect to this RPC endpoint",
+        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "rainbow_default_rpc": "رينبو",
+        "rainbow_default": "رينبو"
       },
       "rpc_endpoints": "نقاط نهاية RPC",
-      "enabled": "مُفعّل",
       "watch_asset": {
-        "title": "مراقبة الأصل"
+        "title": "إضافة رمز مخصص"
       }
     },
     "privacy_and_security": {
@@ -218,6 +222,20 @@
           "warning_4": "دعم Rainbow لن يطلب منك عبارة الاستعادة الخاصة بك أبدا",
           "show": "إظهار عبارة الاستعادة",
           "copied": "تم نسخ عبارة الاستعادة"
+        },
+        "wipe_wallets": {
+          "delete": "Reset Rainbow",
+          "acknowlegement": "I have read and acknowledge the above info.",
+          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
+          "warning_two": "This will also erase all data & settings in Rainbow.",
+          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
+          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
+          "button_wipe": "Reset Rainbow",
+          "button_complete": "Complete Check Above",
+          "wipe_confirmation": "Reset Rainbow",
+          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
+          "wipe_confirmation_button": "Reset",
+          "wipe_confirmation_cancel": "إلغاء"
         }
       }
     },
@@ -227,7 +245,10 @@
       "use_flashbots": "استخدم Flashbots",
       "clear_transactions_and_nonces": "معالجة المعاملات المعلقة",
       "clear_transactions_and_nonces_success": "تم معالجة المعاملات المعلقة",
-      "flashbots_description": "يحمي Flashbots معاملاتك ويقلل من احتمالية فشل المعاملات. تعلم المزيد"
+      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+    },
+    "approvals": {
+      "title": "Approvals"
     },
     "currency": {
       "title": "العملة",
@@ -543,6 +564,34 @@
     "no_connections_title": "لا يوجد تطبيقات متصلة",
     "no_connections_copy": "المواقع التي تتصل بها ستظهر هنا"
   },
+  "approvals": {
+    "title": "Approvals",
+    "unlimited": "غير محدود",
+    "no_allowance": "لا يوجد بدل",
+    "revoke_approval": "Revoke Approval",
+    "copy_spender": "Copy Spender",
+    "spender_address_copied": "Spender Address Copied",
+    "revoked_approvals": "Revoked Approvals",
+    "nothing_found": "لم يتم العثور على شيء",
+    "revoke": {
+      "title": "Revoke Approval",
+      "action": "Revoke",
+      "cancel": "إلغاء",
+      "allowance": "البدل",
+      "spender": "Spender",
+      "chain": "السلسلة"
+    },
+    "token_details": {
+      "explainer": {
+        "token_approval": {
+          "title": "What’s an Approval?",
+          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
+          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "action_label": "فهمت"
+        }
+      }
+    }
+  },
   "send": {
     "title": "أرسل",
     "input_to_address_placeholder": "الاسم ، ENS أو العنوان",
@@ -570,7 +619,10 @@
       "available": "متاح",
       "token_balance": "رصيد الرمز",
       "networks": "الشبكات",
-      "nothing_found": "لم يتم العثور على شيء"
+      "nothing_found": "لم يتم العثور على شيء",
+      "nfts": "NFTs",
+      "alphabetical": "أبجدي",
+      "recent": "الأخير"
     },
     "review": {
       "title": "مراجعة وإرسال",
@@ -817,7 +869,7 @@
     "title": "عبارة الاستعادة السرية الخاصة بك",
     "write_down_seed_importance": "حفظ هذه الكلمات يمكنه الوصول إلى المحفظة بأكملها! احفظهم في مكان آمن ولا تشاركهم أبداً",
     "saved_these_words": "لقد حفظت هذه الكلمات",
-    "phrase_copied": "تم نسخ جملة الاستعادة"
+    "copied": "تم نسخ عبارة الاستعادة"
   },
   "import_wallet_via_secret": {
     "title": "استيراد المحفظة",
@@ -1043,7 +1095,8 @@
     "request_rejected": "تم رفض طلب المعاملة",
     "bridge_and_try_again": "تم ربط بعض أموال الغاز وحاول مرة أخرى",
     "buy_and_try_again": "اشتري بعض أموال الغاز وحاول مرة أخرى",
-    "buy": "اشترِ %{token}"
+    "buy_gas": "Buy %{token}",
+    "get_testnet_gas": "Get free testnet %{token}"
   },
   "add_chain": {
     "name": "الاسم",
@@ -1206,7 +1259,8 @@
     "exchange_rate": "الصرف",
     "collection": "التجميع",
     "token_contract": "عقد الرمز",
-    "token_standard": "معايير الرمز"
+    "token_standard": "معايير الرمز",
+    "revoke_approval": "Revoke Approval"
   },
   "tokens_tab": {
     "coinbase_title": "الإيداع من Coinbase",
@@ -1230,8 +1284,9 @@
     "sort_option_abc": "Abc",
     "sort_option_recent_long": "الأخير",
     "sort_option_abc_long": "أبجدي",
+    "hidden_section_title": "مخفي",
     "details": {
-      "last_sales_price": "سعر البيع الأخير",
+      "last_sales_price": "Last Sale Price",
       "none": "لا شيء",
       "floor_price": "سعر الأرضية",
       "description": "الوصف",
@@ -1242,6 +1297,8 @@
       "token_contract": "عقد الرمز",
       "contract_creator": "منشئ العقد",
       "chain": "السلسلة",
+      "hide": "إخفاء",
+      "unhide": "Unhide",
       "id_copied": "تم نسخ الهوية",
       "copy_token_id": "نسخ معرف الرمز",
       "download": "تنزيل",
@@ -1261,7 +1318,10 @@
         "floor_price_description": "أقل سعر في المجموعة هو أدنى سعر طلب لكل الأغراض المعروضة حاليًا للبيع في مجموعة",
         "floor_price_title": "أقل سعر للمجموعة",
         "floor_price_action_label": "فهمت"
-      }
+      },
+      "send": "أرسل",
+      "view_on_opensea": "View on OpenSea",
+      "view_on_explorer": "View on %{explorerTitle}"
     }
   },
   "points": {
@@ -1276,7 +1336,6 @@
     "referral_code_description": "اكسب النقاط بإحالة الأصدقاء بعد إجرائهم تبادل بقيمة 100 دولار عبر Rainbow",
     "copied_referral_code": "تم نسخ رمز الإحالة!",
     "copied_referral_link": "تم نسخ رابط الإحالة!",
-    "out_of": "من أصل %{total}",
     "out_of_current_total_points": "من إجمالي نقاط %{total} الحالية",
     "header": "اطلب نقاطك",
     "description": "النقاط متاحة الآن. اكتشف عدد النقاط التي حصلت عليها",
@@ -1323,6 +1382,21 @@
       "existing_user": "مستخدم حالي",
       "invalid_referral_code": "رمز إحالة غير صحيح",
       "unexpected": "حدث خطأ غير متوقع، حاول مجددًا بعد دقائق"
+    },
+    "weekly_overview": {
+      "week_of": "> Week of %{from} - %{to}",
+      "counting": "> Counting earned points...",
+      "your_activity": "Your Activity:",
+      "referral_activity": "Referral Activity:",
+      "new_referrals": "New Referrals:",
+      "retroactive": "Retroactive Points:",
+      "total": "Total:",
+      "weekly_counted": "> Weekly earnings counted",
+      "you_have": "You have:",
+      "none": "لا شيء",
+      "your_earnings": "Your Earnings Last Week",
+      "view_breakdown": "View your weekly earnings breakdown",
+      "view_now": "View Now"
     }
   },
   "speed_up_and_cancel": {
@@ -1341,7 +1415,8 @@
     "speed_up_cta": "تسريع العملية",
     "speed_up_transaction": "تسريع العملية",
     "close_cta": "الغاء",
-    "handle_copy_title": "تم نسخ الهاش الخاص بالمعاملة"
+    "handle_copy_title": "تم نسخ الهاش الخاص بالمعاملة",
+    "revoke_approval": "Revoke Approval"
   },
   "token_details": {
     "swap": "تبديل",
@@ -1360,6 +1435,7 @@
     "not_available": "السعر غير متوفر",
     "more_options": {
       "copy_address": "نسخ العنوان",
+      "view_on_explorer": "عرض على %{explorer}",
       "hide": "إخفاء الرمز",
       "report": "الإبلاغ عن الرمز"
     },
@@ -1484,7 +1560,10 @@
     "network_changed": "تم تغيير الشبكة",
     "network_changed_failed": "فشل تغيير الشبكة",
     "unsupported_network": "شبكة غير مدعومة",
-    "no_active_session": "لا يوجد جلسة نشطة"
+    "no_active_session": "لا يوجد جلسة نشطة",
+    "already_added": "RPC activated",
+    "set_as_active": "New RPC activated",
+    "already_active": "Network already added"
   },
   "alert": {
     "ok": "حسنا",
@@ -1552,10 +1631,6 @@
       "after": " لطلب المزيد"
     }
   },
-  "approvals": {
-    "unlimited": "غير محدود",
-    "no_allowance": "لا يوجد بدل"
-  },
   "buy": {
     "title": "شراء",
     "fees_title": "الرسوم",
@@ -1619,6 +1694,7 @@
   "nonce": "التردد",
   "copy": "نسخ",
   "copy_link": "نسخ الرابط",
+  "link_text": "Learn More.",
   "close": "إغلاق",
   "verified": "تم التحقق منه",
   "unverified": "غير متحقق منه",
