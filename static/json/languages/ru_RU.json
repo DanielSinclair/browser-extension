@@ -73,7 +73,7 @@
     "title": "Настройки",
     "use_rainbow_as_default_wallet": "Использовать Rainbow в качестве основного кошелька",
     "sounds": "Звуки",
-    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
+    "default_wallet_description": "Разрешить приложениям выбирать Rainbow в качестве расширения для подключения",
     "contacts": "Контакты",
     "guides_and_support": "Руководства и поддержка",
     "learn_about_ethereum": "Узнать о Ethereum",
@@ -94,10 +94,10 @@
         "text": "Перетаскивайте сети для изменения их порядка",
         "text_bold": "Совет:"
       },
-      "disable": "Disable",
+      "disable": "Отключить",
       "disabled": "Отключено",
-      "enable": "Enable",
-      "enabled": "Network Enabled",
+      "enable": "Включить",
+      "enabled": "Сеть включена",
       "description": "Выберите, какие сети и токены отображать. Вы можете подключиться к любым сетям, поддерживаемым Rainbow, даже если они не отмечены.",
       "developer_tools": {
         "title": "Включить инструменты разработчика",
@@ -105,7 +105,7 @@
       },
       "custom_rpc": {
         "title": "Добавить сеть",
-        "add_custom_network": "Add Custom Network",
+        "add_custom_network": "Добавить пользовательскую сеть",
         "networks": "Сети",
         "network_name": "Имя сети",
         "rpc_url": "URL RPC",
@@ -116,17 +116,17 @@
         "testnet": "Тестнет",
         "block_explorer_url": "URL блок-эксплорера",
         "add_network": "Добавить сеть",
-        "add_rpc": "Add RPC Endpoint",
-        "add_network_rpc": "Add %{rpcName} RPC",
+        "add_rpc": "Добавить RPC-точку доступа",
+        "add_network_rpc": "Добавить RPC %{rpcName}",
         "add_asset": "Добавить пользовательский токен",
-        "network_added": "Network Added",
+        "network_added": "Сеть добавлена",
         "network_added_correctly": "%{networkName}",
         "remove_token": "Удалить токен",
         "remove_rpc": "Удалить RPC",
         "remove_network": "Удалить сеть",
         "tokens": "Токены",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "Не удаётся подключиться к этому RPC-эндпоинту",
+        "rpc_not_responding": "Предоставленный RPC-эндпоинт не отвечает",
         "rainbow_default_rpc": "Rainbow",
         "rainbow_default": "Rainbow"
       },
@@ -224,17 +224,17 @@
           "copied": "Фраза для восстановления скопирована"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "Сбросить Rainbow",
+          "acknowlegement": "Я прочитал и подтверждаю вышеизложенную информацию",
+          "warning_one": "Сброс Rainbow приведёт к сбросу пароля и удалению всех кошельков",
+          "warning_two": "Также будут стёрты все данные и настройки Rainbow",
+          "warning_three": "Перед продолжением убедитесь, что ваша секретная фраза восстановления в безопасности ",
+          "warning_four": "Ваши активы и средства доступны при наличии правильной информации для восстановления",
+          "button_wipe": "Сбросить Rainbow",
+          "button_complete": "Завершить проверку выше",
+          "wipe_confirmation": "Сбросить Rainbow",
+          "wipe_confirmation_desc": "Вы уверены, что хотите сбросить расширение браузера Rainbow?",
+          "wipe_confirmation_button": "Сбросить",
           "wipe_confirmation_cancel": "Отмена"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "Использовать Flashbots",
       "clear_transactions_and_nonces": "Очистить Ожидающие Транзакции",
       "clear_transactions_and_nonces_success": "Ожидающие транзакции очищены",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "Flashbots защищает ваши транзакции и снижает вероятность их неудачи."
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "Разрешения"
     },
     "currency": {
       "title": "Валюта",
@@ -565,28 +565,28 @@
     "no_connections_copy": "Здесь будут отображаться веб-сайты, с которыми вы подключаетесь"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "Разрешения",
     "unlimited": "Безлимитный",
     "no_allowance": "Без Разрешения",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "Отозвать разрешение",
+    "copy_spender": "Копировать адрес отправителя",
+    "spender_address_copied": "Адрес отправителя скопирован",
+    "revoked_approvals": "Отозванные разрешения",
     "nothing_found": "Ничего не найдено",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "Отозвать разрешение",
+      "action": "Отозвать",
       "cancel": "Отмена",
       "allowance": "Допуск",
-      "spender": "Spender",
+      "spender": "Отправитель",
       "chain": "Сеть"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "Что такое разрешение?",
+          "description_1": "Разрешения позволяют dApp расходовать и переводить токены или NFT от вашего имени.",
+          "description_2": "Важно контролировать ваши разрешения и отзывать ненужные, обширные или небезопасные, которые могут угрожать вашим активам.",
           "action_label": "Понятно"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "Запрос на транзакцию отклонен",
     "bridge_and_try_again": "Подключите немного средств для оплаты транзакционных расходов и повторите попытку",
     "buy_and_try_again": "Приобретите немного средств для оплаты транзакционных расходов и повторите попытку",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "Купить %{token}",
+    "get_testnet_gas": "Получить бесплатный тестнет %{token}"
   },
   "add_chain": {
     "name": "Название",
@@ -1260,7 +1260,7 @@
     "collection": "Коллекция",
     "token_contract": "Контракт токена",
     "token_standard": "Стандарт токена",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Отозвать разрешение"
   },
   "tokens_tab": {
     "coinbase_title": "Депозит с Coinbase",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "Алфавитный",
     "hidden_section_title": "Скрытый",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "Цена последней продажи",
       "none": "Нет",
       "floor_price": "Минимальная цена",
       "description": "Описание",
@@ -1298,7 +1298,7 @@
       "contract_creator": "Создатель контракта",
       "chain": "Сеть",
       "hide": "Скрыть",
-      "unhide": "Unhide",
+      "unhide": "Показать",
       "id_copied": "Скопировано ID",
       "copy_token_id": "Скопировать ID токена",
       "download": "Загрузить",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "Понятно"
       },
       "send": "Отправить",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "Посмотреть на OpenSea",
+      "view_on_explorer": "Посмотреть на %{explorerTitle}"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "Произошло что-то неожиданное, попробуйте еще раз через несколько минут"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
-      "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "week_of": "> Неделя с %{from} по %{to}",
+      "counting": "> Подсчет заработанных очков...",
+      "your_activity": "Ваша активность:",
+      "referral_activity": "Активность рефералов:",
+      "new_referrals": "Новые рефералы:",
+      "retroactive": "Ретроактивные баллы:",
+      "total": "Итого:",
+      "weekly_counted": "> Недельный заработок учтен",
+      "you_have": "У вас есть:",
       "none": "Нет",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "Ваши доходы на прошлой неделе",
+      "view_breakdown": "Посмотреть разбивку недельных доходов",
+      "view_now": "Посмотреть сейчас"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "Ускорить транзакцию",
     "close_cta": "Отменить",
     "handle_copy_title": "Хеш транзакции скопирован",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Отозвать разрешение"
   },
   "token_details": {
     "swap": "Обменять",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "Сбой при изменении сети",
     "unsupported_network": "Неподдерживаемая сеть",
     "no_active_session": "Нет активной сессии",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "RPC активирован",
+    "set_as_active": "Новый RPC активирован",
+    "already_active": "Сеть уже добавлена"
   },
   "alert": {
     "ok": "ОК",
@@ -1694,7 +1694,7 @@
   "nonce": "Нонс",
   "copy": "Копировать",
   "copy_link": "Копировать Ссылку",
-  "link_text": "Learn More.",
+  "link_text": "Узнать больше",
   "close": "Закрыть",
   "verified": "Проверенные",
   "unverified": "Непроверенные",
