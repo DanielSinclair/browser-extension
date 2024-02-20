@@ -73,7 +73,7 @@
     "title": "设置",
     "use_rainbow_as_default_wallet": "将 Rainbow 设为默认钱包",
     "sounds": "声音",
-    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
+    "default_wallet_description": "允许应用程序优先连接Rainbow扩展",
     "contacts": "通讯录",
     "guides_and_support": "指南和支持",
     "learn_about_ethereum": "了解以太坊",
@@ -94,10 +94,10 @@
         "text": "拖动网络进行排序",
         "text_bold": "提示："
       },
-      "disable": "Disable",
+      "disable": "禁用",
       "disabled": "已禁用",
-      "enable": "Enable",
-      "enabled": "Network Enabled",
+      "enable": "启用",
+      "enabled": "网络已启用",
       "description": "选择要显示的网络和代币。即使没有选中，您也可以连接到Rainbow支持的任何网络。",
       "developer_tools": {
         "title": "启用开发者工具",
@@ -105,7 +105,7 @@
       },
       "custom_rpc": {
         "title": "添加网络",
-        "add_custom_network": "Add Custom Network",
+        "add_custom_network": "添加自定义网络",
         "networks": "网络",
         "network_name": "网络名称",
         "rpc_url": "RPC 链接",
@@ -116,17 +116,17 @@
         "testnet": "测试网",
         "block_explorer_url": "区块浏览器网址",
         "add_network": "添加网络",
-        "add_rpc": "Add RPC Endpoint",
-        "add_network_rpc": "Add %{rpcName} RPC",
+        "add_rpc": "添加RPC端点",
+        "add_network_rpc": "添加 %{rpcName} RPC",
         "add_asset": "添加自定义代币",
-        "network_added": "Network Added",
+        "network_added": "网络已添加",
         "network_added_correctly": "%{networkName}",
         "remove_token": "移除代币",
         "remove_rpc": "移除RPC",
         "remove_network": "移除网络",
         "tokens": "代币",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "无法连接到此RPC端点",
+        "rpc_not_responding": "提供的RPC端点无响应",
         "rainbow_default_rpc": "Rainbow",
         "rainbow_default": "Rainbow"
       },
@@ -224,17 +224,17 @@
           "copied": "恢复短语已复制"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "重置Rainbow",
+          "acknowlegement": "我已阅读并确认上述信息",
+          "warning_one": "重置Rainbow将重置您的密码，并移除所有钱包",
+          "warning_two": "这也将擦除Rainbow中的所有数据和设置",
+          "warning_three": "继续操作前请确保您的秘密恢复短语安全 ",
+          "warning_four": "正确的恢复信息可访问您的资产和资金",
+          "button_wipe": "重置Rainbow",
+          "button_complete": "完成上述检查",
+          "wipe_confirmation": "重置Rainbow",
+          "wipe_confirmation_desc": "您确定要重置Rainbow浏览器扩展吗？",
+          "wipe_confirmation_button": "重置",
           "wipe_confirmation_cancel": "取消"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "使用 Flashbots",
       "clear_transactions_and_nonces": "清除待处理交易",
       "clear_transactions_and_nonces_success": "待处理交易已清除",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "Flashbots 保护您的交易并减少交易失败的可能性"
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "授权"
     },
     "currency": {
       "title": "货币",
@@ -565,28 +565,28 @@
     "no_connections_copy": "您连接的网站将显示在此处"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "授权",
     "unlimited": "无限",
     "no_allowance": "无额度权限",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "撤销授权",
+    "copy_spender": "复制支出方",
+    "spender_address_copied": "支出方地址已复制",
+    "revoked_approvals": "已撤销的授权",
     "nothing_found": "未找到任何内容",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "撤销授权",
+      "action": "撤销",
       "cancel": "取消",
       "allowance": "额度",
-      "spender": "Spender",
+      "spender": "支出方",
       "chain": "链"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "什么是授权？",
+          "description_1": "授权允许dApp代表您花费和转移代币或NFT",
+          "description_2": "监控您的授权并撤销不必要、过于宽泛或不安全的授权非常重要，这些授权可能会危及您的资产",
           "action_label": "知道了"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "交易请求被拒",
     "bridge_and_try_again": "桥接一些燃气资金然后再试",
     "buy_and_try_again": "购买一些燃气资金然后再试",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "购买 %{token}",
+    "get_testnet_gas": "获取免费测试网 %{token}"
   },
   "add_chain": {
     "name": "名称",
@@ -1260,7 +1260,7 @@
     "collection": "收藏",
     "token_contract": "代币合约",
     "token_standard": "代币标准",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "撤销授权"
   },
   "tokens_tab": {
     "coinbase_title": "从Coinbase存入",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "按字母顺序",
     "hidden_section_title": "已隐藏",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "最后成交价",
       "none": "无",
       "floor_price": "最低价格",
       "description": "描述",
@@ -1298,7 +1298,7 @@
       "contract_creator": "合约创建者",
       "chain": "链",
       "hide": "隐藏",
-      "unhide": "Unhide",
+      "unhide": "取消隐藏",
       "id_copied": "ID已复制",
       "copy_token_id": "复制Token ID",
       "download": "下载",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "知道了"
       },
       "send": "发送",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "在OpenSea上查看",
+      "view_on_explorer": "在 %{explorerTitle}上查看"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "发生了意外，请稍后再试"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
-      "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "week_of": "> %{from} 周 - %{to}",
+      "counting": "> 正在计算获得的积分...",
+      "your_activity": "您的活动：",
+      "referral_activity": "推荐活动：",
+      "new_referrals": "新推荐：",
+      "retroactive": "追溯积分：",
+      "total": "总计：",
+      "weekly_counted": "＞ 已计算的每周收益",
+      "you_have": "您有：",
       "none": "无",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "上周收益",
+      "view_breakdown": "查看您的每周收益明细",
+      "view_now": "立即查看"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "加快交易",
     "close_cta": "取消",
     "handle_copy_title": "交易哈希已复制",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "撤销授权"
   },
   "token_details": {
     "swap": "交换",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "网络更改失败",
     "unsupported_network": "不支持的网络",
     "no_active_session": "没有活跃的会话",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "RPC已激活",
+    "set_as_active": "新RPC已激活",
+    "already_active": "网络已添加"
   },
   "alert": {
     "ok": "确定",
@@ -1694,7 +1694,7 @@
   "nonce": "随机数",
   "copy": "复制",
   "copy_link": "复制链接",
-  "link_text": "Learn More.",
+  "link_text": "了解更多",
   "close": "关闭",
   "verified": "已验证",
   "unverified": "未验证",
