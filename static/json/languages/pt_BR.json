@@ -73,7 +73,7 @@
     "title": "Configurações",
     "use_rainbow_as_default_wallet": "Usar Rainbow como carteira padrão",
     "sounds": "Sons",
-    "default_wallet_description": "Allow apps to prioritize Rainbow when looking for an extension to connect with.",
+    "default_wallet_description": "Permitir que apps priorizem o Rainbow ao buscar uma extensão para conectar.",
     "contacts": "Contatos",
     "guides_and_support": "Guias e Suporte",
     "learn_about_ethereum": "Aprenda sobre Ethereum",
@@ -94,10 +94,10 @@
         "text": "Arraste redes para reordená-las",
         "text_bold": "Dica:"
       },
-      "disable": "Disable",
+      "disable": "Desativar",
       "disabled": "Desativado",
-      "enable": "Enable",
-      "enabled": "Network Enabled",
+      "enable": "Ativar",
+      "enabled": "Rede Ativada",
       "description": "Escolha quais redes e tokens exibir. Você pode se conectar a qualquer rede suportada pelo Rainbow, mesmo que não estejam selecionadas.",
       "developer_tools": {
         "title": "Ativar Ferramentas de Desenvolvedor",
@@ -105,7 +105,7 @@
       },
       "custom_rpc": {
         "title": "Adicionar Rede",
-        "add_custom_network": "Add Custom Network",
+        "add_custom_network": "Adicionar Rede Personalizada",
         "networks": "Redes",
         "network_name": "Nome da Rede",
         "rpc_url": "URL RPC",
@@ -116,17 +116,17 @@
         "testnet": "Rede de Teste",
         "block_explorer_url": "URL do Explorador de Blocos",
         "add_network": "Adicionar Rede",
-        "add_rpc": "Add RPC Endpoint",
-        "add_network_rpc": "Add %{rpcName} RPC",
+        "add_rpc": "Adicionar Ponto de Acesso RPC",
+        "add_network_rpc": "Adicionar RPC %{rpcName}",
         "add_asset": "Adicionar Token Personalizado",
-        "network_added": "Network Added",
+        "network_added": "Rede Adicionada",
         "network_added_correctly": "%{networkName}",
         "remove_token": "Remover Token",
         "remove_rpc": "Remover RPC",
         "remove_network": "Remover Rede",
         "tokens": "Tokens",
-        "cant_connect": "Can't connect to this RPC endpoint",
-        "rpc_not_responding": "The provided RPC endpoint is not responding",
+        "cant_connect": "Não é possível conectar a este ponto final RPC",
+        "rpc_not_responding": "O ponto final RPC fornecido não está respondendo",
         "rainbow_default_rpc": "Arco-íris",
         "rainbow_default": "Arco-íris"
       },
@@ -224,17 +224,17 @@
           "copied": "Frase de Recuperação Copiada"
         },
         "wipe_wallets": {
-          "delete": "Reset Rainbow",
-          "acknowlegement": "I have read and acknowledge the above info.",
-          "warning_one": "Resetting Rainbow will reset your password, & remove all wallets.",
-          "warning_two": "This will also erase all data & settings in Rainbow.",
-          "warning_three": "Ensure your Secret Recovery Phrase is secure before proceeding. ",
-          "warning_four": "Your assets & funds are accessible with the correct recovery information.",
-          "button_wipe": "Reset Rainbow",
-          "button_complete": "Complete Check Above",
-          "wipe_confirmation": "Reset Rainbow",
-          "wipe_confirmation_desc": "Are you sure you want to reset the Rainbow browser extension?",
-          "wipe_confirmation_button": "Reset",
+          "delete": "Redefinir Rainbow",
+          "acknowlegement": "Li e reconheço as informações acima",
+          "warning_one": "Redefinir o Rainbow irá redefinir sua senha e remover todas as carteiras",
+          "warning_two": "Isso também apagará todos os dados e configurações no Rainbow",
+          "warning_three": "Certifique-se de que sua Frase de Recuperação Secreta está segura antes de prosseguir ",
+          "warning_four": "Seus ativos e fundos são acessíveis com as informações de recuperação corretas",
+          "button_wipe": "Redefinir Rainbow",
+          "button_complete": "Verificação Completa Acima",
+          "wipe_confirmation": "Redefinir Rainbow",
+          "wipe_confirmation_desc": "Tem certeza de que deseja redefinir a extensão do navegador Rainbow?",
+          "wipe_confirmation_button": "Redefinir",
           "wipe_confirmation_cancel": "Cancelar"
         }
       }
@@ -245,10 +245,10 @@
       "use_flashbots": "Use Flashbots",
       "clear_transactions_and_nonces": "Limpar Transações Pendentes",
       "clear_transactions_and_nonces_success": "Transações pendentes limpas",
-      "flashbots_description": "Flashbots protects your transactions and reduces the likelihood of transaction failures."
+      "flashbots_description": "Flashbots protege suas transações e reduz a probabilidade de falhas."
     },
     "approvals": {
-      "title": "Approvals"
+      "title": "Aprovações"
     },
     "currency": {
       "title": "Moeda",
@@ -565,28 +565,28 @@
     "no_connections_copy": "Os sites aos quais você se conectarão aparecerão aqui"
   },
   "approvals": {
-    "title": "Approvals",
+    "title": "Aprovações",
     "unlimited": "Ilimitado",
     "no_allowance": "Sem Permissão",
-    "revoke_approval": "Revoke Approval",
-    "copy_spender": "Copy Spender",
-    "spender_address_copied": "Spender Address Copied",
-    "revoked_approvals": "Revoked Approvals",
+    "revoke_approval": "Revogar Aprovação",
+    "copy_spender": "Copiar Destinatário",
+    "spender_address_copied": "Endereço do Destinatário Copiado",
+    "revoked_approvals": "Aprovações Revogadas",
     "nothing_found": "Nada encontrado",
     "revoke": {
-      "title": "Revoke Approval",
-      "action": "Revoke",
+      "title": "Revogar Aprovação",
+      "action": "Revogar",
       "cancel": "Cancelar",
       "allowance": "Permissão",
-      "spender": "Spender",
+      "spender": "Destinatário",
       "chain": "Rede"
     },
     "token_details": {
       "explainer": {
         "token_approval": {
-          "title": "What’s an Approval?",
-          "description_1": "Approvals grant a dApp to spend and transfer tokens or NFTs on your behalf.",
-          "description_2": "It is important to monitor your approvals and revoke unnecessary, broad, or unsafe approvals that may risk your assets.",
+          "title": "O que é uma Aprovação?",
+          "description_1": "Aprovações permitem que um dApp gaste e transfira tokens ou NFTs em seu nome.",
+          "description_2": "É importante monitorar suas aprovações e revogar aquelas desnecessárias, amplas ou inseguras que podem arriscar seus ativos.",
           "action_label": "Entendi"
         }
       }
@@ -1095,8 +1095,8 @@
     "request_rejected": "Solicitação de transação rejeitada",
     "bridge_and_try_again": "Conecte alguns fundos de gás e tente novamente",
     "buy_and_try_again": "Compre alguns fundos de gás e tente novamente",
-    "buy_gas": "Buy %{token}",
-    "get_testnet_gas": "Get free testnet %{token}"
+    "buy_gas": "Comprar %{token}",
+    "get_testnet_gas": "Obter testnet grátis %{token}"
   },
   "add_chain": {
     "name": "Nome",
@@ -1260,7 +1260,7 @@
     "collection": "Coleção",
     "token_contract": "Contrato do Token",
     "token_standard": "Padrão do Token",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Revogar Aprovação"
   },
   "tokens_tab": {
     "coinbase_title": "Depósito da Coinbase",
@@ -1286,7 +1286,7 @@
     "sort_option_abc_long": "Alfabético",
     "hidden_section_title": "Oculto",
     "details": {
-      "last_sales_price": "Last Sale Price",
+      "last_sales_price": "Último Preço de Venda",
       "none": "Nenhum",
       "floor_price": "Preço mínimo",
       "description": "Descrição",
@@ -1298,7 +1298,7 @@
       "contract_creator": "Criador do contrato",
       "chain": "Rede",
       "hide": "Ocultar",
-      "unhide": "Unhide",
+      "unhide": "Reexibir",
       "id_copied": "ID Copiado",
       "copy_token_id": "Copiar ID do Token",
       "download": "Baixar",
@@ -1320,8 +1320,8 @@
         "floor_price_action_label": "Entendi"
       },
       "send": "Enviar",
-      "view_on_opensea": "View on OpenSea",
-      "view_on_explorer": "View on %{explorerTitle}"
+      "view_on_opensea": "Ver no OpenSea",
+      "view_on_explorer": "Ver em %{explorerTitle}"
     }
   },
   "points": {
@@ -1384,19 +1384,19 @@
       "unexpected": "Ocorreu um erro inesperado, tente novamente em alguns minutos"
     },
     "weekly_overview": {
-      "week_of": "> Week of %{from} - %{to}",
-      "counting": "> Counting earned points...",
-      "your_activity": "Your Activity:",
-      "referral_activity": "Referral Activity:",
-      "new_referrals": "New Referrals:",
-      "retroactive": "Retroactive Points:",
+      "week_of": "> Semana de %{from} - %{to}",
+      "counting": "> Contabilizando pontos ganhos...",
+      "your_activity": "Sua Atividade:",
+      "referral_activity": "Atividade de Indicação:",
+      "new_referrals": "Novas Indicações:",
+      "retroactive": "Pontos Retroativos:",
       "total": "Total:",
-      "weekly_counted": "> Weekly earnings counted",
-      "you_have": "You have:",
+      "weekly_counted": "> Ganhos semanais contabilizados",
+      "you_have": "Você tem:",
       "none": "Nenhum",
-      "your_earnings": "Your Earnings Last Week",
-      "view_breakdown": "View your weekly earnings breakdown",
-      "view_now": "View Now"
+      "your_earnings": "Seus Ganhos na Última Semana",
+      "view_breakdown": "Veja o detalhamento dos seus ganhos semanais",
+      "view_now": "Ver Agora"
     }
   },
   "speed_up_and_cancel": {
@@ -1416,7 +1416,7 @@
     "speed_up_transaction": "Acelerar transação",
     "close_cta": "Cancelar",
     "handle_copy_title": "Hash da Tx Copiado",
-    "revoke_approval": "Revoke Approval"
+    "revoke_approval": "Revogar Aprovação"
   },
   "token_details": {
     "swap": "Trocar",
@@ -1561,9 +1561,9 @@
     "network_changed_failed": "Falha na alteração de rede",
     "unsupported_network": "Rede não suportada",
     "no_active_session": "Nenhuma sessão ativa",
-    "already_added": "RPC activated",
-    "set_as_active": "New RPC activated",
-    "already_active": "Network already added"
+    "already_added": "RPC ativado",
+    "set_as_active": "Novo RPC ativado",
+    "already_active": "Rede já adicionada"
   },
   "alert": {
     "ok": "Ok",
@@ -1694,7 +1694,7 @@
   "nonce": "Nonce",
   "copy": "Copiar",
   "copy_link": "Copiar Link",
-  "link_text": "Learn More.",
+  "link_text": "Saiba mais",
   "close": "Fechar",
   "verified": "Verificado",
   "unverified": "Não verificado",
