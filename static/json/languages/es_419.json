@@ -78,7 +78,7 @@
     "guides_and_support": "Guías y Soporte",
     "learn_about_ethereum": "Aprende sobre Ethereum",
     "follow_us_on_twitter": "Síguenos en Twitter",
-    "share_beta_feedback": "Comparte tus comentarios sobre la versión beta",
+    "share_feedback": "Compartir comentarios",
     "theme": {
       "title": "Tema",
       "system": "Sistema",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "Restablecer Rainbow",
           "wipe_confirmation_desc": "¿Estás seguro de que quieres restablecer la extensión de navegador de Rainbow?",
           "wipe_confirmation_button": "Restablecer",
+          "wipe_confirmation_cancel": "Cancelar"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "Restablecer Rainbow",
+          "button_complete": "Completar revisión arriba",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "Eliminar",
+          "wipe_confirmation_cancel": "Cancelar"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "Cancelar"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "Mercado pequeño",
         "description": "Perdiendo %{impactAmount}"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "Sitio web",
       "registered_on": "Registrado en",
       "expires_in": "Expira en",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "El precio piso de una colección es el precio de venta más bajo de todos los ítems actualmente en venta en una colección",
         "floor_price_title": "Precio piso de la colección",
@@ -1321,7 +1346,12 @@
       },
       "send": "Enviar",
       "view_on_opensea": "Ver en OpenSea",
-      "view_on_explorer": "Ver en %{explorerTitle}"
+      "view_on_explorer": "Ver en %{explorerTitle}",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "Actividad de Referidos:",
       "new_referrals": "Nuevos Referidos:",
       "retroactive": "Puntos Retroactivos:",
+      "bonus": "Puntos de bonificación:",
       "total": "Total:",
       "weekly_counted": "> Ganancias semanales contabilizadas",
       "you_have": "Tienes:",
@@ -1432,12 +1463,23 @@
     "approvals": "Aprobaciones de tokens",
     "this_token_is_on_network": "Esta %{symbol} está en la red %{chainName}",
     "view_on": "Ver en %{explorer}",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "Precio no disponible",
     "more_options": {
       "copy_address": "Copiar dirección",
       "view_on_explorer": "Ver en %{explorer}",
       "hide": "Ocultar token",
-      "report": "Informar token"
+      "report": "Informar token",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "Ocultar %{name}",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "Acerca de %{name}",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "¿Qué es Arbitrum?",
-        "description_1": "Arbitrum es una red de Capa 2 que se ejecuta encima de Ethereum, lo que permite transacciones más económicas y rápidas al mismo tiempo que se beneficia de la seguridad subyacente de Ethereum.",
-        "description_2": "Agrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas permanentemente a Ethereum."
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "¿Qué es Optimism?",
-        "description_1": "Optimism es una red de Layer 2 que se ejecuta sobre Ethereum, permitiendo transacciones más baratas y rápidas mientras se beneficia de la seguridad subyacente de Ethereum.",
-        "description_2": "Agrupa muchas transacciones juntas en un 'roll up' antes de enviarlas de forma permanente a Ethereum."
-      },
-      "polygon": {
-        "title": "¿Qué es Polygon?",
-        "description_1": "Polygon es una sidechain, una red distinta que se ejecuta junto a Ethereum y es compatible con ella.",
-        "description_2": "Permite transacciones más baratas y rápidas, pero a diferencia de las redes de Layer 2, Polygon tiene sus propios mecanismos de seguridad y consenso que difieren de Ethereum."
-      },
-      "bsc": {
-        "title": "¿Qué es BSC?",
-        "description_1": "Binance Smart Chain, o BSC para abreviar, es la red blockchain para la plataforma de trading Binance.",
-        "description_2": "Permite transacciones más baratas y rápidas, pero a diferencia de las redes de Layer 2, BSC tiene sus propios mecanismos de seguridad y consenso que difieren de Ethereum."
-      },
-      "base": {
-        "title": "¿Qué es Base?",
-        "description_1": "Base es una red de Capa 2 que se ejecuta sobre Ethereum, permitiendo transacciones más baratas y rápidas al tiempo que se beneficia de la seguridad subyacente de Ethereum.",
-        "description_2": "Agrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas para vivir de manera permanente en Ethereum."
-      },
-      "zora": {
-        "title": "¿Qué es Zora?",
-        "description_1": "Zora es una red de Capa 2 que se ejecuta en Ethereum, permitiendo transacciones más baratas y rápidas mientras se beneficia de la seguridad subyacente de Ethereum.",
-        "description_2": "Agrupa muchas transacciones juntas en un \"roll up\" antes de enviarlas permanentemente a Ethereum."
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "Leer más",
       "action_label": "Entendido"
@@ -1680,6 +1729,7 @@
     "contract": "Contrato",
     "contract_name": "Nombre del contrato",
     "contract_created_at": "Contrato creado",
+    "to": "A",
     "source_code": "Código fuente",
     "signature": {
       "message": "Mensaje"
@@ -1700,6 +1750,7 @@
   "unverified": "No verificado",
   "skip": "Omitir",
   "done": "Hecho",
+  "view_on_explorer": "Ver en %{explorer}",
   "watch_asset": {
     "chain_id": "ID de cadena",
     "symbol": "Símbolo",
