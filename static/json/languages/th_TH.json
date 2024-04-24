@@ -78,7 +78,7 @@
     "guides_and_support": "คู่มือและการสนับสนุน",
     "learn_about_ethereum": "เรียนรู้เกี่ยวกับ Ethereum",
     "follow_us_on_twitter": "ติดตามเราบน Twitter",
-    "share_beta_feedback": "แชร์คำติชม Beta",
+    "share_feedback": "แชร์คำติชม",
     "theme": {
       "title": "ธีม",
       "system": "ระบบ",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "รีเซ็ต Rainbow",
           "wipe_confirmation_desc": "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตส่วนขยายของ Rainbow บนเบราว์เซอร์",
           "wipe_confirmation_button": "รีเซ็ต",
+          "wipe_confirmation_cancel": "ยกเลิก"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "รีเซ็ต Rainbow",
+          "button_complete": "ตรวจสอบข้อมูลข้างต้นให้ครบถ้วน",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "ลบ",
+          "wipe_confirmation_cancel": "ยกเลิก"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "ยกเลิก"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "ตลาดเล็ก",
         "description": "การสูญเสีย %{impactAmount}"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "เว็บไซต์",
       "registered_on": "ลงทะเบียนเมื่อ",
       "expires_in": "หมดอายุใน",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "ราคาต่ำสุดของคอลเลกชันคือราคาที่ถามต่ำสุดในรายการที่วางขายอยู่ในคอลเลกชัน",
         "floor_price_title": "ราคาพื้นคอลเลกชั่น",
@@ -1321,7 +1346,12 @@
       },
       "send": "ส่ง",
       "view_on_opensea": "ดูที่ OpenSea",
-      "view_on_explorer": "ดูที่ %{explorerTitle}"
+      "view_on_explorer": "ดูที่ %{explorerTitle}",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "กิจกรรมการอ้างอิง:",
       "new_referrals": "การอ้างอิงใหม่:",
       "retroactive": "คะแนนย้อนหลัง:",
+      "bonus": "คะแนนโบนัส:",
       "total": "รวม:",
       "weekly_counted": "> การนับรายได้รายสัปดาห์",
       "you_have": "คุณมี:",
@@ -1432,12 +1463,23 @@
     "approvals": "การอนุมัติโทเคน",
     "this_token_is_on_network": "%{symbol} นี้อยู่บนเครือข่าย %{chainName}",
     "view_on": "ดูบน %{explorer}",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "ราคาไม่สามารถใช้ได้",
     "more_options": {
       "copy_address": "คัดลอกที่อยู่",
       "view_on_explorer": "ดูบน %{explorer}",
       "hide": "ซ่อนโทเคน",
-      "report": "แจ้งโทเคน"
+      "report": "แจ้งโทเคน",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "ซ่อน %{name}",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "เกี่ยวกับ %{name}",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "Arbitrum คืออะไร?",
-        "description_1": "Arbitrum เป็น Layer 2 network ที่ทำงานบน Ethereum ทำให้ธุรกรรมถูกและเร็วขึ้น ยังได้รับประโยชน์จากความปลอดภัยหลักของ Ethereum",
-        "description_2": "มันรวมธุรกรรมหลายๆ รายการเข้าด้วยกันใน \"roll up\" ก่อนที่จะส่งไปอยู่ถาวรใน Ethereum"
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "Optimism คืออะไร",
-        "description_1": "Optimism เป็น Layer 2 network ที่ทำงานบน Ethereum ทำให้ธุรกรรมถูกและเร็วขึ้น ยังได้รับประโยชน์จากความปลอดภัยหลักของ Ethereum",
-        "description_2": "ทำการรวมธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งไปยัง Ethereum อย่างถาวร"
-      },
-      "polygon": {
-        "title": "Polygon คืออะไร",
-        "description_1": "Polygon เป็น sidechain เครือข่ายที่แยกต่างหากที่ทำงานข้างๆ Ethereum และสามารถทำงานร่วมกัน",
-        "description_2": "มันช่วยให้ธุรกรรมถูกและเร็วขึ้น แต่ไม่เหมือนกับ Layer 2 networks, Polygon มีความปลอดภัยของตัวเองและกลไกการสรุปที่แตกต่างจาก Ethereum"
-      },
-      "bsc": {
-        "title": "BSC คืออะไร",
-        "description_1": "Binance Smart Chain หรือ BSC คือเครือข่าย blockchain สำหรับแพลตฟอร์มการซื้อขาย Binance",
-        "description_2": "ช่วยให้การทำธุรกรรมถูกกว่าและเร็วขึ้น แต่ไม่เหมือนกับเครือข่าย Layer 2, BSC มีระบบความปลอดภัยและการสร้างความเห็นชอบที่ต่างจาก Ethereum"
-      },
-      "base": {
-        "title": "Base คืออะไร?",
-        "description_1": "Base คือเครือข่าย Layer 2 ที่ทำงานบน Ethereum ทำให้สามารถทำธุรกรรมที่ถูกและเร็วขึ้น และยังได้รับประโยชน์จากความปลอดภัยของ Ethereum",
-        "description_2": "ทำการรวมธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งไปยัง Ethereum อย่างถาวร"
-      },
-      "zora": {
-        "title": "Zora คืออะไร",
-        "description_1": "Zora เป็นเครือข่าย Layer 2 ที่ทำงานบน Ethereum, ทำให้การทำธุรกรรมถูกต้นทุนและเร็วขึ้นในขณะที่ยังได้รับประโยชน์จากความปลอดภัยที่ภายใต้ของ Ethereum",
-        "description_2": "ทำการรวมธุรกรรมหลายๆ รายการใน \"roll up\" ก่อนส่งไปยัง Ethereum อย่างถาวร"
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "อ่านเพิ่มเติม",
       "action_label": "เข้าใจแล้ว"
@@ -1680,6 +1729,7 @@
     "contract": "สัญญา",
     "contract_name": "ชื่อสัญญา",
     "contract_created_at": "สร้างสัญญาแล้ว",
+    "to": "ถึง",
     "source_code": "รหัสต้นฉบับ",
     "signature": {
       "message": "ข้อความ"
@@ -1700,6 +1750,7 @@
   "unverified": "ไม่ได้รับการตรวจสอบ",
   "skip": "ข้าม",
   "done": "เสร็จสิ้น",
+  "view_on_explorer": "ดูบน %{explorer}",
   "watch_asset": {
     "chain_id": "รหัสเครือข่าย",
     "symbol": "สัญลักษณ์",
