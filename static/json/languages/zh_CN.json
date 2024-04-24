@@ -78,7 +78,7 @@
     "guides_and_support": "指南和支持",
     "learn_about_ethereum": "了解以太坊",
     "follow_us_on_twitter": "在 Twitter 上关注我们",
-    "share_beta_feedback": "分享测试反馈",
+    "share_feedback": "分享反馈",
     "theme": {
       "title": "主题",
       "system": "系统",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "重置Rainbow",
           "wipe_confirmation_desc": "您确定要重置Rainbow浏览器扩展吗？",
           "wipe_confirmation_button": "重置",
+          "wipe_confirmation_cancel": "取消"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "重置Rainbow",
+          "button_complete": "完成上述检查",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "删除",
+          "wipe_confirmation_cancel": "取消"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "取消"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "市场较小",
         "description": "失去 %{impactAmount}"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "网站",
       "registered_on": "注册时间",
       "expires_in": "到期时间",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "一个收藏品的底价是该收藏中所有待售物品的最低要价",
         "floor_price_title": "藏品底价",
@@ -1321,7 +1346,12 @@
       },
       "send": "发送",
       "view_on_opensea": "在OpenSea上查看",
-      "view_on_explorer": "在 %{explorerTitle}上查看"
+      "view_on_explorer": "在 %{explorerTitle}上查看",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "推荐活动：",
       "new_referrals": "新推荐：",
       "retroactive": "追溯积分：",
+      "bonus": "额外积分：",
       "total": "总计：",
       "weekly_counted": "＞ 已计算的每周收益",
       "you_have": "您有：",
@@ -1432,12 +1463,23 @@
     "approvals": "代币批准",
     "this_token_is_on_network": "该 %{symbol} 在 %{chainName} 网络上",
     "view_on": "在 %{explorer}上查看",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "价格不可用",
     "more_options": {
       "copy_address": "复制地址",
       "view_on_explorer": "在 %{explorer}上查看",
       "hide": "隐藏代币",
-      "report": "报告代币"
+      "report": "报告代币",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "隐藏 %{name}",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "关于 %{name}",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "什么是Arbitrum？",
-        "description_1": "Arbitrum是一个基于以太坊的二层网络，能够实现更便宜、更快速的交易，同时又能从以太坊的底层安全性中受益。",
-        "description_2": "它将许多交易捆绑在一起，然后将它们发送到以太坊上永久保存。"
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "什么是Optimism？",
-        "description_1": "Optimism是以太坊上运行的Layer 2网络，可以实现更便宜和更快速的交易，同时仍然享受以太坊底层安全性的优势。",
-        "description_2": "它在发送之前会将大量交易捆绑在一起，并永久存储在以太坊上。"
-      },
-      "polygon": {
-        "title": "Polygon是什么？",
-        "description_1": "Polygon是一个侧链，与以太坊并行运行并与之兼容。",
-        "description_2": "它支持更便宜和更快速的交易，但与Layer 2网络不同，Polygon具有自己的安全性和共识机制，与以太坊不同。"
-      },
-      "bsc": {
-        "title": "BSC是什么？",
-        "description_1": "Binance智能链，简称BSC，是Binance交易平台的区块链网络。",
-        "description_2": "它支持更便宜和更快速的交易，但与Layer 2网络不同，BSC具有自己的安全性和共识机制，与以太坊不同。"
-      },
-      "base": {
-        "title": "什么是Base?",
-        "description_1": "Base是在以太坊之上运行的第二层网络，可以实现更便宜和更快的交易，同时仍能从以太坊的底层安全性中受益。",
-        "description_2": "它将许多交易捆绑在一起，在发送到以太坊之前将它们“卷起”并永久保存。"
-      },
-      "zora": {
-        "title": "什么是Zora?",
-        "description_1": "Zora是一个在以太坊之上运行的二层网络，可以实现更便宜、更快速的交易，同时仍然享受以太坊底层安全性的好处。",
-        "description_2": "在将它们永久存储在以太坊上之前，它会将许多交易捆绑在一起并进行\"roll up\"处理。"
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "了解更多",
       "action_label": "了解"
@@ -1680,6 +1729,7 @@
     "contract": "合约",
     "contract_name": "合约名称",
     "contract_created_at": "创建合约",
+    "to": "至",
     "source_code": "源代码",
     "signature": {
       "message": "消息"
@@ -1700,6 +1750,7 @@
   "unverified": "未验证",
   "skip": "跳过",
   "done": "完成",
+  "view_on_explorer": "在 %{explorer}上查看",
   "watch_asset": {
     "chain_id": "链ID",
     "symbol": "符号",
