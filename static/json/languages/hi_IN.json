@@ -78,7 +78,7 @@
     "guides_and_support": "गाइड और सहायता",
     "learn_about_ethereum": "ईथेरियम के बारे में सीखें",
     "follow_us_on_twitter": "हमें ट्विटर पर फॉलो करें",
-    "share_beta_feedback": "बीटा प्रतिक्रिया साझा करें",
+    "share_feedback": "फ़ीडबैक साझा करें",
     "theme": {
       "title": "थीम",
       "system": "सिस्टम",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "रेनबो रीसेट करें",
           "wipe_confirmation_desc": "क्या आप वाकई रेनबो ब्राउज़र एक्सटेंशन को रीसेट करना चाहते हैं?",
           "wipe_confirmation_button": "रीसेट करें",
+          "wipe_confirmation_cancel": "रद्द करें"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "रेनबो रीसेट करें",
+          "button_complete": "ऊपर दिए गए चेक को पूरा करें",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "हटाएँ",
+          "wipe_confirmation_cancel": "रद्द करें"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "रद्द करें"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "छोटा बाजार",
         "description": "कमाना %{impactAmount}"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "वेबसाइट",
       "registered_on": "पंजीकृत",
       "expires_in": "समाप्त होता है",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "संग्रह की निचली कीमत वह न्यूनतम मांग की गई कीमत होती है जो उस संग्रह में बिक्री के लिए उपलब्ध सभी वस्तुओं में से होती है।",
         "floor_price_title": "संग्रह की न्यूनतम कीमत",
@@ -1321,7 +1346,12 @@
       },
       "send": "भेजें",
       "view_on_opensea": "OpenSea पर देखें",
-      "view_on_explorer": "%{explorerTitle}पर देखें"
+      "view_on_explorer": "%{explorerTitle}पर देखें",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "रेफरल गतिविधि:",
       "new_referrals": "नए रेफरल:",
       "retroactive": "पूर्वव्यापी अंक:",
+      "bonus": "बोनस अंक:",
       "total": "कुल:",
       "weekly_counted": "> साप्ताहिक कमाई गिनी गई",
       "you_have": "आपके पास है:",
@@ -1432,12 +1463,23 @@
     "approvals": "टोकन  अनुमोदन",
     "this_token_is_on_network": "यह %{symbol} इस %{chainName} नेटवर्क पर है",
     "view_on": "%{explorer}पर देखें",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "मूल्य उपलब्ध नहीं है",
     "more_options": {
       "copy_address": "पता कॉपी करें",
       "view_on_explorer": "%{explorer}पर देखें",
       "hide": "टोकन छिपाएँ",
-      "report": "टोकन की रिपोर्ट करें"
+      "report": "टोकन की रिपोर्ट करें",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "छिपाएँ %{name}",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "लगभग %{name}के बारे में",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "आर्बिट्रम क्या है?",
-        "description_1": "आर्बिट्रम एक Layer 2 नेटवर्क है जो ईथेरीयम के ऊपर चलता है, जिसके द्वारा सस्ते और तेज़ लेन-देन संचालित किया जाता है, हालांकि ईथेरियम की मूल भरोसेमंदता से भी लाभ मिलता है।",
-        "description_2": "यह \"रोल अप\" में बहुत सारे लेन-देन को बंडल करके उन्हें स्थायी रूप से ईथेरियम पर भेजता है।"
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "ओप्टिमिज़्म क्या है?",
-        "description_1": "ओप्टिमिज़्म एक लेयर 2 नेटवर्क है जो ईथेरियम के ऊपर चलता है, जिसके माध्यम से सस्ते और तेज़ ट्रांजेक्शन संभव होते हैं और यहां ईथेरियम की आधारभूत सुरक्षा का फ़ायदा उठाया जा सकता है।",
-        "description_2": "यह ट्रांजेक्शनों को ईथेरियम पर भेजने से पहले उन्हें एक \"रोल अप\" में बंडल करता है और फिर उन्हें स्थायी रूप से ईथेरियम पर करता है।"
-      },
-      "polygon": {
-        "title": "पॉलिगॉन क्या है?",
-        "description_1": "पॉलिगॉन एक साइडचेन है, जो ईथेरियम के साथ समरूप है और उसके साथ संगत है।",
-        "description_2": "यह सस्ते और तेज़ ट्रांजेक्शनों की सुविधा प्रदान करता है, लेकिन अनुमानित लेयर 2 नेटवर्क की तरह, पॉलिगॉन का अपना सुरक्षा और सहमति मैकनिज़्म है जो ईथेरियम से अलग होता है।"
-      },
-      "bsc": {
-        "title": "बीएससी क्या है?",
-        "description_1": "बाइनेंस स्मार्ट चेन, यानी बीएससी, ट्रेडिंग प्लेटफ़ॉर्म बाइनेंस के लिए ब्लॉकचेन नेटवर्क है।",
-        "description_2": "यह सस्ते और तेज़ ट्रांजेक्शनों की सुविधा प्रदान करता है, लेकिन अनुमानित लेयर 2 नेटवर्क की तरह, बीएससी का अपना सुरक्षा और सहमति मैकनिज़्म है जो ईथेरियम से अलग होता है।"
-      },
-      "base": {
-        "title": "बेस क्या है?",
-        "description_1": "बेस एक Layer 2 नेटवर्क है जो ईथेरियम के ऊपर चलता है, जिससे हमेशा के लिए ईथेरियम की अपेक्षाकृत सुरक्षा का लाभ लेते हुए सस्ते और तेज़ लेनदेन संभव होते हैं।",
-        "description_2": "यह लेनदेनों को पुनर्प्रेषित करने से पहले उन्हें एक \"रोल अप\" में संकलित करता है और फिर उन्हें स्थायी रूप से ईथेरियम पर भेजता है।"
-      },
-      "zora": {
-        "title": "ज़ोरा क्या है?",
-        "description_1": "Zora एक Layer 2 नेटवर्क है जो Ethereum के ऊपर चलता है, जो सस्ते और तेज़ लेनदेन को संभव बनाता है जबकि फिर भी Ethereum की बुनियादी सुरक्षा से लाभान्वित होता है।",
-        "description_2": "यह Ethereum पर स्थायी रूप से भेजने से पहले \"रोल अप\" में कई लेनदेनों को साथ में बंडल करता है।"
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "और पढ़ें",
       "action_label": "समझे"
@@ -1680,6 +1729,7 @@
     "contract": "संविदा",
     "contract_name": "संविदा का नाम",
     "contract_created_at": "कलेक्शन बनाया गया",
+    "to": "को",
     "source_code": "स्रोत कोड",
     "signature": {
       "message": "संदेश"
@@ -1700,6 +1750,7 @@
   "unverified": "अप्रमाणित",
   "skip": "छोड़ें",
   "done": "हो गया",
+  "view_on_explorer": "%{explorer}पर देखें",
   "watch_asset": {
     "chain_id": "चेन आईडी",
     "symbol": "प्रतीक",
