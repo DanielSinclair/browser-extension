@@ -78,7 +78,7 @@
     "guides_and_support": "Kılavuzlar ve Destek",
     "learn_about_ethereum": "Ethereum'i öğrenin",
     "follow_us_on_twitter": "Twitter'da bizi takip edin",
-    "share_beta_feedback": "Beta Geri Bildirimini Paylaş",
+    "share_feedback": "Geri Bildirim Paylaş",
     "theme": {
       "title": "Tema",
       "system": "Sistem",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "Rainbow'u Sıfırla",
           "wipe_confirmation_desc": "Rainbow tarayıcı eklentisini sıfırlamak istediğinizden emin misiniz?",
           "wipe_confirmation_button": "Sıfırla",
+          "wipe_confirmation_cancel": "İptal"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "Rainbow'u Sıfırla",
+          "button_complete": "Yukarıdaki Kontrolü Tamamla",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "Kaldır",
+          "wipe_confirmation_cancel": "İptal"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "İptal"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "Küçük piyasa",
         "description": "%{impactAmount}kaybetmek"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "Web Sitesi",
       "registered_on": "Kayıt tarihi",
       "expires_in": "Bitiş süresi",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "Bir koleksiyonun taban fiyatı, koleksiyondaki şu an satışta olan tüm ürünler arasındaki en düşük fiyattır",
         "floor_price_title": "Koleksiyon taban fiyatı",
@@ -1321,7 +1346,12 @@
       },
       "send": "Gönder",
       "view_on_opensea": "OpenSea'de Görüntüle",
-      "view_on_explorer": "%{explorerTitle}Üzerinde Görüntüle"
+      "view_on_explorer": "%{explorerTitle}Üzerinde Görüntüle",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "Referans Aktivitesi:",
       "new_referrals": "Yeni Referanslar:",
       "retroactive": "Geçmişe Yönelik Puanlar:",
+      "bonus": "Bonus Puanlar:",
       "total": "Toplam:",
       "weekly_counted": "> Haftalık kazançlar hesaplandı",
       "you_have": "Sahip olduğunuz:",
@@ -1432,12 +1463,23 @@
     "approvals": "Token Onayları",
     "this_token_is_on_network": "Bu %{symbol} %{chainName} ağında.",
     "view_on": "%{explorer}üzerinde görüntüle",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "Fiyat mevcut değil",
     "more_options": {
       "copy_address": "Adresi Kopyala",
       "view_on_explorer": "%{explorer}üzerinde görüntüle",
       "hide": "Tokeni Gizle",
-      "report": "Tokeni Bildir"
+      "report": "Tokeni Bildir",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "%{name}adımını gizle",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "Hakkında %{name}",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "Arbitrum nedir?",
-        "description_1": "Arbitrum, Ethereum üzerinde çalışan bir Layer 2 ağıdır. Daha ucuz ve daha hızlı işlemleri mümkün kılar ve aynı zamanda Ethereum'un temel güvenliğinden faydalanır.",
-        "description_2": "Birçok işlemi Ethereum'a kalıcı olarak gönderilmeden önce bir \"toplu işlem\" olarak birleştirir."
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "Optimism nedir?",
-        "description_1": "Optimizm, Ethereum üzerinde çalışan ve Ethereum'un temel güvenliğinden yararlanarak daha ucuz ve daha hızlı işlemler sağlayan bir Layer 2 ağıdır.",
-        "description_2": "Birçok işlemi Ethereum'a göndermeden önce bir 'roll up'ta bir araya getirerek birleştirir ve bunları kalıcı olarak Ethereum üzerinde tutar."
-      },
-      "polygon": {
-        "title": "Polygon nedir?",
-        "description_1": "Polygon, Ethereum ile uyumlu bir yan zincir olan ayrı bir ağdır ve Ethereum'un yanında çalışır.",
-        "description_2": "Daha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağlarından farklı olarak, Polygon'un kendi güvenlik ve uzlaşma mekanizmaları vardır."
-      },
-      "bsc": {
-        "title": "BSC nedir?",
-        "description_1": "Binance Smart Chain veya kısaca BSC, Binance ticaret platformunun blok zinciridir.",
-        "description_2": "Daha ucuz ve daha hızlı işlemlere izin verir, ancak Layer 2 ağlarından farklı olarak, BSC'nin kendi güvenlik ve uzlaşma mekanizmaları vardır."
-      },
-      "base": {
-        "title": "Ne Base'dir?",
-        "description_1": "Base, Ethereum'un altında yatan güvenlikten faydalanırken, daha ucuz ve daha hızlı işlemler yapmayı sağlayan Ethereum üzerinde çalışan Layer 2 bir ağdır.",
-        "description_2": "Birçok işlemi Ethereum'a kalıcı olarak göndermeden önce bunları bir \"roll up\" içinde birleştirir."
-      },
-      "zora": {
-        "title": "Zora Nedir?",
-        "description_1": "Zora, Ethereum üzerinde çalışan ve Ethereum'un temel güvenliğinden yararlanırken daha ucuz ve daha hızlı işlemler yapmayı sağlayan Layer 2 bir ağdır.",
-        "description_2": "Birçok işlemi Ethereum üzerinde kalıcı olarak yaşatmadan önce \"roll up\" olarak bir araya getirir ve sonra gönderir."
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "Daha fazla bilgi",
       "action_label": "Anladım"
@@ -1680,6 +1729,7 @@
     "contract": "Sözleşme",
     "contract_name": "Sözleşme Adı",
     "contract_created_at": "Sözleşme Oluşturuldu",
+    "to": "Kime",
     "source_code": "Kaynak Kodu",
     "signature": {
       "message": "Mesaj"
@@ -1700,6 +1750,7 @@
   "unverified": "Doğrulanmamış",
   "skip": "Atla",
   "done": "Tamam",
+  "view_on_explorer": "%{explorer}üzerinde görüntüle",
   "watch_asset": {
     "chain_id": "Zincir Kimliği",
     "symbol": "Sembol",
