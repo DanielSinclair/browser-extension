@@ -78,7 +78,7 @@
     "guides_and_support": "ガイドとサポート",
     "learn_about_ethereum": "Ethereumについて学ぶ",
     "follow_us_on_twitter": "Twitterでフォローする",
-    "share_beta_feedback": "ベータフィードバックを共有する",
+    "share_feedback": "フィードバックを共有する",
     "theme": {
       "title": "テーマ",
       "system": "システム",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "Rainbowをリセット",
           "wipe_confirmation_desc": "Rainbowブラウザ拡張をリセットしてもよろしいですか？",
           "wipe_confirmation_button": "リセット",
+          "wipe_confirmation_cancel": "キャンセル"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "Rainbowをリセット",
+          "button_complete": "上記のチェックを完了",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "削除する",
+          "wipe_confirmation_cancel": "キャンセル"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "キャンセル"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "小規模な市場",
         "description": "%{impactAmount}を失う"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "ウェブサイト",
       "registered_on": "登録日",
       "expires_in": "有効期限",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "コレクションの床価格は、現在販売中のアイテムの中で最も低い希望価格を指します。",
         "floor_price_title": "コレクションの床価格",
@@ -1321,7 +1346,12 @@
       },
       "send": "送信する",
       "view_on_opensea": "OpenSeaで見る",
-      "view_on_explorer": "%{explorerTitle}で見る"
+      "view_on_explorer": "%{explorerTitle}で見る",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "紹介アクティビティ:",
       "new_referrals": "新規紹介者:",
       "retroactive": "遡及ポイント:",
+      "bonus": "ボーナスポイント：",
       "total": "合計:",
       "weekly_counted": "週間収益が計上されました",
       "you_have": "あなたの保有:",
@@ -1432,12 +1463,23 @@
     "approvals": "トークンの承認",
     "this_token_is_on_network": "この %{symbol} は %{chainName} ネットワーク上にあります",
     "view_on": "表示 %{explorer}で",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "価格は利用できません",
     "more_options": {
       "copy_address": "アドレスをコピー",
       "view_on_explorer": "表示 %{explorer}で",
       "hide": "トークンを非表示にする",
-      "report": "トークンを報告する"
+      "report": "トークンを報告する",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "%{name}を非表示にする",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "%{name}について",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "Arbitrumとは？",
-        "description_1": "ArbitrumはEthereum上で動作するLayer 2ネットワークであり、より安価で高速なトランザクションを実現することができますが、Ethereumの基本的なセキュリティを維持します。",
-        "description_2": "それは多くのトランザクションをまとめて\"ロールアップ\"し、それらをEthereumに永久に送信する前にグループ化します。"
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "Optimismとは？",
-        "description_1": "オプティミズムは、Ethereumの上で動作するLayer 2ネットワークであり、より安価かつ高速なトランザクションが可能ですが、Ethereumの基本的なセキュリティメカニズムを利用しています。",
-        "description_2": "それらをEthereumに永久的に送信する前に、複数のトランザクションを「ロールアップ」という形でまとめます。"
-      },
-      "polygon": {
-        "title": "Polygonとは？",
-        "description_1": "Polygonは、Ethereumと並行して動作する異なるネットワークであるサイドチェーンであり、Ethereumと互換性があります。",
-        "description_2": "より安価かつ高速なトランザクションが可能ですが、Layer 2ネットワークとは異なり、Polygonには独自のセキュリティとコンセンサスメカニズムがあります。"
-      },
-      "bsc": {
-        "title": "BSCとは？",
-        "description_1": "バイナンススマートチェーン（BSC）は、取引プラットフォームBinanceのためのブロックチェーンネットワークです。",
-        "description_2": "より安価かつ高速なトランザクションが可能ですが、Layer 2ネットワークとは異なり、BSCには独自のセキュリティとコンセンサスメカニズムがあります。"
-      },
-      "base": {
-        "title": "ベースとは？",
-        "description_1": "ベースは、Ethereumの基盤のセキュリティを活用しながら、より安価かつ高速なトランザクションを可能にする、Ethereum上で動作するLayer 2ネットワークです。",
-        "description_2": "トランザクションを\"ロールアップ\"してからEthereumに永久に記録する前に、多くのトランザクションをまとめて送信します。"
-      },
-      "zora": {
-        "title": "ゾーラとは？",
-        "description_1": "ZoraはEthereumの上で実行されるLayer 2ネットワークであり、より安価かつ高速なトランザクションを可能にしながら、Ethereumの基礎的なセキュリティの恩恵を受けることができます。",
-        "description_2": "それは複数のトランザクションをまとめて「ロールアップ」し、それらをEthereum上で永久に保存する前に送信します。"
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "詳細を読む",
       "action_label": "了解"
@@ -1680,6 +1729,7 @@
     "contract": "契約",
     "contract_name": "契約名",
     "contract_created_at": "契約作成日",
+    "to": "まで",
     "source_code": "ソースコード",
     "signature": {
       "message": "メッセージ"
@@ -1700,6 +1750,7 @@
   "unverified": "未確認",
   "skip": "スキップ",
   "done": "完了",
+  "view_on_explorer": "表示 %{explorer}で",
   "watch_asset": {
     "chain_id": "チェーンID",
     "symbol": "記号",
