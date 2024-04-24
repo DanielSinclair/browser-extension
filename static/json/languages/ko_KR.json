@@ -78,7 +78,7 @@
     "guides_and_support": "가이드 및 지원",
     "learn_about_ethereum": "이더리움에 대해 알아보기",
     "follow_us_on_twitter": "트위터에서 팔로우하기",
-    "share_beta_feedback": "베타 피드백 공유",
+    "share_feedback": "피드백 공유",
     "theme": {
       "title": "테마",
       "system": "시스템",
@@ -235,6 +235,26 @@
           "wipe_confirmation": "레인보우 초기화",
           "wipe_confirmation_desc": "레인보우 브라우저 확장 프로그램을 초기화하시겠습니까?",
           "wipe_confirmation_button": "초기화",
+          "wipe_confirmation_cancel": "취소"
+        },
+        "wipe_wallet_group": {
+          "delete": "Remove Wallet Group",
+          "acknowlegement": "I have backed up my Secret Recovery Phrase.",
+          "warning_one": "Removing your Wallet Group will delete the Recovery Phrase from Rainbow.",
+          "warning_two": "Your assets & funds are recoverable with the correct wallet recovery information.",
+          "warning_three": "Ensure your Secret Recovery Phrase is backed up before proceeding. ",
+          "button_wipe": "레인보우 초기화",
+          "button_complete": "위의 확인 완료",
+          "wipe_confirmation": "Remove Wallet Group",
+          "wipe_confirmation_desc": "Are you sure you want to remove your Secret Recovery Phrase from Rainbow?",
+          "wipe_confirmation_button": "제거",
+          "wipe_confirmation_cancel": "취소"
+        },
+        "wipe_hardware_wallet_group": {
+          "delete": "Unpair %{vendor}",
+          "wipe_confirmation": "Unpair %{vendor}",
+          "wipe_confirmation_desc": "Are you sure you want to unpair your %{vendor} and disconnect your wallets?",
+          "wipe_confirmation_button": "Unpair",
           "wipe_confirmation_cancel": "취소"
         }
       }
@@ -676,6 +696,10 @@
       "price_impact": {
         "title": "소규모 시장",
         "description": "%{impactAmount}손실"
+      },
+      "unknown_price": {
+        "title": "%{symbol} Market Value Unknown",
+        "description": "If you decide to continue, be sure that you are satisfied receiving the quoted amount."
       }
     },
     "aggregators": {
@@ -1314,6 +1338,7 @@
       "ens_website": "웹사이트",
       "registered_on": "등록 일자",
       "expires_in": "만료 기간",
+      "report": "Report",
       "explainer": {
         "floor_price_description": "컬렉션의 최저 가격은 해당 컬렉션에서 현재 판매 중인 모든 품목 중에서 가장 낮은 요구 가격입니다.",
         "floor_price_title": "컬렉션 최저 가격",
@@ -1321,7 +1346,12 @@
       },
       "send": "전송",
       "view_on_opensea": "OpenSea에서 보기",
-      "view_on_explorer": "%{explorerTitle}에서 보기"
+      "view_on_explorer": "%{explorerTitle}에서 보기",
+      "gallery": "gallery",
+      "view_gallery": "View Gallery"
+    },
+    "toast": {
+      "spam_reported": "Your report has been received!"
     }
   },
   "points": {
@@ -1390,6 +1420,7 @@
       "referral_activity": "추천 활동:",
       "new_referrals": "새 추천인:",
       "retroactive": "소급 포인트:",
+      "bonus": "보너스 포인트:",
       "total": "총계:",
       "weekly_counted": "> 주간 수익 집계됨",
       "you_have": "보유하고 있습니다:",
@@ -1432,12 +1463,23 @@
     "approvals": "토큰 승인",
     "this_token_is_on_network": "이 %{symbol} 는 %{chainName} 네트워크에 있습니다",
     "view_on": "%{explorer}에서 보기",
+    "view_on_coingecko": "View on CoinGecko",
     "not_available": "가격을 확인할 수 없습니다",
     "more_options": {
       "copy_address": "주소 복사",
       "view_on_explorer": "%{explorer}에서 보기",
       "hide": "토큰 숨기기",
-      "report": "토큰 신고"
+      "report": "토큰 신고",
+      "unpin_token": "Unpin %{name}",
+      "pin_token": "Pin %{name}",
+      "hide_token": "%{name}숨기기",
+      "unhide_token": "Unhide %{name}"
+    },
+    "toast": {
+      "hide_token": "Your %{name} is hidden",
+      "unhide_token": "Your %{name} is unhidden",
+      "pin_token": "Your %{name} is pinned",
+      "unpin_token": "Your %{name} is unpinned"
     },
     "about": {
       "about_token": "%{name}정보",
@@ -1499,35 +1541,42 @@
   },
   "explainers": {
     "sidechains": {
-      "arbitrum": {
-        "title": "Arbitrum이란 무엇인가요?",
-        "description_1": "Arbitrum은 Ethereum 위에서 실행되는 레이어 2 네트워크로, Ethereum의 기본 보안 효과를 유지하면서 저렴하고 빠른 거래를 가능하게 합니다.",
-        "description_2": "Arbitrum은 많은 거래를 \"롤업\"하고 이를 Ethereum에 영구적으로 적용하기 전에 번들로 만듭니다."
+      "layer_two": {
+        "title": "What's %{chainName}?",
+        "description_1": "%{chainName} is a Layer 2 network that runs on top of Ethereum, enabling cheaper and faster transactions while still benefiting from the underlying security of Ethereum.",
+        "description_2": "It bundles lots of transactions together in a \"roll up\" before sending them down to live permanently on Ethereum."
       },
-      "optimism": {
-        "title": "Optimism이 무엇인가요?",
-        "description_1": "Optimism은 Ethereum 위에서 작동하는 레이어 2 네트워크로, 저렴하고 빠른 거래를 가능하게 하면서 Ethereum의 기본 보안을 누릴 수 있습니다.",
-        "description_2": "Arbitrum은 많은 거래를 \"롤업\"하고 이를 Ethereum에 영구적으로 적용하기 전에 번들로 만듭니다."
-      },
-      "polygon": {
-        "title": "Polygon이 무엇인가요?",
-        "description_1": "Polygon은 Ethereum과 호환되는 별도의 네트워크인 사이드체인입니다.",
-        "description_2": "Polygon은 저렴하고 빠른 거래를 가능하게 하지만, 레이어 2 네트워크와 달리 Polygon에는 Ethereum과 다른 자체 보안 및 합의 메커니즘이 있습니다."
-      },
-      "bsc": {
-        "title": "BSC란 무엇인가요?",
-        "description_1": "Binance Smart Chain 또는 BSC는 거래 플랫폼 Binance를 위한 블록체인 네트워크입니다.",
-        "description_2": "더 저렴하고 빠른 거래를 가능하게 하지만 Layer 2 네트워크와 달리 BSC는 Ethereum과 다른 보안 및 합의 메커니즘이 있습니다."
-      },
-      "base": {
-        "title": "Base란 무엇인가요?",
-        "description_1": "Base는 이더리움 위에서 작동하는 Layer 2 네트워크로, 더 저렴하고 빠른 거래를 가능하게하면서도 이더리움의 기본적인 보안 혜택을 누릴 수 있습니다.",
-        "description_2": "Arbitrum은 많은 거래를 \"롤업\"하고 이를 Ethereum에 영구적으로 적용하기 전에 번들로 만듭니다."
-      },
-      "zora": {
-        "title": "Zora가 무엇인가요?",
-        "description_1": "Zora는 Ethereum 위에서 실행되는 Layer 2 네트워크로, 더 싼 비용과 더 빠른 거래를 가능케 하면서도 Ethereum의 기본적인 보안을 누릴 수 있습니다.",
-        "description_2": "Arbitrum은 많은 거래를 \"롤업\"하고 이를 Ethereum에 영구적으로 적용하기 전에 번들로 만듭니다."
+      "specific": {
+        "polygon": {
+          "title": "What's Polygon?",
+          "description_1": "Polygon is a sidechain, a distinct network that runs alongside Ethereum and is compatible with it.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Polygon has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "bsc": {
+          "title": "What's BSC?",
+          "description_1": "BNB Smart Chain, or BSC for short, is an alternative Layer 1 developed by the cryptocurrency exchange Binance.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, BSC has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "avalanche": {
+          "title": "What's Avalanche?",
+          "description_1": "Avalanche is an alternative Layer 1 powered by an ecosystem of subnets, similar to Ethereum sidechains and Layer 2s.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Avalanche has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "blast": {
+          "title": "What's Blast?",
+          "description_1": "Blast is an Ethereum Layer-2 (L2) platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_2": "The chain distinguishes itself with the introduction of native yield for ether (ETH) and various stablecoins such as USDC, USDT, and DAI."
+        },
+        "degen": {
+          "title": "What's Degen?",
+          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum and Ethereum.",
+          "description_2": "It offering incredibly fast and cheap transactions denominated in the Farcaster community token $degen."
+        },
+        "custom_network": {
+          "title": "What's this Network?",
+          "description_1": "This is a custom network added by you! Custom networks can be tailored to meet specific needs, offering unique features and capabilities.",
+          "description_2": "Depending on its configuration, this network might utilize distinct protocols, security measures, and consensus mechanisms, designed to optimize performance, reduce costs, or deliver specialized services."
+        }
       },
       "link_button_label": "더 읽기",
       "action_label": "알았습니다"
@@ -1680,6 +1729,7 @@
     "contract": "계약",
     "contract_name": "계약 이름",
     "contract_created_at": "계약 생성됨",
+    "to": "수신",
     "source_code": "소스 코드",
     "signature": {
       "message": "메시지"
@@ -1700,6 +1750,7 @@
   "unverified": "인증되지 않음",
   "skip": "건너뛰기",
   "done": "완료",
+  "view_on_explorer": "%{explorer}에서 보기",
   "watch_asset": {
     "chain_id": "체인 ID",
     "symbol": "심볼",
