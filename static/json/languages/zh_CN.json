@@ -421,9 +421,9 @@
       "failed": "出价失败"
     },
     "speed_up": {
-      "pending": "Speeding up",
-      "confirmed": "Sped up",
-      "failed": "Speed up Failed"
+      "pending": "加速中",
+      "confirmed": "已加速",
+      "failed": "加速失败"
     }
   },
   "command_k": {
@@ -432,7 +432,7 @@
       "open": "打开",
       "open_in_new_tab": "在新标签页中打开",
       "switch_to_wallet": "切换到钱包",
-      "send_to_contact": "Send to Contact",
+      "send_to_contact": "发送到联系人",
       "view": "查看"
     },
     "commands": {
@@ -440,7 +440,7 @@
         "send": "发送",
         "swap": "交换",
         "my_wallets": "我的钱包",
-        "my_contacts": "My Contacts",
+        "my_contacts": "我的联系人",
         "my_tokens": "我的代币",
         "my_tokens_watched": "代币",
         "my_nfts": "我的NFTs",
@@ -480,12 +480,12 @@
         "add_as_watched_wallet": "观察此钱包",
         "view_on_ens": "在 ENS 上查看",
         "switch_to_wallet": "切换至此钱包",
-        "send_to_wallet": "Send to This Wallet",
-        "add_contact": "Add as Contact",
+        "send_to_wallet": "发送到此钱包",
+        "add_contact": "添加为联系人",
         "remove_contact": "删除联系人",
         "copy_wallet_address": "复制地址",
         "view_wallet_on_etherscan": "在 Etherscan 上查看",
-        "send_contact": "Send to Contact",
+        "send_contact": "发送到联系人",
         "export_addresses_as_csv": "导出地址为CSV",
         "enable_flashbots": "启用Flashbots",
         "disable_flashbots": "禁用Flashbots"
@@ -493,7 +493,7 @@
       "search_tags": {
         "swap": "桥接",
         "my_wallets": "切换",
-        "my_contacts": "contact, contacts",
+        "my_contacts": "联系人, 通讯录",
         "my_tokens_watched": "我的",
         "my_nfts_watched": "我的",
         "view_profile": "档案, 画廊, ENS, NFTs",
@@ -532,8 +532,8 @@
       "title_revealed": "显示小额余额"
     },
     "contact_toast": {
-      "title_added": "Contact Added",
-      "title_removed": "Contact Removed"
+      "title_added": "联系人已添加",
+      "title_removed": "联系人已删除"
     },
     "no_results": "无结果",
     "pages": {
@@ -561,8 +561,8 @@
         "section_title": "我的钱包"
       },
       "my_contacts": {
-        "search_placeholder": "Select a contact to send to…",
-        "section_title": "My Contacts"
+        "search_placeholder": "选择一个联系人发送到…",
+        "section_title": "我的联系人"
       },
       "token_detail": {
         "search_placeholder": "搜索代币操作…",
@@ -1325,7 +1325,7 @@
     "empty_state_header": "NFTs",
     "empty_state_description": "你的NFTs将出现在这里！",
     "report_nft_action_text": "举报",
-    "report_nft_confirm_description": "Confirm report of NFT?",
+    "report_nft_confirm_description": "确认报告 NFT？",
     "view_on_web": "在Web上查看",
     "display_mode_gallery": "画廊",
     "display_mode_collections": "集合",
@@ -1377,8 +1377,8 @@
     },
     "toast": {
       "spam_reported": "您的举报已收到！",
-      "hidden": "NFT hidden",
-      "unhidden": "NFT unhidden"
+      "hidden": "NFT 已隐藏",
+      "unhidden": "NFT 已取消隐藏"
     }
   },
   "points": {
@@ -1476,8 +1476,8 @@
     "handle_copy_title": "交易哈希已复制",
     "revoke_approval": "撤销授权",
     "speed_up_failed": {
-      "title": "Speed up failed",
-      "description": "Attempts to speed up a transaction can fail during network congestion, gas limit increases, or when the original transaction is confirmed first"
+      "title": "加速失败",
+      "description": "尝试加速交易可能会在网络拥堵、燃气限制增加或原始交易首先确认时失败"
     }
   },
   "token_details": {
