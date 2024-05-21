@@ -421,9 +421,9 @@
       "failed": "Tawaran Gagal"
     },
     "speed_up": {
-      "pending": "Speeding up",
-      "confirmed": "Sped up",
-      "failed": "Speed up Failed"
+      "pending": "Mempercepat",
+      "confirmed": "Dipercepat",
+      "failed": "Percepatan Gagal"
     }
   },
   "command_k": {
@@ -432,7 +432,7 @@
       "open": "Buka",
       "open_in_new_tab": "Buka di Tab Baru",
       "switch_to_wallet": "Pindah ke Wallet",
-      "send_to_contact": "Send to Contact",
+      "send_to_contact": "Kirim ke Kontak",
       "view": "Lihat"
     },
     "commands": {
@@ -440,7 +440,7 @@
         "send": "Kirim",
         "swap": "Tukar",
         "my_wallets": "Dompet Saya",
-        "my_contacts": "My Contacts",
+        "my_contacts": "Kontak Saya",
         "my_tokens": "Token Saya",
         "my_tokens_watched": "Tokens",
         "my_nfts": "NFT Saya",
@@ -480,12 +480,12 @@
         "add_as_watched_wallet": "Pantau Dompet Ini",
         "view_on_ens": "Lihat pada ENS",
         "switch_to_wallet": "Alihkan ke Dompet Ini",
-        "send_to_wallet": "Send to This Wallet",
-        "add_contact": "Add as Contact",
+        "send_to_wallet": "Kirim ke Dompet Ini",
+        "add_contact": "Tambahkan sebagai Kontak",
         "remove_contact": "Hapus kontak",
         "copy_wallet_address": "Salin Alamat",
         "view_wallet_on_etherscan": "Lihat di Etherscan",
-        "send_contact": "Send to Contact",
+        "send_contact": "Kirim ke Kontak",
         "export_addresses_as_csv": "Ekspor Alamat sebagai CSV",
         "enable_flashbots": "Aktifkan Flashbots",
         "disable_flashbots": "Nonaktifkan Flashbots"
@@ -493,7 +493,7 @@
       "search_tags": {
         "swap": "jembatan",
         "my_wallets": "beralih",
-        "my_contacts": "contact, contacts",
+        "my_contacts": "kontak, kontak-kontak",
         "my_tokens_watched": "saya",
         "my_nfts_watched": "saya",
         "view_profile": "profil, galeri, ens, nfts",
@@ -532,8 +532,8 @@
       "title_revealed": "Menunjukkan Saldo Kecil"
     },
     "contact_toast": {
-      "title_added": "Contact Added",
-      "title_removed": "Contact Removed"
+      "title_added": "Kontak Ditambahkan",
+      "title_removed": "Kontak Dihapus"
     },
     "no_results": "Tidak ada hasil",
     "pages": {
@@ -561,8 +561,8 @@
         "section_title": "Dompet Saya"
       },
       "my_contacts": {
-        "search_placeholder": "Select a contact to send to…",
-        "section_title": "My Contacts"
+        "search_placeholder": "Pilih kontak untuk dikirim ke…",
+        "section_title": "Kontak Saya"
       },
       "token_detail": {
         "search_placeholder": "Cari aksi token…",
@@ -1325,7 +1325,7 @@
     "empty_state_header": "NFTs",
     "empty_state_description": "NFT Anda akan muncul di sini!",
     "report_nft_action_text": "Laporkan",
-    "report_nft_confirm_description": "Confirm report of NFT?",
+    "report_nft_confirm_description": "Konfirmasi pelaporan NFT?",
     "view_on_web": "Lihat di Web",
     "display_mode_gallery": "Galeri",
     "display_mode_collections": "Koleksi",
@@ -1377,8 +1377,8 @@
     },
     "toast": {
       "spam_reported": "Laporan Anda telah diterima!",
-      "hidden": "NFT hidden",
-      "unhidden": "NFT unhidden"
+      "hidden": "NFT disembunyikan",
+      "unhidden": "NFT ditampilkan kembali"
     }
   },
   "points": {
@@ -1476,8 +1476,8 @@
     "handle_copy_title": "Tx Hash Tersalin",
     "revoke_approval": "Cabut Persetujuan",
     "speed_up_failed": {
-      "title": "Speed up failed",
-      "description": "Attempts to speed up a transaction can fail during network congestion, gas limit increases, or when the original transaction is confirmed first"
+      "title": "Percepatan gagal",
+      "description": "Usaha untuk mempercepat transaksi dapat gagal selama kemacetan jaringan, peningkatan batas gas, atau ketika transaksi asli dikonfirmasi lebih dahulu"
     }
   },
   "token_details": {
