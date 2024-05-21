@@ -419,6 +419,11 @@
       "pending": "入札中",
       "confirmed": "入札",
       "failed": "入札失敗"
+    },
+    "speed_up": {
+      "pending": "Speeding up",
+      "confirmed": "Sped up",
+      "failed": "Speed up Failed"
     }
   },
   "command_k": {
@@ -427,6 +432,7 @@
       "open": "開く",
       "open_in_new_tab": "新しいタブで開く",
       "switch_to_wallet": "ウォレットに切り替える",
+      "send_to_contact": "Send to Contact",
       "view": "表示"
     },
     "commands": {
@@ -434,6 +440,7 @@
         "send": "送信する",
         "swap": "スワップ",
         "my_wallets": "マイウォレット",
+        "my_contacts": "My Contacts",
         "my_tokens": "マイトークン",
         "my_tokens_watched": "トークン",
         "my_nfts": "私のNFT",
@@ -473,8 +480,12 @@
         "add_as_watched_wallet": "このウォレットを監視",
         "view_on_ens": "ENSで表示",
         "switch_to_wallet": "このウォレットに切り替え",
+        "send_to_wallet": "Send to This Wallet",
+        "add_contact": "Add as Contact",
+        "remove_contact": "連絡先を削除する",
         "copy_wallet_address": "アドレスをコピー",
         "view_wallet_on_etherscan": "Etherscanで表示",
+        "send_contact": "Send to Contact",
         "export_addresses_as_csv": "アドレスをCSVとしてエクスポート",
         "enable_flashbots": "Flashbotsを有効にする",
         "disable_flashbots": "Flashbotsを無効にする"
@@ -482,6 +493,7 @@
       "search_tags": {
         "swap": "ブリッジ",
         "my_wallets": "切り替え",
+        "my_contacts": "contact, contacts",
         "my_tokens_watched": "マイ",
         "my_nfts_watched": "マイ",
         "view_profile": "プロフィール, ギャラリー, ENS, NFT",
@@ -519,6 +531,10 @@
       "title_hidden": "小額残高非表示",
       "title_revealed": "小額残高表示中"
     },
+    "contact_toast": {
+      "title_added": "Contact Added",
+      "title_removed": "Contact Removed"
+    },
     "no_results": "結果がありません",
     "pages": {
       "add_wallet": {
@@ -544,6 +560,10 @@
         "search_placeholder": "切り替えるウォレットを選択…",
         "section_title": "マイウォレット"
       },
+      "my_contacts": {
+        "search_placeholder": "Select a contact to send to…",
+        "section_title": "My Contacts"
+      },
       "token_detail": {
         "search_placeholder": "トークンアクションを検索する…",
         "section_title": "アクション"
@@ -556,6 +576,9 @@
         "search_placeholder": "ウォレットアクションを検索する…",
         "section_title": "アクション"
       }
+    },
+    "labels": {
+      "contact": "お問い合わせ"
     },
     "quick_promo": {
       "text": "マジックメニューを開くには %{modifierSymbol}K を押します",
@@ -1301,6 +1324,8 @@
   "nfts": {
     "empty_state_header": "NFTs",
     "empty_state_description": "あなたのNFTがここに表示されます！",
+    "report_nft_action_text": "報告する",
+    "report_nft_confirm_description": "Confirm report of NFT?",
     "view_on_web": "ウェブで見る",
     "display_mode_gallery": "ギャラリー",
     "display_mode_collections": "コレクション",
@@ -1351,7 +1376,9 @@
       "view_gallery": "ギャラリーを見る"
     },
     "toast": {
-      "spam_reported": "報告を受け付けました！"
+      "spam_reported": "報告を受け付けました！",
+      "hidden": "NFT hidden",
+      "unhidden": "NFT unhidden"
     }
   },
   "points": {
@@ -1447,7 +1474,11 @@
     "speed_up_transaction": "トランザクションの処理速度を上げる",
     "close_cta": "キャンセル",
     "handle_copy_title": "Txハッシュがコピーされました",
-    "revoke_approval": "承認を取り消す"
+    "revoke_approval": "承認を取り消す",
+    "speed_up_failed": {
+      "title": "Speed up failed",
+      "description": "Attempts to speed up a transaction can fail during network congestion, gas limit increases, or when the original transaction is confirmed first"
+    }
   },
   "token_details": {
     "swap": "スワップ",
@@ -1616,6 +1647,7 @@
   },
   "alert": {
     "ok": "OK",
+    "cancel": "キャンセル",
     "wallet_watching_mode": "このウォレットは現在「ウォッチモード」です",
     "wallet_testing_mode": "テストネットはSwapに対応していません。続行するにはテストネットモードを無効化してください。",
     "coming_soon": "近日公開予定です！",
