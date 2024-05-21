@@ -421,9 +421,9 @@
       "failed": "入札失敗"
     },
     "speed_up": {
-      "pending": "Speeding up",
-      "confirmed": "Sped up",
-      "failed": "Speed up Failed"
+      "pending": "スピードアップ中",
+      "confirmed": "スピードアップしました",
+      "failed": "スピードアップ失敗"
     }
   },
   "command_k": {
@@ -432,7 +432,7 @@
       "open": "開く",
       "open_in_new_tab": "新しいタブで開く",
       "switch_to_wallet": "ウォレットに切り替える",
-      "send_to_contact": "Send to Contact",
+      "send_to_contact": "連絡先に送信",
       "view": "表示"
     },
     "commands": {
@@ -440,7 +440,7 @@
         "send": "送信する",
         "swap": "スワップ",
         "my_wallets": "マイウォレット",
-        "my_contacts": "My Contacts",
+        "my_contacts": "連絡先",
         "my_tokens": "マイトークン",
         "my_tokens_watched": "トークン",
         "my_nfts": "私のNFT",
@@ -480,12 +480,12 @@
         "add_as_watched_wallet": "このウォレットを監視",
         "view_on_ens": "ENSで表示",
         "switch_to_wallet": "このウォレットに切り替え",
-        "send_to_wallet": "Send to This Wallet",
-        "add_contact": "Add as Contact",
+        "send_to_wallet": "このウォレットに送金",
+        "add_contact": "連絡先として追加",
         "remove_contact": "連絡先を削除する",
         "copy_wallet_address": "アドレスをコピー",
         "view_wallet_on_etherscan": "Etherscanで表示",
-        "send_contact": "Send to Contact",
+        "send_contact": "連絡先に送信",
         "export_addresses_as_csv": "アドレスをCSVとしてエクスポート",
         "enable_flashbots": "Flashbotsを有効にする",
         "disable_flashbots": "Flashbotsを無効にする"
@@ -493,7 +493,7 @@
       "search_tags": {
         "swap": "ブリッジ",
         "my_wallets": "切り替え",
-        "my_contacts": "contact, contacts",
+        "my_contacts": "連絡先, 連絡先",
         "my_tokens_watched": "マイ",
         "my_nfts_watched": "マイ",
         "view_profile": "プロフィール, ギャラリー, ENS, NFT",
@@ -532,8 +532,8 @@
       "title_revealed": "小額残高表示中"
     },
     "contact_toast": {
-      "title_added": "Contact Added",
-      "title_removed": "Contact Removed"
+      "title_added": "連絡先を追加しました",
+      "title_removed": "連絡先を削除しました"
     },
     "no_results": "結果がありません",
     "pages": {
@@ -561,8 +561,8 @@
         "section_title": "マイウォレット"
       },
       "my_contacts": {
-        "search_placeholder": "Select a contact to send to…",
-        "section_title": "My Contacts"
+        "search_placeholder": "送信する連絡先を選択…",
+        "section_title": "連絡先"
       },
       "token_detail": {
         "search_placeholder": "トークンアクションを検索する…",
@@ -1325,7 +1325,7 @@
     "empty_state_header": "NFTs",
     "empty_state_description": "あなたのNFTがここに表示されます！",
     "report_nft_action_text": "報告する",
-    "report_nft_confirm_description": "Confirm report of NFT?",
+    "report_nft_confirm_description": "NFTを報告しますか？",
     "view_on_web": "ウェブで見る",
     "display_mode_gallery": "ギャラリー",
     "display_mode_collections": "コレクション",
@@ -1377,8 +1377,8 @@
     },
     "toast": {
       "spam_reported": "報告を受け付けました！",
-      "hidden": "NFT hidden",
-      "unhidden": "NFT unhidden"
+      "hidden": "NFTが非表示になりました",
+      "unhidden": "NFTが再表示されました"
     }
   },
   "points": {
@@ -1476,8 +1476,8 @@
     "handle_copy_title": "Txハッシュがコピーされました",
     "revoke_approval": "承認を取り消す",
     "speed_up_failed": {
-      "title": "Speed up failed",
-      "description": "Attempts to speed up a transaction can fail during network congestion, gas limit increases, or when the original transaction is confirmed first"
+      "title": "スピードアップ失敗",
+      "description": "トランザクションをスピードアップする試みは、ネットワークの混雑、ガス制限の増加、または元のトランザクションが先に確認されたときに失敗する可能性があります"
     }
   },
   "token_details": {
