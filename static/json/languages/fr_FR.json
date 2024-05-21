@@ -421,9 +421,9 @@
       "failed": "Offre échouée"
     },
     "speed_up": {
-      "pending": "Speeding up",
-      "confirmed": "Sped up",
-      "failed": "Speed up Failed"
+      "pending": "Accélération en cours",
+      "confirmed": "Accéléré",
+      "failed": "Échec de l'accélération"
     }
   },
   "command_k": {
@@ -432,7 +432,7 @@
       "open": "Ouvrir",
       "open_in_new_tab": "Ouvrir dans un nouvel onglet",
       "switch_to_wallet": "Changer de portefeuille",
-      "send_to_contact": "Send to Contact",
+      "send_to_contact": "Envoyer au contact",
       "view": "Voir"
     },
     "commands": {
@@ -440,7 +440,7 @@
         "send": "Envoyer",
         "swap": "Échanger",
         "my_wallets": "Mes portefeuilles",
-        "my_contacts": "My Contacts",
+        "my_contacts": "Mes contacts",
         "my_tokens": "Mes jetons",
         "my_tokens_watched": "Jetons",
         "my_nfts": "Mes NFTs",
@@ -480,12 +480,12 @@
         "add_as_watched_wallet": "Surveiller ce portefeuille",
         "view_on_ens": "Afficher sur ENS",
         "switch_to_wallet": "Passer à ce portefeuille",
-        "send_to_wallet": "Send to This Wallet",
-        "add_contact": "Add as Contact",
+        "send_to_wallet": "Envoyer à ce portefeuille",
+        "add_contact": "Ajouter comme contact",
         "remove_contact": "Supprimer le contact",
         "copy_wallet_address": "Copier l'adresse",
         "view_wallet_on_etherscan": "Afficher sur Etherscan",
-        "send_contact": "Send to Contact",
+        "send_contact": "Envoyer au contact",
         "export_addresses_as_csv": "Exporter les adresses au format CSV",
         "enable_flashbots": "Activer Flashbots",
         "disable_flashbots": "Désactiver Flashbots"
@@ -532,8 +532,8 @@
       "title_revealed": "Affichage des soldes faibles"
     },
     "contact_toast": {
-      "title_added": "Contact Added",
-      "title_removed": "Contact Removed"
+      "title_added": "Contact ajouté",
+      "title_removed": "Contact supprimé"
     },
     "no_results": "Aucun résultat",
     "pages": {
@@ -561,8 +561,8 @@
         "section_title": "Mes portefeuilles"
       },
       "my_contacts": {
-        "search_placeholder": "Select a contact to send to…",
-        "section_title": "My Contacts"
+        "search_placeholder": "Sélectionnez un contact à envoyer à…",
+        "section_title": "Mes contacts"
       },
       "token_detail": {
         "search_placeholder": "Rechercher des actions de jetons…",
@@ -1325,7 +1325,7 @@
     "empty_state_header": "NFTs",
     "empty_state_description": "Vos NFT apparaîtront ici !",
     "report_nft_action_text": "Signaler",
-    "report_nft_confirm_description": "Confirm report of NFT?",
+    "report_nft_confirm_description": "Confirmer le signalement de NFT?",
     "view_on_web": "Voir sur le Web",
     "display_mode_gallery": "Galerie",
     "display_mode_collections": "Collections",
@@ -1377,8 +1377,8 @@
     },
     "toast": {
       "spam_reported": "Votre signalement a été reçu !",
-      "hidden": "NFT hidden",
-      "unhidden": "NFT unhidden"
+      "hidden": "NFT masqué",
+      "unhidden": "NFT non masqué"
     }
   },
   "points": {
@@ -1476,8 +1476,8 @@
     "handle_copy_title": "Hachage de la transaction copié",
     "revoke_approval": "Révoquer l'autorisation",
     "speed_up_failed": {
-      "title": "Speed up failed",
-      "description": "Attempts to speed up a transaction can fail during network congestion, gas limit increases, or when the original transaction is confirmed first"
+      "title": "Échec de l'accélération",
+      "description": "Les tentatives d'accélération d'une transaction peuvent échouer en cas de congestion du réseau, d'augmentation de la limite de gaz, ou si la transaction originale est confirmée en premier"
     }
   },
   "token_details": {
