@@ -295,7 +295,7 @@
       "hw_wallets_enabled": "हार्डवेयर वॉलेट समर्थन सक्षम करें",
       "command_k_internal_shortcuts_enabled": "⌘K आंतरिक शॉर्टकट्स सक्षम करें",
       "custom_rpc": "कस्टम RPC",
-      "degen_mode": "Degen Mode"
+      "degen_mode": "डिजेन मोड"
     }
   },
   "transactions": {
@@ -779,8 +779,8 @@
         "got_it": "समझ गया"
       },
       "degen_mode": {
-        "title": "Degen Mode",
-        "description": "Skip the review step to swap faster"
+        "title": "डिजेन मोड",
+        "description": "तेज स्वैप के लिए समीक्षा चरण छोड़ें"
       }
     },
     "actions": {
@@ -792,7 +792,7 @@
       "no_quote": "कोई कोट उपलब्ध नहीं",
       "enter_an_amount": "राशि दर्ज करें",
       "swap": "%{Action}",
-      "swapping": "%{Actioning}",
+      "swapping": "%{Actioning} के माध्यम से",
       "waiting_signature": "अपनी डिवाइस पर पुष्टि करें"
     },
     "review": {
