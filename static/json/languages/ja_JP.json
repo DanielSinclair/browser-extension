@@ -295,7 +295,7 @@
       "hw_wallets_enabled": "ハードウェアウォレットサポートを有効にする",
       "command_k_internal_shortcuts_enabled": "⌘K の内部ショートカットを有効にする",
       "custom_rpc": "カスタムRPC",
-      "degen_mode": "Degen Mode"
+      "degen_mode": "デゲンモード"
     }
   },
   "transactions": {
@@ -779,8 +779,8 @@
         "got_it": "了解"
       },
       "degen_mode": {
-        "title": "Degen Mode",
-        "description": "Skip the review step to swap faster"
+        "title": "デゲンモード",
+        "description": "検討ステップをスキップして、より迅速に交換"
       }
     },
     "actions": {
