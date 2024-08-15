@@ -294,7 +294,8 @@
       "full_watching_wallets": "Полный доступ к отслеживаемым кошелькам",
       "hw_wallets_enabled": "Включить поддержку аппаратных кошельков",
       "command_k_internal_shortcuts_enabled": "Включить внутренние ярлыки ⌘K",
-      "custom_rpc": "Пользовательский RPC"
+      "custom_rpc": "Пользовательский RPC",
+      "degen_mode": "Degen Mode"
     }
   },
   "transactions": {
@@ -776,6 +777,10 @@
           }
         },
         "got_it": "Понятно"
+      },
+      "degen_mode": {
+        "title": "Degen Mode",
+        "description": "Skip the review step to swap faster"
       }
     },
     "actions": {
@@ -785,7 +790,10 @@
       "fee_on_transfer_token": "Комиссия на токены при переводе",
       "no_route": "Маршрут не найден",
       "no_quote": "Нет доступного предложения",
-      "enter_an_amount": "Введите сумму"
+      "enter_an_amount": "Введите сумму",
+      "swap": "%{Action}",
+      "swapping": "%{Actioning}",
+      "waiting_signature": "Подтвердите на вашем устройстве"
     },
     "review": {
       "title": "Обзор и %{Action}",
