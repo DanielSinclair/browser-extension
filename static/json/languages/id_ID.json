@@ -780,7 +780,7 @@
       },
       "degen_mode": {
         "title": "Degen Mode",
-        "description": "Skip the review step to swap faster"
+        "description": "Lewati langkah ulasan untuk bertukar lebih cepat"
       }
     },
     "actions": {
@@ -792,7 +792,7 @@
       "no_quote": "Tidak ada kutipan yang tersedia",
       "enter_an_amount": "Masukkan jumlah",
       "swap": "%{Action}",
-      "swapping": "%{Actioning}",
+      "swapping": "%{Actioning} melalui",
       "waiting_signature": "Konfirmasi di perangkat Anda"
     },
     "review": {
