@@ -295,7 +295,7 @@
       "hw_wallets_enabled": "हार्डवेयर वॉलेट समर्थन सक्षम करें",
       "command_k_internal_shortcuts_enabled": "⌘K आंतरिक शॉर्टकट्स सक्षम करें",
       "custom_rpc": "कस्टम RPC",
-      "degen_mode": "डिजेन मोड"
+      "degen_mode": "Degen मोड"
     }
   },
   "transactions": {
@@ -779,7 +779,7 @@
         "got_it": "समझ गया"
       },
       "degen_mode": {
-        "title": "डिजेन मोड",
+        "title": "Degen मोड",
         "description": "तेज स्वैप के लिए समीक्षा चरण छोड़ें"
       }
     },
@@ -950,7 +950,8 @@
     "import_wallet_group": "वॉलेट समूह आयात करें",
     "n_words_might_be_wrong": "%{n} शब्द गलत या गलत हो सकते हैं।",
     "1_word_might_be_wrong": "1 शब्द गलत या गलत हो सकता है।",
-    "couldnt_paste": "हम आपके सीक्रेट रिकवरी फ्रेज़ को पेस्ट नहीं कर सके"
+    "couldnt_paste": "हम आपके सीक्रेट रिकवरी फ्रेज़ को पेस्ट नहीं कर सके",
+    "duplicate_seed": "This seed is imported already"
   },
   "import_wallet_via_private_key": {
     "title": "अपना वॉलेट इम्पोर्ट करें",
