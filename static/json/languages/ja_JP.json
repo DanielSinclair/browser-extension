@@ -295,7 +295,7 @@
       "hw_wallets_enabled": "ハードウェアウォレットサポートを有効にする",
       "command_k_internal_shortcuts_enabled": "⌘K の内部ショートカットを有効にする",
       "custom_rpc": "カスタムRPC",
-      "degen_mode": "デゲンモード"
+      "degen_mode": "Degenモード"
     }
   },
   "transactions": {
@@ -779,7 +779,7 @@
         "got_it": "了解"
       },
       "degen_mode": {
-        "title": "デゲンモード",
+        "title": "Degenモード",
         "description": "検討ステップをスキップして、より迅速に交換"
       }
     },
@@ -950,7 +950,8 @@
     "import_wallet_group": "ウォレットグループをインポートする",
     "n_words_might_be_wrong": "%{n} 単語がスペルミスや誤りがある可能性があります。",
     "1_word_might_be_wrong": "1 単語がスペルミスや誤りがある可能性があります。",
-    "couldnt_paste": "シークレットリカバリーフレーズを貼り付けることができませんでした。"
+    "couldnt_paste": "シークレットリカバリーフレーズを貼り付けることができませんでした。",
+    "duplicate_seed": "This seed is imported already"
   },
   "import_wallet_via_private_key": {
     "title": "ウォレットのインポート",
