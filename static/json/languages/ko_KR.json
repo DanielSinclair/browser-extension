@@ -951,7 +951,7 @@
     "n_words_might_be_wrong": "%{n} 단어가 잘못 입력되었거나 올바르지 않을 수 있습니다",
     "1_word_might_be_wrong": "1개의 단어가 잘못 입력되었거나 올바르지 않을 수 있습니다",
     "couldnt_paste": "비밀 복구 구문을 붙여넣을 수 없습니다",
-    "duplicate_seed": "This seed is imported already"
+    "duplicate_seed": "이 시드는 이미 가져왔습니다"
   },
   "import_wallet_via_private_key": {
     "title": "지갑 가져오기",
