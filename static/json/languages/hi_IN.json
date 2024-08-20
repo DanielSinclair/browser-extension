@@ -951,7 +951,7 @@
     "n_words_might_be_wrong": "%{n} शब्द गलत या गलत हो सकते हैं।",
     "1_word_might_be_wrong": "1 शब्द गलत या गलत हो सकता है।",
     "couldnt_paste": "हम आपके सीक्रेट रिकवरी फ्रेज़ को पेस्ट नहीं कर सके",
-    "duplicate_seed": "This seed is imported already"
+    "duplicate_seed": "यह बीज पहले ही आयात हो चुका है"
   },
   "import_wallet_via_private_key": {
     "title": "अपना वॉलेट इम्पोर्ट करें",
