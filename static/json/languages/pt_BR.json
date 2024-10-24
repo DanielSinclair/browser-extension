@@ -488,6 +488,10 @@
         "send_to_wallet": "Enviar para esta Carteira",
         "add_contact": "Adicionar como Contato",
         "remove_contact": "Remover contato",
+        "hide_token": "Ocultar %{name}",
+        "unhide_token": "Reexibir %{name}",
+        "hide": "Ocultar",
+        "unhide": "Reexibir",
         "copy_wallet_address": "Copiar Endereço",
         "view_wallet_on_etherscan": "Ver no Etherscan",
         "send_contact": "Enviar para Contato",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "comprar, vender, negociar, encomendar, trocar, dex, rotas",
         "bridge": "transferir, cadeia, rotas",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "trocar, ponte",
         "my_wallets": "meu, alternar",
         "my_contacts": "meus",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "Contato"
+      "contact": "Contato",
+      "hidden": "Oculto"
     },
     "quick_promo": {
       "text": "Pressione %{modifierSymbol}K para abrir o Menu Mágico",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "Valor de Mercado de %{symbol} Desconhecido",
         "description": "Se decidir continuar, certifique-se de que está satisfeito com o valor cotado"
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "Quanto mais você usar o Rainbow, mais será recompensado",
       "balance_required": "Saldo da carteira necessário",
       "ensure_you_have_a_balance_on": "Para continuar, verifique se possui saldo em ETH em uma das seguintes redes:",
-      "or_alternatively_balance_on": "Ou alternativamente, saldo em MATIC na Polygon ou saldo em BNB na BSC",
+      "or_alternatively_balance_on": "Ou alternativamente, saldo em POL na Polygon ou saldo em BNB na BSC",
       "fund_my_wallet": "Financiar Minha Carteira"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "Não verificado",
       "verified": "Verificado",
       "on_other_networks": "Em outras redes",
-      "bridge": "Bridge"
+      "bridge": "Bridge",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "Verificado pelo Rainbow"
   },
@@ -1660,6 +1673,11 @@
           "title": "O que é Degen?",
           "description_1": "Degen Chain é uma rede Layer 3 que funciona em cima do Arbitrum e Ethereum.",
           "description_2": "Oferece transações incrivelmente rápidas e baratas denominadas no token comunitário Farcaster $degen."
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "O que é esta Rede?",
