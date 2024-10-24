@@ -488,6 +488,10 @@
         "send_to_wallet": "发送到此钱包",
         "add_contact": "添加为联系人",
         "remove_contact": "删除联系人",
+        "hide_token": "隐藏 %{name}",
+        "unhide_token": "取消隐藏%{name}",
+        "hide": "隐藏",
+        "unhide": "取消隐藏",
         "copy_wallet_address": "复制地址",
         "view_wallet_on_etherscan": "在 Etherscan 上查看",
         "send_contact": "发送到联系人",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "买, 卖, 交易, 订单, 兑换, dex, 路线",
         "bridge": "转账, 链, 路线",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "交换, 桥接",
         "my_wallets": "我的, 切换",
         "my_contacts": "我的",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "联系我们"
+      "contact": "联系我们",
+      "hidden": "已隐藏"
     },
     "quick_promo": {
       "text": "按 %{modifierSymbol}K 打开魔法菜单",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "%{symbol}市值未知",
         "description": "如果决定继续，请确保您对报价金额满意"
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "越多使用Rainbow，越多奖励",
       "balance_required": "需要钱包余额",
       "ensure_you_have_a_balance_on": "继续操作前，请确保以下网络中有ETH余额：",
-      "or_alternatively_balance_on": "或者，Polygon上的MATIC余额或BSC上的BNB余额",
+      "or_alternatively_balance_on": "或者，Polygon上的POL余额或BSC上的BNB余额",
       "fund_my_wallet": "资金进入我的钱包"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "未验证",
       "verified": "已验证",
       "on_other_networks": "其他网络上",
-      "bridge": "桥接"
+      "bridge": "桥接",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "由彩虹验证"
   },
@@ -1660,6 +1673,11 @@
           "title": "什么是Degen？",
           "description_1": "Degen链是一个在Arbitrum和以太坊之上运行的Layer 3网络。",
           "description_2": "它提供以Farcaster社区代币$degen计价的极快且成本低廉的交易。"
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "这是什么网络？",
