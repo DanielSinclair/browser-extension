@@ -488,6 +488,10 @@
         "send_to_wallet": "Bu Cüzdana Gönder",
         "add_contact": "Kişi Olarak Ekle",
         "remove_contact": "Kişiyi Kaldır",
+        "hide_token": "%{name}adımını gizle",
+        "unhide_token": "%{name} Gizlemeyi Kaldır",
+        "hide": "Gizle",
+        "unhide": "Gizleme",
         "copy_wallet_address": "Adresi Kopyala",
         "view_wallet_on_etherscan": "Etherscan'da Görüntüle",
         "send_contact": "Kişiye Gönder",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "satın al, sat, takas, sipariş, değişim, dex, rotalar",
         "bridge": "transfer, zincir, rotalar",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "takas, köprü",
         "my_wallets": "benim, değiştir",
         "my_contacts": "benim",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "İletişim"
+      "contact": "İletişim",
+      "hidden": "Gizli"
     },
     "quick_promo": {
       "text": "Sihirli Menü'yü açmak için %{modifierSymbol}K tuşuna basın",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "%{symbol} Piyasa Değeri Bilinmiyor",
         "description": "Devam etmeye karar verirseniz, alacağınız miktarın sizin için uygun olduğundan emin olun."
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "Rainbow’u ne kadar çok kullanırsanız, o kadar çok ödül kazanırsınız",
       "balance_required": "Cüzdan bakiyesi gerekiyor",
       "ensure_you_have_a_balance_on": "Devam etmek için, aşağıdaki ağlardan birinde ETH bakiyeniz olduğundan emin olun:",
-      "or_alternatively_balance_on": "Veya alternatif olarak, Polygon'da MATIC veya BSC'de BNB bakiyeniz olsun",
+      "or_alternatively_balance_on": "Veya alternatif olarak, Polygon'da POL veya BSC'de BNB bakiyeniz olsun",
       "fund_my_wallet": "Cüzdanımı Finanse Et"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "Doğrulanmamış",
       "verified": "Doğrulanmış",
       "on_other_networks": "Diğer ağlarda",
-      "bridge": "Bridge"
+      "bridge": "Bridge",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "Rainbow tarafından doğrulandı"
   },
@@ -1660,6 +1673,11 @@
           "title": "Degen nedir?",
           "description_1": "Degen Chain, Arbitrum ve Ethereum'un üzerinde çalışan bir Katman 3 ağıdır.",
           "description_2": "Farcaster topluluk tokeni $degen ile ölçülen inanılmaz hızlı ve ucuz işlemler sunar."
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "Bu Ağ nedir?",
