@@ -488,6 +488,10 @@
         "send_to_wallet": "إرسال إلى هذه المحفظة",
         "add_contact": "إضافة كجهة اتصال",
         "remove_contact": "إزالة الاتصال",
+        "hide_token": "إخفاء %{name}",
+        "unhide_token": "إظهار %{name}",
+        "hide": "إخفاء",
+        "unhide": "إظهار",
         "copy_wallet_address": "نسخ العنوان",
         "view_wallet_on_etherscan": "عرض على Etherscan",
         "send_contact": "إرسال إلى جهة اتصال",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "شراء, بيع, تداول, طلب, تبادل, دكس, طرق",
         "bridge": "تحويل, سلسلة, طرق",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "مبادلة, جسر",
         "my_wallets": "ماي, التبديل",
         "my_contacts": "يا",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "اتصال"
+      "contact": "اتصال",
+      "hidden": "مخفي"
     },
     "quick_promo": {
       "text": "اضغط %{modifierSymbol}ك لفتح القائمة السحرية",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "قيمة السوق %{symbol} غير معروفة",
         "description": "إذا قررت المتابعة، تأكد من رضاك عن الكمية المقتبسة"
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "كلما استخدمت Rainbow أكثر، كلما حصلت على مكافآت أكبر",
       "balance_required": "مطلوب رصيد في المحفظة",
       "ensure_you_have_a_balance_on": "للمتابعة، تأكد من امتلاكك لرصيد ETH على إحدى الشبكات التالية:",
-      "or_alternatively_balance_on": "أو بديلًا، رصيد MATIC على شبكة Polygon أو رصيد BNB على شبكة BSC",
+      "or_alternatively_balance_on": "أو بديلًا، رصيد POL على شبكة Polygon أو رصيد BNB على شبكة BSC",
       "fund_my_wallet": "تمويل محفظتي"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "غير متحقق منه",
       "verified": "تم التحقق منه",
       "on_other_networks": "على شبكات أخرى",
-      "bridge": "جسر"
+      "bridge": "جسر",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "تم التحقق من قبل رينبو"
   },
@@ -1660,6 +1673,11 @@
           "title": "ما هو Degen؟",
           "description_1": "Degen Chain هي شبكة الطبقة 3 التي تعمل فوق Arbitrum وEthereum",
           "description_2": "تقدم معاملات سريعة ورخيصة للغاية بالعملة المجتمعية $degen من Farcaster"
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "ما هذه الشبكة؟",
