@@ -488,6 +488,10 @@
         "send_to_wallet": "ส่งถึงกระเป๋าสตางค์นี้",
         "add_contact": "เพิ่มเป็นผู้ติดต่อ",
         "remove_contact": "ลบผู้ติดต่อ",
+        "hide_token": "ซ่อน %{name}",
+        "unhide_token": "เลิกซ่อน %{name}",
+        "hide": "ซ่อน",
+        "unhide": "เลิกซ่อน",
         "copy_wallet_address": "คัดลอกที่อยู่",
         "view_wallet_on_etherscan": "ดูบน Etherscan",
         "send_contact": "ส่งถึงผู้ติดต่อ",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "ซื้อ, ขาย, แลกเปลี่ยน, สั่งซื้อ, เปลี่ยน, dex, เส้นทาง",
         "bridge": "โอนย้าย, เครือข่าย, เส้นทาง",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "เปลี่ยน, โอนย้าย",
         "my_wallets": "ของฉัน, สลับ",
         "my_contacts": "ของฉัน",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "ติดต่อ"
+      "contact": "ติดต่อ",
+      "hidden": "ซ่อน"
     },
     "quick_promo": {
       "text": "กด %{modifierSymbol}K เพื่อเปิดเมนูวิเศษ",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "มูลค่าตลาดของ %{symbol} ไม่ทราบ",
         "description": "หากคุณตัดสินใจดำเนินการต่อ โปรดตรวจสอบว่าคุณพอใจกับจำนวนที่ได้รับ"
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "ยิ่งใช้ Rainbow มากเท่าไหร่ ก็ยิ่งได้รับรางวัลมากขึ้น",
       "balance_required": "ต้องมียอดเงินในกระเป๋า",
       "ensure_you_have_a_balance_on": "เพื่อดำเนินการต่อ โปรดตรวจสอบว่าคุณมี ETH ในเครือข่ายต่อไปนี้:",
-      "or_alternatively_balance_on": "หรือมียอดเงิน MATIC บน Polygon หรือ BNB บน BSC",
+      "or_alternatively_balance_on": "หรือมียอดเงิน POL บน Polygon หรือ BNB บน BSC",
       "fund_my_wallet": "เติมเงินเข้ากระเป๋า"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "ไม่ได้รับการตรวจสอบ",
       "verified": "ได้รับการตรวจสอบ",
       "on_other_networks": "ในเครือข่ายอื่น ๆ",
-      "bridge": "สะพาน"
+      "bridge": "สะพาน",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "ตรวจสอบโดย Rainbow"
   },
@@ -1660,6 +1673,11 @@
           "title": "Degen คืออะไร",
           "description_1": "Degen Chain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum และ Ethereum",
           "description_2": "มีการทำธุรกรรมที่เร็วและถูกมาก โดยใช้เหรียญชุมชน Farcaster ว่า $degen"
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "เครือข่ายนี้คืออะไร",
