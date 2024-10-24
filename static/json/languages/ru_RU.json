@@ -488,6 +488,10 @@
         "send_to_wallet": "Отправить на этот кошелек",
         "add_contact": "Добавить как контакт",
         "remove_contact": "Удалить контакт",
+        "hide_token": "Скрыть %{name}",
+        "unhide_token": "Показать %{name}",
+        "hide": "Скрыть",
+        "unhide": "Показать",
         "copy_wallet_address": "Скопировать адрес",
         "view_wallet_on_etherscan": "Просмотр в Etherscan",
         "send_contact": "Отправить контакту",
@@ -498,6 +502,8 @@
       "search_tags": {
         "swap": "купить, продать, обменять, заказать, обмен, dex, маршруты",
         "bridge": "перевод, цепь, маршруты",
+        "hide_token": "hidden",
+        "hide_nft": "hidden",
         "get": "обмен, мост",
         "my_wallets": "мой, переключение",
         "my_contacts": "мои",
@@ -586,7 +592,8 @@
       }
     },
     "labels": {
-      "contact": "Свяжитесь"
+      "contact": "Свяжитесь",
+      "hidden": "Скрытый"
     },
     "quick_promo": {
       "text": "Нажмите %{modifierSymbol}K, чтобы открыть волшебное меню",
@@ -731,6 +738,11 @@
       "unknown_price": {
         "title": "Рыночная стоимость %{symbol} неизвестна",
         "description": "Если вы решите продолжить, убедитесь, что вас устраивает предложенная сумма"
+      }
+    },
+    "promo": {
+      "degen_mode": {
+        "title": "Try Degen Mode to skip the review"
       }
     },
     "aggregators": {
@@ -1456,7 +1468,7 @@
       "the_more_you_use": "Чем больше вы используете Rainbow, тем больше будет награда",
       "balance_required": "Требуется баланс кошелька",
       "ensure_you_have_a_balance_on": "Для продолжения убедитесь, что у вас есть баланс ETH на одной из следующих сетей:",
-      "or_alternatively_balance_on": "Или, альтернативно, баланс MATIC на Polygon или баланс BNB на BSC",
+      "or_alternatively_balance_on": "Или, альтернативно, баланс POL на Polygon или баланс BNB на BSC",
       "fund_my_wallet": "Пополнить мой кошелек"
     },
     "error": {
@@ -1624,7 +1636,8 @@
       "unverified": "Непроверенные",
       "verified": "Проверенные",
       "on_other_networks": "На других сетях",
-      "bridge": "Мост"
+      "bridge": "Мост",
+      "popular": "Popular in Rainbow"
     },
     "verified_by_rainbow": "Проверено Rainbow"
   },
@@ -1660,6 +1673,11 @@
           "title": "Что такое Degen?",
           "description_1": "Degen Chain — это сеть уровня 3, которая работает поверх Arbitrum и Ethereum.",
           "description_2": "Предлагает невероятно быстрые и дешевые транзакции в токенах сообщества Farcaster $degen."
+        },
+        "apechain": {
+          "title": "What's ApeChain?",
+          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
         },
         "custom_network": {
           "title": "Что это за сеть?",
