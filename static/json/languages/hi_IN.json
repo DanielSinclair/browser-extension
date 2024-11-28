@@ -502,8 +502,8 @@
       "search_tags": {
         "swap": "खरीद, बेच, व्यापार, ऑर्डर, एक्सचेंज, डेक्स, रूट्स",
         "bridge": "ट्रांसफर, चेन, रूट्स",
-        "hide_token": "hidden",
-        "hide_nft": "hidden",
+        "hide_token": "छिपा हुआ है",
+        "hide_nft": "छिपा हुआ है",
         "get": "स्वैप, ब्रिज",
         "my_wallets": "मेरा, स्विच",
         "my_contacts": "मेरा",
@@ -742,7 +742,7 @@
     },
     "promo": {
       "degen_mode": {
-        "title": "Try Degen Mode to skip the review"
+        "title": "समीक्षा को छोड़ने के लिए डेगेन मोड आज़माएं"
       }
     },
     "aggregators": {
@@ -1468,7 +1468,7 @@
       "the_more_you_use": "Rainbow का अधिक प्रयोग करें, अधिक इनाम पाएं",
       "balance_required": "वॉलेट बैलेंस आवश्यक",
       "ensure_you_have_a_balance_on": "जारी रखने के लिए, निम्नलिखित नेटवर्क्स में से किसी एक पर ईटीएच बैलेंस सुनिश्चित करें:",
-      "or_alternatively_balance_on": "Or alternatively, a POL balance on Polygon or a BNB balance on BSC",
+      "or_alternatively_balance_on": "या वैकल्पिक रूप से, पॉलीगॉन पर एक POL बैलेंस या BSC पर एक BNB बैलेंस",
       "fund_my_wallet": "मेरा वॉलेट फंड करें"
     },
     "error": {
@@ -1637,7 +1637,7 @@
       "verified": "सत्यापित",
       "on_other_networks": "अन्य नेटवर्कों पर",
       "bridge": "ब्रिज",
-      "popular": "Popular in Rainbow"
+      "popular": "रेनबो में लोकप्रिय"
     },
     "verified_by_rainbow": "रेनबो द्वारा सत्यापित"
   },
@@ -1666,18 +1666,18 @@
         },
         "blast": {
           "title": "ब्लास्ट क्या है?",
-          "description_1": "Blast is an Ethereum Layer 2 platform created by the same talented team behind Blur, the popular NFT marketplace.",
+          "description_1": "ब्लास्ट एक एथेरियम लेयर 2 प्लेटफॉर्म है जिसे ब्लर, लोकप्रिय NFT मार्केटप्लेस के पीछे की प्रतिभाशाली टीम द्वारा बनाया गया है।",
           "description_2": "चेन खुद को ईथर (ETH) और विभिन्न स्थिर मुद्राओं जैसे कि USDC, USDT, और DAI के लिए मूल यील्ड के परिचय से अलग करती है।"
         },
         "degen": {
           "title": "डेजेन क्या है?",
-          "description_1": "Degen Chain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
+          "description_1": "डीजेन चेन एक लेयर 3 नेटवर्क है जो आर्बिट्रम ऑर्बिट और एथेरियम के ऊपर चलता है।",
           "description_2": "यह फार्कास्टर समुदाय टोकन $degen में अत्यंत तेज और सस्ते लेन-देन की पेशकश करता है।"
         },
         "apechain": {
-          "title": "What's ApeChain?",
-          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
-          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
+          "title": "एपचेन क्या है?",
+          "description_1": "एपचेन एक लेयर 3 नेटवर्क है जो आर्बिट्रम ऑर्बिट और एथेरियम के ऊपर चलता है।",
+          "description_2": "यह एपकॉइन की उपयोगिता को काफी बढ़ाता है, एक सशक्त और गतिशील अर्थव्यवस्था को बढ़ावा देता है जो $APE द्वारा संचालित होती है।"
         },
         "custom_network": {
           "title": "यह नेटवर्क क्या है?",
