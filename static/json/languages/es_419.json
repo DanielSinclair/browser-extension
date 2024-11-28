@@ -502,8 +502,8 @@
       "search_tags": {
         "swap": "comprar, vender, intercambiar, ordenar, intercambiar, dex, rutas",
         "bridge": "transferir, cadena, rutas",
-        "hide_token": "hidden",
-        "hide_nft": "hidden",
+        "hide_token": "oculto",
+        "hide_nft": "oculto",
         "get": "intercambiar, puente",
         "my_wallets": "mi, cambiar",
         "my_contacts": "mis",
@@ -742,7 +742,7 @@
     },
     "promo": {
       "degen_mode": {
-        "title": "Try Degen Mode to skip the review"
+        "title": "Prueba el modo Degen para omitir la revisión"
       }
     },
     "aggregators": {
@@ -1637,7 +1637,7 @@
       "verified": "Verificado",
       "on_other_networks": "En otras redes",
       "bridge": "Puente",
-      "popular": "Popular in Rainbow"
+      "popular": "Popular en Rainbow"
     },
     "verified_by_rainbow": "Verificado por Rainbow"
   },
@@ -1675,9 +1675,9 @@
           "description_2": "Ofrece transacciones increíblemente rápidas y baratas denominadas en el token comunitario de Farcaster $degen."
         },
         "apechain": {
-          "title": "What's ApeChain?",
-          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
-          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
+          "title": "¿Qué es ApeChain?",
+          "description_1": "ApeChain es una red de capa <b>3</b> que funciona sobre Arbitrum Orbit y Ethereum.",
+          "description_2": "Mejora significativamente la utilidad de ApeCoin, fomentando una economía robusta y dinámica impulsada por $APE."
         },
         "custom_network": {
           "title": "¿Qué es esta Red?",
