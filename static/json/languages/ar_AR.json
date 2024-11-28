@@ -502,8 +502,8 @@
       "search_tags": {
         "swap": "شراء, بيع, تداول, طلب, تبادل, دكس, طرق",
         "bridge": "تحويل, سلسلة, طرق",
-        "hide_token": "hidden",
-        "hide_nft": "hidden",
+        "hide_token": "مخفي",
+        "hide_nft": "مخفي",
         "get": "مبادلة, جسر",
         "my_wallets": "ماي, التبديل",
         "my_contacts": "يا",
@@ -742,7 +742,7 @@
     },
     "promo": {
       "degen_mode": {
-        "title": "Try Degen Mode to skip the review"
+        "title": "جرب وضع درست للتخطي المراجعة"
       }
     },
     "aggregators": {
@@ -1637,7 +1637,7 @@
       "verified": "تم التحقق منه",
       "on_other_networks": "على شبكات أخرى",
       "bridge": "جسر",
-      "popular": "Popular in Rainbow"
+      "popular": "شائع في Rainbow"
     },
     "verified_by_rainbow": "تم التحقق من قبل رينبو"
   },
@@ -1675,9 +1675,9 @@
           "description_2": "تقدم معاملات سريعة ورخيصة للغاية بالعملة المجتمعية $degen من Farcaster"
         },
         "apechain": {
-          "title": "What's ApeChain?",
-          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
-          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
+          "title": "ما هي ApeChain؟",
+          "description_1": "ApeChain هي شبكة الطبقة <b>٣</b> التي تعمل فوق Arbitrum Orbit وEthereum.",
+          "description_2": "إنها تعزز بشكل كبير فائدة ApeCoin، مما يدعم اقتصادًا قويًا وديناميكيًا مدفوعًا بواسطة $APE."
         },
         "custom_network": {
           "title": "ما هذه الشبكة؟",
