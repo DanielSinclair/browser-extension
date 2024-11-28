@@ -502,8 +502,8 @@
       "search_tags": {
         "swap": "購入、販売、取引、注文、交換、dex、ルート",
         "bridge": "送金、チェーン、ルート",
-        "hide_token": "hidden",
-        "hide_nft": "hidden",
+        "hide_token": "非表示",
+        "hide_nft": "非表示",
         "get": "スワップ、ブリッジ",
         "my_wallets": "自分の、切り替え",
         "my_contacts": "マイ",
@@ -742,7 +742,7 @@
     },
     "promo": {
       "degen_mode": {
-        "title": "Try Degen Mode to skip the review"
+        "title": "レビュースキップのため、Degenモードを試してください"
       }
     },
     "aggregators": {
@@ -1637,7 +1637,7 @@
       "verified": "確認済み",
       "on_other_networks": "他のネットワーク上で",
       "bridge": "ブリッジ",
-      "popular": "Popular in Rainbow"
+      "popular": "Rainbowで人気"
     },
     "verified_by_rainbow": "レインボー認証済み"
   },
@@ -1675,9 +1675,9 @@
           "description_2": "非常に速く、安価な取引を提供し、Farcasterコミュニティトークン$degenで決済されます。"
         },
         "apechain": {
-          "title": "What's ApeChain?",
-          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
-          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
+          "title": "ApeChainとは何ですか？",
+          "description_1": "ApeChainは、Arbitrum OrbitとEthereumの上で動作するレイヤー<b>3</b>ネットワークです。",
+          "description_2": "これにより、ApeCoinの実用性が大幅に向上し、$APEによって駆動される強力でダイナミックな経済が促進されます。"
         },
         "custom_network": {
           "title": "このネットワークとは何ですか？",
