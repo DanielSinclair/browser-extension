@@ -502,8 +502,8 @@
       "search_tags": {
         "swap": "ซื้อ, ขาย, แลกเปลี่ยน, สั่งซื้อ, เปลี่ยน, dex, เส้นทาง",
         "bridge": "โอนย้าย, เครือข่าย, เส้นทาง",
-        "hide_token": "hidden",
-        "hide_nft": "hidden",
+        "hide_token": "ซ่อน",
+        "hide_nft": "ซ่อน",
         "get": "เปลี่ยน, โอนย้าย",
         "my_wallets": "ของฉัน, สลับ",
         "my_contacts": "ของฉัน",
@@ -742,7 +742,7 @@
     },
     "promo": {
       "degen_mode": {
-        "title": "Try Degen Mode to skip the review"
+        "title": "ลองใช้โหมด Degen เพื่อข้ามการตรวจสอบ"
       }
     },
     "aggregators": {
@@ -1637,7 +1637,7 @@
       "verified": "ได้รับการตรวจสอบ",
       "on_other_networks": "ในเครือข่ายอื่น ๆ",
       "bridge": "สะพาน",
-      "popular": "Popular in Rainbow"
+      "popular": "ยอดนิยมใน Rainbow"
     },
     "verified_by_rainbow": "ตรวจสอบโดย Rainbow"
   },
@@ -1675,9 +1675,9 @@
           "description_2": "มีการทำธุรกรรมที่เร็วและถูกมาก โดยใช้เหรียญชุมชน Farcaster ว่า $degen"
         },
         "apechain": {
-          "title": "What's ApeChain?",
-          "description_1": "ApeChain is a Layer 3 network that runs on top of Arbitrum Orbit and Ethereum.",
-          "description_2": "It significantly enhances ApeCoin's utility, fostering a robust and dynamic economy driven by $APE."
+          "title": "ApeChain คืออะไร?",
+          "description_1": "ApeChain เป็นเครือข่าย Layer 3 ที่ทำงานบน Arbitrum Orbit และ Ethereum",
+          "description_2": "มันเพิ่มประสิทธิภาพของ ApeCoin อย่างมาก ส่งเสริมเศรษฐกิจที่แข็งแกร่งและมีการเคลื่อนไหวโดย $APE"
         },
         "custom_network": {
           "title": "เครือข่ายนี้คืออะไร",
