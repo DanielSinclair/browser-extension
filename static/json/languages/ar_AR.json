@@ -127,7 +127,7 @@
         "tokens": "رموز",
         "cant_connect": "لا يمكن الاتصال بهذه النقطة النهائية لـ RPC",
         "rpc_not_responding": "نقطة النهاية لـ RPC المُقدمة لا تستجيب",
-        "rainbow_default_rpc": "رينبو",
+        "rainbow_default_rpc": "Rainbow",
         "rainbow_default": "رينبو"
       },
       "rpc_endpoints": "نقاط نهاية RPC",
