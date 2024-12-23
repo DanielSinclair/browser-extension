@@ -1679,6 +1679,11 @@
           "description_1": "एपचेन एक लेयर 3 नेटवर्क है जो आर्बिट्रम ऑर्बिट और एथेरियम के ऊपर चलता है।",
           "description_2": "यह एपकॉइन की उपयोगिता को काफी बढ़ाता है, एक सशक्त और गतिशील अर्थव्यवस्था को बढ़ावा देता है जो $APE द्वारा संचालित होती है।"
         },
+        "ink": {
+          "title": "What's Ink?",
+          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain and released by Kraken.",
+          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+        },
         "custom_network": {
           "title": "यह नेटवर्क क्या है?",
           "description_1": "यह आपके द्वारा जोड़ा गया एक कस्टम नेटवर्क है! कस्टम नेटवर्क विशिष्ट आवश्यकताओं को पूरा करने के लिए बनाए जा सकते हैं, अद्वितीय विशेषताओं और क्षमताओं की पेशकश करते हैं।",
