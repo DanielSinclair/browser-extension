@@ -1679,6 +1679,11 @@
           "description_1": "ApeChain은 아비트럼 오르빗과 이더리움 위에서 운영되는 레이어 <b>3</b> 네트워크입니다.",
           "description_2": "이것은 ApeCoin의 유용성을 크게 향상시키며, $APE에 의해 구동되는 강력하고 역동적인 경제를 조성합니다."
         },
+        "ink": {
+          "title": "What's Ink?",
+          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain and released by Kraken.",
+          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+        },
         "custom_network": {
           "title": "이 네트워크란 무엇인가요?",
           "description_1": "이것은 사용자가 추가한 맞춤 네트워크입니다! 맞춤 네트워크는 특정 요구에 맞게 조정될 수 있으며, 독특한 기능과 능력을 제공합니다.",
