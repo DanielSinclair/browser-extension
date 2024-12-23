@@ -1679,6 +1679,11 @@
           "description_1": "ApeChain是一个在Arbitrum Orbit和以太坊之上运行的Layer <b>3</b>网络。",
           "description_2": "它显著增强了ApeCoin的效用，促进了一个由$APE推动的强大且充满活力的经济。"
         },
+        "ink": {
+          "title": "What's Ink?",
+          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain and released by Kraken.",
+          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+        },
         "custom_network": {
           "title": "这是什么网络？",
           "description_1": "这是您添加的自定义网络！自定义网络可以根据特定需求进行定制，提供独特的功能和能力。",
