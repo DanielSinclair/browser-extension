@@ -434,7 +434,8 @@
       "open_in_new_tab": "เปิดในแท็บใหม่",
       "switch_to_wallet": "สลับไปยัง Wallet",
       "send_to_contact": "ส่งถึงผู้ติดต่อ",
-      "view": "ดู"
+      "view": "ดู",
+      "uuid_copied": "UUID copied"
     },
     "commands": {
       "names": {
@@ -497,7 +498,8 @@
         "send_contact": "ส่งถึงผู้ติดต่อ",
         "export_addresses_as_csv": "ส่งออกที่อยู่เป็น CSV",
         "enable_flashbots": "เปิดใช้งาน Flashbots",
-        "disable_flashbots": "ปิดการใช้งาน Flashbots"
+        "disable_flashbots": "ปิดการใช้งาน Flashbots",
+        "copy_uuid": "Copy UUID"
       },
       "search_tags": {
         "swap": "ซื้อ, ขาย, แลกเปลี่ยน, สั่งซื้อ, เปลี่ยน, dex, เส้นทาง",
@@ -522,7 +524,8 @@
         "add_hardware_wallet": "ledger, trezor, เชื่อมต่อ",
         "hide_balances": "สลับ",
         "hide_small_balances": "สลับ",
-        "wallets_and_keys": "กระเป๋าสตางค์และคีย์, การตั้งค่า, การตั้งค่า"
+        "wallets_and_keys": "กระเป๋าสตางค์และคีย์, การตั้งค่า, การตั้งค่า",
+        "diagnostics": "diagnostics"
       }
     },
     "command_rows": {
@@ -1681,8 +1684,18 @@
         },
         "ink": {
           "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on Optimism's Superchain and released by Kraken.",
+          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
           "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+        },
+        "sanko": {
+          "title": "What's Sanko?",
+          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+        },
+        "gravity": {
+          "title": "What's Gravity?",
+          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
+          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
         },
         "custom_network": {
           "title": "เครือข่ายนี้คืออะไร",
