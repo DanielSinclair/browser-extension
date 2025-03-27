@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "Teklif mevcut değil",
         "description": "Bu %{action}için teklif bulamadık. Bu, yeterli likidite olmaması nedeniyle %{action} ya da tokenin nasıl uygulandığına dair problemler nedeniyle olabilir.",
-        "action_label": "Yine de devam et"
+        "action_label": "Anladım"
       },
       "insufficient_liquidity": {
         "title": "Yetersiz likidite",
@@ -1460,8 +1460,7 @@
       "get_eth": "Biraz ETH Al",
       "try_swap": "Bir Takas Dene",
       "referral_link_ready": "Referans linkiniz hazır",
-      "share_and_earn": "Referans linkinizi tweetleyerek ekstra 250 puan kazanın",
-      "plus_percent_of_refers": "Üstelik, referans olarak gönderdiğiniz kişilerin kazandığı puanların %10'unu kazanacaksınız",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "X ile paylaş",
       "share_tweet": "Cüzdanıma %{points} Rainbow Puan düştü\nHerkesin en az 100 puanı var, seninki daha da fazla olabilir!\n\nHemen talep et: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Cüzdanıma %{points} Rainbow Puan düştü — ve MetaMask cüzdanımı Rainbow'a taşıdığım için ekstra %{metamaskBonus} Puan bonusu kazandım 🦊 🔫\n\nHerkesin en az 100 puanı var, seninki daha da fazla olabilir! Hemen talep et: https://rainbow.me/points?ref=%{referralCode}",
