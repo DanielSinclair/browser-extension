@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "견적이 없습니다",
         "description": "이 %{action}에 대한 견적을 찾을 수 없습니다. 이는 %{action} 에 충분한 유동성이 없거나 토큰 구현에 문제가 있기 때문일 수 있습니다.",
-        "action_label": "그래도 계속"
+        "action_label": "확인"
       },
       "insufficient_liquidity": {
         "title": "충분하지 않은 유동성",
@@ -1460,8 +1460,7 @@
       "get_eth": "ETH 구하기",
       "try_swap": "스왑 시도",
       "referral_link_ready": "추천 링크가 준비되었습니다",
-      "share_and_earn": "추천 링크를 트윗하고 추가로 250 포인트를 얻으세요",
-      "plus_percent_of_refers": "추천인을 통해 얻은 포인트의 10%도 얻을 수 있습니다",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "X에 공유",
       "share_tweet": "내 지갑에 레인보우 포인트 %{points} 가 추가되었어요\n모든 사용자는 최소 100포인트를 받을 수 있지만, 더 많을 수도 있어요!\n\n포인트 받기: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "내 지갑에 레인보우 포인트 %{points} 가 추가되었고, 레인보우로 메타마스크 지갑을 이전한 보너스로 %{metamaskBonus} 포인트를 더 받았어요 🦊 🔫\n\n모든 사용자는 최소 100포인트를 받을 수 있지만, 더 많을 수도 있어요! 포인트 받기: https://rainbow.me/points?ref=%{referralCode}",
