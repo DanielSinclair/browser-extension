@@ -435,7 +435,7 @@
       "switch_to_wallet": "切换到钱包",
       "send_to_contact": "发送到联系人",
       "view": "查看",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID已复制"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "导出地址为CSV",
         "enable_flashbots": "启用Flashbots",
         "disable_flashbots": "禁用Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "复制UUID"
       },
       "search_tags": {
         "swap": "买, 卖, 交易, 订单, 兑换, dex, 路线",
@@ -525,7 +525,7 @@
         "hide_balances": "切换",
         "hide_small_balances": "切换",
         "wallets_and_keys": "钱包和密钥、设置、偏好设置",
-        "diagnostics": "diagnostics"
+        "diagnostics": "诊断"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "它显著增强了ApeCoin的效用，促进了一个由$APE推动的强大且充满活力的经济。"
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "Ink是什么？",
+          "description_1": "Ink是Kraken发布的创新Layer 2 (L2)区块链，建立在Superchain之上",
+          "description_2": "作为其使命的自然进化，Ink将成为DeFi的无缝桥梁，帮助用户以信心和便捷上链"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Sanko是什么？",
+          "description_1": "Sanko是一个在Arbitrum之上运行的Layer 2网络。",
+          "description_2": "它支持更便宜和更快速的交易，但与Layer 2网络不同，Sanko具备其自身的安全和共识机制，与以太坊不同。"
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Gravity是什么？",
+          "description_1": "Gravity是针对大规模采用和全链未来设计的Layer-1区块链。",
+          "description_2": "它支持更便宜和更快速的交易，但与Layer 2网络不同，Gravity具备其自身的安全和共识机制，与以太坊不同。"
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Berachain是什么？",
+          "description_1": "Berachain是一个基于液体证明的Layer-1区块链，使用BeaconKit构建。",
+          "description_2": "它支持更便宜和更快速的交易，但与Layer 2网络不同，Berachain具备其自身的安全和共识机制，与以太坊不同。"
         },
         "custom_network": {
           "title": "这是什么网络？",
