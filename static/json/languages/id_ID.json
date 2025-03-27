@@ -435,7 +435,7 @@
       "switch_to_wallet": "Pindah ke Wallet",
       "send_to_contact": "Kirim ke Kontak",
       "view": "Lihat",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID disalin"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "Ekspor Alamat sebagai CSV",
         "enable_flashbots": "Aktifkan Flashbots",
         "disable_flashbots": "Nonaktifkan Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "Salin UUID"
       },
       "search_tags": {
         "swap": "beli, jual, perdagangan, pesanan, pertukaran, dex, rute",
@@ -525,7 +525,7 @@
         "hide_balances": "buka tutup",
         "hide_small_balances": "buka tutup",
         "wallets_and_keys": "dompet dan kunci, pengaturan, preferensi",
-        "diagnostics": "diagnostics"
+        "diagnostics": "diagnostik"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "Ini secara signifikan meningkatkan utilitas ApeCoin, mendorong ekonomi yang kuat dan dinamis yang didorong oleh $APE."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "Apa itu Ink?",
+          "description_1": "Ink adalah blockchain Layer 2 (L2) mutakhir yang dibangun di atas Superchain dan dirilis oleh Kraken.",
+          "description_2": "Sebagai evolusi alami dari misi mereka, Ink akan menjadi jembatan mulus ke DeFi, memberdayakan pengguna untuk bertransaksi onchain dengan kepercayaan dan kemudahan"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Apa itu Sanko?",
+          "description_1": "Sanko adalah jaringan Layer 2 yang berjalan di atas Arbitrum.",
+          "description_2": "Ini memungkinkan transaksi yang lebih murah dan cepat, tetapi tidak seperti jaringan Layer 2, Sanko memiliki mekanisme keamanan dan konsensus sendiri yang berbeda dari Ethereum."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Apa itu Gravity?",
+          "description_1": "Gravity adalah blockchain Layer-1 yang dirancang untuk adopsi massal dan masa depan omnichain.",
+          "description_2": "Ini memungkinkan transaksi yang lebih murah dan cepat, tetapi tidak seperti jaringan Layer 2, Gravity memiliki mekanisme keamanan dan konsensus sendiri yang berbeda dari Ethereum."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Apa itu Berachain?",
+          "description_1": "Berachain adalah blockchain Layer-1 yang dibangun di atas proof of liquidity menggunakan BeaconKit.",
+          "description_2": "Ini memungkinkan transaksi yang lebih murah dan cepat, tetapi tidak seperti jaringan Layer 2, Berachain memiliki mekanisme keamanan dan konsensus sendiri yang berbeda dari Ethereum."
         },
         "custom_network": {
           "title": "Apa itu Jaringan ini?",
