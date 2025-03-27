@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "Aucune offre disponible",
         "description": "Nous n'avons pas pu trouver de devis pour ce %{action}. Cela pourrait être dû à un manque de liquidité pour %{action} ou à des problèmes liés à la mise en œuvre du token",
-        "action_label": "Continuer quand même"
+        "action_label": "Compris"
       },
       "insufficient_liquidity": {
         "title": "Liquidité insuffisante",
@@ -1460,8 +1460,7 @@
       "get_eth": "Obtenir des ETH",
       "try_swap": "Essayer un échange",
       "referral_link_ready": "Votre lien de parrainage est prêt",
-      "share_and_earn": "Tweetez votre lien de parrainage et obtenez 250 points supplémentaires",
-      "plus_percent_of_refers": "De plus, gagnez 10% des points obtenus par chaque personne que vous parrainez",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "Partager sur X",
       "share_tweet": "Je viens de recevoir %{points} Points Rainbow déposés dans mon portefeuille\nTout le monde a au moins 100 points en attente, mais vous pourriez en avoir plus !\n\nRéclamez votre drop : https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Je viens de recevoir %{points} Points Rainbow dans mon portefeuille — et %{metamaskBonus} points supplémentaires en bonus pour avoir migré mon portefeuille MetaMask vers Rainbow 🦊 🔫\n\nTout le monde a au moins 100 points en attente, mais vous pourriez en avoir plus ! Réclamez votre drop : https://rainbow.me/points?ref=%{referralCode}",
