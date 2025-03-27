@@ -435,7 +435,7 @@
       "switch_to_wallet": "สลับไปยัง Wallet",
       "send_to_contact": "ส่งถึงผู้ติดต่อ",
       "view": "ดู",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID ถูกคัดลอก"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "ส่งออกที่อยู่เป็น CSV",
         "enable_flashbots": "เปิดใช้งาน Flashbots",
         "disable_flashbots": "ปิดการใช้งาน Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "คัดลอก UUID"
       },
       "search_tags": {
         "swap": "ซื้อ, ขาย, แลกเปลี่ยน, สั่งซื้อ, เปลี่ยน, dex, เส้นทาง",
@@ -525,7 +525,7 @@
         "hide_balances": "สลับ",
         "hide_small_balances": "สลับ",
         "wallets_and_keys": "กระเป๋าสตางค์และคีย์, การตั้งค่า, การตั้งค่า",
-        "diagnostics": "diagnostics"
+        "diagnostics": "การวินิจฉัย"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "มันเพิ่มประสิทธิภาพของ ApeCoin อย่างมาก ส่งเสริมเศรษฐกิจที่แข็งแกร่งและมีการเคลื่อนไหวโดย $APE"
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "Ink คืออะไร",
+          "description_1": "Ink เป็นบล็อกเชน Layer 2 ที่สร้างขึ้นบน Superchain และเปิดตัวโดย Kraken",
+          "description_2": "การก้าวสู่ยุคใหม่ของภารกิจ Ink จะเป็นสะพานเชื่อมสู่ DeFi ที่ลื่นไหล ให้ผู้ใช้สามารถเคลื่อนไหวบนบล็อกเชนได้อย่างมั่นใจและง่ายดาย"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Sanko คืออะไร",
+          "description_1": "Sanko เป็นเครือข่ายชั้นที่ 2 ที่ทำงานบน Arbitrum",
+          "description_2": "มันช่วยให้ธุรกรรมถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่ายชั้นที่ 2, Sanko มีความปลอดภัยของตัวเองและกลไกการสรุปที่แตกต่างจาก Ethereum"
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Gravity คืออะไร",
+          "description_1": "Gravity เป็นบล็อกเชน Layer-1 ที่ออกแบบมาเพื่อการใช้งานทั่วไปและอนาคตโซ่เชื่อมโยงหลายสื่อ",
+          "description_2": "มันช่วยให้ธุรกรรมถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่ายชั้นที่ 2, Gravity มีความปลอดภัยของตัวเองและกลไกการสรุปที่แตกต่างจาก Ethereum"
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Berachain คืออะไร",
+          "description_1": "Berachain เป็นบล็อกเชน Layer-1 ที่สร้างขึ้นบนหลักการพิสูจน์สภาพคล่องด้วย BeaconKit",
+          "description_2": "มันช่วยให้ธุรกรรมถูกและเร็วขึ้น แต่ไม่เหมือนกับเครือข่ายชั้นที่ 2, Berachain มีความปลอดภัยของตัวเองและกลไกการสรุปที่แตกต่างจาก Ethereum"
         },
         "custom_network": {
           "title": "เครือข่ายนี้คืออะไร",
