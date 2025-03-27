@@ -435,7 +435,7 @@
       "switch_to_wallet": "지갑으로 전환",
       "send_to_contact": "연락처에 보내기",
       "view": "보기",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID 복사됨"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "주소를 CSV로 내보내기",
         "enable_flashbots": "플래시봇 활성화",
         "disable_flashbots": "플래시봇 비활성화",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "UUID 복사"
       },
       "search_tags": {
         "swap": "구매, 판매, 거래, 주문, 교환, 덱스, 경로",
@@ -525,7 +525,7 @@
         "hide_balances": "토글",
         "hide_small_balances": "토글",
         "wallets_and_keys": "지갑 및 키, 설정, 환경설정",
-        "diagnostics": "diagnostics"
+        "diagnostics": "진단"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "이것은 ApeCoin의 유용성을 크게 향상시키며, $APE에 의해 구동되는 강력하고 역동적인 경제를 조성합니다."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "잉크란 무엇인가요?",
+          "description_1": "잉크는 슈퍼체인 위에서 크라켄이 출시한 최첨단 레이어 2(L2) 블록체인입니다.",
+          "description_2": "이들의 미션의 자연스러운 진화로서 Ink는 사용자가 온체인으로 자신감 있고 쉽게 이동할 수 있도록 하는 DeFi로의 매끄러운 다리 역할을 합니다"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "상코란 무엇인가요?",
+          "description_1": "상코는 아비트럼 위에서 운영되는 레이어 2 네트워크입니다.",
+          "description_2": "저렴하고 빠른 거래를 가능하게 하지만, 레이어 2 네트워크와 달리 상코에는 이더리움과 다른 자체 보안 및 합의 메커니즘이 있습니다."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "그래비티란 무엇인가요?",
+          "description_1": "Gravity는 대중 채택과 옴니체인 미래를 위한 Layer-1 블록체인입니다.",
+          "description_2": "저렴하고 빠른 거래를 가능하게 하지만, 레이어 2 네트워크와 달리 그래비티에는 이더리움과 다른 자체 보안 및 합의 메커니즘이 있습니다."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "베라체인이란 무엇인가요?",
+          "description_1": "Berachain은 BeaconKit을 사용하여 유동성 증명 위에 구축된 Layer-1 블록체인입니다.",
+          "description_2": "저렴하고 빠른 거래를 가능하게 하지만, 레이어 2 네트워크와 달리 베라체인에는 이더리움과 다른 자체 보안 및 합의 메커니즘이 있습니다."
         },
         "custom_network": {
           "title": "이 네트워크란 무엇인가요?",
