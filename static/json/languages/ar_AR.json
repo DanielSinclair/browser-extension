@@ -435,7 +435,7 @@
       "switch_to_wallet": "التبديل إلى المحفظة",
       "send_to_contact": "إرسال إلى جهة اتصال",
       "view": "عرض",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "تم نسخ UUID"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "تصدير العناوين كملف CSV",
         "enable_flashbots": "تمكين Flashbots",
         "disable_flashbots": "تعطيل Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "نسخ UUID"
       },
       "search_tags": {
         "swap": "شراء, بيع, تداول, طلب, تبادل, دكس, طرق",
@@ -525,7 +525,7 @@
         "hide_balances": "تبديل",
         "hide_small_balances": "تبديل",
         "wallets_and_keys": "المحافظ والمفاتيح, الإعدادات, التفضيلات",
-        "diagnostics": "diagnostics"
+        "diagnostics": "التشخيصات"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "إنها تعزز بشكل كبير فائدة ApeCoin، مما يدعم اقتصادًا قويًا وديناميكيًا مدفوعًا بواسطة $APE."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "ما هو إنك؟",
+          "description_1": "إنك عبارة عن بلوكشين من الطبقة الثانية (Layer 2) مبنية على سوبر شين وصدرت بواسطة كراكن.",
+          "description_2": "كجزء من تطور طبيعي لمهمتهم، سيوفر Ink جسراً سلساً إلى DeFi، ما يمكن المستخدمين من الانتقال على السلسلة بثقة وسهولة"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "ما هو سانكو؟",
+          "description_1": "سانكو هي شبكة طبقة ٢ تعمل على قمة أربيتروم.",
+          "description_2": "يسمح بعمليات تحويل أرخص وأسرع، ولكن على عكس الشبكات من الطبقة ٢، فإن لسانكو آلياته الخاصة بالأمان وآليات التوافق التي تختلف عن إثيريوم."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "ما هي جرافيتي؟",
+          "description_1": "جرافيتي هي بلوكشين من الطبقة الأولى مصممة للتبني الواسع ومستقبل متعدد السلاسل.",
+          "description_2": "يسمح بعمليات تحويل أرخص وأسرع، ولكن على عكس الشبكات من الطبقة ٢، فإن لجرافيتي آلياته الخاصة بالأمان وآليات التوافق التي تختلف عن إثيريوم."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "ما هو بيراشين؟",
+          "description_1": "بيراشين هي بلوكشين من الطبقة الأولى مبنية على إثبات السيولة باستخدام BeaconKit.",
+          "description_2": "يسمح بعمليات تحويل أرخص وأسرع، ولكن على عكس الشبكات من الطبقة ٢، فإن لبيراشين آلياته الخاصة بالأمان وآليات التوافق التي تختلف عن إثيريوم."
         },
         "custom_network": {
           "title": "ما هذه الشبكة؟",
