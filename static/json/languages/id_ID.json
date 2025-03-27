@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "Tidak ada kutipan yang tersedia",
         "description": "Kami tidak dapat menemukan kutipan untuk ini %{action}. Ini mungkin karena tidak cukup likuiditas untuk %{action} atau karena permasalahan dalam implementasi token tersebut",
-        "action_label": "Lanjutkan saja"
+        "action_label": "Mengerti"
       },
       "insufficient_liquidity": {
         "title": "Kekurangan likuiditas",
@@ -1460,8 +1460,7 @@
       "get_eth": "Dapatkan ETH",
       "try_swap": "Coba Swap",
       "referral_link_ready": "Link rujukan Anda siap",
-      "share_and_earn": "Tweet link rujukan dan dapatkan 250 poin tambahan",
-      "plus_percent_of_refers": "Plus Anda akan mendapatkan 10% poin dari setiap orang yang Anda rujuk",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "Bagikan ke X",
       "share_tweet": "Saya baru saja mendapat %{points} Rainbow Points masuk ke dompet saya\nSetiap orang memiliki setidaknya 100 poin yang menunggu, tapi mungkin kamu memiliki lebih!\n\nKlaim drop kamu: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Saya baru saja mendapat %{points} Rainbow Points masuk ke dalam dompet saya — dan tambahan %{metamaskBonus} Points sebagai bonus karena memindahkan dompet MetaMask saya ke Rainbow 🦊 🔫\n\nSetiap orang memiliki setidaknya 100 poin yang menunggu, tapi mungkin kamu memiliki lebih! Klaim drop kamu: https://rainbow.me/points?ref=%{referralCode}",
