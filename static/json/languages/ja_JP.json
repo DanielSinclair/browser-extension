@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "見積もりは利用できません",
         "description": "この %{action}の引用を見つけることができませんでした。これは、 %{action} するための十分な流動性がないか、トークンの実装に問題があるためかもしれません",
-        "action_label": "続行する"
+        "action_label": "了解"
       },
       "insufficient_liquidity": {
         "title": "流動性が不足しています",
@@ -1460,8 +1460,7 @@
       "get_eth": "ETHを獲得",
       "try_swap": "スワップを試す",
       "referral_link_ready": "紹介リンクの準備ができました",
-      "share_and_earn": "紹介リンクをツイートしてさらに250ポイントを獲得",
-      "plus_percent_of_refers": "さらに、紹介した人が獲得したポイントの10％を獲得します",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "Xに共有",
       "share_tweet": "ウォレットにレインボーポイントが %{points} 点追加されました\n皆には最低でも100点が待っていますが、あなたはそれ以上かもしれません！\n\nドロップを請求: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "ウォレットにレインボーポイントが %{points} 点追加されました — そして MetaMaskウォレットをレインボーに移行したボーナスで追加 %{metamaskBonus} 点 🦊 🔫\n\n皆には最低でも100点が待っていますが、あなたはそれ以上かもしれません！ドロップを請求: https://rainbow.me/points?ref=%{referralCode}",
