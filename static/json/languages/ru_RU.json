@@ -435,7 +435,7 @@
       "switch_to_wallet": "Переключиться на кошелек",
       "send_to_contact": "Отправить контакту",
       "view": "Просмотр",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID скопирован"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "Экспортировать адреса в формате CSV",
         "enable_flashbots": "Включить Flashbots",
         "disable_flashbots": "Отключить Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "Копировать UUID"
       },
       "search_tags": {
         "swap": "купить, продать, обменять, заказать, обмен, dex, маршруты",
@@ -525,7 +525,7 @@
         "hide_balances": "переключить",
         "hide_small_balances": "переключить",
         "wallets_and_keys": "кошельки и ключи, настройки, предпочтения",
-        "diagnostics": "diagnostics"
+        "diagnostics": "диагностика"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "Она значительно улучшает утилитарность ApeCoin, содействуя развитию мощной и динамичной экономики, управляемой $APE."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "Что такое Ink?",
+          "description_1": "Ink — это передовая блокчейн Layer 2 (L2), построенная на Superchain и выпущенная Kraken.",
+          "description_2": "Ink, как естественное развитие их миссии, будет служить плавным мостом к DeFi, давая пользователям возможность с уверенностью и легкостью двигаться в ончейн"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Что такое Sanko?",
+          "description_1": "Sanko — это сеть уровня 2, которая работает поверх Arbitrum.",
+          "description_2": "Он позволяет проводить более дешевые и быстрые транзакции, но в отличие от сетей второго уровня, у Sanko есть свои собственные механизмы безопасности и консенсуса, отличающиеся от Ethereum."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Что такое Gravity?",
+          "description_1": "Gravity — это блокчейн Layer-1, предназначенный для массового использования и омничейнового будущего.",
+          "description_2": "Он позволяет проводить более дешевые и быстрые транзакции, но в отличие от сетей второго уровня, у Gravity есть свои собственные механизмы безопасности и консенсуса, отличающиеся от Ethereum."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Что такое Berachain?",
+          "description_1": "Berachain — это блокчейн Layer-1, построенная на основе доказательства ликвидности с использованием BeaconKit.",
+          "description_2": "Он позволяет проводить более дешевые и быстрые транзакции, но в отличие от сетей второго уровня, у Berachain есть свои собственные механизмы безопасности и консенсуса, отличающиеся от Ethereum."
         },
         "custom_network": {
           "title": "Что это за сеть?",
