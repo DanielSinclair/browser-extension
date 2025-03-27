@@ -837,7 +837,7 @@
       "no_quote": {
         "title": "Cotización no disponible",
         "description": "No pudimos encontrar cotizaciones para este %{action}. Esto podría ser porque no hay suficiente liquidez para %{action} o debido a problemas con cómo se implementó el token",
-        "action_label": "Continuar de todos modos"
+        "action_label": "Entendido"
       },
       "insufficient_liquidity": {
         "title": "Liquidez insuficiente",
@@ -1460,8 +1460,7 @@
       "get_eth": "Consigue algo de ETH",
       "try_swap": "Probar un Intercambio",
       "referral_link_ready": "Tu enlace de referido está listo",
-      "share_and_earn": "Tuitea tu enlace de referido y obtén 250 puntos extra",
-      "plus_percent_of_refers": "Además ganarás el 10% de los puntos que obtengan tus referidos",
+      "referral_link_bonus_text": "Tweet your referral link and you'll earn 10% of the points earned by anyone you refer",
       "share": "Compartir en X",
       "share_tweet": "Acabo de recibir %{points} Rainbow Points en mi billetera\nTodos tienen al menos 100 puntos esperando, ¡pero podrías tener más!\n\nReclama tu premio: https://rainbow.me/points?ref=%{referralCode}",
       "share_tweet_with_metamask_bonus": "Acabo de recibir %{points} Rainbow Points en mi billetera — y un extra de %{metamaskBonus} Puntos como bono por migrar mi billetera MetaMask a Rainbow 🦊 🔫\n\nTodos tienen al menos 100 puntos esperando, pero podrías tener más! Reclama tu premio: https://rainbow.me/points?ref=%{referralCode}",
