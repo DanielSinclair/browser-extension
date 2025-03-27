@@ -435,7 +435,7 @@
       "switch_to_wallet": "Alternar para Carteira",
       "send_to_contact": "Enviar para Contato",
       "view": "Visualizar",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID copiado"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "Exportar endereços como CSV",
         "enable_flashbots": "Ativar Flashbots",
         "disable_flashbots": "Desativar Flashbots",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "Copiar UUID"
       },
       "search_tags": {
         "swap": "comprar, vender, negociar, encomendar, trocar, dex, rotas",
@@ -525,7 +525,7 @@
         "hide_balances": "alternar",
         "hide_small_balances": "alternar",
         "wallets_and_keys": "carteiras e chaves, configurações, preferências",
-        "diagnostics": "diagnostics"
+        "diagnostics": "diagnóstico"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "Melhora significativamente a utilidade do ApeCoin, fomentando uma economia robusta e dinâmica impulsionada pelo $APE."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "O que é Ink?",
+          "description_1": "Ink é uma blockchain de camada 2 (L2) de ponta construída sobre a Superchain e lançada pela Kraken.",
+          "description_2": "Como uma evolução natural de sua missão, o Ink servirá como uma ponte perfeita para o DeFi, capacitando os usuários a migrar para o blockchain com confiança e facilidade"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "O que é Sanko?",
+          "description_1": "Sanko é uma rede Layer 2 que opera em cima do Arbitrum.",
+          "description_2": "Permite transações mais baratas e rápidas, mas, ao contrário das redes de Camada 2, Sanko tem seus próprios mecanismos de segurança e consenso que diferem do Ethereum."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "O que é Gravity?",
+          "description_1": "Gravity é uma blockchain Layer-1 projetada para adoção em massa e um futuro omni-chain.",
+          "description_2": "Permite transações mais baratas e rápidas, mas, ao contrário das redes de Camada 2, Gravity tem seus próprios mecanismos de segurança e consenso que diferem do Ethereum."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "O que é Berachain?",
+          "description_1": "Berachain é uma blockchain Layer-1 construída sobre a prova de liquidez usando o BeaconKit.",
+          "description_2": "Permite transações mais baratas e rápidas, mas, ao contrário das redes de Camada 2, Berachain tem seus próprios mecanismos de segurança e consenso que diferem do Ethereum."
         },
         "custom_network": {
           "title": "O que é esta Rede?",
