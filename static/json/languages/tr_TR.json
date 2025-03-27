@@ -435,7 +435,7 @@
       "switch_to_wallet": "Cüzdana Geçiş Yap",
       "send_to_contact": "Kişiye Gönder",
       "view": "Görüntüle",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID kopyalandı"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "CSV olarak Adresleri Dışa Aktar",
         "enable_flashbots": "Flashbots'i etkinleştir",
         "disable_flashbots": "Flashbots'i devre dışı bırak",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "UUID'yi kopyala"
       },
       "search_tags": {
         "swap": "satın al, sat, takas, sipariş, değişim, dex, rotalar",
@@ -525,7 +525,7 @@
         "hide_balances": "aç/kapa",
         "hide_small_balances": "aç/kapa",
         "wallets_and_keys": "cüzdanlar ve anahtarlar, ayarlar, tercihler",
-        "diagnostics": "diagnostics"
+        "diagnostics": "teşhisler"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "Bu, ApeCoin'in faydasını önemli ölçüde artırır ve $APE tarafından yönlendirilen sağlam ve dinamik bir ekonomiyi teşvik eder."
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "Ink nedir?",
+          "description_1": "Ink, Superchain üzerinde inşa edilen ve Kraken tarafından yayımlanan son teknoloji bir Katman 2 (L2) blok zinciridir.",
+          "description_2": "Doğal misyonlarının bir evrimi olarak Ink, kullanıcıların zinciri güvenle ve kolaylıkla harekete geçmesini sağlamak için DeFi'ye sorunsuz bir köprü görevi görecek"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Sanko nedir?",
+          "description_1": "Sanko, Arbitrum üzerinde çalışan bir Katman 2 ağıdır.",
+          "description_2": "Daha ucuz ve hızlı işlemlere izin verir, ancak Layer 2 ağlarından farklı olarak, Sanko'nun kendi güvenlik ve uzlaşma mekanizmaları vardır."
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Gravity nedir?",
+          "description_1": "Gravity, kitle kabulü ve küresel bir zincirler arası gelecek için tasarlanmış bir Katman-1 blok zinciridir.",
+          "description_2": "Daha ucuz ve hızlı işlemlere izin verir, ancak Layer 2 ağlarından farklı olarak, Gravity'nin kendi güvenlik ve uzlaşma mekanizmaları vardır."
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "Berachain nedir?",
+          "description_1": "Berachain, BeaconKit kullanarak likidite ispatı üzerinde inşa edilen bir Katman-1 blok zinciridir.",
+          "description_2": "Daha ucuz ve hızlı işlemlere izin verir, ancak Layer 2 ağlarından farklı olarak, Berachain'in kendi güvenlik ve uzlaşma mekanizmaları vardır."
         },
         "custom_network": {
           "title": "Bu Ağ nedir?",
