@@ -435,7 +435,7 @@
       "switch_to_wallet": "वॉलेट में स्विच करें",
       "send_to_contact": "संपर्क को भेजें",
       "view": "देखें",
-      "uuid_copied": "UUID copied"
+      "uuid_copied": "UUID कॉपी किया गया"
     },
     "commands": {
       "names": {
@@ -499,7 +499,7 @@
         "export_addresses_as_csv": "CSV के रूप में पते निर्यात करें",
         "enable_flashbots": "Flashbots सक्षम करें",
         "disable_flashbots": "Flashbots अक्षम करें",
-        "copy_uuid": "Copy UUID"
+        "copy_uuid": "UUID कॉपी करें"
       },
       "search_tags": {
         "swap": "खरीद, बेच, व्यापार, ऑर्डर, एक्सचेंज, डेक्स, रूट्स",
@@ -525,7 +525,7 @@
         "hide_balances": "टॉगल करें",
         "hide_small_balances": "टॉगल करें",
         "wallets_and_keys": "वॉलेट और कुंजी, सेटिंग्स, प्राथमिकताएं",
-        "diagnostics": "diagnostics"
+        "diagnostics": "डायग्नोस्टिक्स"
       }
     },
     "command_rows": {
@@ -1683,24 +1683,24 @@
           "description_2": "यह एपकॉइन की उपयोगिता को काफी बढ़ाता है, एक सशक्त और गतिशील अर्थव्यवस्था को बढ़ावा देता है जो $APE द्वारा संचालित होती है।"
         },
         "ink": {
-          "title": "What's Ink?",
-          "description_1": "Ink is a cutting-edge Layer 2 (L2) blockchain built on the Superchain and released by Kraken.",
-          "description_2": "As a natural evolution of their mission, Ink will serve as a seamless bridge to DeFi, empowering users to move onchain with confidence and ease"
+          "title": "इंक क्या है?",
+          "description_1": "इंक एक अत्याधुनिक लेयर 2 (L2) ब्लॉकचेन है, जो सुपरचैन पर निर्मित है और क्रैकन द्वारा जारी किया गया है।",
+          "description_2": "अपने मिशन के प्राकृतिक विकास के रूप में, इंक डिफाई के लिए एक सहज पुल के रूप में काम करेगा, उपयोगकर्ताओं को आत्मविश्वास और आसानी से ऑनचैन जाने का सशक्तिकरण प्रदान करेगा"
         },
         "sanko": {
-          "title": "What's Sanko?",
-          "description_1": "Sanko is a Layer 2 network that runs on top of Arbitrum.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Sanko has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "सांको क्या है?",
+          "description_1": "सांको एक लेयर 2 नेटवर्क है जो आर्बिट्रम के ऊपर चलता है।",
+          "description_2": "यह सस्ते और तेज़ ट्रांजेक्शनों की सुविधा प्रदान करता है, लेकिन लेयर 2 नेटवर्क की तरह नहीं, सांको का अपना सुरक्षा और सहमति मैकनिज़्म है जो ईथेरियम से अलग होता है।"
         },
         "gravity": {
-          "title": "What's Gravity?",
-          "description_1": "Gravity is a Layer-1 blockchain designed for mass adoption and an omnichain future.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Gravity has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "ग्रैविटी क्या है?",
+          "description_1": "ग्रैविटी एक लेयर-1 ब्लॉकचेन है जिसे व्यापक अपनाने और एक ऑम्निचैन भविष्य के लिए डिज़ाइन किया गया है।",
+          "description_2": "यह सस्ते और तेज़ ट्रांजेक्शनों की सुविधा प्रदान करता है, लेकिन लेयर 2 नेटवर्क की तरह नहीं, ग्रैविटी का अपना सुरक्षा और सहमति मैकनिज़्म है जो ईथेरियम से अलग होता है।"
         },
         "berachain": {
-          "title": "What's Berachain?",
-          "description_1": "Berachain is a Layer-1 blockchain built on top of proof of liquidity using BeaconKit.",
-          "description_2": "It allows for cheaper and faster transactions, but unlike Layer 2 networks, Berachain has its own security and consensus mechanisms that differ from Ethereum."
+          "title": "बेराचैन क्या है?",
+          "description_1": "बेराचैन एक लेयर-1 ब्लॉकचेन है जो बीकनकिट का उपयोग करते हुए लिक्विडिटी के प्रमाण पर निर्मित है।",
+          "description_2": "यह सस्ते और तेज़ ट्रांजेक्शनों की सुविधा प्रदान करता है, लेकिन लेयर 2 नेटवर्क की तरह नहीं, बेराचैन का अपना सुरक्षा और सहमति मैकनिज़्म है जो ईथेरियम से अलग होता है।"
         },
         "custom_network": {
           "title": "यह नेटवर्क क्या है?",
