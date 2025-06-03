@@ -59,10 +59,6 @@ function SimulatedChangeRow({
   label: string;
 }) {
   const { currentCurrency } = useCurrentCurrencyStore();
-  const changeAmount =
-    quantity === 'UNLIMITED'
-      ? Number.MAX_SAFE_INTEGER
-      : formatUnits(quantity, asset.decimals);
   const { data: additionalAssetData } = useAssets({
     assets: asset ? [{ address: asset.address, chainId: asset.chainId }] : [],
     currency: currentCurrency,
@@ -110,9 +106,9 @@ function SimulatedChangeRow({
         )}
         <Inline wrap={false} space="4px" alignVertical="center">
           <TextOverflow size="14pt" weight="bold" color={color}>
-            {quantity === 'UNLIMITED' || +changeAmount > 999e12 // say unlimited if more than 999T
+            {quantity === 'UNLIMITED' || +quantity > 999e12 // say unlimited if more than 999T
               ? i18n.t('approvals.unlimited')
-              : formatNumber(changeAmount)}{' '}
+              : formatNumber(formatUnits(quantity, asset.decimals))}{' '}
           </TextOverflow>
           <Text size="14pt" weight="bold" color={color}>
             {asset.symbol}
